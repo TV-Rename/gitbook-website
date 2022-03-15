@@ -14,7 +14,7 @@ _To use this feature click **Help>Log** first and then run the action (a Scan fo
 
 Optionally, if you wish to view the entire log file clicking the `View Full Log` button in the bottom right corner of the window will open the file in Notepad.
 
-More detailed information about the logs can be found in the [Technical Guide](https://www.tvrename.com/manual/technical#log-files).
+More detailed information about the logs can be found in the [Technical Guide](../the-manual/technical-guide/logs-and-configuration.md).
 
 {% hint style="info" %}
 **Good to know:** depending on the product you're building, it can be useful to explicitly document use cases. Got a product that can be used by a bunch of people in different ways? Maybe consider splitting it out!

@@ -1,8 +1,11 @@
+---
+description: >-
+  A number of TV Rename’s functions can be accessed using the command line. If
+  TV Rename is already running any CLI activity will be directed towards the
+  running instance.
+---
+
 # Command Line
-
-A number of TV Rename’s functions can be accessed using the command line. If TV Rename is already running any CLI activity will be directed towards the running instance.
-
-
 
 ### Main Options <a href="#main-options" id="main-options"></a>
 
@@ -26,9 +29,7 @@ Tell TV Rename execute all the actions it can (User needs to specify which scan 
 
 Tell a hidden TV Rename session to exit.
 
-[Return to Top](https://www.tvrename.com/manual/cmd-line/)
-
-#### Hidden Behaviour <a href="#hidden-behaviour" id="hidden-behaviour"></a>
+### Hidden Behaviour <a href="#hidden-behaviour" id="hidden-behaviour"></a>
 
 /hide
 
@@ -40,9 +41,7 @@ Exits once actions complete.
 
 This option means that the main UI is shown, but does not put up any blocking UI elements that need hunman interaction. Mainly this means that error and warning are just recorded in the log and the user does not get a message box notification.
 
-[Return to Top](https://www.tvrename.com/manual/cmd-line/)
-
-#### Override Options <a href="#override-options" id="override-options"></a>
+### Override Options <a href="#override-options" id="override-options"></a>
 
 /createmissing
 
@@ -56,14 +55,9 @@ Ignore missing folders.
 
 Allows a request to an existing TV Rename session to scan without renaming.
 
-[Return to Top](https://www.tvrename.com/manual/cmd-line/)
+### Settings Files <a href="#settings-files" id="settings-files"></a>
 
-#### Settings Files <a href="#settings-files" id="settings-files"></a>
-
-/recover
-
-Recover will load a dialog box that enables the user to recover a prior TVDB.xml or TVRenameSettings.xml file. (Normally this dialog would only appear if the current settings are corrupted.)
-
-/userfilepath:BLAH
-
-Sets a custom folder path for the settings files.
+| Parameter          |                                                                                                                                                                                                |   |   |
+| ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | - | - |
+| /recover           | Recover will load a dialog box that enables the user to recover a prior TVDB.xml or TVRenameSettings.xml file. (Normally this dialog would only appear if the current settings are corrupted.) |   |   |
+| /userfilepath:BLAH | Sets a custom folder path for the settings files                                                                                                                                               |   |   |

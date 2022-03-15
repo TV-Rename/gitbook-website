@@ -26,7 +26,10 @@
 * [Tools Menu](the-manual/tools-menu.md)
 * [View Menu](the-user-guide/tasks.md)
 * [Command Line](the-manual/command-line.md)
-* [Technical Guide](the-manual/technical-guide.md)
+* [Technical Guide](the-manual/technical-guide/README.md)
+  * [Logs & Configuration](the-manual/technical-guide/logs-and-configuration.md)
+  * [Development](the-manual/technical-guide/development.md)
+  * [Credits](the-manual/technical-guide/credits.md)
 
 ## Help & Support
 

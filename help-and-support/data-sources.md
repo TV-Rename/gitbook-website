@@ -15,3 +15,11 @@ If you are having trouble with a particular show it may well be the show name th
 “Doctor Who” for example, can variously be called “Dr. Who” or “Dr Who” in the filenames which aren’t recognised by TV Rename.
 
 In a case like this it is a good idea to visit [The TVDB](http://thetvdb.com) to check how they name the show.
+
+**TMDB**
+
+Source for movies that also covers TV Shows
+
+**TV Maze**
+
+TV Shows only. Limited support, but more flexible in the organisation of seasons.

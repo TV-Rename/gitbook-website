@@ -1,3 +1,7 @@
+---
+layout: landing
+---
+
 # What is TV Rename?
 
 
