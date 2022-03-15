@@ -34,8 +34,8 @@ Follow our handy guides to get started on the basics as quickly as possible:
 [quick-start-guide.md](guides/quick-start-guide.md)
 {% endcontent-ref %}
 
-{% content-ref url="guides/features.md" %}
-[features.md](guides/features.md)
+{% content-ref url="guides/features/" %}
+[features](guides/features/)
 {% endcontent-ref %}
 
 {% content-ref url="broken-reference" %}
@@ -50,20 +50,20 @@ Follow our handy guides to get started on the basics as quickly as possible:
 
 Learn the fundamentals of MyProduct to get a deeper understanding of our main features:
 
-{% content-ref url="the-user-guide/projects.md" %}
-[projects.md](the-user-guide/projects.md)
+{% content-ref url="the-manual/user-guide.md" %}
+[user-guide.md](the-manual/user-guide.md)
 {% endcontent-ref %}
 
-{% content-ref url="the-user-guide/members.md" %}
-[members.md](the-user-guide/members.md)
+{% content-ref url="the-manual/options-and-preferences.md" %}
+[options-and-preferences.md](the-manual/options-and-preferences.md)
 {% endcontent-ref %}
 
-{% content-ref url="the-user-guide/task-lists.md" %}
-[task-lists.md](the-user-guide/task-lists.md)
+{% content-ref url="the-manual/tools.md" %}
+[tools.md](the-manual/tools.md)
 {% endcontent-ref %}
 
-{% content-ref url="the-user-guide/tasks.md" %}
-[tasks.md](the-user-guide/tasks.md)
+{% content-ref url="the-manual/view-menu.md" %}
+[view-menu.md](the-manual/view-menu.md)
 {% endcontent-ref %}
 
 {% hint style="info" %}
