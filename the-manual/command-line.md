@@ -57,7 +57,7 @@ Allows a request to an existing TV Rename session to scan without renaming.
 
 ### Settings Files <a href="#settings-files" id="settings-files"></a>
 
-| Parameter          |                                                                                                                                                                                                |   |   |
-| ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | - | - |
-| /recover           | Recover will load a dialog box that enables the user to recover a prior TVDB.xml or TVRenameSettings.xml file. (Normally this dialog would only appear if the current settings are corrupted.) |   |   |
-| /userfilepath:BLAH | Sets a custom folder path for the settings files                                                                                                                                               |   |   |
+| Parameter          |                                                                                                                                                                                                |
+| ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| /recover           | Recover will load a dialog box that enables the user to recover a prior TVDB.xml or TVRenameSettings.xml file. (Normally this dialog would only appear if the current settings are corrupted.) |
+| /userfilepath:BLAH | Sets a custom folder path for the settings files                                                                                                                                               |
