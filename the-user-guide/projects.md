@@ -4,11 +4,11 @@ If you’re new to TV Rename you should read the [Quick-Start Guide](https://www
 
 If you need help please sign up to the [forum](https://groups.google.com/forum/#!forum/tvrename), someone there will be happy to answer any questions you may have.
 
-### Lets (not) start at the beginning… <a href="#lets-not-start-at-the-beginning" id="lets-not-start-at-the-beginning"></a>
+**Lets (not) start at the beginning…**
 
 In true technical manual fashion we’re going to start at the end because, as is so often the case, it makes sense to see where you’re going to figure out how best to get there.
 
-### When to watch <a href="#when-to-watch" id="when-to-watch"></a>
+## When to Watch <a href="#when-to-watch" id="when-to-watch"></a>
 
 Once you have TV Rename up and running and behaving the way you want you’ll probably spend most of your time on this tab. If you wish you can make this tab open by default by changing the “Startup” tab setting in the [_**General**_](https://www.tvrename.com/manual/options#the-general-tab) tab of **Options>Preferences**.
 
@@ -34,7 +34,7 @@ _In keeping with our jumping-about policy lets look at My Shows next._
 
 [Return to Top](https://www.tvrename.com/manual/user/)
 
-### My Shows <a href="#my-shows" id="my-shows"></a>
+## My Shows <a href="#my-shows" id="my-shows"></a>
 
 My Shows displays a list of TV shows found and Identified in your media library, and is where you can manually tell TV Rename about a new TV show in the library, where it can be found and how it is structured.
 
@@ -247,7 +247,7 @@ After applying a rule, go to _**My Shows**_ , select the show, and click `Refres
 
 [Return to Top](https://www.tvrename.com/manual/user/)
 
-### Scan <a href="#scan" id="scan"></a>
+## Scan <a href="#scan" id="scan"></a>
 
 TV Rename can scan your media library looking for missing or outdated files and will try to repair any issues it finds automatically.
 
@@ -294,11 +294,11 @@ Once you are happy with everything selected click on `Do Checked` and the Copy/M
 
 [Return to Top](https://www.tvrename.com/manual/user/)
 
+## Other <a href="#the-status-bar" id="the-status-bar"></a>
+
 ### The Status Bar <a href="#the-status-bar" id="the-status-bar"></a>
 
 The Status Bar hides at the very bottom of the main window, quietly displaying the next show/episode airing and how long you’ve got to wait before you can watch it, and the “Background download:” status which is either “Idle” or details of what it’s doing!
-
-[Return to Top](https://www.tvrename.com/manual/user/)
 
 ### Repairing Corrupt Data <a href="#repairing-corrupt-data" id="repairing-corrupt-data"></a>
 
@@ -310,7 +310,9 @@ The second solution is far more drastic in its effect.
 
 “Force Refresh All” in the **Tools** menu is the “Tool of Last Resort”. If TV Rename’s representation of your media library is a real mess or the previous solution doesn’t help then this is your only real alternative.
 
-![Force Refresh All](https://www.tvrename.com/assets/images/tools/force-refresh-all-01.png)After selecting the option from the menu you are presented with the alert window (shown).
+After selecting the option from the menu you are presented with the alert window (shown).
+
+![Force Refresh All](https://www.tvrename.com/assets/images/tools/force-refresh-all-01.png)
 
 **READ IT CAREFULLY AND PAY ATTENTION**. If you click `Yes` there’s no going back, all the locally stored information in TheTVDB’s cache will be **DELETED**.
 

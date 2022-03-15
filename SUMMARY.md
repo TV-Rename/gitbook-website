@@ -5,7 +5,7 @@
 ## Guides
 
 * [Quick Start Guide](guides/quick-start-guide.md)
-* [Features](guides/features/README.md)
+* [Features](guides/features.md)
   * [Adding Movies & TV Shows](guides/features/adding-movies-and-tv-shows.md)
   * [Scanning](guides/features/scanning.md)
   * [Finding](guides/features/finding.md)
@@ -15,19 +15,19 @@
 
 ## The Manual
 
-* [User Guide](the-manual/user-guide.md)
-* [Options and Preferences](the-manual/options-and-preferences.md)
-* [Tools](the-manual/tools.md)
-* [View Menu](the-manual/view-menu.md)
+* [User Guide](the-user-guide/projects.md)
+* [Options Menu](the-manual/options-menu.md)
+* [Preferences](the-manual/preferences.md)
+* [Tools Menu](the-manual/tools-menu.md)
+* [View Menu](the-user-guide/tasks.md)
 * [Command Line](the-manual/command-line.md)
 * [Technical Guide](the-manual/technical-guide.md)
 
 ## Help & Support
 
-* [Logs](help-and-support/logs.md)
+* [Logs](extras/keyboard-shortcuts.md)
 * [Data Sources](help-and-support/data-sources.md)
-* [Questions, Issues & Bugs](help-and-support/questions-issues-and-bugs.md)
-* [New Ideas & Feature Requests](help-and-support/new-ideas-and-feature-requests.md)
+* [Feedback](help-and-support/feedback.md)
 * [Beta Access](help-and-support/beta-access.md)
 * [What can I do to help?](help-and-support/what-can-i-do-to-help.md)
 * [Tips & Tricks](help-and-support/tips-and-tricks.md)

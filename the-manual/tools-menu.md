@@ -1,28 +1,30 @@
-# Tools
+# Tools Menu
 
-## Tools
+![The Tools Menu](https://www.tvrename.com/assets/images/tools/menu-01.png)
 
-![The Tools Menu](https://www.tvrename.com/assets/images/tools/menu-01.png)Here you can find tools to update, manipulate and annihilate the data relating to your media library and [The TVDB](http://thetvdb.com) cache.
+Here you can find tools to update, manipulate and annihilate the data relating to your media library and [The TVDB](http://thetvdb.com) cache.
 
 ### Force Refresh All <a href="#force-refresh-all" id="force-refresh-all"></a>
 
-![Force Refresh All](https://www.tvrename.com/assets/images/tools/force-refresh-all-01.png)If TV Rename’s representation of your media library is a mess then this is probably the tool for you.
+If TV Rename’s representation of your media library is a mess then this is probably the tool for you.
 
 After selecting the option from the menu you are presented with the alert window (shown).
 
-**READ IT CAREFULLY AND PAY ATTENTION**. If you click `Yes` there’s no going back, all the locally stored information in TheTVDB’s cache will be **DELETED**.
+![](https://www.tvrename.com/assets/images/tools/force-refresh-all-01.png)
 
-[Return to Top](https://www.tvrename.com/manual/tools/)
+{% hint style="danger" %}
+**READ IT CAREFULLY AND PAY ATTENTION**. If you click `Yes` there’s no going back, all the locally stored information in TheTVDB’s cache will be **DELETED**.
+{% endhint %}
 
 ### Background Download Now <a href="#background-download-now" id="background-download-now"></a>
 
 **Background Download Now** forces an update from [The TVDB](http://thetvdb.com) to be downloaded. If _Options>Offline Operation_ is enabled you will be asked if you wish to “Ignore offline mode and download anyway” (Yes/No), if you select `Yes` the update will start.
 
-[Return to Top](https://www.tvrename.com/manual/tools/)
-
 ### Bulk Add Shows <a href="#bulk-add-shows" id="bulk-add-shows"></a>
 
-![The Tools>Bulk Add Shows window](https://www.tvrename.com/assets/images/tools/bulk-add-shows-02.png)This is where you tell TV Rename about the location(s) of your media library. Additionally you can check these locations for new folders unknown to TV Rename and quickly scan and add them to the _**My Shows**_ tab.
+![The Tools>Bulk Add Shows window](https://www.tvrename.com/assets/images/tools/bulk-add-shows-02.png)
+
+This is where you tell TV Rename about the location(s) of your media library. Additionally you can check these locations for new folders unknown to TV Rename and quickly scan and add them to the _**My Shows**_ tab.
 
 Before using this tool, check that your preferred renaming style is set in [_Options>Filename Template Editor_](https://www.tvrename.com/manual/options#filename-template-editor).
 
@@ -38,9 +40,9 @@ Clicking `Remove` will remove the highlighted row from the New Shows list, howev
 
 Clicking `Ignore` will add the folder to the list in the _**Ignore**_ tab and it will be ignored is subsequent scans.
 
+{% hint style="info" %}
 **Note:** A “glitch” in the design of the _**Ignore**_ tab means there is currently no obvious way to remove a folder from this list. The designers are aware of the problem and it will be fixed in the next release. Until then if you have a folder “stuck” in here that you want to be part of the library again, ask in the Main Forum and someone will help you fix it.
-
-[Return to Top](https://www.tvrename.com/manual/tools/)
+{% endhint %}
 
 ### Duplicate Episode Finder <a href="#duplicate-episode-finder" id="duplicate-episode-finder"></a>
 
