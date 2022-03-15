@@ -63,8 +63,8 @@ Learn the fundamentals of MyProduct to get a deeper understanding of our main fe
 [options-menu.md](the-manual/options-menu.md)
 {% endcontent-ref %}
 
-{% content-ref url="the-manual/tools-menu.md" %}
-[tools-menu.md](the-manual/tools-menu.md)
+{% content-ref url="the-manual/tools-menu/" %}
+[tools-menu](the-manual/tools-menu/)
 {% endcontent-ref %}
 
 {% content-ref url="the-user-guide/tasks.md" %}

@@ -268,7 +268,19 @@ The `Tags` button will pop up a list of the tags that TV Rename will recognise i
 
 [Return to Top](https://www.tvrename.com/manual/options/)
 
-### The Files and Folders Tab <a href="#the-files-and-folders-tab" id="the-files-and-folders-tab"></a>
+### Movies Defaults
+
+
+
+### TV Show Defaults
+
+
+
+### Scan Settings
+
+
+
+### Files and Folders <a href="#the-files-and-folders-tab" id="the-files-and-folders-tab"></a>
 
 ![Preferences - The Files and Folders tab](https://www.tvrename.com/assets/images/options/preferences-files-folders-01.png)The Files and Folders tab is used to manipulate how TV Rename copies or moves files from the “[Search Folders](https://www.tvrename.com/manual/options#the-search-folders-tab)” to the “[Library Folders](https://www.tvrename.com/manual/options#the-library-folders-tab)”.
 
@@ -335,6 +347,10 @@ _Default:_ _**Un-ticked**_
 The _Subtitle extensions:_ text box lists the commonly used subtitle extensions.
 
 _Default:_ _**.srt;.sub;.sbv;.idx**_
+
+### Subtitles <a href="#the-search-folders-tab" id="the-search-folders-tab"></a>
+
+
 
 ### Search Folders <a href="#the-search-folders-tab" id="the-search-folders-tab"></a>
 
@@ -411,7 +427,7 @@ If you use the copy option to update your library then ticking the _Clean up alr
 
 _Default:_ _**All functionality disabled**_
 
-### Media Centers <a href="#the-media-centers-tab" id="the-media-centers-tab"></a>
+### Media Centres <a href="#the-media-centers-tab" id="the-media-centers-tab"></a>
 
 ![Preferences - the Media Centre tab](https://www.tvrename.com/assets/images/options/preferences-media-center-01.png)Here you can tell TV Rename about your media player (and hence, any additional files you may need to download).
 
@@ -491,7 +507,11 @@ TV Rename uses the qBittorrent web interface to interrogate its status so you mu
 |            | Check µTorrent queue    | _**Un-ticked**_ |
 |            | Check qBittorrent queue | _**Un-ticked**_ |
 
-### Automatic Export <a href="#the-automatic-export-tab" id="the-automatic-export-tab"></a>
+### RSS/JSON Search <a href="#the-automatic-export-tab" id="the-automatic-export-tab"></a>
+
+### Jackett Search <a href="#the-automatic-export-tab" id="the-automatic-export-tab"></a>
+
+### Episode Export <a href="#the-automatic-export-tab" id="the-automatic-export-tab"></a>
 
 ![Preferences - the Automatic Export tab](https://www.tvrename.com/assets/images/options/preferences-auto-export-01.png)Ticking the “RSS” box in the “When to watch” section of the panel will save a RSS-reader compatible XML file to the location you specify (by typing or browsing). This file can then be read by something like XBOX Media Center, or a Windows RSS App.
 
@@ -516,3 +536,31 @@ Ticking the “XML” box in the “Finding and Organising” section of the pan
 The “Recent Playlist” section of the tab tells TV Rename to export a playlist of all the episodes found in the “Aired in last X days” section on the _**When to watch**_ tab in the specified format to the specified file and location.
 
 _Default:_ _**All un-ticked**_
+
+### _**Library**_ Export
+
+![Preferences - the Automatic Export tab](https://www.tvrename.com/assets/images/options/preferences-auto-export-01.png)Ticking the “RSS” box in the “When to watch” section of the panel will save a RSS-reader compatible XML file to the location you specify (by typing or browsing). This file can then be read by something like XBOX Media Center, or a Windows RSS App.
+
+Ticking the “XML” box in the “When to watch” section of the panel will save a standard XML file to the location you specify (by typing or browsing).
+
+Ticking the “iCal” box in the “When to watch” section of the panel will save an open format Internet Calendar ICS file (not to be confused with Apple Calendar) to the location of you specify (by typing or browsing).
+
+You can limit how many days or shows are written to the file. The files are updated whenever the “When to watch” tab is manually or automatically refreshed.
+
+Ticking the “XML” box in the “Missing” section of the panel will save a standard XML file containing the missing episodes detected during a scan to the location you specify (by typing or browsing).
+
+Similarly, ticking the “CSV” box in the “Missing” section of the panel will save a standard CSV file containing the missing episodes detected during a scan to the location you specify (by typing or browsing).
+
+Ticking the “TXT” box in the “All Shows” section of the panel will save a TXT file whenever a show is added, edited or deleted from TV Rename. It also gets updated when `Auto ID All` in the _Scan Results_ tab of **Tools>Folder Monitor** is clicked.
+
+Similarly, ticking the “HTML” box in the “All Shows” section of the panel will save a web browser viewable HTML file containing the show summary for each show in your library (complete with images and other details) whenever a show is added, edited or deleted from TV Rename. It also gets updated when `Auto ID All` in the _Scan Results_ tab of **Tools>Folder Monitor** is clicked.
+
+Ticking the “XML” box in the “Renaming” section of the panel will create an XML file in the path specified containing the rename data.
+
+Ticking the “XML” box in the “Finding and Organising” section of the panel will create an XML file in the path specified containing the found file data.
+
+The “Recent Playlist” section of the tab tells TV Rename to export a playlist of all the episodes found in the “Aired in last X days” section on the _**When to watch**_ tab in the specified format to the specified file and location.
+
+_Default:_ _**All un-ticked**_
+
+### _**App Updates**_

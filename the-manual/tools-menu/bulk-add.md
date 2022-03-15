@@ -1,26 +1,6 @@
-# Tools Menu
+# Bulk Add
 
-![The Tools Menu](https://www.tvrename.com/assets/images/tools/menu-01.png)
-
-Here you can find tools to update, manipulate and annihilate the data relating to your media library and [The TVDB](http://thetvdb.com) cache.
-
-### Force Refresh All <a href="#force-refresh-all" id="force-refresh-all"></a>
-
-If TV Rename’s representation of your media library is a mess then this is probably the tool for you.
-
-After selecting the option from the menu you are presented with the alert window (shown).
-
-![](https://www.tvrename.com/assets/images/tools/force-refresh-all-01.png)
-
-{% hint style="danger" %}
-**READ IT CAREFULLY AND PAY ATTENTION**. If you click `Yes` there’s no going back, all the locally stored information in TheTVDB’s cache will be **DELETED**.
-{% endhint %}
-
-### Background Download Now <a href="#background-download-now" id="background-download-now"></a>
-
-**Background Download Now** forces an update from [The TVDB](http://thetvdb.com) to be downloaded. If _Options>Offline Operation_ is enabled you will be asked if you wish to “Ignore offline mode and download anyway” (Yes/No), if you select `Yes` the update will start.
-
-### Bulk Add Shows <a href="#bulk-add-shows" id="bulk-add-shows"></a>
+## Bulk Add Shows <a href="#bulk-add-shows" id="bulk-add-shows"></a>
 
 ![The Tools>Bulk Add Shows window](https://www.tvrename.com/assets/images/tools/bulk-add-shows-02.png)
 
@@ -44,19 +24,4 @@ Clicking `Ignore` will add the folder to the list in the _**Ignore**_ tab and it
 **Note:** A “glitch” in the design of the _**Ignore**_ tab means there is currently no obvious way to remove a folder from this list. The designers are aware of the problem and it will be fixed in the next release. Until then if you have a folder “stuck” in here that you want to be part of the library again, ask in the Main Forum and someone will help you fix it.
 {% endhint %}
 
-### Duplicate Episode Finder <a href="#duplicate-episode-finder" id="duplicate-episode-finder"></a>
-
-![Duplicate Episode Finder](https://www.tvrename.com/assets/images/tools/duplicate-episode-finder-01.png)
-
-The Duplicate Episode Finder will identify files in your library that contain two episodes of a show but do not have not had a merge rule applied…
-
-Key things that might indicate this are: -
-
-1. The two episodes on TVDB have the same air date.
-2. The names of the episodes are similar.
-3. One of the episodes has been matched to a file and the other has not.
-4. The matched file is around twice the size of another for the same show.
-
-If all (or some) of these criteria are met it’s probable that the file on disk actually represents both episodes.
-
-Right clicking on an entry displays some options and the ability to auto-create the merge rule.
+## Bulk Add Movies <a href="#duplicate-episode-finder" id="duplicate-episode-finder"></a>

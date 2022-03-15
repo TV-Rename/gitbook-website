@@ -14,6 +14,10 @@ If **Offline Operation** is enabled TV Rename will firstly prompt you to make su
 
 If **Automatic Background Download** is enabled any action that reads data from the cache will also trigger an update from[The TVDB](http://thetvdb.com), additionally updates will be performed at regular intervals.
 
+### Preferences <a href="#ignore-list" id="ignore-list"></a>
+
+See [here](options-menu.md#ignore-list)
+
 ### Ignore List <a href="#ignore-list" id="ignore-list"></a>
 
 ![The Edit Ignore List window](https://www.tvrename.com/assets/images/options/edit-ignore-list-01.png)When a _**Scan**_ is run any “missing” episodes for shows in your media library are listed.
@@ -105,3 +109,6 @@ Additionally, a folder can be specified to test the results of the Regular Expre
 If a match is found during the test the matching expression is indicated.
 
 In all likelihood you will find it unnecessary to make changes here, only if a new, totally unrecognisable file name structure appeared would it be necessary, and then there would probably be discussion about it in the forum.
+
+### Settings Check
+

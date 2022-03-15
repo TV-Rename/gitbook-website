@@ -14,7 +14,7 @@ It’s surprising just how much work TV Rename does just “managing some videos
 
 **Note:** “Episodes on disk:” may show a question mark instead of a value. Because this field takes a relatively long time to calculate a value is only displayed once a full scan has been completed.
 
-### Show Summary <a href="#show-summary" id="show-summary"></a>
+### TV Show Summary <a href="#show-summary" id="show-summary"></a>
 
 Show Summary displays a table of the shows in your database with traffic light style colouring to indicate the status of a season of a show (_including Specials as their own season_).
 
@@ -36,6 +36,10 @@ The show name colouring is as follows: -
 | **Grey**  | Indicates a show that is not checked.                  |
 
 The data can also be filtered using the tick boxes at the top of the pane if required.
+
+### Movie Collection Summary <a href="#actors-grid" id="actors-grid"></a>
+
+
 
 ### Actors Grid <a href="#actors-grid" id="actors-grid"></a>
 

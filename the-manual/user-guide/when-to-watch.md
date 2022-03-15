@@ -1,6 +1,6 @@
-# When to Watch
+# Schedule
 
-Once you have TV Rename up and running and behaving the way you want you’ll probably spend most of your time on this tab. If you wish you can make this tab open by default by changing the “Startup” tab setting in the [_**General**_](https://www.tvrename.com/manual/options#the-general-tab) tab of **Options>Preferences**.
+Once you have TV Rename up and running and behaving the way you want you’ll probably spend most of your time on this tab. If you wish you can make this tab open by default by changing the “Startup” tab setting in the [_**General**_](../preferences.md#the-general-tab) tab of **Options>Preferences**.
 
 ![When To Watch](https://www.tvrename.com/assets/images/main-window/when-to-watch-01.png)
 
