@@ -1,19 +1,18 @@
 # Table of contents
 
-* [What is MyProduct?](README.md)
+* [What is TV Rename?](README.md)
 
 ## Guides
 
-* [Creating your first project](guides/creating-your-first-project.md)
-* [Creating your first task](guides/creating-your-first-task.md)
-* [Advanced permissions](guides/advanced-permissions.md)
+* [Quick Start Guide](guides/quick-start-guide.md)
+* [Features](guides/features.md)
 
-## Fundamentals
+## The User Guide
 
-* [Projects](fundamentals/projects.md)
-* [Members](fundamentals/members.md)
-* [Task Lists](fundamentals/task-lists.md)
-* [Tasks](fundamentals/tasks.md)
+* [Projects](the-user-guide/projects.md)
+* [Members](the-user-guide/members.md)
+* [Task Lists](the-user-guide/task-lists.md)
+* [Tasks](the-user-guide/tasks.md)
 
 ## Use Cases
 
