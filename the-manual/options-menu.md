@@ -105,7 +105,3 @@ Additionally, a folder can be specified to test the results of the Regular Expre
 If a match is found during the test the matching expression is indicated.
 
 In all likelihood you will find it unnecessary to make changes here, only if a new, totally unrecognisable file name structure appeared would it be necessary, and then there would probably be discussion about it in the forum.
-
-{% hint style="info" %}
-**Good to know:** Splitting your product into fundamental concepts, objects, or areas can be a great way to let readers deep dive into the concepts that matter most to them.
-{% endhint %}

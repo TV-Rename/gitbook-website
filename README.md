@@ -1,5 +1,12 @@
 # What is TV Rename?
 
+
+
+|                                                                                                                                                                                                                       |                                                                                                                                                                                                                                                            |                                                                                                                                                                                                           |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![customizable](https://www.tvrename.com/assets/images/splash/customizable.png)                                                                                                                                       | ![automatic](https://www.tvrename.com/assets/images/splash/stopwatch.png)                                                                                                                                                                                  | ![100% free](https://www.tvrename.com/assets/images/splash/noMoney.png)                                                                                                                                   |
+| <h3>Super Customizable</h3><p>From multiple media locations to library language to show and episode images to metadata, to TheTVDB and µTorrent integration; virtually every aspect of TV Rename is configurable…</p> | <h3>Fully Automatic</h3><p><strong>On-your marks:</strong> Set your preferences, and your TV show collection location(s).<br><strong>Get set:</strong> to run a scan to find out what’s current, sit back, relax, and watch it<br><strong>Go</strong>…</p> | <h3>100% Free</h3><p>TV Rename is open source and free to use. You may freely modify it for non-commercial use. All we ask is that you feed improvements back into the project so others may benefit.</p> |
+
 {% hint style="info" %}
 **Good to know:** providing a brief overview of your product and its core use cases is a great place to start with product docs. Your product might seem obvious to you – you made it! However, to others, even folks who are trying your product after reading your site or getting a sales demo, it can still be unclear. This is your chance to clarify your product and set the right expectations!
 {% endhint %}
@@ -50,8 +57,8 @@ Follow our handy guides to get started on the basics as quickly as possible:
 
 Learn the fundamentals of MyProduct to get a deeper understanding of our main features:
 
-{% content-ref url="the-user-guide/projects.md" %}
-[projects.md](the-user-guide/projects.md)
+{% content-ref url="the-manual/user-guide/" %}
+[user-guide](the-manual/user-guide/)
 {% endcontent-ref %}
 
 {% content-ref url="the-manual/options-menu.md" %}

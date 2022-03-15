@@ -2,9 +2,9 @@
 
 A number of TV Rename’s functions can be accessed using the command line. If TV Rename is already running any CLI activity will be directed towards the running instance.
 
-[Return to Top](https://www.tvrename.com/manual/cmd-line/)
 
-#### Main Options <a href="#main-options" id="main-options"></a>
+
+### Main Options <a href="#main-options" id="main-options"></a>
 
 /scan
 
