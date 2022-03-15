@@ -23,7 +23,3 @@ These can be triggered in several ways:
 
 * Configuration options are detailed in [**Options>Preferences>Scan Options**](https://www.tvrename.com/manual/options#the-scan-options-tab)
 * Further explanation can be found [**here**](https://www.tvrename.com/manual/user#scan).
-
-#### Future Ideas <a href="#future-ideas" id="future-ideas"></a>
-
-* To incorporate a ‘Bulk add’ as part of the scan and use the new ‘Quick Add’ Dialog to quickly add missing shows.

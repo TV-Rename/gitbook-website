@@ -2,7 +2,7 @@
 
 While the main objective of TV Rename is to rename and move/copy files into the appropriate locations in the library, there are many other things it can do at the same time:
 
-#### Keep Files Together <a href="#keep-files-together" id="keep-files-together"></a>
+### Keep Files Together <a href="#keep-files-together" id="keep-files-together"></a>
 
 The system will keep files that share the same name together, renaming them all as one. This keeps related files (images, information, metadata) joined together. The system can also be configured to keep language specific files together for when you have subtitles in multiple languages.
 
@@ -10,11 +10,11 @@ The system will keep files that share the same name together, renaming them all 
 
 Further information can be found [**here**](https://www.tvrename.com/manual/options/#the-files-and-folders-tab).
 
-#### File Update Timestamp <a href="#file-update-timestamp" id="file-update-timestamp"></a>
+### File Update Timestamp <a href="#file-update-timestamp" id="file-update-timestamp"></a>
 
 The system can also be requested to update the ‘last updated’ dates to match the air-dates. This aims to help DNLA systems, but be wary if you are using a Linux based system such as a NAS for your media library. Linux has an inception date of 01/01/1970 and does not support earlier dates.
 
-#### DVD vs Aired Order <a href="#dvd-vs-aired-order" id="dvd-vs-aired-order"></a>
+### DVD vs Aired Order <a href="#dvd-vs-aired-order" id="dvd-vs-aired-order"></a>
 
 TV Rename can order a series in 2 ways at present:
 
@@ -30,7 +30,7 @@ There are a few ideas on the ideas wall to allow the ordering to be adjusted fur
 * [**Allow reorganising season numbers**](http://ideas.theideawall.com/TVRename/Forum/TopicDetails/1c0aeb70-98ae-4937-9de3-8243ca61fcf2)
 * [**Allow offset for episode numbers**](http://ideas.theideawall.com/TVRename/Forum/TopicDetails/ccf342c0-94b0-42f2-a0ba-a7cda261b2fa)
 
-## Media Centres <a href="#media-centres" id="media-centres"></a>
+### Media Centres <a href="#media-centres" id="media-centres"></a>
 
 In addition to renaming and moving files the system can also download/create files for various media players:
 

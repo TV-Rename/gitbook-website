@@ -1,7 +1,5 @@
 # Exporting
 
-### Functionality <a href="#functionality-3" id="functionality-3"></a>
-
 TV Rename can be setup to automatically export files which summarise the status of your library.
 
 | **Type**               | **Formats**               | **Description**                                                                                                                                                                                              |
@@ -13,6 +11,6 @@ TV Rename can be setup to automatically export files which summarise the status 
 | Show List              | TXT, HTML                 | Whenever a show is added or removed from the library TV Rename will update the show list file. The HTML version is a pretty output designed to be printed and viewable by users to help decide what to watch |
 | Recent Playlists       | M3U, M3U8, WPL, ASX, XSPF | A playlist file of recently aired shows to be cued up in your favourite media player                                                                                                                         |
 
-### Further Information <a href="#further-information-5" id="further-information-5"></a>
+#### Further Information <a href="#further-information-5" id="further-information-5"></a>
 
 Further information can be found [**here**](https://www.tvrename.com/manual/options/#the-automatic-export-tab).

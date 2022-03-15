@@ -1,8 +1,8 @@
+---
+description: The Quick-Start Guide will help you with the initial setup TV Rename.
+---
+
 # Quick Start Guide
-
-## Quick-Start
-
-The Quick-Start Guide will help you with the initial setup TV Rename.
 
 To return to this page click `Quickstart Guide` in TV Rename’s **Help**, or browse to [https://www.tvrename.com/manual/quickstart](https://www.tvrename.com/manual/quickstart).
 
@@ -28,7 +28,7 @@ The initial setup can be somewhat daunting as there are many options and setting
 _The guide assumes you already have the beginnings of a **Media Library** - a folder (or folders) somewhere on your PC or NAS or whatever, with a bunch of tv show files in it (them). TV Rename doesn’t care how these folders are organised, however to us mere humans probably “one folder per show” or “one folder per show with one sub-folder per season” would make sense in terms of being able to (manually) find stuff later if you really need to._
 {% endhint %}
 
-## Add content from your Media Library <a href="#add-content-from-your-media-library" id="add-content-from-your-media-library"></a>
+## 1 - Add content from your Media Library <a href="#add-content-from-your-media-library" id="add-content-from-your-media-library"></a>
 
 Under normal circumstances you would add a Media Library path when adding a new show to TV Rename, however TV Rename has a trick up its sleeve when adding shows already in the library’s folder infrastructure - **Bulk Add Shows**.
 
@@ -46,7 +46,7 @@ Under normal circumstances you would add a Media Library path when adding a new 
 6. Once the download is complete you can browse the series information. Here, by right clicking on a show or season, you can edit the TV Rename settings to override information fetched from [The TVDB](http://thetvdb.com) .
 7. You can manually add shows by clicking the `Add` button in the _**My Shows**_ tab. in the _Add/Edit Show_ window that appears enter the show name or code in the” [The TVDB](http://thetvdb.com) code:” box and click `Search` to find it. Hop across to the _**Folders**_ tab and enter the base folder for the show in your media library, and click `OK`.
 
-## Set your Search Folders <a href="#set-your-search-folders" id="set-your-search-folders"></a>
+## 2 - Set your Search Folders <a href="#set-your-search-folders" id="set-your-search-folders"></a>
 
 Whilst not strictly necessary at this point TV Rename needs to know where to look for new files to move to the library when adding new episodes, so lets do it now.
 
@@ -56,7 +56,7 @@ In **Options>Preferences**, go to the _**Search Folders**_ tab and `Add` the loc
 
 For example: I have two entries here, one points to my _Downloads_ folder for stuff I get from the internet. The other points to my _Desktop_ which I use as a target when ripping from my DVD collection.
 
-## Check the Filename Template
+## 3 - Check the Filename Template
 
 Right, so now TV Rename knows where you media library is and where to look for new files, the only thing it doesn’t know is how you want your files renamed.
 
@@ -82,8 +82,8 @@ Go to the _**When to watch**_ tab and you will see all known future information 
 
 In the _**Search Folders**_ tab of **Options>Preferences** you can schedule scans, either time based _(“Schedule a scan…)”_ or by gleaning search folder updates from Windows _(“Monitor folders for changes”)_.
 
-## Sit back, relax, and let TV Rename do all the hard work for you!
+**Sit back, relax, and let TV Rename do all the hard work for you!**
 
 _**Whatever changes TV Rename makes to your media file names the season and episode details will remain untouched.**_
 
-_It is highly unlikely that the names of the recordings will get screwed up, but, should it happen, the problem should be easily fixable after changing some settings, or adding new rules. At least, that’s the theory._\
+_It is highly unlikely that the names of the recordings will get screwed up, but, should it happen, the problem should be easily fixable after changing some settings, or adding new rules. At least, that’s the theory!_\

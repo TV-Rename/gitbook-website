@@ -1,18 +1,16 @@
 # Finding
 
-### Finding <a href="#finding" id="finding"></a>
-
-#### Functionality <a href="#functionality-2" id="functionality-2"></a>
-
 Once a scan is complete, TV Rename will identify files to move/copy/rename and additional files to download/create. For episodes that are still missing, TV Rename will try and find them for you.
 
-#### Types <a href="#types" id="types"></a>
+### Types <a href="#types" id="types"></a>
 
 There are 6 places it could search:
 
 * _File System_ – If found it will remove the episode from the missing list and move the file into the correct place.
 * _RSS Feed for torrent links_, _JSON Web page for torrent links_ – If found then it will download the torrent file. (via uTorrent or qBittorrent) See [**The RSS/JSON Search Tab**](https://www.tvrename.com/manual/options/#the-rss--json-search-tab) for more information about configuration.
-* _SABnzbd_, _uTorrent_, _qBittorrent_ – If found it will mark it as downloading so you know not to try and find the item again. See [**The Torrents/NZB Tab**](https://www.tvrename.com/manual/options/#the-torrents--nzb-tab) for more informaiton.
+* _SABnzbd_, _uTorrent_, _qBittorrent_ – If found it will mark it as downloading so you know not to try and find the item again. See [**The Torrents/NZB Tab**](https://www.tvrename.com/manual/options/#the-torrents--nzb-tab) for more information.
+
+### Identification of files <a href="#how-to-write-a-regex-for-tv-rename" id="how-to-write-a-regex-for-tv-rename"></a>
 
 #### How to write a Regex for TV Rename <a href="#how-to-write-a-regex-for-tv-rename" id="how-to-write-a-regex-for-tv-rename"></a>
 
@@ -39,7 +37,3 @@ Note that if a file matches multiple missing files, or multiple files match one 
 ### Further Information <a href="#further-information-2" id="further-information-2"></a>
 
 Further information can be found [**here**](https://www.tvrename.com/manual/options/#filename-processors) and [**here**](https://www.tvrename.com/manual/options/#the-%C2%B5torrent--nzb-tab).
-
-### Future Ideas <a href="#future-ideas-1" id="future-ideas-1"></a>
-
-There is a related “Feature Suggestion” on our Idea Wall [**here**](http://ideas.theideawall.com/TVRename/Forum/TopicDetails/e6663947-906a-4a91-95ae-e45a91c6efb0).

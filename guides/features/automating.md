@@ -1,7 +1,5 @@
 # Automating
 
-### Functionality&#x20;
-
 TV Rename aims to do as much as it can to automate the storage of media files. To make the process as automated as possible it can:
 
 * _Auto Add shows_ – see ‘Automated Addition’ above.
