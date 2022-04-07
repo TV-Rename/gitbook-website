@@ -9,7 +9,7 @@ layout: landing
 |   |   |   |
 | ![customizable](https://www.tvrename.com/assets/images/splash/customizable.png) | ![automatic](https://www.tvrename.com/assets/images/splash/stopwatch.png) | ![100% free](https://www.tvrename.com/assets/images/splash/noMoney.png) |
 |
-### Super Customizable
+#### Super Customizable
 
 From multiple media locations to library language to show and episode images to metadata, to TheTVDB and µTorrent integration; virtually every aspect of TV Rename is configurable…
 
