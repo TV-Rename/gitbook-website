@@ -4,12 +4,13 @@ layout: landing
 
 # What is TV Rename?
 
+> Move or copy and rename media files, download posters, banners and episode images, create .nfo files, search for missing episodes, calendarize your favourite TV shows - _**automatically**_…
+
 | ![customizable](https://www.tvrename.com/assets/images/splash/customizable.png)                                                                                                     | ![automatic](https://www.tvrename.com/assets/images/splash/stopwatch.png)                                                                                                                                                          | ![100% free](https://www.tvrename.com/assets/images/splash/noMoney.png)                                                                                                          |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Super Customizable**                                                                                                                                                              | **Fully Automatic**                                                                                                                                                                                                           | **100% Free**                                                                                                                                                               |
+| **Super Customizable**                                                                                                                                                              | **Fully Automatic**                                                                                                                                                                                                                | **100% Free**                                                                                                                                                                    |
 | From multiple media locations to library language to show and episode images to metadata, to TheTVDB and µTorrent integration; virtually every aspect of TV Rename is configurable… | <p><strong>On-your marks:</strong> Set your preferences, and your TV show collection location(s).<br><strong>Get set:</strong> to run a scan to find out what’s current, sit back, relax, and watch it<br><strong>Go</strong>…</p> | TV Rename is open source and free to use. You may freely modify it for non-commercial use. All we ask is that you feed improvements back into the project so others may benefit. |
-
-
+| [preferences.md](the-manual/preferences.md "mention")                                                                                                                               | [automating.md](guides/features/automating.md "mention")                                                                                                                                                                           | [https://raw.githubusercontent.com/TV-Rename/tvrename/master/Licence.rtf](https://raw.githubusercontent.com/TV-Rename/tvrename/master/Licence.rtf)                               |
 
 {% hint style="info" %}
 **Good to know:** providing a brief overview of your product and its core use cases is a great place to start with product docs. Your product might seem obvious to you – you made it! However, to others, even folks who are trying your product after reading your site or getting a sales demo, it can still be unclear. This is your chance to clarify your product and set the right expectations!
@@ -35,7 +36,13 @@ Here are a couple of examples of succinct overviews from products with really gr
 **Good to know:** A succinct video overview is a great way to introduce folks to your product. Embed a Loom, Vimeo or YouTube video and you're good to go! We love this video from the fine folks at [Loom](https://loom.com) as a perfect example of a succinct feature overview.
 {% endhint %}
 
-### Guides: Jump right in
+### Want to lean more?
+
+{% content-ref url="guides/features.md" %}
+[features.md](guides/features.md)
+{% endcontent-ref %}
+
+### Ready to go?
 
 Follow our handy guides to get started on the basics as quickly as possible:
 
@@ -43,9 +50,7 @@ Follow our handy guides to get started on the basics as quickly as possible:
 [quick-start-guide.md](guides/quick-start-guide.md)
 {% endcontent-ref %}
 
-{% content-ref url="guides/features.md" %}
-[features.md](guides/features.md)
-{% endcontent-ref %}
+Ready to&#x20;
 
 {% hint style="info" %}
 **Good to know:** your product docs aren't just a reference of all your features! use them to encourage folks to perform certain actions and discover the value in your product.
@@ -59,16 +64,32 @@ Learn the fundamentals of MyProduct to get a deeper understanding of our main fe
 [user-guide](the-manual/user-guide/)
 {% endcontent-ref %}
 
-{% content-ref url="the-manual/options-menu.md" %}
-[options-menu.md](the-manual/options-menu.md)
+{% content-ref url="the-manual/preferences.md" %}
+[preferences.md](the-manual/preferences.md)
 {% endcontent-ref %}
 
 {% content-ref url="the-manual/tools-menu/" %}
 [tools-menu](the-manual/tools-menu/)
 {% endcontent-ref %}
 
-{% content-ref url="the-user-guide/tasks.md" %}
-[tasks.md](the-user-guide/tasks.md)
+{% hint style="info" %}
+**Good to know:** Splitting your product into fundamental concepts, objects, or areas can be a great way to let readers deep dive into the concepts that matter most to them. Combine guides with this approach to 'fundamentals' and you're well on your way to great documentation!
+{% endhint %}
+
+### Technical Details and Support: Go Further
+
+Learn the fundamentals of MyProduct to get a deeper understanding of our main features:
+
+{% content-ref url="the-manual/technical-guide/" %}
+[technical-guide](the-manual/technical-guide/)
+{% endcontent-ref %}
+
+{% content-ref url="extras/keyboard-shortcuts.md" %}
+[keyboard-shortcuts.md](extras/keyboard-shortcuts.md)
+{% endcontent-ref %}
+
+{% content-ref url="help-and-support/feedback.md" %}
+[feedback.md](help-and-support/feedback.md)
 {% endcontent-ref %}
 
 {% hint style="info" %}

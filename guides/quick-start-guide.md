@@ -12,15 +12,15 @@ Once TV Rename knows about these folders (more on this later) it will process me
 
 for example: -
 
-The file:
-
-**c:\users\me\downloads\the-outpost-s01e06-hdtv-x264.mkv**
-
-could be “renamed” to:
-
-**m:\TV Series\The Outpost\Season 1\The Outpost - S01E06 - The Book of Names.mkv**
-
-To do this TV Rename uses data acquired from [The TVDB](http://thetvdb.com).
+> The file:
+>
+> **c:\users\me\downloads\the-outpost-s01e06-hdtv-x264.mkv**
+>
+> could be “renamed” to:
+>
+> **m:\TV Series\The Outpost\Season 1\The Outpost - S01E06 - The Book of Names.mkv**
+>
+> To do this TV Rename uses data acquired from [The TVDB](http://thetvdb.com).
 
 The initial setup can be somewhat daunting as there are many options and settings that control the way TV Rename behaves. Luckily these have sensible defaults and its actually relatively easy to get up and running providing you don’t get distracted by the settings.
 
@@ -72,9 +72,23 @@ You can also experiment with other preset templates using the “Presets” drop
 
 If none of these is exactly what you are looking for you can “Roll-your-Own” using the “Tags” drop-down to modify the current template.
 
-[Return to Top](https://www.tvrename.com/manual/quickstart/)
-
+{% hint style="info" %}
 The basic setup is now complete. Now would be a good time to take a look at the other tabs in **Options>Preferences** (if you haven’t already!) to get an idea of how TV Renames behaviour can be customised.
+{% endhint %}
+
+## Run a Scan <a href="#ongoing-monitoring" id="ongoing-monitoring"></a>
+
+Now you’re ready to run your first scan.
+
+Go to the _**Scan**_ tab, and click `Full`. TV Rename will download any needed show information from [The TVDB](http://thetvdb.com), and compare it with the contents of the media library.
+
+![Scan](https://www.tvrename.com/assets/images/main-window/scan-01.png)
+
+When the scan is complete, TV Rename will display its suggested changes in the main pane. Any ticked item will be actioned, so un-tick things you’re not sure about, or use the check boxes in the bottom-right of the window.
+
+For a more “granular” approach you can right-click on selected items to see actions for that specific item.
+
+Click `Do Checked` and TV Rename will process the ticked actions, moving and renaming files as necessary.
 
 ## Ongoing Monitoring <a href="#ongoing-monitoring" id="ongoing-monitoring"></a>
 
@@ -84,6 +98,8 @@ In the _**Search Folders**_ tab of **Options>Preferences** you can schedule scan
 
 **Sit back, relax, and let TV Rename do all the hard work for you!**
 
+{% hint style="info" %}
 _**Whatever changes TV Rename makes to your media file names the season and episode details will remain untouched.**_
+{% endhint %}
 
 _It is highly unlikely that the names of the recordings will get screwed up, but, should it happen, the problem should be easily fixable after changing some settings, or adding new rules. At least, that’s the theory!_\

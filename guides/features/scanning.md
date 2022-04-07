@@ -22,4 +22,13 @@ These can be triggered in several ways:
 #### Further Information <a href="#further-information-1" id="further-information-1"></a>
 
 * Configuration options are detailed in [**Options>Preferences>Scan Options**](https://www.tvrename.com/manual/options#the-scan-options-tab)
+
+{% content-ref url="../../the-manual/preferences.md" %}
+[preferences.md](../../the-manual/preferences.md)
+{% endcontent-ref %}
+
 * Further explanation can be found [**here**](https://www.tvrename.com/manual/user#scan).
+
+{% content-ref url="../../the-manual/user-guide/scan.md" %}
+[scan.md](../../the-manual/user-guide/scan.md)
+{% endcontent-ref %}
