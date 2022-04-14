@@ -17,10 +17,14 @@ You can find TV Rename’s source code (along with executables and this website)
 
 ### Frameworks <a href="#framework" id="framework"></a>
 
-Winforms C# application
+#### Winforms C# application
 
 TV Rename uses the Microsoft .NET Framework. The installer will check for its presence and let you know if any action is needed. It’s a free download from [Microsoft](https://www.microsoft.com/net/download/windows).
 
-.NET Framework 4.8
+#### .NET Framework 4.8
 
-C++ - The app will check on this and ask the user to upgrade if it's missing. It's needed as a dependency for CEF Framework
+
+
+#### C++
+
+The app will check on this and ask the user to upgrade if it's missing. It's needed as a dependency for CEF Framework
