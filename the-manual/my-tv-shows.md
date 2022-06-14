@@ -41,7 +41,7 @@ The _Add/Edit Show_ window has a number of tabs of its own, they are discussed b
 
 #### The Basics Tab <a href="#the-basics-tab" id="the-basics-tab"></a>
 
-![Add/Edit Show - The Basics Tab](https://www.tvrename.com/assets/images/main-window/add-edit-show-basics-01.png)
+![](<../.gitbook/assets/image (5).png>)
 
 The “Basics” Tab is the starting point for telling TV Rename about a show you which to monitor.
 
@@ -98,6 +98,8 @@ Selecting “Custom Pattern” allows you to specify (using text and tags) the n
 
 If you require more granular control you can un-tick the “Automatic Folders” option and use the “Manual/Additional Folders” entries to specify the exact name and location for each season folder used by the show.
 
+The “Manual/Additional Folders” section allows you to manually add and remove additional Seasons and associated folders.
+
 #### The Show Aliases Tab
 
 ![The Show Aliases tab](https://www.tvrename.com/assets/images/main-window/add-edit-show-aliases-01.png)
@@ -122,16 +124,15 @@ This option is disabled by default but it can be enabled for the specific show b
 
 #### Custom Episode Naming <a href="#the-advanced-tab" id="the-advanced-tab"></a>
 
-![](<../.gitbook/assets/image (5).png>)
+![](<../.gitbook/assets/image (5) (1).png>)
 
 #### The Advanced Tab <a href="#the-advanced-tab" id="the-advanced-tab"></a>
 
 ![](<../.gitbook/assets/image (2).png>)
-![](<../.gitbook/assets/image (6).png>)
 
 Here, you can further manipulate the way data from [The TVDB](http://thetvdb.com/) is handled as it is merged into the local data.
 
-The “Use DVD order” tick box comes into play when the episodes aired on TV in a different order to those presented on the DVD. [The TVDB](http://thetvdb.com/) usually has details of these orders and this tick box allows you to choose your preference for the current show. A Really good example of this is the 1967 ITV show [“The Prisoner”](https://www.thetvdb.com/?tab=season\&seriesid=74805\&seasonid=8058\&lid=7), which, whilst it was written as one season of seventeen episodes still causes as much controversy (and argument) over it’s running order today as it did when it was originally released.
+The “Use DVD order” tick box comes into play when the episodes aired on TV in a different order to those presented on the DVD. [The TVDB](http://thetvdb.com/) usually has details of these orders and this tick box allows you to choose your preference for the current show. A Really good example of this is the 1967 ITV show [“The Prisoner”](https://www.thetvdb.com/?tab=season\&seriesid=74805\&seasonid=8058\&lid=7), which, whilst it was written as one season of seventeen episodes still causes as much controversy (and argument) over it’s running order today as it did when it was originally released. TVDB also has an 'alternate order' specified as some shows have had episodes regrouped into seasons on different platforms.&#x20;
 
 The “Show next airdate in When to Watch” tick box toggles the display of the shows “Future” and “Later” episodes in the _**When to Watch**_ tab.
 
@@ -144,8 +145,6 @@ The “Do missing check” tick-box enables or disables the ability to check for
 “Use sequential number matching” will match episodes based on their overall airing order. Because this can cause a large number of false matches, the box is un-ticked by default.
 
 For example, Season 4 Episode 9 of Marvel’s Agents of S.H.I.E.L.D. is the 75th episode aired, so with this option enabled “Marvel’s Agents of S.H.I.E.L.D. - 75 - Broken Promises.mkv” will be seen at S04E09.
-
-The “Manual/Additional Folders” section allows you to manually add and remove additional Seasons and associated folders.
 
 ### Auto Add Shows <a href="#auto-add-shows" id="auto-add-shows"></a>
 
