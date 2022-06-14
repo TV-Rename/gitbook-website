@@ -26,9 +26,9 @@ TV Rename pulls data from [TheTVDB.com](https://github.com/thetvdb/v4-api), [TMD
 It also uses: -
 
 * [Json.NET](https://www.newtonsoft.com/json) to code and decode the messages from data sources,
-* [AlphaFS](http://alphafs.alphaleonis.com) for advanced .NET file operations,
-* [NLog](http://nlog-project.org) open-source logging for .NET,
-* [SourceGrid](https://sourcegrid.codeplex.com),
+* [AlphaFS](http://alphafs.alphaleonis.com/) for advanced .NET file operations,
+* [NLog](http://nlog-project.org/) open-source logging for .NET,
+* [SourceGrid](https://sourcegrid.codeplex.com/),
 * CefSharp
 * CloudFlareUtilities
 * Humanizer
@@ -53,4 +53,4 @@ Generally these are obtained via NuGet packages.
 ### Images and Icons
 
 And thanks to:\
-Vecteezy! Vector Art for our cool [Retro Television Logo](https://www.vecteezy.com/vector-art/73089-retro-television) - Vectors by [www.vecteezy.com](https://www.vecteezy.com).
+Vecteezy! Vector Art for our cool [Retro Television Logo](https://www.vecteezy.com/vector-art/73089-retro-television) - Vectors by [www.vecteezy.com](https://www.vecteezy.com/).

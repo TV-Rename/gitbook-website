@@ -5,7 +5,7 @@
 ## Guides
 
 * [Quick Start Guide](guides/quick-start-guide.md)
-* [Features](guides/features.md)
+* [Key Features](guides/features.md)
   * [Adding Movies & TV Shows](guides/features/adding-movies-and-tv-shows.md)
   * [Scanning](guides/features/scanning.md)
   * [Finding](guides/features/finding.md)
@@ -15,11 +15,9 @@
 
 ## The Manual
 
+* [TV Shows](the-manual/my-tv-shows.md)
+* [Movies](the-manual/movies.md)
 * [User Guide](the-manual/user-guide/README.md)
-  * [Movies](the-manual/user-guide/movies.md)
-  * [Movie Configuration](the-manual/user-guide/movie-configuration.md)
-  * [TV Shows](the-manual/user-guide/my-tv-shows.md)
-  * [TV Show Configuration](the-manual/user-guide/tv-show-configuration.md)
   * [Scan](the-manual/user-guide/scan.md)
   * [Schedule](the-manual/user-guide/when-to-watch.md)
   * [Other](the-manual/user-guide/other.md)
@@ -50,10 +48,6 @@
   * [TV Show Summary](the-manual/tasks/tv-show-summary.md)
   * [Movie Collection Summary](the-manual/tasks/movie-collection-summary.md)
   * [Actors Grid](the-manual/tasks/actors-grid.md)
-* [Scanning](the-manual/scanning/README.md)
-  * [Auto-Add (New Show Detected)](the-manual/scanning/auto-add-new-show-detected.md)
-  * [Update File Quality](the-manual/scanning/update-file-quality.md)
-  * [Choose Download](the-manual/scanning/choose-download.md)
 * [Command Line](the-manual/command-line.md)
 * [Technical Guide](the-manual/technical-guide/README.md)
   * [Logs & Configuration](the-manual/technical-guide/logs-and-configuration.md)

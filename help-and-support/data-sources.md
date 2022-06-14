@@ -2,7 +2,7 @@
 
 ### The TVDB <a href="#the-tvdb" id="the-tvdb"></a>
 
-Whilst not actually a part of TV Rename; [The TVDB](http://thetvdb.com) or more specifically The TVDB’s database provides the data (using its API) supplying TV Rename with the relevant details about the shows it’s monitoring.
+Whilst not actually a part of TV Rename; [The TVDB](http://thetvdb.com/) or more specifically The TVDB’s database provides the data (using its API) supplying TV Rename with the relevant details about the shows it’s monitoring.
 
 If the API is down TV Rename will not be able to add shows to your library or perform updates to it.
 
@@ -14,7 +14,7 @@ If you are having trouble with a particular show it may well be the show name th
 
 “Doctor Who” for example, can variously be called “Dr. Who” or “Dr Who” in the filenames which aren’t recognised by TV Rename.
 
-In a case like this it is a good idea to visit [The TVDB](http://thetvdb.com) to check how they name the show.
+In a case like this it is a good idea to visit [The TVDB](http://thetvdb.com/) to check how they name the show.
 
 **TMDB**
 

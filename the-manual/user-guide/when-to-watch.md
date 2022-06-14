@@ -14,10 +14,8 @@ The next section indicates which shows already in the media library will be airi
 
 “Future Episodes” looks further ahead and lists the first new episode of each show found in the media library not already listed in “Next 7 Days”.
 
-“Later” shows the rest of the future episode information matching shows in the media library that [TheTVDB](http://thetvdb.com) knows about.
+“Later” shows the rest of the future episode information matching shows in the media library that [TheTVDB](http://thetvdb.com/) knows about.
 
 The next two panels show (on the left) a summary for the episode highlighted in the main panel and (on the right) a calendar indicating the dates episodes were/will be broadcast (in bold type). The calendar interacts with the main and summary panels. Clicking on a bold date will highlight the show episode matching the date in the list above, and clicking on an episode in the main panel will cause the calendar to display that date. In either case the episode summary will be updated as well (if there is one).
 
-**As mentioned elsewhere; the content presented by TV Rename is only as good as that found at** [**TheTVDB**](http://thetvdb.com) **so please consider registering and helping to maintain their content - everybody benefits!**
-
-_In keeping with our jumping-about policy lets look at My Shows next._
+**As mentioned elsewhere; the content presented by TV Rename is only as good as that found at** [**TheTVDB**](http://thetvdb.com/) **so please consider registering and helping to maintain their content - everybody benefits!**
