@@ -553,6 +553,4 @@ Similarly, ticking the “HTML” box in the “All Shows” section of the pane
 
 ### _**App Updates**_
 
-_****_![](<../.gitbook/assets/image (1).png>)_****_
-
-_****_
+![](<../.gitbook/assets/image (1).png>)
