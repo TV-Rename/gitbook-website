@@ -11,7 +11,7 @@ TMDB has features that allow you to get:
 * Similar shows/movies to ones in your library
 * Related shows/movies to ones in your ibrary
 
-![](<../../.gitbook/assets/image (1) (1).png>)
+![](<../../.gitbook/assets/image (1) (1) (1).png>)
 
 The recommendation feature asks TMDB for information about which other shows/movies are similar or related to items in your existing library. The scan takes a while, but when it completes you can:
 

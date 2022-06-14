@@ -41,7 +41,7 @@ The _Add/Edit Show_ window has a number of tabs of its own, they are discussed b
 
 #### The Basics Tab <a href="#the-basics-tab" id="the-basics-tab"></a>
 
-![](<../.gitbook/assets/image (5).png>)
+![](<../.gitbook/assets/image (5) (1).png>)
 
 The “Basics” Tab is the starting point for telling TV Rename about a show you which to monitor.
 
@@ -124,11 +124,11 @@ This option is disabled by default but it can be enabled for the specific show b
 
 #### Custom Episode Naming <a href="#the-advanced-tab" id="the-advanced-tab"></a>
 
-![](<../.gitbook/assets/image (5) (1).png>)
+![](<../.gitbook/assets/image (5) (1) (1).png>)
 
 #### The Advanced Tab <a href="#the-advanced-tab" id="the-advanced-tab"></a>
 
-![](<../.gitbook/assets/image (2).png>)
+![](<../.gitbook/assets/image (2) (1).png>)
 
 Here, you can further manipulate the way data from [The TVDB](http://thetvdb.com/) is handled as it is merged into the local data.
 
@@ -210,3 +210,8 @@ The “Actions:” available are: -
 | **Split**  | Turn one episode into many. Following episodes are renumbered to accommodate the change.          |
 
 After applying a rule, go to _**My Shows**_ , select the show, and click `Refresh`. You will then see (and can check) the effects of the rules you’ve created.
+
+### Seen Episodes
+
+
+

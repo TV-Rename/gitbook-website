@@ -153,7 +153,9 @@ If you wish to remove a rule from the list just select it and click `Remove`.
 
 ### Library Folders <a href="#the-library-folders-tab" id="the-library-folders-tab"></a>
 
-![Preferences - the Library Folders tab](https://www.tvrename.com/assets/images/options/preferences-library-folders-01.png)The Library Folders tab is used to tell TV Rename about the location(s) of your Media Library - viz where to look for TV Show episode files **AFTER** they have been processed.
+![](<../.gitbook/assets/image (3).png>)
+
+The Library Folders tab is used to tell TV Rename about the location(s) of your Media Library - viz where to look for TV Show episode files **AFTER** they have been processed.
 
 To tell TV Rename about your library simply use the `Add` button to browse to a folder that is a “Base” folder of your Media Library. and click `OK`.
 
@@ -270,19 +272,21 @@ The `Tags` button will pop up a list of the tags that TV Rename will recognise i
 
 ### Movies Defaults
 
-
+![](<../.gitbook/assets/image (9).png>)
 
 ### TV Show Defaults
 
-
+![](<../.gitbook/assets/image (6).png>)
 
 ### Scan Settings
 
-
+![](<../.gitbook/assets/image (2).png>)
 
 ### Files and Folders <a href="#the-files-and-folders-tab" id="the-files-and-folders-tab"></a>
 
-![Preferences - The Files and Folders tab](https://www.tvrename.com/assets/images/options/preferences-files-folders-01.png)The Files and Folders tab is used to manipulate how TV Rename copies or moves files from the “[Search Folders](https://www.tvrename.com/manual/options#the-search-folders-tab)” to the “[Library Folders](https://www.tvrename.com/manual/options#the-library-folders-tab)”.
+![](<../.gitbook/assets/image (10).png>)
+
+The Files and Folders tab is used to manipulate how TV Rename copies or moves files from the “[Search Folders](https://www.tvrename.com/manual/options#the-search-folders-tab)” to the “[Library Folders](https://www.tvrename.com/manual/options#the-library-folders-tab)”.
 
 The _Filename Replacements_ grid controls the replacement of illegal (Windows) characters in filenames.
 
@@ -330,6 +334,10 @@ _Ignore “sample” videos_ and _Make all filenames lower case_ tick boxes need
 
 The _Use name of Library Folder…_ option extends the search for a show name to include the containing library folder name, negating the need for the show name to be present in the filename.
 
+### Subtitles <a href="#the-search-folders-tab" id="the-search-folders-tab"></a>
+
+### ![](<../.gitbook/assets/image (4).png>) <a href="#the-search-folders-tab" id="the-search-folders-tab"></a>
+
 The _**Subtitles**_ section is used to tell TV Rename how to handle subtitle files in your collection.
 
 The Retain Language Specific Subtitles tick box (when ticked) tells TV Rename to retain subtitle files containing two or three letter language codes. For example: -
@@ -348,13 +356,9 @@ The _Subtitle extensions:_ text box lists the commonly used subtitle extensions.
 
 _Default:_ _**.srt;.sub;.sbv;.idx**_
 
-### Subtitles <a href="#the-search-folders-tab" id="the-search-folders-tab"></a>
-
-
-
 ### Search Folders <a href="#the-search-folders-tab" id="the-search-folders-tab"></a>
 
-![Preferences - the Search Folders tab](https://www.tvrename.com/assets/images/options/preferences-search-folders-01.png)__
+![](../.gitbook/assets/image.png)
 
 _Search Folders_ tell TV Rename where to look for TV Show episode files **BEFORE** they are processed and copied or moved to the media library.
 
@@ -411,7 +415,9 @@ _Default:_ _**10%**_
 
 ### Folder Deleting <a href="#the-folder-deleting-tab" id="the-folder-deleting-tab"></a>
 
-![Preferences - the Folder Delete tab](https://www.tvrename.com/assets/images/options/preferences-folder-del-01.png)This tab is all about TV Rename tidying up after itself.
+![](<../.gitbook/assets/image (8).png>)
+
+This tab is all about TV Rename tidying up after itself.
 
 When downloading video from the internet its quite common to get .nfo files, screen grabs, sample video, text-art files and the like bundled with the download.
 
@@ -429,15 +435,39 @@ _Default:_ _**All functionality disabled**_
 
 ### Media Centres <a href="#the-media-centers-tab" id="the-media-centers-tab"></a>
 
-![Preferences - the Media Centre tab](https://www.tvrename.com/assets/images/options/preferences-media-center-01.png)Here you can tell TV Rename about your media player (and hence, any additional files you may need to download).
+![Preferences - the Media Centre tab](https://www.tvrename.com/assets/images/options/preferences-media-center-01.png)
+
+Here you can tell TV Rename about your media player (and hence, any additional files you may need to download).
 
 The tick box options in each group should already be familiar to you if you use that particular media player.
 
 The `Presets` button (bottom right) allows you to quickly apply all the relevant presets for the chosen media player.
 
-### RSS / JSON Search <a href="#the-rss--json-search-tab" id="the-rss--json-search-tab"></a>
+### Torrents / NZB <a href="#the-rss--json-search-tab" id="the-rss--json-search-tab"></a>
 
-![Preferences - The RSS/JSON Search Tab](https://www.tvrename.com/assets/images/options/preferences-rss-json-search-01.png)RSS and JSON Searches give TV Rename additional methods of looking for missing files in your media library, providing URLs for the torrent handlers to use.
+![Preferences - the Torrents / NZB tab](https://www.tvrename.com/assets/images/options/preferences-torrent-nzb-01.png)
+
+TV Rename can check SABnzbd µTorrent and qBittorent queues and uses the information on this tab to know where to look for more information.
+
+**NOTE:** to activate this tab the _Missing Check_ box on the [_**General**_](https://www.tvrename.com/manual/options#the-general-tab) tab **MUST** be ticked.
+
+Both the “Host Port” and “API Key” are required to use this functionality in SABnzbd.
+
+If you use µTorrent, TV Rename needs to know the “Application” and “resume.dat” paths, (they can be found with the `Browse` buttons) so it can detect if files are queued or in the process of being downloaded.
+
+TV Rename uses the qBittorrent web interface to interrogate its status so you must turn on the Web UI in qBittorrent and tell it to “Bypass authentication for clients on localhost” if you wish to use this client. In addition TV Rename needs to know the host name and port for the interface so it can communicate with the client (defaults shown).
+
+| _Defaults_ |                         |                 |
+| ---------- | ----------------------- | --------------- |
+|            | Check SABnzdb queue     | _**Un-ticked**_ |
+|            | Check µTorrent queue    | _**Un-ticked**_ |
+|            | Check qBittorrent queue | _**Un-ticked**_ |
+
+### RSS / JSON Search <a href="#the-automatic-export-tab" id="the-automatic-export-tab"></a>
+
+![Preferences - The RSS/JSON Search Tab](https://www.tvrename.com/assets/images/options/preferences-rss-json-search-01.png)
+
+RSS and JSON Searches give TV Rename additional methods of looking for missing files in your media library, providing URLs for the torrent handlers to use.
 
 **RSS Search**
 
@@ -451,11 +481,7 @@ The _Only on manual scans_ further restricts the RSS Search, stopping it from ru
 
 _Default: **Ticked**_
 
-The _Preferred Terms:_ text box acts as a filter on the RSS Search and contains a semicolon delimited list. There must be a match in the RSS feed to return a search result. The default entry will only find RSS feed results that contain 720p or 1080p in the video names.
-
-_Default: **720p;1080p**_
-
-_The Torrent RSS URLs:_ can be any suitable RSS-feeds provided by indexers or public RSS websites and are used to search for missing files.
+_**The Torrent RSS URLs**:_ can be any suitable RSS-feeds provided by indexers or public RSS websites and are used to search for missing files.
 
 `Add` and `Remove` allow you to add and remove feeds, and `Open` presents the highlighted feed in a web browser.
 
@@ -487,31 +513,21 @@ Ticking the “Detailed logging” box will greatly increase the log detail arou
 
 It is recommended that you only use this option if you need to. When ticked the size of the log file will grow very quickly.
 
-### Torrents / NZB <a href="#the-torrents--nzb-tab" id="the-torrents--nzb-tab"></a>
-
-![Preferences - the Torrents / NZB tab](https://www.tvrename.com/assets/images/options/preferences-torrent-nzb-01.png)
-
-TV Rename can check SABnzbd µTorrent and qBittorent queues and uses the information on this tab to know where to look for more information.
-
-**NOTE:** to activate this tab the _Missing Check_ box on the [_**General**_](https://www.tvrename.com/manual/options#the-general-tab) tab **MUST** be ticked.
-
-Both the “Host Port” and “API Key” are required to use this functionality in SABnzbd.
-
-If you use µTorrent, TV Rename needs to know the “Application” and “resume.dat” paths, (they can be found with the `Browse` buttons) so it can detect if files are queued or in the process of being downloaded.
-
-TV Rename uses the qBittorrent web interface to interrogate its status so you must turn on the Web UI in qBittorrent and tell it to “Bypass authentication for clients on localhost” if you wish to use this client. In addition TV Rename needs to know the host name and port for the interface so it can communicate with the client (defaults shown).
-
-| _Defaults_ |                         |                 |
-| ---------- | ----------------------- | --------------- |
-|            | Check SABnzdb queue     | _**Un-ticked**_ |
-|            | Check µTorrent queue    | _**Un-ticked**_ |
-|            | Check qBittorrent queue | _**Un-ticked**_ |
-
 ### Jackett Search <a href="#the-automatic-export-tab" id="the-automatic-export-tab"></a>
+
+<img src="../.gitbook/assets/image (7).png" alt="" data-size="original">
+
+{% hint style="info" %}
+Jackett is an external program and is not supported by the TV Rename team. It is available from [here](https://github.com/Jackett/Jackett#installation-on-windows)
+{% endhint %}
+
+The _Preferred Terms:_ text box acts as a filter on the RSS Search and contains a semicolon delimited list. There must be a match in the RSS feed to return a search result. The default entry will only find RSS feed results that contain 720p or 1080p in the video names.
+
+_Default: **720p;1080p**_
 
 ### Episode Export <a href="#the-automatic-export-tab" id="the-automatic-export-tab"></a>
 
-![](<../.gitbook/assets/image (3).png>)
+![](<../.gitbook/assets/image (1).png>)
 
 #### Schedule
 
@@ -535,9 +551,9 @@ The “Recent Playlist” section of the tab tells TV Rename to export a playlis
 
 _Default:_ _**All un-ticked**_
 
-### _**Library**_ Export
+### **Library** Export
 
-![](<../.gitbook/assets/image (6).png>)
+![](<../.gitbook/assets/image (6) (1).png>)
 
 #### Missing Episodes
 
@@ -553,4 +569,4 @@ Similarly, ticking the “HTML” box in the “All Shows” section of the pane
 
 ### _**App Updates**_
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (1) (1).png>)

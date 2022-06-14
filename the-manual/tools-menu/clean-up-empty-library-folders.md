@@ -1,6 +1,6 @@
 # Clean Up Empty Library Folders
 
-![](../../.gitbook/assets/image.png)
+![](<../../.gitbook/assets/image (5).png>)
 
 TV Rename will create folders as seasons get announced and sometimes it will not remove unused movie folders. 'Clean Up Empty Library Folders' scans though:
 

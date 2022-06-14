@@ -6,7 +6,7 @@ description: Finds video files in the library that might not need to be there
 
 This tool scans through the TV Library to find files that might not need to be in the library.
 
-![](<../../.gitbook/assets/image (4).png>)
+![](<../../.gitbook/assets/image (4) (1).png>)
 
 It identifies 4 types of file:
 
