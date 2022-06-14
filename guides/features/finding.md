@@ -4,11 +4,12 @@ Once a scan is complete, TV Rename will identify files to move/copy/rename and a
 
 ### Types <a href="#types" id="types"></a>
 
-There are 6 places it could search:
+There are 7 places it could search:
 
-* _File System_ – If found it will remove the episode from the missing list and move the file into the correct place.
-* _RSS Feed for torrent links_, _JSON Web page for torrent links_ – If found then it will download the torrent file. (via uTorrent or qBittorrent) See [**The RSS/JSON Search Tab**](https://www.tvrename.com/manual/options/#the-rss--json-search-tab) for more information about configuration.
-* _SABnzbd_, _uTorrent_, _qBittorrent_ – If found it will mark it as downloading so you know not to try and find the item again. See [**The Torrents/NZB Tab**](https://www.tvrename.com/manual/options/#the-torrents--nzb-tab) for more information.
+* _File System_ – If found, it will remove the episode from the missing list and move the file into the correct place.
+* _SABnzbd_, _uTorrent_, _qBittorrent_ – If found it will mark it as downloading so you know not to try and find the item again. See [**The Torrents/NZB Tab**](../../the-manual/preferences.md#the-torrents--nzb-tab) for more information.
+* _RSS Feed for torrent links_, _JSON Web page for torrent links_ – If found then it will download the torrent file. (via uTorrent or qBittorrent) See [**The RSS/JSON Search Tab**](../../the-manual/preferences.md#the-rss--json-search-tab) for more information about configuration.
+* _Jackett_ - If you have a Jackett Server running TVR can ask it for download locations fo rmissing files. See [**Jackett**](../../the-manual/preferences.md#the-automatic-export-tab) section of the settings for further information.
 
 ### Identification of files <a href="#how-to-write-a-regex-for-tv-rename" id="how-to-write-a-regex-for-tv-rename"></a>
 
@@ -16,10 +17,10 @@ There are 6 places it could search:
 
 Firstly, get acquainted with what a regular expression is - these sites will help:
 
-* [**regexone.com**](https://regexone.com)
-* [**www.regular-expressions.info**](https://www.regular-expressions.info)
-* [**regexr.com**](https://regexr.com)
-* [**regex101.com**](https://regex101.com)
+* [**regexone.com**](https://regexone.com/)
+* [**www.regular-expressions.info**](https://www.regular-expressions.info/)
+* [**regexr.com**](https://regexr.com/)
+* [**regex101.com**](https://regex101.com/)
 * [**www.rexegg.com**](http://www.rexegg.com/regex-quickstart.html)
 
 Once you understand Regular Expressions and [**‘Named Groups’**](https://www.regular-expressions.info/named.html) in particular then all you need to know is that TV Rename looks for 3 named groups:

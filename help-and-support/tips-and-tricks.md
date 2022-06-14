@@ -16,6 +16,8 @@
 ### Tips from our users <a href="#tips-from-our-users" id="tips-from-our-users"></a>
 
 {% hint style="success" %}
+**Drive keeps changing letter?**
+
 If your media library uses removable media to store files the assigned drive letter changing each time a usb device is plugged in can be a real pain.
 
 A small tweak in Windows settings will “fix” the drive letter for the device in question.
@@ -27,7 +29,9 @@ There are numerous internet guides for doing this, the following link will get y
 _**Andy B**_
 {% endhint %}
 
-{% hint style="success" %}
+{% hint style="info" %}
+**Can't connect to mapped network drives?**
+
 You can change the behaviour of some earlier versions of Windows 10 regarding mapped drives. In the registry under:
 
 **HKEY\_LOCAL\_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System**
@@ -35,6 +39,8 @@ You can change the behaviour of some earlier versions of Windows 10 regarding ma
 Create a new **DWORD (32 Bit)** named **EnableLinkedConnections** and set the value to **“1”**.
 
 Restart Windows after making the change. All applications should now see the same mappings regardless of being in User or Admin mode.
+
+[More information from Microsoft](https://docs.microsoft.com/en-us/troubleshoot/windows-client/networking/mapped-drives-not-available-from-elevated-command)
 
 _**Jürgen**_
 {% endhint %}
@@ -56,15 +62,23 @@ _**Don**_&#x20;
 {% endhint %}
 
 {% hint style="info" %}
-_**High DPI issue resolution**_
-
-__[_https://groups.google.com/g/tvrename/c/oAvxJxpBW6g/m/huoHHgmIAgAJ_](https://groups.google.com/g/tvrename/c/oAvxJxpBW6g/m/huoHHgmIAgAJ)__
+_**Screen layout all messed up and using high DPI?**_
 
 __[_https://groups.google.com/g/tvrename/c/5WjHfCwFLIU/m/9Fb5iywbDQAJ_](https://groups.google.com/g/tvrename/c/5WjHfCwFLIU/m/9Fb5iywbDQAJ)__
 
 Changing the high DPI compatibility settings for the shortcut works
 
 [https://groups.google.com/g/tvrename/c/LV47f\_md73I](https://groups.google.com/g/tvrename/c/LV47f\_md73I)
+
+Another workaround:
+
+[_https://groups.google.com/g/tvrename/c/oAvxJxpBW6g/m/huoHHgmIAgAJ_](https://groups.google.com/g/tvrename/c/oAvxJxpBW6g/m/huoHHgmIAgAJ)__
+
+Workarounds:
+
+[https://github.com/TV-Rename/tvrename/issues/909#issuecomment-1153019277](https://github.com/TV-Rename/tvrename/issues/909#issuecomment-1153019277)
+
+
 
 _**Michael**_
 {% endhint %}

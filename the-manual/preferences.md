@@ -14,13 +14,13 @@ _“X” days count as recent_ specifies how many days are listed for the “Air
 
 _Default: **7 days**_
 
-_Download up to “X” shows simultaneously from_ [_The TVDB_](http://thetvdb.com) sets the number of concurrent connections to TheTVDB API.
+_Download up to “X” shows simultaneously from_ [_The TVDB_](http://thetvdb.com/) sets the number of concurrent connections to TheTVDB API.
 
 It can be set in the range 1 to 8.
 
 _Default: **4**_
 
-_Refresh entire series if “X” % of episodes are updated_ sets the point at which TV Rename refreshes the entire series data from [The TVDB](http://thetvdb.com) rather than just the episode data. This speeds up local data updates if major changes are made to a show on [The TVDB](http://thetvdb.com).
+_Refresh entire series if “X” % of episodes are updated_ sets the point at which TV Rename refreshes the entire series data from [The TVDB](http://thetvdb.com/) rather than just the episode data. This speeds up local data updates if major changes are made to a show on [The TVDB](http://thetvdb.com/).
 
 _Default: **20%**_
 
@@ -46,7 +46,7 @@ If you select “Beta”, TV Rename will offer you “Beta” and “RC” updat
 
 _Default: **Production**_
 
-The _Share critical Logs to help defeat bugs_ option if ticked, gives TV Rename permission to copy some anonymous crash statistics to the [SolarWinds “papertrail”](https://papertrailapp.com) Log Management Tool to aid in debugging, as mentioned in the License Agreement. (See TV Rename’s _**Help>About**_.)
+The _Share critical Logs to help defeat bugs_ option if ticked, gives TV Rename permission to copy some anonymous crash statistics to the [SolarWinds “papertrail”](https://papertrailapp.com/) Log Management Tool to aid in debugging, as mentioned in the License Agreement. (See TV Rename’s _**Help>About**_.)
 
 _Default: **Ticked**_
 
@@ -66,7 +66,7 @@ Ticking _Scan on Startup_ tells TV Rename to perform the selected scan when the 
 
 _Scan Checks and Options_ has three major functions
 
-_Rename Check_ will tell TV Rename to correct found episode names to the found content from [The TVDB](http://thetvdb.com).
+_Rename Check_ will tell TV Rename to correct found episode names to the found content from [The TVDB](http://thetvdb.com/).
 
 _Missing Check_ will tell TV Rename to check for missing episodes. Additionally this option must be ticked to enable changes in the [_**Torrents / NZB**_](https://www.tvrename.com/manual/options#the-torrents--nzb-tab) tab.
 
@@ -506,8 +506,6 @@ TV Rename uses the qBittorrent web interface to interrogate its status so you mu
 |            | Check SABnzdb queue     | _**Un-ticked**_ |
 |            | Check µTorrent queue    | _**Un-ticked**_ |
 |            | Check qBittorrent queue | _**Un-ticked**_ |
-
-### RSS/JSON Search <a href="#the-automatic-export-tab" id="the-automatic-export-tab"></a>
 
 ### Jackett Search <a href="#the-automatic-export-tab" id="the-automatic-export-tab"></a>
 

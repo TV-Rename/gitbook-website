@@ -20,3 +20,5 @@ The show name colouring is as follows: -
 | **Grey**  | Indicates a show that is not checked.                  |
 
 The data can also be filtered using the tick boxes at the top of the pane if required.
+
+* TODO Descriptions of the options here (there are some new ones too)

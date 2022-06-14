@@ -2,7 +2,7 @@
 
 ### Configuration Files <a href="#configuration-files" id="configuration-files"></a>
 
-By default, all the configuration information and locally cached data from [TheTVDB](http://thetvdb.com) is stored in a series of XML files under the users Application folder (unless overridden using the command line option /userfilepath). They are stored at: -
+By default, all the configuration information and locally cached data from [TheTVDB](http://thetvdb.com/) is stored in a series of XML files under the users Application folder (unless overridden using the command line option /userfilepath). They are stored at: -
 
 > \Users\\\<user-name>\AppData\Roaming\TVRename\TVRename\2.1
 
@@ -40,6 +40,10 @@ Logging uses NLog. The configuration file ([NLog.config](https://github.com/TV-R
 You can read the [NLog Wiki](https://github.com/nlog/NLog/wiki/Configuration-file) for guidance on how to adjust the configuration file to collect more information.
 
 When raising a bug please include a log file that illustrates the issue if you can, it will help us find a solution quickly.
+
+### Cache and Supporting Logs <a href="#the-registry" id="the-registry"></a>
+
+TODO: cef cache and associated logs
 
 ### The Registry <a href="#the-registry" id="the-registry"></a>
 

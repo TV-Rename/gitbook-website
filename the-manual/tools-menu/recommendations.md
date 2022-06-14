@@ -8,8 +8,8 @@ TMDB has features that allow you to get:
 
 * Top Rated
 * Trending
-* Similar shows/movies
-* Related shows/movies
+* Similar shows/movies to ones in your library
+* Related shows/movies to ones in your ibrary
 
 ![](<../../.gitbook/assets/image (1).png>)
 

@@ -15,5 +15,5 @@ Make sure you **double check** the folders it is proposing to remove. It conside
 {% endhint %}
 
 {% hint style="info" %}
-Note: The next scan may recreate some of the empty folders. If you have a season that has been announced, but no episodes aired yet then the folder will be created
+Note: The next scan may recreate some of the empty folders. If you have a season that has been announced, but no episodes aired yet then the folder will be (re)created
 {% endhint %}
