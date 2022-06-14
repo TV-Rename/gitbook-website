@@ -127,6 +127,7 @@ This option is disabled by default but it can be enabled for the specific show b
 #### The Advanced Tab <a href="#the-advanced-tab" id="the-advanced-tab"></a>
 
 ![](<../.gitbook/assets/image (2).png>)
+![](<../.gitbook/assets/image (6).png>)
 
 Here, you can further manipulate the way data from [The TVDB](http://thetvdb.com/) is handled as it is merged into the local data.
 
