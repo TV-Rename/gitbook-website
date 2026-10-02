@@ -157,6 +157,10 @@ If you wish to remove a rule from the list just select it and click `Remove`.
 
 The Library Folders tab is used to tell TV Rename about the location(s) of your Media Library - viz where to look for TV Show episode files **AFTER** they have been processed.
 
+![](https://www.tvrename.com/assets/images/options/preferences-library-folders-01.png)
+
+The Library Folders tab is used to tell TV Rename about the location(s) of your Media Library - viz where to look for TV Show episode files **AFTER** they have been processed.
+
 To tell TV Rename about your library simply use the `Add` button to browse to a folder that is a “Base” folder of your Media Library. and click `OK`.
 
 You can also highlight a path in the list and use the `Remove` button to remove it, and highlight a path in the list and use `Open` to check its contents in a File Explorer window.
@@ -415,7 +419,7 @@ _Default:_ _**10%**_
 
 ### Folder Deleting <a href="#the-folder-deleting-tab" id="the-folder-deleting-tab"></a>
 
-![](<../.gitbook/assets/image (1).png>)
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 This tab is all about TV Rename tidying up after itself.
 
@@ -436,6 +440,8 @@ _Default:_ _**All functionality disabled**_
 ### Media Centres <a href="#the-media-centers-tab" id="the-media-centers-tab"></a>
 
 ![Preferences - the Media Centre tab](https://www.tvrename.com/assets/images/options/preferences-media-center-01.png)
+
+Here you can tell TV Rename about your media player (and hence, any additional files you may need to download).
 
 Here you can tell TV Rename about your media player (and hence, any additional files you may need to download).
 
@@ -466,6 +472,8 @@ TV Rename uses the qBittorrent web interface to interrogate its status so you mu
 ### RSS / JSON Search <a href="#the-automatic-export-tab" id="the-automatic-export-tab"></a>
 
 ![Preferences - The RSS/JSON Search Tab](https://www.tvrename.com/assets/images/options/preferences-rss-json-search-01.png)
+
+RSS and JSON Searches give TV Rename additional methods of looking for missing files in your media library, providing URLs for the torrent handlers to use.
 
 RSS and JSON Searches give TV Rename additional methods of looking for missing files in your media library, providing URLs for the torrent handlers to use.
 
@@ -533,6 +541,10 @@ _Default: **720p;1080p**_
 
 Ticking the “RSS” box in the “When to watch” section of the panel will save a RSS-reader compatible XML file to the location you specify (by typing or browsing). This file can then be read by something like XBOX Media Center, or a Windows RSS App.
 
+![](https://www.tvrename.com/assets/images/options/preferences-auto-export-01.png)
+
+Ticking the “RSS” box in the “When to watch” section of the panel will save a RSS-reader compatible XML file to the location you specify (by typing or browsing). This file can then be read by something like XBOX Media Center, or a Windows RSS App.
+
 Ticking the “XML” box in the “When to watch” section of the panel will save a standard XML file to the location you specify (by typing or browsing).
 
 Ticking the “iCal” box in the “When to watch” section of the panel will save an open format Internet Calendar ICS file (not to be confused with Apple Calendar) to the location of you specify (by typing or browsing).
@@ -553,7 +565,9 @@ _Default:_ _**All un-ticked**_
 
 ### **Library** Export
 
-![](<../.gitbook/assets/image (13).png>)
+![](https://www.tvrename.com/assets/images/options/preferences-auto-export-01.png)
+
+Ticking the “RSS” box in the “When to watch” section of the panel will save a RSS-reader compatible XML file to the location you specify (by typing or browsing). This file can then be read by something like XBOX Media Center, or a Windows RSS App.
 
 #### Missing Episodes
 

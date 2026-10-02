@@ -22,6 +22,7 @@
   * [Schedule](the-manual/user-guide/when-to-watch.md)
   * [Other](the-manual/user-guide/other.md)
 * [File Menu](the-manual/file-menu.md)
+* [File Menu](the-manual/file-menu-1.md)
 * [Options Menu](the-manual/options-menu/README.md)
   * [Offline Operation](the-manual/options-menu/offline-operation.md)
   * [Automatic Background Download](the-manual/options-menu/automatic-background-download.md)
