@@ -13,13 +13,6 @@
   * [Automating](guides/features/automating.md)
   * [Exporting](guides/features/exporting.md)
 
-## Technical Guide <a href="#technical" id="technical"></a>
-
-* [Command Line](technical/command-line.md)
-* [Logs & Configuration](technical/logs-and-configuration.md)
-* [Development](technical/development.md)
-* [Credits](technical/credits.md)
-
 ## User Guide
 
 * [TV Shows](user-guide/my-tv-shows.md)
@@ -62,6 +55,13 @@
   * [Actors Grid](menu-guide/tasks/actors-grid.md)
 * [Beta Menu](menu-guide/beta-menu.md)
 * [Help Menu](menu-guide/help-menu.md)
+
+## Technical Guide <a href="#technical" id="technical"></a>
+
+* [Command Line](technical/command-line.md)
+* [Logs & Configuration](technical/logs-and-configuration.md)
+* [Development](technical/development.md)
+* [Credits](technical/credits.md)
 
 ## Help & Support
 
