@@ -1,13 +1,8 @@
 ---
 description: Everything you need to know about this free tool
 icon: tv-retro
-coverY: 0
 layout:
   width: wide
-  cover:
-    visible: true
-    size: full
-    mask: none
   title:
     visible: true
   description:
