@@ -33,7 +33,7 @@ layout:
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Super Customizable**                                                                                                                                                              | **Fully Automatic**                                                                                                                                                                                                                | **100% Free**                                                                                                                                                                    |
 | From multiple media locations to library language to show and episode images to metadata, to TheTVDB and µTorrent integration; virtually every aspect of TV Rename is configurable… | <p><strong>On-your marks:</strong> Set your preferences, and your TV show collection location(s).<br><strong>Get set:</strong> to run a scan to find out what’s current, sit back, relax, and watch it<br><strong>Go</strong>…</p> | TV Rename is open source and free to use. You may freely modify it for non-commercial use. All we ask is that you feed improvements back into the project so others may benefit. |
-| [preferences.md](menu-guide/preferences.md "mention")                                                                                                                               | [automating.md](guides/features/automating.md "mention")                                                                                                                                                                           | [**Licence Details**](https://raw.githubusercontent.com/TV-Rename/tvrename/master/Licence.rtf)                                                                                   |
+| [preferences.md](menu/preferences.md "mention")                                                                                                                                     | [automating.md](guides/features/automating.md "mention")                                                                                                                                                                           | [**Licence Details**](https://raw.githubusercontent.com/TV-Rename/tvrename/master/Licence.rtf)                                                                                   |
 
 {% hint style="info" %}
 **Good to know:** providing a brief overview of your product and its core use cases is a great place to start with product docs. Your product might seem obvious to you – you made it! However, to others, even folks who are trying your product after reading your site or getting a sales demo, it can still be unclear. This is your chance to clarify your product and set the right expectations!
@@ -115,16 +115,16 @@ Follow our handy guides to get started on the basics as quickly as possible:
 
 Learn the fundamentals of MyProduct to get a deeper understanding of our main features:
 
-{% content-ref url="user-guide/user-guide.md" %}
-[user-guide.md](user-guide/user-guide.md)
+{% content-ref url="/broken/pages/WO8aaw4lndaJZ6ZbumT5" %}
+[Broken link](/broken/pages/WO8aaw4lndaJZ6ZbumT5)
 {% endcontent-ref %}
 
-{% content-ref url="https://app.gitbook.com/s/x0gPeIfHpbgTioNust1M/menu-guide" %}
-[Menu Guide](https://app.gitbook.com/s/x0gPeIfHpbgTioNust1M/menu-guide)
+{% content-ref url="https://app.gitbook.com/s/x0gPeIfHpbgTioNust1M/menu" %}
+[Menu Guide](https://app.gitbook.com/s/x0gPeIfHpbgTioNust1M/menu)
 {% endcontent-ref %}
 
-{% content-ref url="menu-guide/preferences.md" %}
-[preferences.md](menu-guide/preferences.md)
+{% content-ref url="menu/preferences.md" %}
+[preferences.md](menu/preferences.md)
 {% endcontent-ref %}
 
 ### Technical Details and Support: Go Further

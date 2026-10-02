@@ -15,7 +15,7 @@ These can be triggered in several ways:
 
 * On Startup
 * Via [Command Line](../../technical/command-line.md)
-* [Periodic ](../../menu-guide/preferences.md#scan-settings)(Automated)
+* [Periodic ](../../menu/preferences.md#scan-settings)(Automated)
 * When download/search folder/file changes
 * Manually
 
@@ -23,12 +23,12 @@ These can be triggered in several ways:
 
 * Configuration options are detailed in [**Options>Preferences>Scan Options**](https://www.tvrename.com/manual/options#the-scan-options-tab)
 
-{% content-ref url="../../menu-guide/preferences.md" %}
-[preferences.md](../../menu-guide/preferences.md)
+{% content-ref url="../../menu/preferences.md" %}
+[preferences.md](../../menu/preferences.md)
 {% endcontent-ref %}
 
 * Further explanation can be found [**here**](https://www.tvrename.com/manual/user#scan).
 
-{% content-ref url="../../user-guide/scan.md" %}
-[scan.md](../../user-guide/scan.md)
+{% content-ref url="../../main/scan.md" %}
+[scan.md](../../main/scan.md)
 {% endcontent-ref %}

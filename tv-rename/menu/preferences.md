@@ -52,17 +52,7 @@ _Default: **Ticked**_
 
 
 
-| _Defaults:_                               |                                |
-| ----------------------------------------- | ------------------------------ |
-| Scan Type                                 | _**Full**_                     |
-| Scan on Startup                           | _**Un-ticked**_                |
-| Scheduled scan every                      | _**Un-ticked**_ - _**1 hour**_ |
-| “Scan” checks and actions                 |                                |
-| Rename Check                              | _**Ticked**_                   |
-|   Prevent move of flies                   | _**Un-ticked**_                |
-| Missing Check                             | _**Ticked**_                   |
-|   Ignore Episodes Previously Seen         | _**Un-ticked**_                |
-| Move Files within Library to Keep it Tidy | _**Ticked**_                   |
+<table data-header-hidden data-search="false"><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><em>Defaults:</em></td><td></td></tr><tr><td>Scan Type</td><td><em><strong>Full</strong></em></td></tr><tr><td>Scan on Startup</td><td><em><strong>Un-ticked</strong></em></td></tr><tr><td>Scheduled scan every</td><td><em><strong>Un-ticked</strong></em> - <em><strong>1 hour</strong></em></td></tr><tr><td>“Scan” checks and actions</td><td></td></tr><tr><td>Rename Check</td><td><em><strong>Ticked</strong></em></td></tr><tr><td>  Prevent move of flies</td><td><em><strong>Un-ticked</strong></em></td></tr><tr><td>Missing Check</td><td><em><strong>Ticked</strong></em></td></tr><tr><td>  Ignore Episodes Previously Seen</td><td><em><strong>Un-ticked</strong></em></td></tr><tr><td>Move Files within Library to Keep it Tidy</td><td><em><strong>Ticked</strong></em></td></tr></tbody></table>
 
 ### Display <a href="#the-display-tab" id="the-display-tab"></a>
 
