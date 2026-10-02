@@ -4,6 +4,8 @@ TV Rename can scan your media library looking for missing or outdated files and 
 
 There are three types of scan available : -
 
+| Type   | Description |
+|:---|:---|
 | **Full**   | A full scan of all shows and seasons. |
 | **Recent** | A Scan of all the shows that have aired recently. |
 | **Quick**  | Scan the shows that have aired recently and have a missing episode in the library. Also check the locations specified in _Options>Preferences>Search Folders_ for any matching media files. |
