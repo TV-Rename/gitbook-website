@@ -50,27 +50,7 @@ The _Share critical Logs to help defeat bugs_ option if ticked, gives TV Rename 
 
 _Default: **Ticked**_
 
-Looking at the _Scan Options…_
 
-The “Scan Type” radio buttons tell TV Rename the type of scan to perform when searching for new shows.
-
-| **Full**   | A full scan of all shows and seasons.                                                                |
-| ---------- | ---------------------------------------------------------------------------------------------------- |
-| **Recent** | A Scan of all the shows that have aired recently (as specified in _“X” days count as recent_ above). |
-| **Quick**  | Scan the shows that have aired recently and have a missing episode in the library.                   |
-
-| The scans also check the locations specified in [_**Options>Preferences - Search Folders**_](https://www.tvrename.com/manual/options#the-search-folders-tab) for any matching media files. |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-
-Ticking _Scan on Startup_ tells TV Rename to perform the selected scan when the program starts. Ticking _Scheduled scan…_ will force a repeat scan every “X” hours.
-
-_Scan Checks and Options_ has three major functions
-
-_Rename Check_ will tell TV Rename to correct found episode names to the found content from [The TVDB](http://thetvdb.com/).
-
-_Missing Check_ will tell TV Rename to check for missing episodes. Additionally this option must be ticked to enable changes in the [_**Torrents / NZB**_](https://www.tvrename.com/manual/options#the-torrents--nzb-tab) tab.
-
-_Move Files within Library to Keep it Tidy_ will do just that, if files have been directly added to or misplaced in the library enabling this setting will tidy stuff to the correct names and places.
 
 | _Defaults:_                               |                                |
 | ----------------------------------------- | ------------------------------ |
@@ -286,6 +266,28 @@ The `Tags` button will pop up a list of the tags that TV Rename will recognise i
 
 ![](<../.gitbook/assets/image (12).png>)
 
+Looking at the _Scan Options…_
+
+The “Scan Type” radio buttons tell TV Rename the type of scan to perform when searching for new shows.
+
+| **Full**   | A full scan of all shows and seasons.                                                                |
+| ---------- | ---------------------------------------------------------------------------------------------------- |
+| **Recent** | A Scan of all the shows that have aired recently (as specified in _“X” days count as recent_ above). |
+| **Quick**  | Scan the shows that have aired recently and have a missing episode in the library.                   |
+
+| The scans also check the locations specified in [_**Options>Preferences - Search Folders**_](https://www.tvrename.com/manual/options#the-search-folders-tab) for any matching media files. |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+
+Ticking _Scan on Startup_ tells TV Rename to perform the selected scan when the program starts. Ticking _Scheduled scan…_ will force a repeat scan every “X” hours.
+
+_Scan Checks and Options_ has three major functions
+
+_Rename Check_ will tell TV Rename to correct found episode names to the found content from [The TVDB](http://thetvdb.com/).
+
+_Missing Check_ will tell TV Rename to check for missing episodes. Additionally this option must be ticked to enable changes in the [_**Torrents / NZB**_](https://www.tvrename.com/manual/options#the-torrents--nzb-tab) tab.
+
+_Move Files within Library to Keep it Tidy_ will do just that, if files have been directly added to or misplaced in the library enabling this setting will tidy stuff to the correct names and places.
+
 ### Files and Folders <a href="#the-files-and-folders-tab" id="the-files-and-folders-tab"></a>
 
 ![](<../.gitbook/assets/image (16).png>)
@@ -340,7 +342,7 @@ The _Use name of Library Folder…_ option extends the search for a show name to
 
 ### Subtitles <a href="#the-search-folders-tab" id="the-search-folders-tab"></a>
 
-### ![](<../.gitbook/assets/image (2).png>) <a href="#the-search-folders-tab" id="the-search-folders-tab"></a>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 The _**Subtitles**_ section is used to tell TV Rename how to handle subtitle files in your collection.
 

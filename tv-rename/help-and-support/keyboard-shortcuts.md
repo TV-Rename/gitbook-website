@@ -16,4 +16,4 @@ _To use this feature click **Help>Log** first and then run the action (a Scan fo
 Optionally, if you wish to view the entire log file clicking the `View Full Log` button in the bottom right corner of the window will open the file in Notepad.
 {% endhint %}
 
-More detailed information about the logs can be found in the [Technical Guide](../the-manual/technical-guide/logs-and-configuration.md).
+More detailed information about the logs can be found in the [Technical Guide](../technical/logs-and-configuration.md).

@@ -16,10 +16,21 @@ If you are having trouble with a particular show it may well be the show name th
 
 In a case like this it is a good idea to visit [The TVDB](http://thetvdb.com/) to check how they name the show.
 
-**TMDB**
+***
 
-Source for movies that also covers TV Shows
+<p align="center"><img src="https://www.themoviedb.org/assets/v4/logos/v2/blue_long_2-9665a76b1ae401a510ec1e0ca40ddcb3b0cfe45f1d51b77a308fea0845885648.svg" alt="" data-size="original"></p>
 
-**TV Maze**
+### **TMDB**
 
-TV Shows only. Limited support, but more flexible in the organisation of seasons.
+Source for movies that also covers TV Shows: [https://www.themoviedb.org/](https://www.themoviedb.org/)
+
+* [Terms of Use](https://www.themoviedb.org/api-terms-of-use) and [here](https://www.themoviedb.org/api-terms-of-use)
+
+***
+
+<figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+
+### **TV Maze**
+
+TV Shows only. Limited support, but more flexible in the organisation of seasons: [https://www.tvmaze.com/](https://www.tvmaze.com/)
+

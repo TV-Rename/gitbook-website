@@ -20,7 +20,7 @@ for example: -
 >
 > **m:\TV Series\The Outpost\Season 1\The Outpost - S01E06 - The Book of Names.mkv**
 >
-> To do this TV Rename uses data acquired from [The TVDB](http://thetvdb.com/).
+> To do this TV Rename uses data acquired from [The TVDB](http://thetvdb.com/) and [other sources](../help-and-support/data-sources.md).
 
 The initial setup can be somewhat daunting as there are many options and settings that control the way TV Rename behaves. Luckily these have sensible defaults and its actually relatively easy to get up and running providing you don’t get distracted by the settings.
 

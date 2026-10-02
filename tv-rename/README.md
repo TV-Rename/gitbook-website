@@ -1,8 +1,34 @@
 ---
-layout: landing
+description: Everything you need to know about this free tool
+icon: tv-retro
+coverY: 0
+layout:
+  width: wide
+  cover:
+    visible: true
+    size: full
+    mask: none
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: false
+  pagination:
+    visible: true
+  metadata:
+    visible: false
+  tags:
+    visible: true
+  actions:
+    visible: false
+  anchors:
+    visible: false
 ---
 
-# What is TV Rename?
+# TV & Movie Rename
 
 > Move or copy and rename media files, download posters, banners and episode images, create .nfo files, search for missing episodes, calendarize your favourite TV shows - _**automatically**_…
 
@@ -12,31 +38,65 @@ layout: landing
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Super Customizable**                                                                                                                                                              | **Fully Automatic**                                                                                                                                                                                                                | **100% Free**                                                                                                                                                                    |
 | From multiple media locations to library language to show and episode images to metadata, to TheTVDB and µTorrent integration; virtually every aspect of TV Rename is configurable… | <p><strong>On-your marks:</strong> Set your preferences, and your TV show collection location(s).<br><strong>Get set:</strong> to run a scan to find out what’s current, sit back, relax, and watch it<br><strong>Go</strong>…</p> | TV Rename is open source and free to use. You may freely modify it for non-commercial use. All we ask is that you feed improvements back into the project so others may benefit. |
-| [preferences.md](the-manual/preferences.md "mention")                                                                                                                               | [automating.md](guides/features/automating.md "mention")                                                                                                                                                                           | [**Licence Details**](https://raw.githubusercontent.com/TV-Rename/tvrename/master/Licence.rtf)                                                                                   |
+| [preferences.md](menu-guide/preferences.md "mention")                                                                                                                               | [automating.md](guides/features/automating.md "mention")                                                                                                                                                                           | [**Licence Details**](https://raw.githubusercontent.com/TV-Rename/tvrename/master/Licence.rtf)                                                                                   |
 
 {% hint style="info" %}
 **Good to know:** providing a brief overview of your product and its core use cases is a great place to start with product docs. Your product might seem obvious to you – you made it! However, to others, even folks who are trying your product after reading your site or getting a sales demo, it can still be unclear. This is your chance to clarify your product and set the right expectations!
 {% endhint %}
 
-Here are a couple of examples of succinct overviews from products with really great docs:
+***
 
-> Loom is a video messaging tool that helps you get your message across through instantly shareable videos.
->
-> With Loom, you can record your camera, microphone, and desktop simultaneously. Your video is then instantly available to share through Loom's patented technology.
->
-> — From the [Loom Docs](https://support.loom.com/hc/en-us/articles/360002158057-What-is-Loom-)
+{% columns %}
+{% column %}
+<figure><img src=".gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
 
-> The Mailchimp Marketing API provides programmatic access to Mailchimp data and functionality, allowing developers to build custom features to do things like sync email activity and campaign analytics with their database, manage audiences and campaigns, and more.
->
-> — From the [Mailchimp Marketing API docs](https://mailchimp.com/developer/marketing/docs/fundamentals/)
+{% column %}
+### So what is TV Rename?
 
-## Getting Started
+TV Rename is a media management tool that runs on Windows 7 and later and looks after all your TV show files; making them presentable for [Kodi (XBMC)](https://kodi.tv/), [Mede8er](http://www.mede8er.eu/), [PyTivo](https://pytivo.sourceforge.io/wiki/index.php/PyTivo) and other media hubs.\
+\
+On the surface TV Rename will “fix” the names of TV shows…\
+You have a few show episodes saved as video files, they have names like:\
+\
+**The.Shannara.Chronicles.S02E03.XviD-AFG.avi**\
+\
+Let's clean this up, including the season, show and episode details like:\
+\
+**The Shannara Chronicles - S02E03 - Graymark.avi**\
+\
+_&#x41;utomatically_...
+{% endcolumn %}
+{% endcolumns %}
 
-**Got 2 minutes?** Check out a video overview of our product:
+***
 
-{% hint style="info" %}
-**Good to know:** A succinct video overview is a great way to introduce folks to your product. Embed a Loom, Vimeo or YouTube video and you're good to go! We love this video from the fine folks at [Loom](https://loom.com) as a perfect example of a succinct feature overview.
-{% endhint %}
+{% columns %}
+{% column width="58.333333333333336%" %}
+### But wait, there's more!
+
+_TV Rename can: -_\
+\
+**Rename** files using data from [The TVDB](http://thetvdb.com) and rules you can configure\
+**Monitor** specified folders for new TV show files\
+\
+_**Media Library** - a folder (or folders) somewhere on your PC or NAS or whatever, with a bunch of TV show files in it (them)._\
+\
+_&#x4F;nce TV Rename knows about your Media Library it can: -_\
+\
+**Copy (or move)** files from monitored folders to your Media Library\
+**Download** TV show posters and images and create meta-data automatically\
+**List** any missing TV show episodes/seasons in your Media Library\
+**Create** web searches to help you find missing TV show files\
+**Tell** you how long you’ll have to wait until the next episode of your current favourite TV show airs
+{% endcolumn %}
+
+{% column width="41.666666666666664%" %}
+<figure><img src=".gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+
+
+{% endcolumn %}
+{% endcolumns %}
 
 ### Want to lean more?
 
@@ -48,52 +108,46 @@ Here are a couple of examples of succinct overviews from products with really gr
 
 Follow our handy guides to get started on the basics as quickly as possible:
 
+{% hint style="info" %}
+**Good to know:** If you’re new to TV Rename you should read the [Quick-Start Guide](https://www.tvrename.com/manual/quickstart) first (it’s only a 5 minute read and will help you get up-and-running).
+{% endhint %}
+
 {% content-ref url="guides/quick-start-guide.md" %}
 [quick-start-guide.md](guides/quick-start-guide.md)
 {% endcontent-ref %}
-
-Ready to&#x20;
-
-{% hint style="info" %}
-**Good to know:** your product docs aren't just a reference of all your features! use them to encourage folks to perform certain actions and discover the value in your product.
-{% endhint %}
 
 ### Fundamentals: Dive a little deeper
 
 Learn the fundamentals of MyProduct to get a deeper understanding of our main features:
 
-{% content-ref url="the-manual/user-guide/" %}
-[user-guide](the-manual/user-guide/)
+{% content-ref url="user-guide/user-guide.md" %}
+[user-guide.md](user-guide/user-guide.md)
 {% endcontent-ref %}
 
-{% content-ref url="the-manual/preferences.md" %}
-[preferences.md](the-manual/preferences.md)
+{% content-ref url="https://app.gitbook.com/s/x0gPeIfHpbgTioNust1M/menu-guide" %}
+[Menu Guide](https://app.gitbook.com/s/x0gPeIfHpbgTioNust1M/menu-guide)
 {% endcontent-ref %}
 
-{% content-ref url="the-manual/tools-menu/" %}
-[tools-menu](the-manual/tools-menu/)
+{% content-ref url="menu-guide/preferences.md" %}
+[preferences.md](menu-guide/preferences.md)
 {% endcontent-ref %}
-
-{% hint style="info" %}
-**Good to know:** Splitting your product into fundamental concepts, objects, or areas can be a great way to let readers deep dive into the concepts that matter most to them. Combine guides with this approach to 'fundamentals' and you're well on your way to great documentation!
-{% endhint %}
 
 ### Technical Details and Support: Go Further
 
 Learn the fundamentals of MyProduct to get a deeper understanding of our main features:
 
-{% content-ref url="the-manual/technical-guide/" %}
-[technical-guide](the-manual/technical-guide/)
+{% hint style="info" %}
+**Good to know:** If you need help please sign up to the [forum](https://groups.google.com/forum/#!forum/tvrename), someone there will be happy to answer any questions you may have.
+{% endhint %}
+
+{% content-ref url="help-and-support/feedback.md" %}
+[feedback.md](help-and-support/feedback.md)
 {% endcontent-ref %}
 
 {% content-ref url="help-and-support/keyboard-shortcuts.md" %}
 [keyboard-shortcuts.md](help-and-support/keyboard-shortcuts.md)
 {% endcontent-ref %}
 
-{% content-ref url="help-and-support/feedback.md" %}
-[feedback.md](help-and-support/feedback.md)
+{% content-ref url="https://app.gitbook.com/s/x0gPeIfHpbgTioNust1M/technical" %}
+[Technical Guide](https://app.gitbook.com/s/x0gPeIfHpbgTioNust1M/technical)
 {% endcontent-ref %}
-
-{% hint style="info" %}
-**Good to know:** Splitting your product into fundamental concepts, objects, or areas can be a great way to let readers deep dive into the concepts that matter most to them. Combine guides with this approach to 'fundamentals' and you're well on your way to great documentation!
-{% endhint %}
