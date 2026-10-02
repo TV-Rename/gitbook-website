@@ -19,11 +19,11 @@ You can find TV Rename’s source code (along with executables and this website)
 
 #### Winforms C# application
 
-TV Rename uses the Microsoft .NET Framework. The installer will check for its presence and let you know if any action is needed. It’s a free download from [Microsoft](https://www.microsoft.com/net/download/windows).
-
-#### .NET Framework 4.8
 
 
+#### .NET 10
+
+TV Rename uses the Microsoft .NET 10 language. When the app loads it will check for its presence and let you know if any action is needed. It’s a free download from [Microsoft](https://www.microsoft.com/net/download/windows).
 
 #### C++
 

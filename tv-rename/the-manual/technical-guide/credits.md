@@ -18,7 +18,6 @@ TV Rename pulls data from [TheTVDB.com](https://github.com/thetvdb/v4-api), [TMD
 
 * Github
 * GitBook
-* AppVeyor
 * Papertrail
 
 ### **Development Libraries**
@@ -43,12 +42,15 @@ It also uses: -
 * Timber&#x20;
 * TimeZoneConverter&#x20;
 * TMDbLib
+
+Generally these are obtained via NuGet packages.
+
+### **Development Tools**
+
 * TVRename has seen significant speed improvements as a result of using: -
   * Red Gate’s [ANTS Performance Profiler](https://www.red-gate.com/products/dotnet-development/ants-performance-profiler/)
   * JetBrains’ [dotTrace](https://www.jetbrains.com/profiler)
   * JetBrains’ [ReSharper](https://www.jetbrains.com/resharper)
-
-Generally these are obtained via NuGet packages.
 
 ### Images and Icons
 
