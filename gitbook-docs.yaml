@@ -1,0 +1,11 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: TV & Movie Rename
+  structure:
+    - type: space
+      key: space-1
+      title: TV & Movie Rename
+      path: tv-rename
+      default: true
+      content:
+        directory: ./tv-rename
