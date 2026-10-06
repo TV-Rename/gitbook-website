@@ -15,3 +15,6 @@ You can:
   * Remove Future Movies => If a movie has no release date, or has a future release date it will be removed from the view
 * Filter and sort using right-click on Column Headers
 * Right-click to add the movie to the library (among other actions)
+  * `Force Refresh` - For movies already in the library this allows you to refresh the details of the selected movie
+  * `Edit Movie` - View and edit the currently highlighted movie.
+  * `Add to Library` - Does a short process to allow you to select the folder the movie should be stored at and adds the metadata to the library.

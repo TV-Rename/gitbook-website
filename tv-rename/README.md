@@ -93,12 +93,6 @@ _&#x4F;nce TV Rename knows about your Media Library it can: -_\
 {% endcolumn %}
 {% endcolumns %}
 
-### Want to lean more?
-
-{% content-ref url="guides/features/" %}
-[features](guides/features/)
-{% endcontent-ref %}
-
 ### Ready to go?
 
 Follow our handy guides to get started on the basics as quickly as possible:
@@ -111,12 +105,18 @@ Follow our handy guides to get started on the basics as quickly as possible:
 [quick-start-guide.md](guides/quick-start-guide.md)
 {% endcontent-ref %}
 
+### Want to lean more?
+
+{% content-ref url="guides/features/" %}
+[features](guides/features/)
+{% endcontent-ref %}
+
 ### Fundamentals: Dive a little deeper
 
 Learn the fundamentals of MyProduct to get a deeper understanding of our main features:
 
-{% content-ref url="/broken/pages/WO8aaw4lndaJZ6ZbumT5" %}
-[Broken link](/broken/pages/WO8aaw4lndaJZ6ZbumT5)
+{% content-ref url="https://app.gitbook.com/s/x0gPeIfHpbgTioNust1M/main" %}
+[User Guide](https://app.gitbook.com/s/x0gPeIfHpbgTioNust1M/main)
 {% endcontent-ref %}
 
 {% content-ref url="https://app.gitbook.com/s/x0gPeIfHpbgTioNust1M/menu" %}

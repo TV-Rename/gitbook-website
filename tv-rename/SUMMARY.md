@@ -15,8 +15,8 @@
 
 ## User Guide <a href="#main" id="main"></a>
 
-* [TV Shows](main/my-tv-shows.md)
 * [Movies](main/movies.md)
+* [TV Shows](main/my-tv-shows.md)
 * [Scan](main/scan.md)
 * [Schedule](main/when-to-watch.md)
 * [Other](main/other.md)
@@ -51,7 +51,7 @@
   * [Statistics](menu/tasks/statistics.md)
   * [TV Show Summary](menu/tasks/tv-show-summary.md)
   * [Movie Collection Summary](menu/tasks/movie-collection-summary.md)
-  * [Actors Grid](menu/tasks/actors-grid.md)
+  * [TV Show Actors Grid](menu/tasks/actors-grid.md)
 * [Beta Menu](menu/beta-menu.md)
 * [Help Menu](menu/help-menu.md)
 

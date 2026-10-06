@@ -6,7 +6,7 @@ description: Each of the tabs in “Preferences”, are discussed in detail belo
 
 ### General <a href="#the-general-tab" id="the-general-tab"></a>
 
-![Preferences - the General tab](https://www.tvrename.com/assets/images/options/preferences-general-01.png)
+<figure><img src="../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
 
 The General Tab controls TV Renames’ Download and Scan behaviours.
 
@@ -120,6 +120,10 @@ To create a record:-
 For example: to make finished shows less obtrusive in _**My Shows**_ expand the _“Status:”_ drop-down and select _“Show Status: Ended”_, in the _“Text Color:”_ box type _“#808080”_ and click `Add`. Back in the _**My Shows**_ tab; text for shows that have finished will be light grey and less obtrusive.
 
 If you wish to remove a rule from the list just select it and click `Remove`.
+
+### Data Sources <a href="#the-library-folders-tab" id="the-library-folders-tab"></a>
+
+<figure><img src="../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
 
 ### Library Folders <a href="#the-library-folders-tab" id="the-library-folders-tab"></a>
 
