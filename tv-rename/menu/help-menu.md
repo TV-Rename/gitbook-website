@@ -2,29 +2,8 @@
 
 ## Links
 
+<table data-search="false"><thead><tr><th width="166">Link</th><th>Purpose</th></tr></thead><tbody><tr><td><a href="../guides/quick-start-guide.md">Quickstart Guide</a></td><td>Link to this website to help users get started</td></tr><tr><td><a href="https://www.tvrename.com">Website</a></td><td>Link to this website</td></tr><tr><td><a href="https://groups.google.com/g/tvrename">Support Forum</a></td><td>Link to a Google groups link that is the first place to go if you need help and reading this website has not helped</td></tr><tr><td><a href="https://github.com/TV-Rename/tvrename/issues/new/choose">Bug Report</a></td><td>Link to GitHub where you can report an issue with the app</td></tr><tr><td>Request a Feature</td><td>Link to GitHub where you can report a new featrure you'd like to propose</td></tr><tr><td><a href="https://www.paypal.com/paypalme/TVRenamePaypal/50.00USD">Buy me a drink</a></td><td>TV Rename is free, but if it's helped please contribute.</td></tr></tbody></table>
 
+## Further Information
 
-## Request a Feature
-
-
-
-## Buy me a drink
-
-
-
-## Browser test
-
-
-
-## Check for new Version
-
-
-
-## Log
-
-
-
-## Thanks & About
-
-
-
+<table><thead><tr><th width="201">Feature</th><th>Purpose</th></tr></thead><tbody><tr><td>Browser test</td><td>Tests whether all c++ dependencies exist to support the right hand side view of movies and TV Shows. These use an inbuilt browser.</td></tr><tr><td>Check for new version</td><td>Contacts the server to check whether a new version exists. (is done automatically if configured in <a href="preferences.md#app-updates">settings</a>)</td></tr><tr><td>Log</td><td>Opens the inbuilt <a href="../help-and-support/keyboard-shortcuts.md">Log viewer</a>. Can also be accessed from the file system. The log is configured in <a href="../help-and-support/keyboard-shortcuts.md">preferences</a></td></tr><tr><td>Thanks &#x26; About</td><td>Credits to the <a href="../help-and-support/data-sources.md">companies who provide the data</a> and the licence informaiton</td></tr></tbody></table>
