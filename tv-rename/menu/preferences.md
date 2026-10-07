@@ -119,7 +119,7 @@ For example: to make finished shows less obtrusive in _**My Shows**_ expand the 
 
 If you wish to remove a rule from the list just select it and click `Remove`.
 
-### Data Sources <a href="#the-library-folders-tab" id="the-library-folders-tab"></a>
+### Data Sources <a href="#data-sources" id="data-sources"></a>
 
 <figure><img src="../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
 
@@ -332,7 +332,7 @@ _Ignore “sample” videos_ and _Make all filenames lower case_ tick boxes need
 
 The _Use name of Library Folder…_ option extends the search for a show name to include the containing library folder name, negating the need for the show name to be present in the filename.
 
-### Subtitles <a href="#the-search-folders-tab" id="the-search-folders-tab"></a>
+### Subtitles
 
 <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
