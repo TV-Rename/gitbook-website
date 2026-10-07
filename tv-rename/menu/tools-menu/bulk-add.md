@@ -2,13 +2,15 @@
 
 ## Bulk Add Shows <a href="#bulk-add-shows" id="bulk-add-shows"></a>
 
-![The Tools>Bulk Add Shows window](https://www.tvrename.com/assets/images/tools/bulk-add-shows-02.png)
+<figure><img src="../../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
 
 This is where you tell TV Rename about the location(s) of your media library. Additionally you can check these locations for new folders unknown to TV Rename and quickly scan and add them to the _**My Shows**_ tab.
 
 Before using this tool, check that your preferred renaming style is set in [_Options>Filename Template Editor_](https://www.tvrename.com/manual/options#filename-template-editor).
 
 `Add` (or Drag-and-Drop) folders to the _**Folders:**_ tab. Click the `Check >>` button, and TV Rename will recursively search through the new folders looking for new TV shows. Once this is complete, if anything new is found, the _**Scan Results**_ tab will appear populated with the paths to any newly found shows, it will also identify the folder structure of the show (“Flat” - everything in one folder or “Folder per season”).
+
+<figure><img src="../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
 
 The system inspects each folder and if it contains any sub-folders that look like they are a season it assumes that they are structured in separate folders per season. TV Rename looks for any folders that start with any of the ‘season words’ entered in the preferences, with the default season word (again entered in preferences) and (if configured) any of the words used as season folder names for any of the shows in your library. The preferences for this function are specified [here](https://www.tvrename.com/manual/options/#the-files-and-folders-tab) and [here](https://www.tvrename.com/manual/options/#the-bulk--auto-add-tab). The system only considers a season folder to be a season folder if it follows the pattern ‘ nnnn'. The space between is optional and the number can be any length.
 

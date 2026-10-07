@@ -1,6 +1,6 @@
 # Find Merged Episodes
 
-![Duplicate Episode Finder](https://www.tvrename.com/assets/images/tools/duplicate-episode-finder-01.png)
+<figure><img src="../../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
 
 The Duplicate Episode Finder will identify files in your library that contain two episodes of a show but do not have not had a merge rule applied…
 

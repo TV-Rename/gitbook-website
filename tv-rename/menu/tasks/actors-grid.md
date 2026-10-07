@@ -1,4 +1,4 @@
-# Actors Grid
+# TV Show Actors Grid
 
 Really like that actor in “Such-and-such”? Sure they are in other shows in your media library? This view will show you!
 
@@ -6,7 +6,7 @@ Among the meta-data that [The TVDB](http://thetvdb.com/) collects (and you impor
 
 Think of a spreadsheet, with actors names along the top (and a total at the end) and show names down the side (and a total at the bottom), now make it totally dynamic and fill the matching actor/show cells in green…
 
-![The Actors Grid](https://www.tvrename.com/assets/images/view/actors-grid-01.png)
+<figure><img src="../../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
 
 The data can be manipulated further: along the bottom of the window are an “Include Guest Stars” tick box, “Sort:” radio buttons and `Save` and `Close` buttons.
 

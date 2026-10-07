@@ -44,7 +44,7 @@ The _Add/Edit Show_ window has a number of tabs of its own, they are discussed b
 
 #### The Basics Tab <a href="#the-basics-tab" id="the-basics-tab"></a>
 
-<p align="center"><img src="../.gitbook/assets/image (19).png" alt=""></p>
+<div align="center"><img src="../.gitbook/assets/image (19).png" alt=""></div>
 
 The “Basics” Tab is the starting point for telling TV Rename about a show you which to monitor.
 
@@ -52,15 +52,13 @@ The best way to illustrate this is with an example so lets add a show called “
 
 The first step is to tell TV Rename about the show. If you know it you can enter TheTVDB’s code for the show, otherwise type the shows name (e.g. “the good doctor”) and click on `Search`.
 
-
-
 TV Rename ![Add/Edit Show - Search Results](https://www.tvrename.com/assets/images/main-window/add-edit-show-basics-02.png)will search for matches to your entry in TheTVDB’s database, cache the results locally and display the matches. The search also works with partial show names. For example you could search for just “doctor”, but “doctor” being fairly common in TV show titles, returns over 80 results (including ours!), and you will have to delve into the list to find the one you want. Once you have found the correct show, click on it to highlight it.
 
 If all you want to do is see the details of the show then you’re done! Just click `OK` at the bottom of the window and TV Rename will pull the necessary data from [The TVDB](http://thetvdb.com/) to populate the _**My Shows**_ tab.
 
 Once the update is complete _**My Shows**_ includes “The Good Doctor” and looks like this: -
 
-![My Shows - New Show Added](https://www.tvrename.com/assets/images/main-window/my-shows-02.png)
+<figure><img src="../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
 
 All the Show and Season information is downloaded and the _**When to Watch**_ tab will now list any future episode dates, but there are no links to the media library.
 
@@ -84,9 +82,9 @@ To complete the minimum setup for adding the show to the library we now need to 
 
 #### The Folders Tab <a href="#the-show-aliases-tab" id="the-show-aliases-tab"></a>
 
-![Add/Edit Show - Folders](https://www.tvrename.com/assets/images/main-window/add-edit-folders-01.png)
+<figure><img src="../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
 
-Completing the “Folders” Tab tells TV Rename about the library folder for the show. Returning to our example of “The Good Doctor”: -
+ompleting the “Folders” Tab tells TV Rename about the library folder for the show. Returning to our example of “The Good Doctor”: -
 
 If the “Automatic Folders” box is ticked the path to the base folder can be typed in the text box or filled in by browsing, but either way, now TV Rename knows the location of the shows base folder in the media library all the “really useful” stuff can begin!
 
@@ -107,7 +105,7 @@ The “Manual/Additional Folders” section allows you to manually add and remov
 
 #### The Show Aliases Tab
 
-![The Show Aliases tab](https://www.tvrename.com/assets/images/main-window/add-edit-show-aliases-01.png)
+<figure><img src="../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
 
 The Show Aliases tab only affects source files, it does **not** affect show episodes in your media library (TV Rename can work out the correct name for a file in the library from the containing folder structure and the show/season number).
 
@@ -117,7 +115,7 @@ Another good example (though for different reasons) would be the BBC1 show “Do
 
 #### The Search Tab <a href="#the-search-tab" id="the-search-tab"></a>
 
-![The Search Tab](https://www.tvrename.com/assets/images/main-window/add-edit-show-search-01.png)
+<figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
 
 The Search Tab allows you to create a custom search for files on a per show basis.
 
@@ -137,7 +135,7 @@ This option is disabled by default but it can be enabled for the specific show b
 
 Here, you can further manipulate the way data from [The TVDB](http://thetvdb.com/) is handled as it is merged into the local data.
 
-The “Use DVD order” tick box comes into play when the episodes aired on TV in a different order to those presented on the DVD. [The TVDB](http://thetvdb.com/) usually has details of these orders and this tick box allows you to choose your preference for the current show. A Really good example of this is the 1967 ITV show [“The Prisoner”](https://www.thetvdb.com/?tab=season\&seriesid=74805\&seasonid=8058\&lid=7), which, whilst it was written as one season of seventeen episodes still causes as much controversy (and argument) over it’s running order today as it did when it was originally released. TVDB also has an 'alternate order' specified as some shows have had episodes regrouped into seasons on different platforms.&#x20;
+The “Use DVD order” tick box comes into play when the episodes aired on TV in a different order to those presented on the DVD. [The TVDB](http://thetvdb.com/) usually has details of these orders and this tick box allows you to choose your preference for the current show. A Really good example of this is the 1967 ITV show [“The Prisoner”](https://www.thetvdb.com/?tab=season\&seriesid=74805\&seasonid=8058\&lid=7), which, whilst it was written as one season of seventeen episodes still causes as much controversy (and argument) over it’s running order today as it did when it was originally released. TVDB also has an 'alternate order' specified as some shows have had episodes regrouped into seasons on different platforms.
 
 The “Show next airdate in When to Watch” tick box toggles the display of the shows “Future” and “Later” episodes in the _**When to Watch**_ tab.
 
@@ -155,7 +153,7 @@ For example, Season 4 Episode 9 of Marvel’s Agents of S.H.I.E.L.D. is the 75th
 
 The “Edit Season Rules” pane allows you to manipulate the local data from [The TVDB](http://thetvdb.com/) to suit your episode structure.
 
-![Edit Season Rules](https://www.tvrename.com/assets/images/main-window/edit-season-rules-01.png)
+<figure><img src="../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
 
 Episodes 1 and 2 of Season 5 of “Marvel’s Agents of S.H.I.E.L.D.” aired as a double episode so only one file exists, however [The TVDB](http://thetvdb.com/) correctly has both episodes listed individually, so there is a conflict.
 
@@ -165,7 +163,7 @@ The rules are applied in top to bottom order, you can use the the `Up` and `Down
 
 `Add`, `Edit`, and `Delete` will manipulate the list as expected.
 
-![](https://www.tvrename.com/assets/images/main-window/add-modify-rule-01.png)
+<figure><img src="../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
 
 Clicking either `Add` or `Edit` will open the _Add/Modify Rule_ pane. The only difference being `Add` allows you to create a new rule and `Edit` pulls in the data from a highlighted rule for you to change.
 
@@ -198,7 +196,7 @@ For example: -
 
 If the show file “Westworld.S01E01.HDTV.x264.mp4” exists in the downloads directory but **not** in TV Rename’s database and the “Notify when new shows are found” box is ticked; a scan will result in the following pop-up appearing…
 
-![New Show Detected...](https://www.tvrename.com/assets/images/main-window/new-show-detected-01.png)
+<figure><img src="../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
 
 TV Rename has taken it upon itself to attempt to find the show name and look it up using [The TVDB](http://thetvdb.com/)!
 
@@ -217,6 +215,3 @@ Auto Add uses the default settings for almost all options (so the timezone etc. 
 The locations used are based on those entered as part of “Bulk Add”.
 
 ## Seen Episodes
-
-
-

@@ -1,6 +1,6 @@
 # Statistics
 
-![Statistics...](https://www.tvrename.com/assets/images/view/statistics-01.png)
+<figure><img src="../../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
 
 Statistics provides you with a high level summary of the content of the TV Rename database.
 

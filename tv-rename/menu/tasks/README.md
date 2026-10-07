@@ -2,6 +2,8 @@
 
 Here you will find a number of tools to present the content of TV Renames’ database in an easily human-readable format
 
+<figure><img src="../../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
+
 {% content-ref url="statistics.md" %}
 [statistics.md](statistics.md)
 {% endcontent-ref %}

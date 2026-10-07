@@ -4,7 +4,7 @@ TV Rename can scan your media library looking for missing or outdated files and 
 
 There are three types of scan available : -
 
-<table><thead><tr><th width="125"></th><th></th></tr></thead><tbody><tr><td><strong>Full</strong> </td><td>A full scan of all shows and seasons. </td></tr><tr><td><strong>Recent</strong> </td><td>A Scan of all the shows that have aired recently.</td></tr><tr><td><strong>Quick</strong> </td><td>Scan the shows that have aired recently and have a missing episode in the library. Also check the locations specified in <em>Options>Preferences>Search Folders</em> for any matching media files.</td></tr></tbody></table>
+<table><thead><tr><th width="125"></th><th></th></tr></thead><tbody><tr><td><strong>Full</strong></td><td>A full scan of all shows and seasons.</td></tr><tr><td><strong>Recent</strong></td><td>A Scan of all the shows that have aired recently.</td></tr><tr><td><strong>Quick</strong></td><td>Scan the shows that have aired recently and have a missing episode in the library. Also check the locations specified in <em>Options>Preferences>Search Folders</em> for any matching media files.</td></tr></tbody></table>
 
 As with other tabs, “recent” is taken as being the number of days counted as recent indicated in the **Options>Preferences** [_**General**_](https://www.tvrename.com/manual/options#the-general-tab) tab.
 
@@ -22,7 +22,7 @@ The scan indicates that there a number of missing episodes, a file in the media 
 
 ### Upgrade File Quality
 
-![The Choose File prompt](https://www.tvrename.com/assets/images/main-window/scan-choose-file-01.png)
+<figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
 
 If the “Update episodes when higher quality ones found” box is ticked in **Options>Preferences** [_**Scan Options**_](https://www.tvrename.com/manual/user/options#scan-options) and there are two versions of an episode file in the library and/or download location you will be prompted to choose which file to keep when the scan completes as illustrated…
 
@@ -32,7 +32,7 @@ If the “Update episodes when higher quality ones found” box is ticked in **O
 
 _**Scan**_ indicates where there are gaps in your library. The result of a typical scan is shown below.
 
-![The Scan Tab](https://www.tvrename.com/assets/images/main-window/scan-03.png)
+<figure><img src="../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
 
 The scan indicates that there a number of missing episodes, a file in the media library that needs to be renamed, a file that has been downloaded and is waiting to be moved to the media library and be renamed in the process and a duplicate file that can be removed.
 
@@ -62,6 +62,6 @@ Note that there are some tick boxes to the right of the buttons. These give you 
 
 Once you are happy with everything selected click on `Do Checked` and the Copy/Move/Rename process will start.
 
-![](https://www.tvrename.com/assets/images/main-window/progress-01.png)
+<figure><img src="../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
 
 While files are being copied and/or moved, this dialog is shown. Click `Pause` to temporarily pause the copy/move operation. Click it again to resume. Clicking `Cancel` will stop the operation immediately. The disk space shown is for the drive that the current file is being copied/moved to.
