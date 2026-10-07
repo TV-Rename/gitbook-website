@@ -27,7 +27,7 @@ layout:
 
 > Move or copy and rename media files, download posters, banners and episode images, create .nfo files, search for missing episodes, calendarize your favourite TV shows - _**automatically**_…
 
-<p align="center"><a href="https://github.com/octo-org/octo-repo/releases/latest" class="button primary" data-icon="download">Get Latest Version</a></p>
+<p align="center"><a href="https://github.com/TV-Rename/tvrename/releases/latest" class="button primary" data-icon="download">Get Latest Version</a></p>
 
 | ![customizable](https://www.tvrename.com/assets/images/splash/customizable.png)                                                                                                     | ![automatic](https://www.tvrename.com/assets/images/splash/stopwatch.png)                                                                                                                                                          | ![100% free](https://www.tvrename.com/assets/images/splash/noMoney.png)                                                                                                          |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -88,8 +88,6 @@ _&#x4F;nce TV Rename knows about your Media Library it can: -_\
 
 {% column width="41.666666666666664%" %}
 <figure><img src=".gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
-
-
 {% endcolumn %}
 {% endcolumns %}
 
