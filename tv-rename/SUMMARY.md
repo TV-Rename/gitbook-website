@@ -61,6 +61,7 @@
 * [Logs & Configuration](technical/logs-and-configuration.md)
 * [Development](technical/development.md)
 * [Credits](technical/credits.md)
+* [Genre Images](technical/genre-images.md)
 
 ## Help & Support
 
