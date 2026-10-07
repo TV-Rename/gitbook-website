@@ -50,13 +50,11 @@ The _Share critical Logs to help defeat bugs_ option if ticked, gives TV Rename 
 
 _Default: **Ticked**_
 
-
-
 <table data-header-hidden data-search="false"><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><em>Defaults:</em></td><td></td></tr><tr><td>Scan Type</td><td><em><strong>Full</strong></em></td></tr><tr><td>Scan on Startup</td><td><em><strong>Un-ticked</strong></em></td></tr><tr><td>Scheduled scan every</td><td><em><strong>Un-ticked</strong></em> - <em><strong>1 hour</strong></em></td></tr><tr><td>“Scan” checks and actions</td><td></td></tr><tr><td>Rename Check</td><td><em><strong>Ticked</strong></em></td></tr><tr><td>  Prevent move of flies</td><td><em><strong>Un-ticked</strong></em></td></tr><tr><td>Missing Check</td><td><em><strong>Ticked</strong></em></td></tr><tr><td>  Ignore Episodes Previously Seen</td><td><em><strong>Un-ticked</strong></em></td></tr><tr><td>Move Files within Library to Keep it Tidy</td><td><em><strong>Ticked</strong></em></td></tr></tbody></table>
 
 ### Display <a href="#the-display-tab" id="the-display-tab"></a>
 
-![Preferences - The Display tab](https://www.tvrename.com/assets/images/options/preferences-display-01.png)
+<figure><img src="../.gitbook/assets/image (73).png" alt=""><figcaption></figcaption></figure>
 
 The Display tab allows you to change how TV Rename looks. Its effects are purely visual, it does not change functionality.
 
@@ -435,7 +433,7 @@ _Default:_ _**All functionality disabled**_
 
 ### Media Centres <a href="#the-media-centers-tab" id="the-media-centers-tab"></a>
 
-![Preferences - the Media Centre tab](https://www.tvrename.com/assets/images/options/preferences-media-center-01.png)
+<figure><img src="../.gitbook/assets/image (75).png" alt=""><figcaption></figcaption></figure>
 
 Here you can tell TV Rename about your media player (and hence, any additional files you may need to download).
 
@@ -447,7 +445,7 @@ The `Presets` button (bottom right) allows you to quickly apply all the relevant
 
 ### Torrents / NZB <a href="#the-rss--json-search-tab" id="the-rss--json-search-tab"></a>
 
-![Preferences - the Torrents / NZB tab](https://www.tvrename.com/assets/images/options/preferences-torrent-nzb-01.png)
+<figure><img src="../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure>
 
 TV Rename can check SABnzbd µTorrent and qBittorent queues and uses the information on this tab to know where to look for more information.
 
@@ -467,7 +465,7 @@ TV Rename uses the qBittorrent web interface to interrogate its status so you mu
 
 ### RSS / JSON Search <a href="#the-automatic-export-tab" id="the-automatic-export-tab"></a>
 
-![Preferences - The RSS/JSON Search Tab](https://www.tvrename.com/assets/images/options/preferences-rss-json-search-01.png)
+<figure><img src="../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure>
 
 RSS and JSON Searches give TV Rename additional methods of looking for missing files in your media library, providing URLs for the torrent handlers to use.
 
@@ -519,7 +517,7 @@ It is recommended that you only use this option if you need to. When ticked the 
 
 ### Jackett Search <a href="#the-automatic-export-tab" id="the-automatic-export-tab"></a>
 
-<img src="../.gitbook/assets/image (4).png" alt="" data-size="original">
+<p align="center"><img src="../.gitbook/assets/image (4).png" alt="" data-size="original"></p>
 
 {% hint style="info" %}
 Jackett is an external program and is not supported by the TV Rename team. It is available from [here](https://github.com/Jackett/Jackett#installation-on-windows)
@@ -561,7 +559,7 @@ _Default:_ _**All un-ticked**_
 
 ### **Library** Export
 
-![](https://www.tvrename.com/assets/images/options/preferences-auto-export-01.png)
+<figure><img src="../.gitbook/assets/image (78).png" alt=""><figcaption></figcaption></figure>
 
 Ticking the “RSS” box in the “When to watch” section of the panel will save a RSS-reader compatible XML file to the location you specify (by typing or browsing). This file can then be read by something like XBOX Media Center, or a Windows RSS App.
 

@@ -41,8 +41,8 @@
   * [Find Orphan Media Files](menu/tools-menu/find-orphan-media-files.md)
   * [Find Merged Episodes](menu/tools-menu/find-merged-episodes.md)
   * [Find Duplicate Movies](menu/tools-menu/find-duplicate-movies.md)
-  * [Quick Rename TV](menu/tools-menu/quick-rename-tv.md)
-  * [Move Movies From](menu/tools-menu/scan-movie-folder.md)
+  * [Quick Rename TV Show](menu/tools-menu/quick-rename-tv.md)
+  * [Move Movies From...](menu/tools-menu/scan-movie-folder.md)
   * [Recommendations](menu/tools-menu/recommendations.md)
   * [Clean Up Empty Library Folders](menu/tools-menu/clean-up-empty-library-folders.md)
   * [Force Refresh Kodi](menu/tools-menu/force-refresh-kodi.md)
@@ -61,7 +61,6 @@
 * [Logs & Configuration](technical/logs-and-configuration.md)
 * [Development](technical/development.md)
 * [Credits](technical/credits.md)
-* [Genre Images](technical/genre-images.md)
 
 ## Help & Support
 

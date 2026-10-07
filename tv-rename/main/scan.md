@@ -10,7 +10,7 @@ As with other tabs, “recent” is taken as being the number of days counted as
 
 _**Scan**_ indicates where there are gaps in your library. The result of a typical scan is shown below.
 
-![The Scan Tab](https://www.tvrename.com/assets/images/main-window/scan-03.png)
+<figure><img src="../.gitbook/assets/image (66).png" alt=""><figcaption></figcaption></figure>
 
 The scan indicates that there a number of missing episodes, a file in the media library that needs to be renamed, a file that has been downloaded and is waiting to be moved to the media library and be renamed in the process and a duplicate file that can be removed.
 

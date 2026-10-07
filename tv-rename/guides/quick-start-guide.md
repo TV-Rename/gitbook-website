@@ -32,7 +32,7 @@ _The guide assumes you already have the beginnings of a **Media Library** - a fo
 
 Under normal circumstances you would add a Media Library path when adding a new show to TV Rename, however TV Rename has a trick up its sleeve when adding shows already in the library’s folder infrastructure - **Bulk Add Shows**.
 
-![Tools>Bulk Add Shows](https://www.tvrename.com/assets/images/tools/bulk-add-shows-01.png)
+<figure><img src="../.gitbook/assets/image (62).png" alt=""><figcaption></figcaption></figure>
 
 1.  Follow the menu to **Tools>Bulk Add Shows** and whilst on the _**Folders**_ tab of the newly opened window click `Add`. Browse to the root folder of your “Media Library” and click `OK`. The path will be added to the “Monitor Folders” list.
 
@@ -50,7 +50,7 @@ Under normal circumstances you would add a Media Library path when adding a new 
 
 Whilst not strictly necessary at this point TV Rename needs to know where to look for new files to move to the library when adding new episodes, so lets do it now.
 
-![Options>Preferences>Search Folders](https://www.tvrename.com/assets/images/options/preferences-search-folders-02.png)
+<figure><img src="../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
 
 In **Options>Preferences**, go to the _**Search Folders**_ tab and `Add` the locations you normally use for new episodes.
 
@@ -64,7 +64,7 @@ Go to the _**Scan**_ tab and select a show that has some season and episode data
 
 Now go to **Options>Filename Template Editor** and you can see how the show will be named.
 
-![Options>Preferences>Search Folders](https://www.tvrename.com/assets/images/options/filename-template-editor-01.png)
+<figure><img src="../.gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
 
 The “Sample and Test” pane shows you how the shows episodes will be named using the current naming template.
 
@@ -82,7 +82,7 @@ Now you’re ready to run your first scan.
 
 Go to the _**Scan**_ tab, and click `Full`. TV Rename will download any needed show information from [The TVDB](http://thetvdb.com/), and compare it with the contents of the media library.
 
-![Scan](https://www.tvrename.com/assets/images/main-window/scan-01.png)
+<figure><img src="../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
 
 When the scan is complete, TV Rename will display its suggested changes in the main pane. Any ticked item will be actioned, so un-tick things you’re not sure about, or use the check boxes in the bottom-right of the window.
 

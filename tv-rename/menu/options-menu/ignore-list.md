@@ -1,7 +1,5 @@
 # Ignore List
 
-![](https://www.tvrename.com/assets/images/options/edit-ignore-list-01.png)
-
 When a _**Scan**_ is run any “missing” episodes for shows in your media library are listed.
 
 These may be genuine missing episodes or they may be “Specials”, that don’t fit the season/episode pattern but are still part of the show, for example: -

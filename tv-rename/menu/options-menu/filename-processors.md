@@ -1,6 +1,6 @@
 # Filename Processors
 
-![](https://www.tvrename.com/assets/images/options/filename-processors-01.png)
+<figure><img src="../../.gitbook/assets/image (71).png" alt=""><figcaption></figcaption></figure>
 
 In much the same way that the _**Filename Template Editor**_ is used to process the names of files being moved to the media library so _**Filename Processors**_ is used to inform TV Rename what filenames to look out for when searching for a missing files
 

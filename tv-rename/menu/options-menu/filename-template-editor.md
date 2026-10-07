@@ -1,6 +1,6 @@
 # Filename Template Editor
 
-![](https://www.tvrename.com/assets/images/options/filename-template-editor-01.png)
+<figure><img src="../../.gitbook/assets/image (69).png" alt=""><figcaption></figcaption></figure>
 
 This is where the format of the filenames that TV Rename will rename to are defined.
 
@@ -31,4 +31,3 @@ The available tags with their definitions are listed below: -
 | _Default:_ | _**{ShowName} - S{Season:2}E{Episode}\[-E{Episode2}] - {EpisodeName}**_ |
 | ---------- | ----------------------------------------------------------------------- |
 |            | (the second preset).                                                    |
-

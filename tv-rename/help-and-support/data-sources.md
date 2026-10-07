@@ -1,5 +1,7 @@
 # Data Sources
 
+<figure><img src="../.gitbook/assets/image (81).png" alt="" width="200"><figcaption></figcaption></figure>
+
 ### The TVDB <a href="#the-tvdb" id="the-tvdb"></a>
 
 Whilst not actually a part of TV Rename; [The TVDB](http://thetvdb.com/) or more specifically The TVDB’s database provides the data (using its API) supplying TV Rename with the relevant details about the shows it’s monitoring.
@@ -18,7 +20,7 @@ In a case like this it is a good idea to visit [The TVDB](http://thetvdb.com/) t
 
 ***
 
-<p align="center"><img src="https://www.themoviedb.org/assets/v4/logos/v2/blue_long_2-9665a76b1ae401a510ec1e0ca40ddcb3b0cfe45f1d51b77a308fea0845885648.svg" alt="" data-size="original"></p>
+<div align="center"><img src="https://www.themoviedb.org/assets/v4/logos/v2/blue_long_2-9665a76b1ae401a510ec1e0ca40ddcb3b0cfe45f1d51b77a308fea0845885648.svg" alt=""></div>
 
 ### **TMDB**
 
@@ -33,4 +35,3 @@ Source for movies that also covers TV Shows: [https://www.themoviedb.org/](https
 ### **TV Maze**
 
 TV Shows only. Limited support, but more flexible in the organisation of seasons: [https://www.tvmaze.com/](https://www.tvmaze.com/)
-
