@@ -98,13 +98,13 @@ Follow our handy guides to get started on the basics as quickly as possible:
 
 ### Want to lean more?
 
+Learn the fundamentals of TV Rename to get a deeper understanding of our main features:
+
 {% content-ref url="guides/features/" %}
 [features](guides/features/)
 {% endcontent-ref %}
 
 ### Fundamentals: Dive a little deeper
-
-Learn the fundamentals of MyProduct to get a deeper understanding of our main features:
 
 {% content-ref url="https://app.gitbook.com/s/x0gPeIfHpbgTioNust1M/main" %}
 [User Guide](https://app.gitbook.com/s/x0gPeIfHpbgTioNust1M/main)
@@ -119,8 +119,6 @@ Learn the fundamentals of MyProduct to get a deeper understanding of our main fe
 {% endcontent-ref %}
 
 ### Technical Details and Support: Go Further
-
-Learn the fundamentals of MyProduct to get a deeper understanding of our main features:
 
 {% hint style="info" %}
 **Good to know:** If you need help please sign up to the [forum](https://groups.google.com/forum/#!forum/tvrename), someone there will be happy to answer any questions you may have.
