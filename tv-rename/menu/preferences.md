@@ -129,10 +129,6 @@ If you wish to remove a rule from the list just select it and click `Remove`.
 
 The Library Folders tab is used to tell TV Rename about the location(s) of your Media Library - viz where to look for TV Show episode files **AFTER** they have been processed.
 
-![](https://www.tvrename.com/assets/images/options/preferences-library-folders-01.png)
-
-The Library Folders tab is used to tell TV Rename about the location(s) of your Media Library - viz where to look for TV Show episode files **AFTER** they have been processed.
-
 To tell TV Rename about your library simply use the `Add` button to browse to a folder that is a “Base” folder of your Media Library. and click `OK`.
 
 You can also highlight a path in the list and use the `Remove` button to remove it, and highlight a path in the list and use `Open` to check its contents in a File Explorer window.
@@ -260,10 +256,7 @@ Looking at the _Scan Options…_
 
 The “Scan Type” radio buttons tell TV Rename the type of scan to perform when searching for new shows.
 
-| **Full**   | A full scan of all shows and seasons.                                                                |
-| ---------- | ---------------------------------------------------------------------------------------------------- |
-| **Recent** | A Scan of all the shows that have aired recently (as specified in _“X” days count as recent_ above). |
-| **Quick**  | Scan the shows that have aired recently and have a missing episode in the library.                   |
+<table data-header-hidden><thead><tr><th width="112"></th><th></th></tr></thead><tbody><tr><td><strong>Full</strong></td><td>A full scan of all shows and seasons.</td></tr><tr><td><strong>Recent</strong></td><td>A Scan of all the shows that have aired recently (as specified in <em>“X” days count as recent</em> above).</td></tr><tr><td><strong>Quick</strong></td><td>Scan the shows that have aired recently and have a missing episode in the library.</td></tr></tbody></table>
 
 | The scans also check the locations specified in [_**Options>Preferences - Search Folders**_](preferences.md#the-search-folders-tab) for any matching media files. |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
