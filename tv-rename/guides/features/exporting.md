@@ -6,4 +6,4 @@ TV Rename can be setup to automatically export files which summarise the status 
 
 #### Further Information <a href="#further-information-5" id="further-information-5"></a>
 
-Further information can be found [**here** ](../../menu/preferences.md#the-automatic-export-tab-1)and [**here**](../../menu/preferences.md#library-export).
+Further information can be found [**here** ](../../menu/preferences.md#library-export)and [**here**](../../menu/preferences.md#episode-export).

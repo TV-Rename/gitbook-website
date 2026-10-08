@@ -10,18 +10,19 @@ By default, all the configuration information and locally cached data from [TheT
 
 It contains:
 
-| **TVRenameSettings.xml** | Everything else not mentioned is stored in here. All your shows, media library paths, folder structures and settings. This is only overwritten when you choose **File>Save**. |
-| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **TheTVDB.xml**          | The locally cached tvdb.com show season and episode information for everything listed in the _**My Shows**_ tab.                                                              |
-| **Layout.xml**           | TV Rename’s window position and size as well as column widths.                                                                                                                |
-| **Statistics.xml**       | TV Rename’s historical statistics.                                                                                                                                            |
-| **Languages.xml**        | TV Rename’s cache of possible languages to cover.                                                                                                                             |
+| **TVRenameSettings.xml**                                                                        | Everything else not mentioned is stored in here. All your shows, media library paths, folder structures and settings. This is only overwritten when you choose **File>Save**. |
+| ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <p><strong>TheTVDB.xml</strong><br><strong>TMDB.xml</strong><br><strong>TVMaze.xml</strong></p> | The locally cached tvdb.com show season and episode information for everything listed in the _**My Shows**_ tab.                                                              |
+| **Layout.xml**                                                                                  | TV Rename’s window position and size as well as column widths.                                                                                                                |
+| **Statistics.xml**                                                                              | TV Rename’s historical statistics.                                                                                                                                            |
+| **Languages.xml**                                                                               | TV Rename’s cache of possible languages to cover.                                                                                                                             |
+| **State.xml**                                                                                   |                                                                                                                                                                               |
 
 And stores the following backups (10 of each):
 
-| **TVRenameSettings.xml.0-9** | Backup copies of TV Rename settings.xml (FIFO).                                                                                                                        |
-| ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **TheTVDB.xml.0-9**          | A maximum of ten backup copies of TheTVDB.xml file. A new file gets created here every time the system gets updates from theTVDB on a first-in-first-out (FIFO) basis. |
+| **TVRenameSettings.xml.0-9**                                                                                | Backup copies of TV Rename settings.xml (FIFO).                                                                                                                                                                       |
+| ----------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <p><strong>TheTVDB.xml.0-9</strong><br><strong>TMDB.xml.0-9</strong><br><strong>TVMaze.xml.0-9</strong></p> | A maximum of ten backup copies of the XML cache files. A new file gets created here every time the system gets updates from [data sources](../help-and-support/data-sources.md) on a first-in-first-out (FIFO) basis. |
 
 ### Log Files <a href="#log-files" id="log-files"></a>
 
@@ -43,7 +44,10 @@ When raising a bug please include a log file that illustrates the issue if you c
 
 ### Cache and Supporting Logs <a href="#the-registry" id="the-registry"></a>
 
-TODO: cef cache and associated logs
+| **log/cef-debug.log** | Specific log file related to the in-built broswer                                                                  |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| **audit/\*.json**     | If enabled, audit logs the downloaded information from the upsttream data sources. Can be safely deleted if needed |
+| **cache/\***          | Cache that the built-in browser uses to speed its operation. Can be safely deleted.                                |
 
 ### The Registry <a href="#the-registry" id="the-registry"></a>
 

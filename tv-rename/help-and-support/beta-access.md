@@ -6,4 +6,8 @@ Firstly, there is TV Rename itself. Hidden away in the **Options>Preferences** [
 **Note:** If you change the mode to “Beta”, you may find that you start to get alerts for new test versions (Betas and Release Candidates) of the software. If you’d like to try a newer version that may still have a bug or two then please go ahead and do the upgrade, otherwise setting “Mode:” back to “Production” will stop the alerts.
 {% endhint %}
 
-Additionally, for a longer term view of what’s going on you can visit the “[Roadmap](https://github.com/TV-Rename/tvrename/milestones?direction=asc\&sort=due\_date\&state=open)” which will give you a high level view of what's planned for when.
+Additionally, for a longer term view of what’s going on you can visit the “[Roadmap](https://github.com/TV-Rename/tvrename/milestones?direction=asc\&sort=due_date\&state=open)” which will give you a high level view of what's planned for when.
+
+{% content-ref url="../menu/beta-menu.md" %}
+[beta-menu.md](../menu/beta-menu.md)
+{% endcontent-ref %}

@@ -16,7 +16,7 @@ The right hand panel has two tabs, “Information” and “Images”, the usual
 
 Below these panels are a series of buttons which allow you to manage the content. They are: -
 
-* `Add` - Adds a new show to the list. Remember you may need to add folders to for the show separately if you need to monitor it in the media library. You don’t need to add a folder if you only want to see the shows air-dates in the [_**When to Watch**_](https://www.tvrename.com/manual/user/#when-to-watch) tab.
+* `Add` - Adds a new show to the list. Remember you may need to add folders to for the show separately if you need to monitor it in the media library. You don’t need to add a folder if you only want to see the shows air-dates in the [Schedule](when-to-watch.md) tab.
 * `Edit` - Edit the currently selected show or season.
 * `Delete` - Remove the currently selected show(s) from TV Rename’s database, and optionally delete the selected show(s) from the media library - _**careful!**_
 * `Refresh` - Refresh the current view
@@ -121,7 +121,7 @@ The Search Tab allows you to create a custom search for files on a per show basi
 
 This is useful if you collect episodes of a show that falls outside the scope of the “general” search engines and has its own genre-specific sites and searches (Japanese Anime for example).
 
-Using the same technique and tag structure as found in the [Options>Search Engines](https://www.tvrename.com/manual/options#search-engines) tab you can create a search specific to the show without affecting the “general” searches.
+Using the same technique and tag structure as found in the [Options>Search Engines](../menu/options-menu/search-engines.md) tab you can create a search specific to the show without affecting the “general” searches.
 
 This option is disabled by default but it can be enabled for the specific show by ticking the “Use Custom Search” box in the tab.
 
@@ -190,7 +190,7 @@ Whilst discussing “Add/Edit Shows” it would be remiss not to mention “Auto
 
 This not-so-obvious trick in TV Rename’s functionality attempts to add video files that have been downloaded but are unknown to TV Rename to its database for inclusion in the library.
 
-It is activated by ticking the “Notify when new shows are found” box in the [Options>Preferences Bulk/Auto Add](https://www.tvrename.com/manual/options#the-bulk--auto-add-tab) window.
+It is activated by ticking the “Notify when new shows are found” box in the [Options>Preferences Bulk/Auto Add](../menu/tools-menu/bulk-add.md) window.
 
 For example: -
 

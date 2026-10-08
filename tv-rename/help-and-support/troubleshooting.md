@@ -7,7 +7,7 @@ description: Some common problems (and their solutions)
 ### Errors after installing -> Check dependencies <a href="#repairing-corrupt-data" id="repairing-corrupt-data"></a>
 
 1. Install TV Rename
-2. Should install .net10 Desktop Runtime itself&#x20;
+2. Should install .net10 Desktop Runtime itself
    1. If not [https://dotnet.microsoft.com/en-us/download/dotnet/10.0](https://dotnet.microsoft.com/en-us/download/dotnet/10.0)
 3. Visual C++ 2022 [Redistributable ](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022)(or newer)
 
@@ -31,7 +31,7 @@ The second solution is far more drastic in its effect.
 
 After selecting the option from the menu you are presented with the alert window (shown).
 
-<p align="center"><img src="https://www.tvrename.com/assets/images/tools/force-refresh-all-01.png" alt="Force Refresh All"></p>
+<figure><img src="../.gitbook/assets/image (82).png" alt=""><figcaption></figcaption></figure>
 
 **READ IT CAREFULLY AND PAY ATTENTION**. If you click `Yes` there’s no going back, all the locally stored information in TheTVDB’s cache will be **DELETED**.
 

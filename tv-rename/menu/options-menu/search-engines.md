@@ -4,7 +4,7 @@ The _Modify Search Engines_ window controls TV Rename’s outgoing interface wit
 
 <figure><img src="../../.gitbook/assets/image (70).png" alt=""><figcaption></figcaption></figure>
 
-Using the `Add` and `Delete` buttons you can create or remove records at will, and the `Tags...` pop up a list of supported tags to remind you whats available. (The tags supported are the same as those listed in the [Filename Template Editor](https://www.tvrename.com/manual/options/#filename-template-editor).)
+Using the `Add` and `Delete` buttons you can create or remove records at will, and the `Tags...` pop up a list of supported tags to remind you whats available. (The tags supported are the same as those listed in the [Filename Template Editor](filename-template-editor.md).)
 
 As an example, here is a URL entry for Google.
 

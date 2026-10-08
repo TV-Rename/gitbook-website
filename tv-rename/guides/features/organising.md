@@ -6,9 +6,9 @@ While the main objective of TV Rename is to rename and move/copy files into the 
 
 The system will keep files that share the same name together, renaming them all as one. This keeps related files (images, information, metadata) joined together. The system can also be configured to keep language specific files together for when you have subtitles in multiple languages.
 
-**Further Information**
-
+{% hint style="info" %}
 Further information can be found [**here**](https://www.tvrename.com/manual/options/#the-files-and-folders-tab).
+{% endhint %}
 
 ### File Update Timestamp <a href="#file-update-timestamp" id="file-update-timestamp"></a>
 
@@ -46,9 +46,9 @@ In each case then the following types of files can be downloaded
 * Episode screenshots
 * XML/Text files to explain details about the show/series/episodes
 
-**Further Information**
-
-Further information can be found [**here**](https://www.tvrename.com/manual/options/#the-media-center-tab).
+{% hint style="info" %}
+Further information on the settings needed are [here](../../menu/preferences.md#the-media-centers-tab)
+{% endhint %}
 
 **Future Ideas**
 

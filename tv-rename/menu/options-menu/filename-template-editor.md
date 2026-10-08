@@ -10,23 +10,7 @@ The “Naming template:” text box displays a tokenised version of the filename
 
 The available tags with their definitions are listed below: -
 
-| {ShowName}       | Name of the Show                                                                                                                          |
-| ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| {Season}         | Number of the season                                                                                                                      |
-| {Season:2}       | Number of the season forced to 2 characters with a leading zero                                                                           |
-| {Episode}        | Number of the episode (within a season), eg S01E03                                                                                        |
-| {Episode2}       | Number of the second episode of a pair (within a season), eg S01E04-E05                                                                   |
-|                  | created by the default S{Season:2}E{Episode}\[-E{Episode2}])                                                                              |
-| {EpisodeName}    | Name of the Episode                                                                                                                       |
-| {Number}         | Overall number of the episode                                                                                                             |
-| {Number:2}       | Overall number of the episode forced to 2 characters with a leading zero                                                                  |
-| {Number:3}       | Overall number of the episode forced to 3 characters with leading zero(s)                                                                 |
-| {SeasonNumber}   | Some season numbers do not start at 1, eg they may go 2012,2013,2014. {SeasonNumber} is the nth season, so would be 1,2,3 in this example |
-| {SeasonNumber:2} | As above, but forced to 2 characters with a leading zero                                                                                  |
-| {ShortDate}      | Air date in short format, eg 25/12/2017                                                                                                   |
-| {LongDate}       | Air date in lomg format, eg 25 December 2017                                                                                              |
-| {YMDDate}        | Air date in YMD format, eg 2017/12/25                                                                                                     |
-| {AllEpisodes}    | All episodes - E01E02 etc                                                                                                                 |
+<table data-search="false"><thead><tr><th>{ShowName}</th><th>Name of the Show</th></tr></thead><tbody><tr><td>{Season}</td><td>Number of the season</td></tr><tr><td>{Season:2}</td><td>Number of the season forced to 2 characters with a leading zero</td></tr><tr><td>{Episode}</td><td>Number of the episode (within a season), eg S01E03</td></tr><tr><td>{Episode2}</td><td>Number of the second episode of a pair (within a season), eg S01E04-E05</td></tr><tr><td></td><td>created by the default S{Season:2}E{Episode}[-E{Episode2}])</td></tr><tr><td>{EpisodeName}</td><td>Name of the Episode</td></tr><tr><td>{Number}</td><td>Overall number of the episode</td></tr><tr><td>{Number:2}</td><td>Overall number of the episode forced to 2 characters with a leading zero</td></tr><tr><td>{Number:3}</td><td>Overall number of the episode forced to 3 characters with leading zero(s)</td></tr><tr><td>{SeasonNumber}</td><td>Some season numbers do not start at 1, eg they may go 2012,2013,2014. {SeasonNumber} is the nth season, so would be 1,2,3 in this example</td></tr><tr><td>{SeasonNumber:2}</td><td>As above, but forced to 2 characters with a leading zero</td></tr><tr><td>{ShortDate}</td><td>Air date in short format, eg 25/12/2017</td></tr><tr><td>{LongDate}</td><td>Air date in lomg format, eg 25 December 2017</td></tr><tr><td>{YMDDate}</td><td>Air date in YMD format, eg 2017/12/25</td></tr><tr><td>{AllEpisodes}</td><td>All episodes - E01E02 etc</td></tr></tbody></table>
 
 | _Default:_ | _**{ShowName} - S{Season:2}E{Episode}\[-E{Episode2}] - {EpisodeName}**_ |
 | ---------- | ----------------------------------------------------------------------- |

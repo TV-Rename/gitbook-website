@@ -12,6 +12,10 @@ There are 7 places it could search:
 * _RSS Feed for torrent links_, _JSON Web page for torrent links_ – If found then it will download the torrent file. (via uTorrent or qBittorrent) See [**The RSS/JSON Search Tab**](../../menu/preferences.md#the-rss--json-search-tab) for more information about configuration.
 * _Jackett_ - If you have a Jackett Server running TVR can ask it for download locations fo rmissing files. See [**Jackett**](../../menu/preferences.md#the-automatic-export-tab) section of the settings for further information.
 
+{% hint style="success" %}
+See [Preferences ](../../menu/preferences.md) ([here](../../menu/preferences.md#jackett-search), [here ](../../menu/preferences.md#rss-json-search)and [here](../../menu/preferences.md#torrents-nzb)) for more information on configuring the different ways TV Rename tries to find missing files.
+{% endhint %}
+
 ### Identification of files <a href="#how-to-write-a-regex-for-tv-rename" id="how-to-write-a-regex-for-tv-rename"></a>
 
 #### How to write a Regex for TV Rename <a href="#how-to-write-a-regex-for-tv-rename" id="how-to-write-a-regex-for-tv-rename"></a>
@@ -36,6 +40,6 @@ For Example: ‘S01E01-03’ would indicate that the file represents Series 1 an
 
 Note that if a file matches multiple missing files, or multiple files match one missing episode no action is taken. TV Rename will raise a warning in the log files and allow the user to manually link the file to the missing episode.
 
-### Further Information <a href="#further-information-2" id="further-information-2"></a>
+#### Further Information <a href="#further-information-2" id="further-information-2"></a>
 
-Further information can be found [**here**](https://www.tvrename.com/manual/options/#filename-processors) and [**here**](https://www.tvrename.com/manual/options/#the-%C2%B5torrent--nzb-tab).
+Further information can be found [**here**](../../menu/options-menu/filename-processors.md).
