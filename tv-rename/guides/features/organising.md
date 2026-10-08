@@ -7,7 +7,7 @@ While the main objective of TV Rename is to rename and move/copy files into the 
 The system will keep files that share the same name together, renaming them all as one. This keeps related files (images, information, metadata) joined together. The system can also be configured to keep language specific files together for when you have subtitles in multiple languages.
 
 {% hint style="info" %}
-Further information can be found [**here**](https://www.tvrename.com/manual/options/#the-files-and-folders-tab).
+Further information can be found [**here**](../../menu/preferences.md#the-files-and-folders-tab).
 {% endhint %}
 
 ### File Update Timestamp <a href="#file-update-timestamp" id="file-update-timestamp"></a>
@@ -27,7 +27,7 @@ To show how these are different take a look at Futurama on [The TVDB](http://the
 
 There are a few ideas on the ideas wall to allow the ordering to be adjusted further to account for shows such as Mythbusters and American Dad. In both these cases the order that users want to organise the files does not match either the Aired or the DVD order
 
-* [**Allow reorganising season numbers**](http://ideas.theideawall.com/TVRename/Forum/TopicDetails/1c0aeb70-98ae-4937-9de3-8243ca61fcf2)
+* [**Allow reorganising season numbers**](https://github.com/TV-Rename/tvrename/issues/67)
 * [**Allow offset for episode numbers**](http://ideas.theideawall.com/TVRename/Forum/TopicDetails/ccf342c0-94b0-42f2-a0ba-a7cda261b2fa)
 
 ### Media Centres <a href="#media-centres" id="media-centres"></a>
@@ -54,6 +54,6 @@ Further information on the settings needed are [here](../../menu/preferences.md#
 
 There are plans to add support for other media centres and provide additional information by analysing the video files in more detail:
 
-* [**Get the codec, size etc and use to show images in the show guide**](http://ideas.theideawall.com/TVRename/Forum/TopicDetails/861a5956-e5d4-466e-baf7-1f137b7c5855).
-* [**AtomicParsley/MKVPropEdit support**](http://ideas.theideawall.com/TVRename/Forum/TopicDetails/2934aef8-4dfe-4503-a995-81b95542a6bf)
-* [**Support for additional Media Centres**](http://ideas.theideawall.com/TVRename/Forum/TopicDetails/74204b8a-836a-4a6e-997d-09ea4fe39362)
+* [**Get the codec, size etc and use to show images in the show guide**.](https://github.com/TV-Rename/tvrename/issues/1040)
+* [**AtomicParsley/MKVPropEdit support**](https://github.com/TV-Rename/tvrename/issues/1041)
+* [**Support for additional Media Centres**](https://github.com/TV-Rename/tvrename/issues/1042)

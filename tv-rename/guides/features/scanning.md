@@ -21,13 +21,13 @@ These can be triggered in several ways:
 
 #### Further Information <a href="#further-information-1" id="further-information-1"></a>
 
-* Configuration options are detailed in [**Options>Preferences>Scan Options**](https://www.tvrename.com/manual/options#the-scan-options-tab)
+* Configuration options are detailed in [**Options>Preferences>Scan Settings**](../../menu/preferences.md#scan-settings)
 
 {% content-ref url="../../menu/preferences.md" %}
 [preferences.md](../../menu/preferences.md)
 {% endcontent-ref %}
 
-* Further explanation can be found [**here**](https://www.tvrename.com/manual/user#scan).
+* Further explanation can be found [**here**](../../main/scan.md).
 
 {% content-ref url="../../main/scan.md" %}
 [scan.md](../../main/scan.md)
