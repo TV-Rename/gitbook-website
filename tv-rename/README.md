@@ -35,12 +35,6 @@ layout:
 | From multiple media locations to library language to show and episode images to metadata, to TheTVDB and µTorrent integration; virtually every aspect of TV Rename is configurable… | <p><strong>On-your marks:</strong> Set your preferences, and your TV show collection location(s).<br><strong>Get set:</strong> to run a scan to find out what’s current, sit back, relax, and watch it<br><strong>Go</strong>…</p> | TV Rename is open source and free to use. You may freely modify it for non-commercial use. All we ask is that you feed improvements back into the project so others may benefit. |
 | [preferences.md](menu/preferences.md "mention")                                                                                                                                     | [automating.md](guides/features/automating.md "mention")                                                                                                                                                                           | [**Licence Details**](https://raw.githubusercontent.com/TV-Rename/tvrename/master/Licence.rtf)                                                                                   |
 
-{% hint style="info" %}
-**Good to know:** providing a brief overview of your product and its core use cases is a great place to start with product docs. Your product might seem obvious to you – you made it! However, to others, even folks who are trying your product after reading your site or getting a sales demo, it can still be unclear. This is your chance to clarify your product and set the right expectations!
-{% endhint %}
-
-***
-
 {% columns %}
 {% column %}
 <figure><img src=".gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
@@ -71,7 +65,6 @@ _&#x41;utomatically_...
 ### But wait, there's more!
 
 _TV Rename can: -_\
-\
 **Rename** files using data from [The TVDB](http://thetvdb.com) and rules you can configure\
 **Monitor** specified folders for new TV show files\
 \
