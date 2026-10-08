@@ -4,7 +4,7 @@ My Shows displays a list of TV shows found and Identified in your media library,
 
 ## _TV Show Library_
 
-In essence this tab (along with some of the [preferences](https://www.tvrename.com/manual/options#preferences)) allows you to configure the interaction between [TheTVDB.com](http://thetvdb.com/) and your media library. Incidentally there can be multiple storage locations including local paths or drives on your computer, mapped network shares and UNC paths. The only restrictions being that a TV show cannot be spread across multiple locations, and removable USB drives should be set up so they are always assigned the same path or drive letter each time they are connected.
+In essence this tab (along with some of the [preferences](../menu/preferences.md)) allows you to configure the interaction between [TheTVDB.com](http://thetvdb.com/) and your media library. Incidentally there can be multiple storage locations including local paths or drives on your computer, mapped network shares and UNC paths. The only restrictions being that a TV show cannot be spread across multiple locations, and removable USB drives should be set up so they are always assigned the same path or drive letter each time they are connected.
 
 <figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
 
@@ -12,7 +12,7 @@ Here, you can see a number of shows listed in the left hand panel of the window.
 
 There is a small “search filter” at the top of the Show List panel, typing in this box here will allow you to hide the display of shows that don’t match the text.
 
-The right hand panel has two tabs, “Information” and “Images”, the usual setting is “Information”, however selecting “Images” displays all the cached images for a show or season of a show collected from [The TVDB](http://thetvdb.com/). Control of just what images are acquired is managed using the [_**Media Centre**_](https://www.tvrename.com/manual/options#the-media-center-tab) tab of **Options>Preferences**.
+The right hand panel has two tabs, “Information” and “Images”, the usual setting is “Information”, however selecting “Images” displays all the cached images for a show or season of a show collected from [The TVDB](http://thetvdb.com/). Control of just what images are acquired is managed using the [_**Media Centre**_](../menu/preferences.md#the-media-centers-tab) tab of **Options>Preferences**.
 
 Below these panels are a series of buttons which allow you to manage the content. They are: -
 
@@ -78,7 +78,7 @@ New in Version 2.6 the “Custom Language:” tick box and drop-down allows you 
 
 _Default:_ _**Un-ticked**_
 
-To complete the minimum setup for adding the show to the library we now need to go to the [“Folders” Tab](https://www.tvrename.com/manual/user/#the-folders-tab).
+To complete the minimum setup for adding the show to the library we now need to go to the [“Folders” Tab](my-tv-shows.md#the-show-aliases-tab).
 
 #### The Folders Tab <a href="#the-show-aliases-tab" id="the-show-aliases-tab"></a>
 
@@ -141,7 +141,7 @@ The “Show next airdate in When to Watch” tick box toggles the display of the
 
 The “Specials count as episodes” tick box is useful with shows such as “Mythbusters” where specials are often counted as normal episodes.
 
-The “Do Renaming” tick box tells TV Rename to use the names built using the [_**Options>Filename Template Editor**_](https://www.tvrename.com/manual/options#filename-template-editor) when copying or moving files if it is ticked, otherwise they will be left unchanged.
+The “Do Renaming” tick box tells TV Rename to use the names built using the [_**Options>Filename Template Editor**_](../menu/options-menu/filename-template-editor.md) when copying or moving files if it is ticked, otherwise they will be left unchanged.
 
 The “Do missing check” tick-box enables or disables the ability to check for missing episodes, if the option is ticked some degree of granularity is provided by the “Include future episodes” and “Include no airdate” tick-boxes.
 

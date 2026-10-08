@@ -10,7 +10,7 @@ description: Each of the tabs in “Preferences”, are discussed in detail belo
 
 The General Tab controls TV Renames’ Download and Scan behaviours.
 
-_“X” days count as recent_ specifies how many days are listed for the “Aired in the last N days” section of the [_**When to watch**_](https://www.tvrename.com/manual/user#when-to-watch) tab.
+_“X” days count as recent_ specifies how many days are listed for the “Aired in the last N days” section of the [_**Schedule**_](../main/when-to-watch.md) tab.
 
 _Default: **7 days**_
 
@@ -58,7 +58,7 @@ _Default: **Ticked**_
 
 The Display tab allows you to change how TV Rename looks. Its effects are purely visual, it does not change functionality.
 
-_Double-click in When to Watch does:_ Controls the double-click action in the [_**When to watch**_](https://www.tvrename.com/manual/user#when-to-watch) tab. Its options are _Search_ or _Scan_.
+_Double-click in When to Watch does:_ Controls the double-click action in the [_**Schedule**_](../main/when-to-watch.md) tab. Its options are _Search_ or _Scan_.
 
 _Default: **Search**_
 
@@ -172,7 +172,7 @@ _Default: **Un-ticked**_
 
 **NOTE:** If you use a NAS device as your media library and it is Linux based it has an epoch date of 01/01/1970 00:00. Files cannot have a date/time-stamp earlier than this. If you have any TV Show episodes whose original release date was earlier and you have the _Update files and folders with air date_ box ticked they will be set to 01/01/1970 00:00.
 
-_Automatically create merge rules for merged library episodes_ simply looks at the filename. If it matches one of the multi-episode regexes (see [**Options>Filename Processors**](https://www.tvrename.com/manual/options#filename-processors)) it will create the appropriate merge rule.
+_Automatically create merge rules for merged library episodes_ simply looks at the filename. If it matches one of the multi-episode regexes (see [**Options>Filename Processors**](options-menu/filename-processors.md)) it will create the appropriate merge rule.
 
 If your library contains:
 
@@ -195,7 +195,7 @@ _Automatically create missing folders_ simply gives TV Rename permission to crea
 
 _Default: **Un-ticked**_
 
-_Bulk Add_ can be run from the TV Rename menu (see [**Tools>Bulk Add Shows**](https://www.tvrename.com/manual/tools#bulk-add-shows)) or as part of each scan.
+_Bulk Add_ can be run from the TV Rename menu (see [**Tools>Bulk Add Shows**](tools-menu/bulk-add.md)) or as part of each scan.
 
 The _Do Bulk Add as part of scan_ tick box enables or disables this option.
 
@@ -244,8 +244,6 @@ _Season 01, Season 02 etc._
 
 The `Tags` button will pop up a list of the tags that TV Rename will recognise in the _Season folder format:_ text box.
 
-[Return to Top](https://www.tvrename.com/manual/options/)
-
 ### Movies Defaults
 
 ![](<../.gitbook/assets/image (11).png>)
@@ -267,8 +265,8 @@ The “Scan Type” radio buttons tell TV Rename the type of scan to perform whe
 | **Recent** | A Scan of all the shows that have aired recently (as specified in _“X” days count as recent_ above). |
 | **Quick**  | Scan the shows that have aired recently and have a missing episode in the library.                   |
 
-| The scans also check the locations specified in [_**Options>Preferences - Search Folders**_](https://www.tvrename.com/manual/options#the-search-folders-tab) for any matching media files. |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| The scans also check the locations specified in [_**Options>Preferences - Search Folders**_](preferences.md#the-search-folders-tab) for any matching media files. |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 Ticking _Scan on Startup_ tells TV Rename to perform the selected scan when the program starts. Ticking _Scheduled scan…_ will force a repeat scan every “X” hours.
 
@@ -276,7 +274,7 @@ _Scan Checks and Options_ has three major functions
 
 _Rename Check_ will tell TV Rename to correct found episode names to the found content from [The TVDB](http://thetvdb.com/).
 
-_Missing Check_ will tell TV Rename to check for missing episodes. Additionally this option must be ticked to enable changes in the [_**Torrents / NZB**_](https://www.tvrename.com/manual/options#the-torrents--nzb-tab) tab.
+_Missing Check_ will tell TV Rename to check for missing episodes. Additionally this option must be ticked to enable changes in the [_**Torrents / NZB**_](preferences.md#torrents-nzb) tab.
 
 _Move Files within Library to Keep it Tidy_ will do just that, if files have been directly added to or misplaced in the library enabling this setting will tidy stuff to the correct names and places.
 
@@ -284,7 +282,7 @@ _Move Files within Library to Keep it Tidy_ will do just that, if files have bee
 
 ![](<../.gitbook/assets/image (16).png>)
 
-The Files and Folders tab is used to manipulate how TV Rename copies or moves files from the “[Search Folders](https://www.tvrename.com/manual/options#the-search-folders-tab)” to the “[Library Folders](https://www.tvrename.com/manual/options#the-library-folders-tab)”.
+The Files and Folders tab is used to manipulate how TV Rename copies or moves files from the “[Search Folders](preferences.md#the-search-folders-tab)” to the “[Library Folders](preferences.md#the-library-folders-tab)”.
 
 The _Filename Replacements_ grid controls the replacement of illegal (Windows) characters in filenames.
 
@@ -366,7 +364,7 @@ _Look in “Search Folders” for missing files_ enables the search functionalit
 
 _Copy files, don’t move_, if ticked will tell TV Rename to copy and files to the media library leaving the originals intact.
 
-_Automatically create merge rules based on files in Search Folders_ is similar to the functionality found in [**Library Folders**](https://www.tvrename.com/manual/options#the-library-folders-tab) except the appropriate record is created before moving/copying the file rather than after.
+_Automatically create merge rules based on files in Search Folders_ is similar to the functionality found in [**Library Folders**](preferences.md#the-library-folders-tab) except the appropriate record is created before moving/copying the file rather than after.
 
 _Monitor folders for changes_, if ticked, will trigger a scan if Windows detects a change in any of the source folders.
 
@@ -449,7 +447,7 @@ The `Presets` button (bottom right) allows you to quickly apply all the relevant
 
 TV Rename can check SABnzbd µTorrent and qBittorent queues and uses the information on this tab to know where to look for more information.
 
-**NOTE:** to activate this tab the _Missing Check_ box on the [_**General**_](https://www.tvrename.com/manual/options#the-general-tab) tab **MUST** be ticked.
+**NOTE:** to activate this tab the _Missing Check_ box on the [_**General**_](preferences.md#the-general-tab) tab **MUST** be ticked.
 
 Both the “Host Port” and “API Key” are required to use this functionality in SABnzbd.
 
@@ -532,10 +530,6 @@ _Default: **720p;1080p**_
 ![](<../.gitbook/assets/image (3).png>)
 
 #### Schedule
-
-Ticking the “RSS” box in the “When to watch” section of the panel will save a RSS-reader compatible XML file to the location you specify (by typing or browsing). This file can then be read by something like XBOX Media Center, or a Windows RSS App.
-
-![](https://www.tvrename.com/assets/images/options/preferences-auto-export-01.png)
 
 Ticking the “RSS” box in the “When to watch” section of the panel will save a RSS-reader compatible XML file to the location you specify (by typing or browsing). This file can then be read by something like XBOX Media Center, or a Windows RSS App.
 

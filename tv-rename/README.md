@@ -89,7 +89,7 @@ _&#x4F;nce TV Rename knows about your Media Library it can: -_\
 Follow our handy guides to get started on the basics as quickly as possible:
 
 {% hint style="info" %}
-**Good to know:** If you’re new to TV Rename you should read the [Quick-Start Guide](https://www.tvrename.com/manual/quickstart) first (it’s only a 5 minute read and will help you get up-and-running).
+**Good to know:** If you’re new to TV Rename you should read the [Quick-Start Guide](guides/quick-start-guide.md) first (it’s only a 5 minute read and will help you get up-and-running).
 {% endhint %}
 
 {% content-ref url="guides/quick-start-guide.md" %}

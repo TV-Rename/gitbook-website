@@ -4,7 +4,7 @@ description: The Quick-Start Guide will help you with the initial setup TV Renam
 
 # Quick Start Guide
 
-To return to this page click `Quickstart Guide` in TV Rename’s **Help**, or browse to [https://www.tvrename.com/manual/quickstart](https://www.tvrename.com/manual/quickstart).
+To return to this page click `Quickstart Guide` in TV Rename’s **Help**, or browse to [https://www.tvrename.com/guides/quick-start-guide](https://www.tvrename.com/guides/quick-start-guide).
 
 In a nutshell TV Rename will identify, move and rename media files from one folder (or group of folders) to another folder, partially identified by the settings in TV Rename and partially identified from the file name.
 
