@@ -40,6 +40,6 @@ For Example: ‘S01E01-03’ would indicate that the file represents Series 1 an
 
 Note that if a file matches multiple missing files, or multiple files match one missing episode no action is taken. TV Rename will raise a warning in the log files and allow the user to manually link the file to the missing episode.
 
-#### Further Information <a href="#further-information-2" id="further-information-2"></a>
-
+{% hint style="info" %}
 Further information can be found [**here**](../../menu/options-menu/filename-processors.md).
+{% endhint %}
