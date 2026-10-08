@@ -443,7 +443,7 @@ The tick box options in each group should already be familiar to you if you use 
 
 The `Presets` button (bottom right) allows you to quickly apply all the relevant presets for the chosen media player.
 
-### Torrents / NZB <a href="#the-rss--json-search-tab" id="the-rss--json-search-tab"></a>
+### Torrents / NZB
 
 <figure><img src="../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure>
 
@@ -463,7 +463,7 @@ TV Rename uses the qBittorrent web interface to interrogate its status so you mu
 |            | Check µTorrent queue    | _**Un-ticked**_ |
 |            | Check qBittorrent queue | _**Un-ticked**_ |
 
-### RSS / JSON Search <a href="#the-automatic-export-tab" id="the-automatic-export-tab"></a>
+### RSS / JSON Search
 
 <figure><img src="../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure>
 
@@ -515,7 +515,7 @@ Ticking the “Detailed logging” box will greatly increase the log detail arou
 
 It is recommended that you only use this option if you need to. When ticked the size of the log file will grow very quickly.
 
-### Jackett Search <a href="#the-automatic-export-tab" id="the-automatic-export-tab"></a>
+### Jackett Search
 
 <p align="center"><img src="../.gitbook/assets/image (4).png" alt="" data-size="original"></p>
 
@@ -527,7 +527,7 @@ The _Preferred Terms:_ text box acts as a filter on the RSS Search and contains 
 
 _Default: **720p;1080p**_
 
-### Episode Export <a href="#the-automatic-export-tab" id="the-automatic-export-tab"></a>
+### Episode Export
 
 ![](<../.gitbook/assets/image (3).png>)
 
