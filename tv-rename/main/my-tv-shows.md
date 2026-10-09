@@ -80,7 +80,7 @@ _Default:_ _**Un-ticked**_
 
 To complete the minimum setup for adding the show to the library we now need to go to the [“Folders” Tab](my-tv-shows.md#the-show-aliases-tab).
 
-#### The Folders Tab <a href="#the-show-aliases-tab" id="the-show-aliases-tab"></a>
+#### The Folders Tab
 
 <figure><img src="../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
 
@@ -113,7 +113,7 @@ Sources often rename files because of the excessive length of the shows name, fo
 
 Another good example (though for different reasons) would be the BBC1 show “Doctor Who”, [The TVDB](http://thetvdb.com/) correctly calls it “Doctor Who” which TV Rename will recognise, however some sources variously call the show “Dr. Who” or “Dr Who” causing some confusion. Adding “Dr. Who” and “Dr Who” as aliases for “Doctor Who” will fix this problem and everything will be correctly named “Doctor Who” when moved or copied into the library.
 
-#### The Search Tab <a href="#the-search-tab" id="the-search-tab"></a>
+#### The Custom Search Tab <a href="#the-search-tab" id="the-search-tab"></a>
 
 <figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
 
@@ -125,7 +125,7 @@ Using the same technique and tag structure as found in the [Options>Search Engin
 
 This option is disabled by default but it can be enabled for the specific show by ticking the “Use Custom Search” box in the tab.
 
-#### Custom Episode Naming <a href="#the-advanced-tab" id="the-advanced-tab"></a>
+#### Custom Episode Naming Tab
 
 <div align="center"><img src="../.gitbook/assets/image (18).png" alt=""></div>
 
