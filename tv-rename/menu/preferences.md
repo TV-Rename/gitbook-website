@@ -285,7 +285,7 @@ The grid can be edited using the `Add` and `Remove` buttons and case sensitivity
 
 _Video Extensions:_ tells TV Rename what to match when looking for video files. The entries should be semicolon delimited, not contain spaces and include the “.” preceding the extension.
 
-_Default: **.avi;.mpg;.mpeg;.mkv;.mp4;.wmv;.divx;.ogm;.qt;.rm**_
+_Default:_ **.avi;.mpg;.mpeg;.mkv;.mp4;.wmv;.divx;.ogm;.qt;.rm;.m4v;.webm;.vob;.ovg;.ogg;.mov;.m4p;.3gp;.wtv;.ts**
 
 _Other Extensions:_ follows the same rules as _Video Extensions_ but the file extensions specified are for related files rather than actual videos. Files with these extensions will be renamed when scanning through the library.
 
@@ -385,7 +385,7 @@ _Default:_ _**dvdrip;camrip;screener;dvdscr;r5;bluray**_
 
 The _Ignore Suffixes:_ text box tells TV Rename to ignore the specified suffixes.
 
-_Default:_ _**1080p;720p**_
+_Default:_ _**1080p;720p;2160p**_
 
 _Update episodes when higher quality ones found:_ tells TV\&nbsp:;Rename to replace files in the video library with higher quality versionbs if they are found.
 
@@ -516,7 +516,7 @@ Jackett is an external program and is not supported by the TV Rename team. It is
 
 The _Preferred Terms:_ text box acts as a filter on the RSS Search and contains a semicolon delimited list. There must be a match in the RSS feed to return a search result. The default entry will only find RSS feed results that contain 720p or 1080p in the video names.
 
-_Default: **720p;1080p**_
+_Default: **720p;1080p;2160p**_
 
 ### Episode Export
 

@@ -30,7 +30,7 @@ The main active log file is available from the **Help>Log** menu option. Note th
 
 The current log file (TVRename.log) can be found in: -
 
-> \Users\\\<username>\AppData\Roaming\TV Rename\log\\
+> \Users\\\<username>\AppData\Roaming\TVRename\log\\
 
 Log files are rotated into an “archive” folder (in the same location as TVRename.log) every time TV Rename is run or every 24 hours, whichever is sooner.
 
