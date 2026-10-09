@@ -80,6 +80,8 @@ _Default:_ _**Un-ticked**_
 
 To complete the minimum setup for adding the show to the library we now need to go to the [“Folders” Tab](my-tv-shows.md#the-show-aliases-tab).
 
+{% include "../.gitbook/includes/user-tipthe-search-function....md" %}
+
 #### The Folders Tab
 
 <figure><img src="../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
