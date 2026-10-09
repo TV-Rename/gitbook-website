@@ -4,7 +4,7 @@
 
 <figure><img src="../../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
 
-This is where you tell TV Rename about the location(s) of your media library. Additionally you can check these locations for new folders unknown to TV Rename and quickly scan and add them to the _**My Shows**_ tab.
+This is where you tell TV Rename about the location(s) of your media library. Additionally you can check these locations for new folders unknown to TV Rename and quickly scan and add them to the _**TV Shows**_ tab.
 
 Before using this tool, check that your preferred renaming style is set in [_Options>Filename Template Editor_](../options-menu/filename-template-editor.md).
 

@@ -37,14 +37,14 @@ Under normal circumstances you would add a Media Library path when adding a new 
 1.  Follow the menu to **Tools>Bulk Add Shows** and whilst on the _**Folders**_ tab of the newly opened window click `Add`. Browse to the root folder of your “Media Library” and click `OK`. The path will be added to the “Monitor Folders” list.
 
     If you use multiple disks or paths for your library, repeat the above step for each root path.
-2. Click the `Check >>` button, the selected path(s) will be scanned and any content with a recognised structure automatically displayed in the _**Scan Results**_ tab.
-3.  In the _**Scan Results**_ tab, click `Auto ID All` and TV Rename will attempt to match the found content against [TheTVDB](http://thetvdb.com/), and ascertain if the show is part of a “flat” structure with all the episodes in one folder, or a “tree” structure with sub folders for each season and specials.
+2. Click the `Check >>` button, the selected path(s) will be scanned and any content with a recognised structure automatically displayed in the _**Scan**_ tab.
+3.  In the _**Scan**_ tab, click `Auto ID All` and TV Rename will attempt to match the found content against [TheTVDB](http://thetvdb.com/), and ascertain if the show is part of a “flat” structure with all the episodes in one folder, or a “tree” structure with sub folders for each season and specials.
 
     Any shows not identified will not have an entry in the **Show** column or the **thetvdb code** column; these can be fixed manually by highlighting the relevant row in the table and clicking `Edit` and using `Search` to interrogate [TheTVDB](http://thetvdb.com/).
-4. Once the match process has finished, click `Add & Close` and accept the confirmation, all the identified shows will be added to the _**My Shows**_ tab.
-5. _**My Shows**_ will now be populated with the TV shows that have been identified, however there is currently no “Season” information. click `Refresh` and all the season information will be downloaded (depending on the size of your media library this may take a little while).
+4. Once the match process has finished, click `Add & Close` and accept the confirmation, all the identified shows will be added to the _**TV Shows**_ tab.
+5. _**TV Shows**_ will now be populated with the TV shows that have been identified, however there is currently no “Season” information. click `Refresh` and all the season information will be downloaded (depending on the size of your media library this may take a little while).
 6. Once the download is complete you can browse the series information. Here, by right clicking on a show or season, you can edit the TV Rename settings to override information fetched from [The TVDB](http://thetvdb.com/) .
-7. You can manually add shows by clicking the `Add` button in the _**My Shows**_ tab. in the _Add/Edit Show_ window that appears enter the show name or code in the” [The TVDB](http://thetvdb.com/) code:” box and click `Search` to find it. Hop across to the _**Folders**_ tab and enter the base folder for the show in your media library, and click `OK`.
+7. You can manually add shows by clicking the `Add` button in the _**TV Shows**_ tab. in the _Add/Edit Show_ window that appears enter the show name or code in the” [The TVDB](http://thetvdb.com/) code:” box and click `Search` to find it. Hop across to the _**Folders**_ tab and enter the base folder for the show in your media library, and click `OK`.
 
 ## 2 - Set your Search Folders <a href="#set-your-search-folders" id="set-your-search-folders"></a>
 
@@ -92,7 +92,7 @@ Click `Do Checked` and TV Rename will process the ticked actions, moving and ren
 
 ## 5 - Ongoing Monitoring <a href="#ongoing-monitoring" id="ongoing-monitoring"></a>
 
-Go to the _**When to watch**_ tab and you will see all known future information (including air dates) for shows you are following.
+Go to the _**Schedule**_ tab and you will see all known future information (including air dates) for shows you are following.
 
 In the _**Search Folders**_ tab of **Options>Preferences** you can schedule scans, either time based _(“Schedule a scan…)”_ or by gleaning search folder updates from Windows _(“Monitor folders for changes”)_.
 

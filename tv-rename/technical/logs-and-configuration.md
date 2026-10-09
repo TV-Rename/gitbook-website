@@ -12,7 +12,7 @@ It contains:
 
 | **TVRenameSettings.xml**                                                                        | Everything else not mentioned is stored in here. All your shows, media library paths, folder structures and settings. This is only overwritten when you choose **File>Save**. |
 | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <p><strong>TheTVDB.xml</strong><br><strong>TMDB.xml</strong><br><strong>TVMaze.xml</strong></p> | The locally cached tvdb.com show season and episode information for everything listed in the _**My Shows**_ tab.                                                              |
+| <p><strong>TheTVDB.xml</strong><br><strong>TMDB.xml</strong><br><strong>TVMaze.xml</strong></p> | The locally cached data about movies, shows seasons and episodes for everything listed in the _**TV Shows**_ tand **Movies** tabs.                                            |
 | **Layout.xml**                                                                                  | TV Rename’s window position and size as well as column widths.                                                                                                                |
 | **Statistics.xml**                                                                              | TV Rename’s historical statistics.                                                                                                                                            |
 | **Languages.xml**                                                                               | TV Rename’s cache of possible languages to cover.                                                                                                                             |
@@ -44,10 +44,10 @@ When raising a bug please include a log file that illustrates the issue if you c
 
 ### Cache and Supporting Logs <a href="#the-registry" id="the-registry"></a>
 
-| **log/cef-debug.log** | Specific log file related to the in-built broswer                                                                  |
-| --------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| **audit/\*.json**     | If enabled, audit logs the downloaded information from the upsttream data sources. Can be safely deleted if needed |
-| **cache/\***          | Cache that the built-in browser uses to speed its operation. Can be safely deleted.                                |
+| **log/cef-debug.log** | Specific log file related to the in-built broswer                                                                 |
+| --------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| **audit/\*.json**     | If enabled, audit logs the downloaded information from the upstream data sources. Can be safely deleted if needed |
+| **cache/\***          | Cache that the built-in browser uses to speed its operation. Can be safely deleted.                               |
 
 ### The Registry <a href="#the-registry" id="the-registry"></a>
 

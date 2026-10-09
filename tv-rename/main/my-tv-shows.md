@@ -16,7 +16,7 @@ The right hand panel has two tabs, “Information” and “Images”, the usual
 
 Below these panels are a series of buttons which allow you to manage the content. They are: -
 
-* `Add` - Adds a new show to the list. Remember you may need to add folders to for the show separately if you need to monitor it in the media library. You don’t need to add a folder if you only want to see the shows air-dates in the [Schedule](when-to-watch.md) tab.
+* `Add` - Adds a new show to the list. Remember you may need to add folders to for the show separately if you need to monitor it in the media library. You don’t need to add a folder if you only want to see the shows air-dates in the [**Schedule**](when-to-watch.md) tab.
 * `Edit` - Edit the currently selected show or season.
 * `Delete` - Remove the currently selected show(s) from TV Rename’s database, and optionally delete the selected show(s) from the media library - _**careful!**_
 * `Refresh` - Refresh the current view
@@ -54,19 +54,19 @@ The first step is to tell TV Rename about the show. If you know it you can enter
 
 TV Rename will search for matches to your entry in TheTVDB’s database, cache the results locally and display the matches. The search also works with partial show names. For example you could search for just “doctor”, but “doctor” being fairly common in TV show titles, returns over 80 results (including ours!), and you will have to delve into the list to find the one you want. Once you have found the correct show, click on it to highlight it.
 
-If all you want to do is see the details of the show then you’re done! Just click `OK` at the bottom of the window and TV Rename will pull the necessary data from [The TVDB](http://thetvdb.com/) to populate the _**My Shows**_ tab.
+If all you want to do is see the details of the show then you’re done! Just click `OK` at the bottom of the window and TV Rename will pull the necessary data from [The TVDB](http://thetvdb.com/) to populate the _**TV Shows**_ tab.
 
-Once the update is complete _**My Shows**_ includes “The Good Doctor” and looks like this: -
+Once the update is complete _**TV Shows**_ includes “The Good Doctor” and looks like this: -
 
 <figure><img src="../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
 
-All the Show and Season information is downloaded and the _**When to Watch**_ tab will now list any future episode dates, but there are no links to the media library.
+All the Show and Season information is downloaded and the _**Schedule**_ tab will now list any future episode dates, but there are no links to the media library.
 
-Lets go back and tweak “The Good Doctor”. Assuming the show is listed in _**My Shows**_, make sure it is highlighted and click `Edit` to recall the partially populated _Add/Edit Show_. If it isn’t listed in _**My Shows**_ follow the steps above to get the show name populated and then carry on as described below.
+Lets go back and tweak “The Good Doctor”. Assuming the show is listed in _**TV Shows**_, make sure it is highlighted and click `Edit` to recall the partially populated _Add/Edit Show_. If it isn’t listed in _**TV Shows**_ follow the steps above to get the show name populated and then carry on as described below.
 
 The “Custom show name:” field allows you to change the show name in both TV Rename and the media library (except the base folder). You may like to remove “The” from names, or change extra information like the year the show was originally produced that appears with some shows. If you tick the box and enter a new name in the field provided the shows title will be replaced with this entry.
 
-The “Airs in Timezone:” drop-down tells TV Rename that the air time from [The TVDB](http://thetvdb.com/) is in that specific timezone. Most shows are in Eastern USA time, but British shows (e.g. Maigret) will be in British Standard Time. This only has an effect in the _**When to Watch**_ tab which translates these times into your local timezone, or in the status bar when calculating time till the “Next Airing:”.
+The “Airs in Timezone:” drop-down tells TV Rename that the air time from [The TVDB](http://thetvdb.com/) is in that specific timezone. Most shows are in Eastern USA time, but British shows (e.g. Maigret) will be in British Standard Time. This only has an effect in the _**Schedule**_ tab which translates these times into your local timezone, or in the status bar when calculating time till the “Next Airing:”.
 
 _Default:_ _**Eastern Standard Time**_
 
@@ -137,7 +137,7 @@ Here, you can further manipulate the way data from [The TVDB](http://thetvdb.com
 
 The “Use DVD order” tick box comes into play when the episodes aired on TV in a different order to those presented on the DVD. [The TVDB](http://thetvdb.com/) usually has details of these orders and this tick box allows you to choose your preference for the current show. A Really good example of this is the 1967 ITV show [“The Prisoner”](https://www.thetvdb.com/?tab=season\&seriesid=74805\&seasonid=8058\&lid=7), which, whilst it was written as one season of seventeen episodes still causes as much controversy (and argument) over it’s running order today as it did when it was originally released. TVDB also has an 'alternate order' specified as some shows have had episodes regrouped into seasons on different platforms.
 
-The “Show next airdate in When to Watch” tick box toggles the display of the shows “Future” and “Later” episodes in the _**When to Watch**_ tab.
+The “Show next airdate in When to Watch” tick box toggles the display of the shows “Future” and “Later” episodes in the _**Schedule**_ tab.
 
 The “Specials count as episodes” tick box is useful with shows such as “Mythbusters” where specials are often counted as normal episodes.
 
@@ -157,7 +157,7 @@ The “Edit Season Rules” pane allows you to manipulate the local data from [T
 
 Episodes 1 and 2 of Season 5 of “Marvel’s Agents of S.H.I.E.L.D.” aired as a double episode so only one file exists, however [The TVDB](http://thetvdb.com/) correctly has both episodes listed individually, so there is a conflict.
 
-The image illustrates a rule that merges the two episodes into one. This will affect the name displayed in the _**My Shows**_ tab, and the naming of the file in the media library.
+The image illustrates a rule that merges the two episodes into one. This will affect the name displayed in the _**TV Shows**_ tab, and the naming of the file in the media library.
 
 The rules are applied in top to bottom order, you can use the the `Up` and `Down` buttons to move a rule.
 
@@ -182,7 +182,7 @@ The “Actions:” available are: -
 | **Insert** | Manually add an episode into the season. Later episodes are renumbered to accommodate the change. |
 | **Split**  | Turn one episode into many. Following episodes are renumbered to accommodate the change.          |
 
-After applying a rule, go to _**My Shows**_ , select the show, and click `Refresh`. You will then see (and can check) the effects of the rules you’ve created.
+After applying a rule, go to _**TV Shows**_ , select the show, and click `Refresh`. You will then see (and can check) the effects of the rules you’ve created.
 
 ## Auto Add Shows <a href="#auto-add-shows" id="auto-add-shows"></a>
 

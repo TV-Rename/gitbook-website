@@ -48,7 +48,7 @@ There are also a number of useful options available in the right-click menu here
 
 Selecting files in the main scan panel and clicking `Ignore Selected` will remove them from the system (permanently unless they are removed from the ignore list - see [**Options>Ignore List**](../menu/options-menu/ignore-list.md)).
 
-Selecting files in the main scan panel and clicking `Revert to Missing` will mark (and list) them as missing. (If they are within the date range of “Aired in the last…” in the _**When to watch**_ tab they will also be shown as missing there.
+Selecting files in the main scan panel and clicking `Revert to Missing` will mark (and list) them as missing. (If they are within the date range of “Aired in the last…” in the _**Schedule**_ tab they will also be shown as missing there.
 
 Selecting files in the main scan panel and clicking `Remove Selected` will temporarily remove them from the scan tab. They will re-appear when the scan is re-run.
 

@@ -10,6 +10,6 @@ As an example, here is a URL entry for Google.
 
 > https://www.google.co.uk/search?q={ShowName}+S{Season:2}E{Episode}
 
-The list of URL’s can be used when the _**When to watch**_ tab is open, the last used entry becomes the default, and appears in a text box to the right of the `Refresh` button. It can be changed by clicking the `▼` button and selecting another entry.
+The list of URL’s can be used when the _**Schedule**_ tab is open, the last used entry becomes the default, and appears in a text box to the right of the `Refresh` button. It can be changed by clicking the `▼` button and selecting another entry.
 
 With a little ingenuity you can get really creative with these entries and pass your search to its specific target through a web proxy.

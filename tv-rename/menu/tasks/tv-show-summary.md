@@ -6,12 +6,12 @@ Show Summary displays a table of the shows in your database with traffic light s
 
 The season colouring is as follows: -
 
-| **Green**       | Indicates a season of a show that is complete.                                                                                             |
-| --------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Light Green** | Indicates a season of a show which is ongoing. The numbers in brackets indicates the number of up-coming shows found in **When to watch**. |
-| **Orange**      | Indicates a season whose broadcast is complete but you don’t have all the available episodes in the library.                               |
-| **Red**         | Indicates a season whose broadcast is complete but you have no episodes.                                                                   |
-| **Grey**        | Indicates a season which you have told TV Rename to ignore.                                                                                |
+| **Green**       | Indicates a season of a show that is complete.                                                                                            |
+| --------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| **Light Green** | Indicates a season of a show which is ongoing. The numbers in brackets indicates the number of up-coming shows found in **Schedule** tab. |
+| **Orange**      | Indicates a season whose broadcast is complete but you don’t have all the available episodes in the library.                              |
+| **Red**         | Indicates a season whose broadcast is complete but you have no episodes.                                                                  |
+| **Grey**        | Indicates a season which you have told TV Rename to ignore.                                                                               |
 
 The show name colouring is as follows: -
 
