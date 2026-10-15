@@ -1,8 +1,9 @@
 # Adding Movies & TV Shows
 
-TV Rename will track many TV Shows and Movies in your library. These can be added in 3 key ways:
+TV Rename will track many TV Shows and Movies in your library. These can be added in 4 key ways:
 
 * _**Manually**_ – Added manually by entering the name into the ‘Add Show’ screen from the main ‘**TV Shows**’ tab (or equivalent on the **Movies** tab)
+* _**Suggestions -**_ TV Rename can make suggestions of other media you want to add to your collection.
 * _**Bulk Add**_ – TV Rename can scan through some specified folders (Monitor Folders) via the ‘[Bulk Add](../../menu/tools-menu/bulk-add.md)’ tool. It will display a list of shows that are not already in the library and allow them to be added en-masse.
 * _**Automated**_ – TV Rename can be setup to look at files in the download folder (Search Folders) and (if it can’t find an appropriate show in the library) offer the user some suggestions about which series/show to add to the library.
 
@@ -22,6 +23,14 @@ Manual addition is the simplest way of adding shows into the library. You can en
 {% content-ref url="../../main/movies.md" %}
 [movies.md](../../main/movies.md)
 {% endcontent-ref %}
+
+### **Suggestions**
+
+TV Rename can make suggestions of other media you want to add to your collection:
+
+* **Recommendations** - TV and Movie recommendations from TMDB. (more info [here](../../menu/tools-menu/recommendations.md))
+* **Movie Collections** - List all collections your movies are in to allow you to add others from the same collection. (more info [here](../../menu/tasks/movie-collection-summary.md))
+* **YTS Movie Recommendations** - (Beta mode only) These 2 toosl help discovery of new movies you may be interested in. (more info [here](../../menu/beta-menu.md#yts-movies-and-recommendations))
 
 ### **Bulk Addition**
 

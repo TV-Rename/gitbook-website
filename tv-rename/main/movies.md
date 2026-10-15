@@ -1,3 +1,7 @@
+---
+description: TV Rename also managed movies...
+---
+
 # Movies
 
 ## Movie Library
@@ -15,9 +19,9 @@ Below these panels are a series of buttons which allow you to manage the content
 
 The right hand side of the screen has 3 tabs:
 
-* Information - key information about the movie. NB you can expand the Cast and Crew section to get more information
-* Images - Any downloaded images and posters from the movie
-* Trailer - Embedded youtube viewer of the movie's trailer
+* **Information** - key information about the movie. NB you can expand the Cast and Crew section to get more information
+* **Images** - Any downloaded images and posters from the movie
+* **Trailer** - Embedded youtube viewer of the movie's trailer
 
 **REMEMBER:**
 
@@ -27,7 +31,7 @@ The right hand side of the screen has 3 tabs:
   * `Force Refresh` - Force TV Rename to delete the cached data it has about that movie and refresh from the source
   * `Scan Movie`- Do a scan just for this movie.
 
-#### Filters
+### Filters
 
 <figure><img src="../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
 
@@ -57,9 +61,16 @@ There are a number of ways one can add movies to their library:
 
 ### Custom File Naming
 
+By default TV Rename will name movie files using the [Filename Format](../menu/preferences.md#the-library-folders-tab) in **Preferences>Library Folders**. If this movie should use its own format then it can be overridden and specified here:
+
 <figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
 
 ### Aliases
+
+Aliases are other terms that TV Rename uses (as well as the main name of the media) to match a filename to the movie name. TV Rename has 2 types of aliases:
+
+1. **Source Aliases** that come from the data source
+2. **Custom Aliases** that the user adds manually
 
 <figure><img src="../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
 

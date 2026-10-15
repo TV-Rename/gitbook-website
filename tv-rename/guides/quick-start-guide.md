@@ -6,7 +6,7 @@ description: The Quick-Start Guide will help you with the initial setup TV Renam
 
 To return to this page click `Quickstart Guide` in TV Rename’s **Help**, or browse to [https://www.tvrename.com/guides/quick-start-guide](https://www.tvrename.com/guides/quick-start-guide).
 
-In a nutshell TV Rename will identify, move and rename media files from one folder (or group of folders) to another folder, partially identified by the settings in TV Rename and partially identified from the file name.
+In a nutshell, TV Rename will identify, move and rename media files from one folder (or group of folders) to another folder, partially identified by the settings in TV Rename and partially identified from the file name.
 
 Once TV Rename knows about these folders (more on this later) it will process media files and move them to the specified location.
 
@@ -30,6 +30,8 @@ _The guide assumes you already have the beginnings of a **Media Library** - a fo
 
 ## 1 - Add content from your Media Library <a href="#add-content-from-your-media-library" id="add-content-from-your-media-library"></a>
 
+### Bulk Add (best if you have a folder of sorted media files)
+
 Under normal circumstances you would add a Media Library path when adding a new show to TV Rename, however TV Rename has a trick up its sleeve when adding shows already in the library’s folder infrastructure - **Bulk Add Shows**.
 
 <figure><img src="../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
@@ -44,7 +46,10 @@ Under normal circumstances you would add a Media Library path when adding a new 
 4. Once the match process has finished, click `Add & Close` and accept the confirmation, all the identified shows will be added to the _**TV Shows**_ tab.
 5. _**TV Shows**_ will now be populated with the TV shows that have been identified, however there is currently no “Season” information. click `Refresh` and all the season information will be downloaded (depending on the size of your media library this may take a little while).
 6. Once the download is complete you can browse the series information. Here, by right clicking on a show or season, you can edit the TV Rename settings to override information fetched from [The TVDB](http://thetvdb.com/) .
-7. You can manually add shows by clicking the `Add` button in the _**TV Shows**_ tab. in the _Add/Edit Show_ window that appears enter the show name or code in the” [The TVDB](http://thetvdb.com/) code:” box and click `Search` to find it. Hop across to the _**Folders**_ tab and enter the base folder for the show in your media library, and click `OK`.
+
+### Manually
+
+1. You can manually add shows by clicking the `Add` button in the _**TV Shows**_ tab. in the [_Add/Edit Show_](../main/my-tv-shows.md#addedit-show) window that appears enter the show name or code in the” [The TVDB](http://thetvdb.com/) code:” box and click `Search` to find it. Hop across to the _**Folders**_ tab and enter the base folder for the show in your media library, and click `OK`.
 
 ## 2 - Set your Search Folders <a href="#set-your-search-folders" id="set-your-search-folders"></a>
 
@@ -52,7 +57,7 @@ Whilst not strictly necessary at this point TV Rename needs to know where to loo
 
 <figure><img src="../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
 
-In **Options>Preferences**, go to the _**Search Folders**_ tab and `Add` the locations you normally use for new episodes.
+In [**Options>Preferences**](../menu/preferences.md#the-search-folders-tab), go to the _**Search Folders**_ tab and `Add` the locations you normally use for new episodes.
 
 For example: I have two entries here, one points to my _Downloads_ folder for stuff I get from the internet. The other points to my _Desktop_ which I use as a target when ripping from my DVD collection.
 
@@ -76,19 +81,27 @@ If none of these is exactly what you are looking for you can “Roll-your-Own”
 The basic setup is now complete. Now would be a good time to take a look at the other tabs in **Options>Preferences** (if you haven’t already!) to get an idea of how TV Renames behaviour can be customised.
 {% endhint %}
 
+{% content-ref url="../menu/options-menu/filename-template-editor.md" %}
+[filename-template-editor.md](../menu/options-menu/filename-template-editor.md)
+{% endcontent-ref %}
+
 ## 4 - Run a Scan <a href="#ongoing-monitoring" id="ongoing-monitoring"></a>
 
 Now you’re ready to run your first scan.
 
 Go to the _**Scan**_ tab, and click `Full`. TV Rename will download any needed show information from [The TVDB](http://thetvdb.com/), and compare it with the contents of the media library.
 
-<figure><img src="../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
 
 When the scan is complete, TV Rename will display its suggested changes in the main pane. Any ticked item will be actioned, so un-tick things you’re not sure about, or use the check boxes in the bottom-right of the window.
 
 For a more “granular” approach you can right-click on selected items to see actions for that specific item.
 
 Click `Do Checked` and TV Rename will process the ticked actions, moving and renaming files as necessary.
+
+{% content-ref url="../main/scan.md" %}
+[scan.md](../main/scan.md)
+{% endcontent-ref %}
 
 ## 5 - Ongoing Monitoring <a href="#ongoing-monitoring" id="ongoing-monitoring"></a>
 
