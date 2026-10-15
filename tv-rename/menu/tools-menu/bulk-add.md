@@ -14,9 +14,21 @@ Before using this tool, check that your preferred renaming style is set in [_Opt
 
 The system inspects each folder and if it contains any sub-folders that look like they are a season it assumes that they are structured in separate folders per season. TV Rename looks for any folders that start with any of the ‘season words’ entered in the preferences, with the default season word (again entered in preferences) and (if configured) any of the words used as season folder names for any of the shows in your library. The preferences for this function are specified [here](../preferences.md#the-files-and-folders-tab) and [here](../preferences.md#the-files-and-folders-tab). The system only considers a season folder to be a season folder if it follows the pattern ‘ nnnn'. The space between is optional and the number can be any length.
 
-Click the `Auto ID All` button and TV Rename will try and identify the newly found shows using cached data from [The TVDB](http://thetvdb.com/) . If the show is found the “Show” and “thetvdb code” columns will be populated. If a show isn’t being matched or is incorrectly identified highlight the row in question and use the `Edit` button to perform a manual search of [TheTVDB.com](http://thetvdb.com/), and for a more in-depth interrogation you can use the `Visit TVDB` button which will launch a web browser targeting the shows page or `Open Folder` which will open the selected folder in Windows Explorer.
+Click the `Auto ID All` button and TV Rename will try and identify the newly found shows. If the show is found the **Show** and **Source Code** columns will be populated. If a show isn’t being matched or is incorrectly identified highlight the row in question and use the `Edit` button to perform a manual search, and for a more in-depth interrogation you can use the `Visit TVDB` button which will launch a web browser targeting the shows page or `Open Folder` which will open the selected folder in Windows Explorer.
 
-The `Auto ID All` function will use a combination of the show’s name as well as any NFO or XML files in the identified folder to help it try and guess the show being added. Any NFO or XML file with the ‘tvdbid’ tag will assist (Kodi format).
+`Auto ID All` identifies each folder using, in this order:
+
+1. a show ID in the folder name, if there is one (see below)
+2. any NFO or XML file in the folder with a ‘tvdbid’ tag (Kodi format)
+3. the show’s name, taken from the folder name
+
+### Putting the show ID in the folder name
+
+To make sure a folder is matched to the right show, add the show’s ID from TheTVDB, TMDB or TVmaze to the folder name. For example, each of these folders is identified as Silo:
+
+* `Silo {tvdb-403245}`
+* `Silo [tmdbid-125988]`
+* `Silo tvmaze=38052`
 
 Clicking `Remove` will remove the highlighted row from the New Shows list, however it will be re-detected in the next run of “Auto ID All”.
 
@@ -64,6 +76,15 @@ Each video file found is listed under **New Movies**, with its **Folder**, and t
 | `Ignore`                       | After you confirm, adds the selected folders to the Ignore Folders list and takes them off the list.                                       |
 | `Visit TVDB`                   | Opens the selected movie's page on TheTVDB or TMDB, whichever it was identified from. It does nothing until the movie has been identified. |
 | `Open Folder`                  | Opens the selected movie's folder in File Explorer.                                                                                        |
+
+### Putting the movie ID in the file or folder name
+
+To make sure a movie is matched to the right title, add its TMDB ID to the movie's file name or to its folder name. For example, either of these is identified as The Matrix (1999):
+
+* a file named `The Matrix {tmdb-603}.mkv`
+* a folder named `The Matrix {tmdb-603}`
+
+Without an ID, `Auto ID All` searches for the movie by its name.
 
 When you are ready, click `Add & Close`. TV Rename asks you to confirm, then adds every identified movie to the **Movies** tab. Movies that haven't been identified are not added.
 
