@@ -1,29 +1,99 @@
 ---
 description: >-
-  A number of TV Rename’s functions can be accessed using the command line. If
-  TV Rename is already running any CLI activity will be directed towards the
-  running instance.
+  Run TV Rename's scans, actions and updates from a shortcut, a batch file or
+  Windows Task Scheduler, without clicking through the window.
 ---
 
 # Command Line
 
-### Main Options
+Everything on this page can also be done from TV Rename's own window. The command line is for when you want it to happen without you: a desktop shortcut that starts a scan, a batch file, or a task that runs overnight.
 
-<table><thead><tr><th width="211"></th><th></th></tr></thead><tbody><tr><td><strong>/scan</strong></td><td>Tell TV Rename to run a full scan.</td></tr><tr><td><strong>/recentscan</strong></td><td>Tell TV Rename to run a recent scan.</td></tr><tr><td><strong>/quickscan</strong></td><td>Tell TV Rename to run a quick scan.</td></tr><tr><td><strong>/doall</strong></td><td>Tell TV Rename execute all the actions it can (User needs to specify which scan type is required otherwise there will be no actions to complete - choose from above scan options on the command line).</td></tr><tr><td><strong>/export</strong></td><td>Tell TV Rename do any configured exports.</td></tr><tr><td><strong>/quit</strong></td><td>Tell a hidden TV Rename session to exit.</td></tr></tbody></table>
+## Before you start
 
-### Updates & Saving <a href="#hidden-behaviour" id="hidden-behaviour"></a>
+TV Rename installs to `C:\Program Files (x86)\TVRename` unless you chose a different folder when installing it. Because that path contains spaces, it must be in quotes. Switches go after it, separated by spaces, and are not case sensitive.
 
-<table><thead><tr><th width="211"></th><th></th></tr></thead><tbody><tr><td><strong>/forcerefresh</strong></td><td>will refresh all TVDB, TMDB and TV Maze information</td></tr><tr><td><strong>/forceupdate</strong></td><td>will verify TVDB &#x26; TMDB information is up to date</td></tr><tr><td><strong>/quickupdate</strong></td><td>will do a quick update from TVDB, TMDB and TV Maze</td></tr><tr><td><strong>/save</strong></td><td>Tell a running TV Rename session to save its caches.</td></tr></tbody></table>
+| Where            | How                                                                                                                      |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| Command Prompt   | `"C:\Program Files (x86)\TVRename\TVRename.exe" /recentscan`                                                             |
+| PowerShell       | Put `&` in front: `& "C:\Program Files (x86)\TVRename\TVRename.exe" /recentscan`                                         |
+| Desktop shortcut | Right-click the shortcut, choose **Properties**, and add the switches to the end of **Target**, after the closing quote. |
+| Task Scheduler   | **Program/script**: the quoted path above. **Add arguments**: the switches.                                              |
 
-### Hidden Behaviour <a href="#hidden-behaviour" id="hidden-behaviour"></a>
+The examples below shorten the path to `TVRename.exe`.
 
-<table><thead><tr><th width="201"></th><th></th></tr></thead><tbody><tr><td><strong>/hide</strong></td><td>Hides the User Interface and associated message boxes from view.<br>Defaults to not add missing folders (providing “/createmissing” is not set).<br>Exits once actions complete.</td></tr><tr><td><strong>/unattended</strong></td><td>This option means that the main UI is shown, but does not put up any blocking UI elements that need hunman interaction. Mainly this means that error and warning are just recorded in the log and the user does not get a message box notification.</td></tr></tbody></table>
+## Common tasks
 
-### Override Options <a href="#override-options" id="override-options"></a>
+| You want to                                                                        | Command                                                                   |
+| ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| Open TV Rename and run a recent scan, then look at the results yourself            | `TVRename.exe /recentscan`                                                |
+| Scan everything, carry out all the actions, then close                             | `TVRename.exe /scan /doall /quit`                                         |
+| Run overnight from Task Scheduler with nothing on screen: update, scan, act, close | `TVRename.exe /hide /quickupdate /recentscan /ignoremissing /doall /quit` |
+| Tell TV Rename, already open, to scan now                                          | `TVRename.exe /recentscan`                                                |
+| Tell TV Rename, already open, to save its settings                                 | `TVRename.exe /save`                                                      |
 
-<table><thead><tr><th width="200"></th><th></th></tr></thead><tbody><tr><td><strong>/createmissing</strong></td><td>Creates folders if they are missing.</td></tr><tr><td><strong>/ignoremissing</strong></td><td>Ignore missing folders.</td></tr><tr><td><strong>/norenamecheck</strong></td><td>Allows a request to an existing TV Rename session to scan without renaming.</td></tr></tbody></table>
+{% hint style="warning" %}
+`/doall` carries out **every** action in the list, including any you have unticked in the Scan tab. Run a scan without it first, and look at the results, until you are happy with what TV Rename does with your library.
+{% endhint %}
 
-### Other <a href="#settings-files" id="settings-files"></a>
+## How TV Rename handles the switches
 
-<table><thead><tr><th width="200"></th><th></th></tr></thead><tbody><tr><td><strong>/recover</strong></td><td>Recover will load a dialog box that enables the user to recover a prior TVDB.xml or TVRenameSettings.xml file. (Normally this dialog would only appear if the current settings are corrupted.)</td></tr><tr><td><strong>/userfilepath:BLAH</strong></td><td>Sets a custom folder path for the settings files</td></tr><tr><td><strong>/?</strong></td><td>Displays help information in the logs</td></tr></tbody></table>
+**Order.** Whatever order you type the switches in, TV Rename always works through them in this order:
 
+1. `/hide`
+2. `/quickupdate`, `/forceupdate`, `/forcerefresh`
+3. `/scan`, `/quickscan`, `/recentscan`
+4. `/doall`
+5. `/save`
+6. `/export`
+7. `/quit`
+
+So `/quit /scan` still scans first and quits afterwards.
+
+**If TV Rename is already open.** Only one copy of TV Rename runs at a time. Running it again passes the switches to the open window, which does the work, and the second copy closes straight away. `/createmissing`, `/ignoremissing` and `/norenamecheck` then apply to that one request only.
+
+This also means `/doall` sent to an open window carries out whatever is already in its Scan tab, even without a scan switch.
+
+## Switch reference
+
+### Scanning and actions
+
+| Switch          | What it does                                                                                                                                                                       |
+| --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **/scan**       | Run a full scan. A scan only builds the list of actions; nothing on disk changes unless `/doall` is also given. See [Scanning](../guides/features/scanning.md) for the scan types. |
+| **/recentscan** | Run a recent scan: shows with an episode aired in the last few days.                                                                                                               |
+| **/quickscan**  | Run a quick scan.                                                                                                                                                                  |
+| **/doall**      | Carry out all the actions in the list. Use it with a scan switch, otherwise a freshly started TV Rename has nothing to do.                                                         |
+| **/export**     | Run the exports you have set up in [Preferences](../menu/preferences.md#episode-export).                                                                                           |
+| **/quit**       | Close TV Rename once everything else has finished. Works on a hidden copy and on an open window.                                                                                   |
+
+### Updating show and movie information
+
+| Switch            | What it does                                                                                      |
+| ----------------- | ------------------------------------------------------------------------------------------------- |
+| **/quickupdate**  | Download recent changes from TheTVDB, TMDB and TV Maze.                                           |
+| **/forceupdate**  | Check that the TheTVDB and TMDB information is up to date.                                        |
+| **/forcerefresh** | Download everything again for every show and movie. This can take a long time on a large library. |
+| **/save**         | Save TV Rename's settings and downloaded information now.                                         |
+
+### Running without anyone watching
+
+| Switch          | What it does                                                                                                                                                                                                                                                                                                            |
+| --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **/hide**       | Run with no window, splash screen, notification area icon or pop-ups. Missing folders are skipped unless `/createmissing` is also given. TV Rename does **not** close by itself: include `/quit`, or it keeps running in the background until you end it in Task Manager. Sent to an open window, `/hide` minimises it. |
+| **/unattended** | Show the window but no pop-ups that wait for you to click; errors and warnings go to the [log](logs-and-configuration.md#log-files) instead. The "missing folder" question can still appear, so add `/ignoremissing` or `/createmissing` when nobody will be there to answer it.                                        |
+
+### Missing folders and renaming
+
+| Switch             | What it does                                              |
+| ------------------ | --------------------------------------------------------- |
+| **/createmissing** | Create any missing season folders without asking.         |
+| **/ignoremissing** | Skip missing folders this time without asking.            |
+| **/norenamecheck** | When sent to an open window, scan without renaming files. |
+
+### Other
+
+| Switch                 | What it does                                                                                                                                                                                        |
+| ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **/recover**           | Open a window to restore an earlier copy of your settings or downloaded show information. Normally this only appears by itself when the current files are damaged.                                  |
+| **/userfilepath:PATH** | Keep the settings files in a different folder, for example `/userfilepath:D:\TVRenameSettings`. See [Logs & Configuration](logs-and-configuration.md#configuration-files) for what those files are. |
+| **/?**                 | Write the list of switches to the log, then exit without starting TV Rename.                                                                                                                        |
