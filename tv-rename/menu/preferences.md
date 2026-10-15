@@ -54,7 +54,7 @@ _Default: **Ticked**_
 
 ### Display <a href="#the-display-tab" id="the-display-tab"></a>
 
-<figure><img src="../.gitbook/assets/image (73).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
 
 The Display tab allows you to change how TV Rename looks. Its effects are purely visual, it does not change functionality.
 
@@ -424,7 +424,7 @@ _Default:_ _**All functionality disabled**_
 
 ### Media Centres <a href="#the-media-centers-tab" id="the-media-centers-tab"></a>
 
-<figure><img src="../.gitbook/assets/image (75).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (74).png" alt=""><figcaption></figcaption></figure>
 
 Here you can tell TV Rename about your media player (and hence, any additional files you may need to download).
 
@@ -508,7 +508,7 @@ It is recommended that you only use this option if you need to. When ticked the 
 
 ### Jackett Search
 
-<p align="center"><img src="../.gitbook/assets/image (4).png" alt="" data-size="original"></p>
+<div align="center"><img src="../.gitbook/assets/image (4).png" alt=""></div>
 
 {% hint style="info" %}
 Jackett is an external program and is not supported by the TV Rename team. It is available from [here](https://github.com/Jackett/Jackett#installation-on-windows)

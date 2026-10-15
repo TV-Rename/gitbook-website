@@ -32,7 +32,7 @@ _The guide assumes you already have the beginnings of a **Media Library** - a fo
 
 Under normal circumstances you would add a Media Library path when adding a new show to TV Rename, however TV Rename has a trick up its sleeve when adding shows already in the library’s folder infrastructure - **Bulk Add Shows**.
 
-<figure><img src="../.gitbook/assets/image (62).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
 
 1.  Follow the menu to **Tools>Bulk Add Shows** and whilst on the _**Folders**_ tab of the newly opened window click `Add`. Browse to the root folder of your “Media Library” and click `OK`. The path will be added to the “Monitor Folders” list.
 
@@ -64,7 +64,7 @@ Go to the _**Scan**_ tab and select a show that has some season and episode data
 
 Now go to **Options>Filename Template Editor** and you can see how the show will be named.
 
-<figure><img src="../.gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (59).png" alt=""><figcaption></figcaption></figure>
 
 The “Sample and Test” pane shows you how the shows episodes will be named using the current naming template.
 

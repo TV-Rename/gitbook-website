@@ -6,7 +6,7 @@ My Shows displays a list of TV shows found and Identified in your media library,
 
 In essence this tab (along with some of the [preferences](../menu/preferences.md)) allows you to configure the interaction between [TheTVDB.com](http://thetvdb.com/) and your media library. Incidentally there can be multiple storage locations including local paths or drives on your computer, mapped network shares and UNC paths. The only restrictions being that a TV show cannot be spread across multiple locations, and removable USB drives should be set up so they are always assigned the same path or drive letter each time they are connected.
 
-<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://3508557057-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fx0gPeIfHpbgTioNust1M%2Fuploads%2FRGq7ChEXlrd0km6E8hZP%2Fimage.png?alt=media&#x26;token=097767dc-b547-4a32-8b7e-6f9507281b36" alt=""><figcaption></figcaption></figure>
 
 Here, you can see a number of shows listed in the left hand panel of the window. These are the shows that TV Rename is monitoring, if a show is in your media library it will have further information associated with it (its “home” folder in the media library for example, but there is much more). In the right hand panel you can read details about the highlighted show gleaned from [TheTVDB.com](http://thetvdb.com/).
 
@@ -44,7 +44,7 @@ The _Add/Edit Show_ window has a number of tabs of its own, they are discussed b
 
 #### The Basics Tab <a href="#the-basics-tab" id="the-basics-tab"></a>
 
-<div align="center"><img src="../.gitbook/assets/image (19).png" alt=""></div>
+<div align="center"><img src="https://3508557057-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fx0gPeIfHpbgTioNust1M%2Fuploads%2Fcz1HmCWCIyq91InkyXOi%2Fimage.png?alt=media&#x26;token=1f6f6b16-3438-4c25-ba6b-3e7a96c409ec" alt=""></div>
 
 The “Basics” Tab is the starting point for telling TV Rename about a show you which to monitor.
 
@@ -58,7 +58,7 @@ If all you want to do is see the details of the show then you’re done! Just cl
 
 Once the update is complete _**TV Shows**_ includes “The Good Doctor” and looks like this: -
 
-<figure><img src="../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://3508557057-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fx0gPeIfHpbgTioNust1M%2Fuploads%2FOG3TE40yFy1XmPY2holI%2Fimage.png?alt=media&#x26;token=532df243-50eb-45b7-8bd2-5e78b2b5ff34" alt=""><figcaption></figcaption></figure>
 
 All the Show and Season information is downloaded and the _**Schedule**_ tab will now list any future episode dates, but there are no links to the media library.
 
@@ -80,11 +80,21 @@ _Default:_ _**Un-ticked**_
 
 To complete the minimum setup for adding the show to the library we now need to go to the [“Folders” Tab](my-tv-shows.md#the-show-aliases-tab).
 
-{% include "../.gitbook/includes/user-tipthe-search-function....md" %}
+{% hint style="success" %}
+**User Tip**
+
+The search function of TheTVDB API is a bit flakey. I find it particularly has a problem with punctuation, but the main thing is that the API only returns exact matches, while when you do a search on the website itself you appear to get partial/fuzzy matches as well. (Mind you, there are times when searching on the web site is _worse_.) But sometimes it's worth doing a search on the website, finding the TheTVDB "code" for the show, and just entering that specifically into TVRename.
+
+To do this, go into the details of the show and in the initial table the top line reads "TheTVDB.com Series ID". Enter the number next to this straight into the "TheTVDB code" box in TVRename, click Search, and a single result should be returned, being the show you wanted. Continue as normal from there.
+
+When making use of the regular search function inside TVRename I find "less is more" - try searching for fewer words. Don't search for words that are acronyms, like "S.H.I.E.L.D." or "M.D.". I usually drop the " 's " (apostrophe of possession and "s") at the end of words too, as that often gets better results, or I drop the words altogether. (e.g. Is the show under "Agatha Christie's Poirot" or just under "Poirot" in the database?) Ultimately, often it's a trade-off between getting a bunch of results where you have to scroll to then find the one you want, and getting no results at all.
+
+_-Michael_
+{% endhint %}
 
 #### The Folders Tab
 
-<figure><img src="../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://3508557057-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fx0gPeIfHpbgTioNust1M%2Fuploads%2FpRO8OPrQT2GCWZXpxtsp%2Fimage.png?alt=media&#x26;token=ead5c47e-d0e0-474b-b7e2-aeb2a400b102" alt=""><figcaption></figcaption></figure>
 
 ompleting the “Folders” Tab tells TV Rename about the library folder for the show. Returning to our example of “The Good Doctor”: -
 
@@ -107,7 +117,7 @@ The “Manual/Additional Folders” section allows you to manually add and remov
 
 #### The Show Aliases Tab
 
-<figure><img src="../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://3508557057-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fx0gPeIfHpbgTioNust1M%2Fuploads%2FdWno2rlOPFlctGdS7ECr%2Fimage.png?alt=media&#x26;token=4f6a67bd-fa2e-47ca-a3f6-fd069bd1c1bc" alt=""><figcaption></figcaption></figure>
 
 The Show Aliases tab only affects source files, it does **not** affect show episodes in your media library (TV Rename can work out the correct name for a file in the library from the containing folder structure and the show/season number).
 
@@ -117,7 +127,7 @@ Another good example (though for different reasons) would be the BBC1 show “Do
 
 #### The Custom Search Tab <a href="#the-search-tab" id="the-search-tab"></a>
 
-<figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://3508557057-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fx0gPeIfHpbgTioNust1M%2Fuploads%2Fou2Flu4WgQqFUgxK5hJ8%2Fimage.png?alt=media&#x26;token=cdb1c3eb-98e5-470f-aaa4-ea56f9b7e8e2" alt=""><figcaption></figcaption></figure>
 
 The Search Tab allows you to create a custom search for files on a per show basis.
 
@@ -129,11 +139,11 @@ This option is disabled by default but it can be enabled for the specific show b
 
 #### Custom Episode Naming Tab
 
-<div align="center"><img src="../.gitbook/assets/image (18).png" alt=""></div>
+<div align="center"><img src="https://3508557057-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fx0gPeIfHpbgTioNust1M%2Fuploads%2FGAwZ64TOKXNcRWMZb58q%2Fimage.png?alt=media&#x26;token=613c896e-47e2-4070-bbaa-cbd508d6179b" alt=""></div>
 
 #### The Advanced Tab <a href="#the-advanced-tab" id="the-advanced-tab"></a>
 
-![](<../.gitbook/assets/image (14).png>)
+![](https://3508557057-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fx0gPeIfHpbgTioNust1M%2Fuploads%2FEYe2rD2q2iyRO6ygPxLL%2Fimage.png?alt=media\&token=942d9a9c-9c5d-4d70-9d80-12e77f21f0c9)
 
 Here, you can further manipulate the way data from [The TVDB](http://thetvdb.com/) is handled as it is merged into the local data.
 
@@ -155,7 +165,7 @@ For example, Season 4 Episode 9 of Marvel’s Agents of S.H.I.E.L.D. is the 75th
 
 The “Edit Season Rules” pane allows you to manipulate the local data from [The TVDB](http://thetvdb.com/) to suit your episode structure.
 
-<figure><img src="../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://3508557057-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fx0gPeIfHpbgTioNust1M%2Fuploads%2FWZgqumxF7EZ7jzJoH4V7%2Fimage.png?alt=media&#x26;token=78033087-84ab-4ef9-b3a9-8f1d86e2f6de" alt=""><figcaption></figcaption></figure>
 
 Episodes 1 and 2 of Season 5 of “Marvel’s Agents of S.H.I.E.L.D.” aired as a double episode so only one file exists, however [The TVDB](http://thetvdb.com/) correctly has both episodes listed individually, so there is a conflict.
 
@@ -165,7 +175,7 @@ The rules are applied in top to bottom order, you can use the the `Up` and `Down
 
 `Add`, `Edit`, and `Delete` will manipulate the list as expected.
 
-<figure><img src="../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://3508557057-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fx0gPeIfHpbgTioNust1M%2Fuploads%2FEBZW16WiMh1adeG7jn4I%2Fimage.png?alt=media&#x26;token=275a30d2-e454-4d56-a0c1-003acc54a844" alt=""><figcaption></figcaption></figure>
 
 Clicking either `Add` or `Edit` will open the _Add/Modify Rule_ pane. The only difference being `Add` allows you to create a new rule and `Edit` pulls in the data from a highlighted rule for you to change.
 
@@ -192,13 +202,13 @@ Whilst discussing “Add/Edit Shows” it would be remiss not to mention “Auto
 
 This not-so-obvious trick in TV Rename’s functionality attempts to add video files that have been downloaded but are unknown to TV Rename to its database for inclusion in the library.
 
-It is activated by ticking the “Notify when new shows are found” box in the [Options>Preferences Bulk/Auto Add](../menu/tools-menu/bulk-add.md) window.
+It is activated by ticking the **Notify when new media is found** box on the [Search Folders](../menu/preferences.md#the-search-folders-tab) tab of **Options>Preferences**.
 
 For example: -
 
-If the show file “Westworld.S01E01.HDTV.x264.mp4” exists in the downloads directory but **not** in TV Rename’s database and the “Notify when new shows are found” box is ticked; a scan will result in the following pop-up appearing…
+If the show file “Westworld.S01E01.HDTV.x264.mp4” exists in the downloads directory but **not** in TV Rename’s database and the **Notify when new media is found** box is ticked; a scan will result in the following pop-up appearing…
 
-<figure><img src="../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://3508557057-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fx0gPeIfHpbgTioNust1M%2Fuploads%2FCOXr8S5exMgVU6qKiMCm%2Fimage.png?alt=media&#x26;token=580a1abd-e25d-49af-bf9f-3bbd1d6fd835" alt=""><figcaption></figcaption></figure>
 
 TV Rename has taken it upon itself to attempt to find the show name and look it up using [The TVDB](http://thetvdb.com/)!
 
@@ -217,3 +227,17 @@ Auto Add uses the default settings for almost all options (so the timezone etc. 
 The locations used are based on those entered as part of “Bulk Add”.
 
 ## Seen Episodes
+
+TV Rename keeps a list of the episodes it has seen in your library. An episode is added to the list when a scan finds its video file correctly named in the right place, or when TV Rename copies, moves or renames a video file into place for it.
+
+If **Ignore Episodes Previously Seen** is ticked on the [Scan Settings](../menu/preferences.md#scan-settings) tab of **Options>Preferences**, episodes on this list are no longer reported as missing, even after their file has gone from your library. This is useful if you delete episodes once you have watched them.
+
+To see or change the list for a season:
+
+1. In the **TV Shows** tab, select the season and click `Edit`, or right-click the season and choose **Edit Season** followed by its number.
+2. In the **Edit Season** window, open the **Library Episodes** tab. It lists the season's seen episodes, with their **Episode** number and **Name**.
+3. Click `Add` to mark another episode as seen. In the **New Seen Episode** window, pick the episode under "Select an episode that should be considered 'seen':" and click `OK`.
+4. To take episodes off the list, select them and click `Remove`.
+5. Click `OK` to save your changes, or `Cancel` to leave the list as it was.
+
+The **Rules** tab of the same window is described in [Edit Season Rules](my-tv-shows.md#edit-season-rules).

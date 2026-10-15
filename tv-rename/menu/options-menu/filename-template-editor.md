@@ -1,6 +1,6 @@
 # Filename Template Editor
 
-<figure><img src="../../.gitbook/assets/image (69).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (59).png" alt=""><figcaption></figcaption></figure>
 
 This is where the format of the filenames that TV Rename will rename to are defined.
 
