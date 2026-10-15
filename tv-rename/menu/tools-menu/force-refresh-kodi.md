@@ -1,11 +1,11 @@
-# Force Refresh Kodi TV Show NFO Files
+# Force Refresh Kodi NFO Files
 
-This rewrites the Kodi `.nfo` information files for your whole library from TV Rename's current data, even where TV Rename thinks they are already up to date. Use it if Kodi is showing old or wrong details, or after you have changed a show's details or its data source.
+**Tools > Force Refresh Kodi NFO Files...** rewrites the Kodi `.nfo` information files for your whole library from TV Rename's current data, even where TV Rename thinks they are already up to date. Use it if Kodi is showing old or wrong details, or after you have changed a show's details or its data source.
 
 It covers:
 
 * `tvshow.nfo` in each TV show's folder, if **NFO files for shows** is ticked in [Preferences > Media Centres](../preferences.md#the-media-centers-tab) (Kodi section). This is **off by default**.
-* The `.nfo` for each movie file, if **NFO files for movies** is ticked (on by default). Despite the menu name, movies are included.
+* The `.nfo` for each movie file, if **NFO files for movies** is ticked (on by default).
 
 Episode `.nfo` files are not part of this tool.
 

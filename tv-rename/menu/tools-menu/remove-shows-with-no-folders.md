@@ -1,6 +1,6 @@
-# Remove Shows With No Folders
+# Remove Media With No Folders
 
-**Remove Shows With No Folders** tidies TV Rename's library by removing TV shows and movies whose folders no longer exist on disk, for example shows you have finished and deleted.
+**Tools > Remove Media With No Folders...** tidies TV Rename's library by removing TV shows and movies whose folders no longer exist on disk, for example shows you have finished and deleted.
 
 It only changes TV Rename's own list. **No files or folders are deleted.**
 

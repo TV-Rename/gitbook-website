@@ -1,12 +1,12 @@
-# Clean Up Empty Library Folders
+# Clean Empty Library Folders
 
-![](<../../.gitbook/assets/image (21).png>)
-
-TV Rename will create folders as seasons get announced and sometimes it will not remove unused movie folders. 'Clean Up Empty Library Folders' scans though:
+TV Rename will create folders as seasons get announced and sometimes it will not remove unused movie folders. **Tools > Clean Empty Library Folders...** scans though:
 
 * Base folder for each TV show and Movie in the library
 * Movie Library Folders (and subfolders)
 * TV Show Library Folders (and subfolders)
+
+While it works, a window titled **Clean up empty library folders - Scan Progress** shows how far it has got, with a `Cancel` button.
 
 It shows the results of the scan in the Scan results screen and they can be activated by clicking on 'Do Checked',
 
