@@ -8,11 +8,11 @@ This is where you tell TV Rename about the location(s) of your media library. Ad
 
 Before using this tool, check that your preferred renaming style is set in [_Options>Filename Template Editor_](../options-menu/filename-template-editor.md).
 
-`Add` (or Drag-and-Drop) folders to the _**Folders:**_ tab. Click the `Check >>` button, and TV Rename will recursively search through the new folders looking for new TV shows. Once this is complete, if anything new is found, the _**Scan Results**_ tab will appear populated with the paths to any newly found shows, it will also identify the folder structure of the show (“Flat” - everything in one folder or “Folder per season”).
+`Add` (or drag and drop) folders to the **Monitor Folders** list on the **Folders** tab. Click the `Check >>` button, and TV Rename will recursively search through the new folders looking for new TV shows. Once this is complete, if anything new is found, the _**Scan Results**_ tab will appear populated with the paths to any newly found shows, it will also identify the folder structure of the show (“Flat” - everything in one folder or “Folder per season”).
 
 <figure><img src="https://3508557057-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fx0gPeIfHpbgTioNust1M%2Fuploads%2FgEGZlKS8pZnmDE0Rjm8U%2Fimage.png?alt=media&#x26;token=9df9c295-6f28-4faf-ba08-812b08b2e9cf" alt=""><figcaption></figcaption></figure>
 
-The system inspects each folder and if it contains any sub-folders that look like they are a season it assumes that they are structured in separate folders per season. TV Rename looks for any folders that start with any of the ‘season words’ entered in the preferences, with the default season word (again entered in preferences) and (if configured) any of the words used as season folder names for any of the shows in your library. The preferences for this function are specified [here](../preferences.md#the-files-and-folders-tab) and [here](../preferences.md#the-files-and-folders-tab). The system only considers a season folder to be a season folder if it follows the pattern ‘ nnnn'. The space between is optional and the number can be any length.
+TV Rename looks inside each folder it finds. If any of its subfolders has a name that ends in a season word followed by a number, the show is listed as “Folder per season”; if none do, it is listed as “Flat”. For example, with the season word `Season`, subfolders named `Season 1`, `Season 01` and `Season01` all count: the space is optional, the number can be any length, and upper or lower case doesn't matter. The season words are the **Season search terms** on the [Scan Settings](../preferences.md#scan-settings) tab of **Options>Preferences** (by default `Season;Series;Saison;Temporada;Seizoen`). Unless **Force to Use Season Words from Settings Only** is ticked there, TV Rename also uses the **Seasons name** from the [Display](../preferences.md#the-display-tab) tab and the season folder names set up for the shows already in your library.
 
 Click the `Auto ID All` button and TV Rename will try and identify the newly found shows. If the show is found the **Show** and **Source Code** columns will be populated. If a show isn’t being matched or is incorrectly identified highlight the row in question and use the `Edit` button to perform a manual search, and for a more in-depth interrogation you can use the `Visit TVDB` button which will launch a web browser targeting the shows page or `Open Folder` which will open the selected folder in Windows Explorer.
 
@@ -41,7 +41,7 @@ For example, each of these folders is identified as Silo:
 
 Clicking `Remove` will remove the highlighted row from the New Shows list, however it will be re-detected in the next run of “Auto ID All”.
 
-Clicking `Ignore` will add the folder to the list in the _**Ignore**_ tab and it will be ignored is subsequent scans.
+Clicking `Ignore` will add the folder to the list in the _**Ignore**_ tab and it will be ignored in subsequent scans.
 
 ## Bulk Add Movies
 

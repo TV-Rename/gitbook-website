@@ -30,11 +30,11 @@ TV Rename can make suggestions of other media you want to add to your collection
 
 * **Recommendations** - TV and Movie recommendations from TMDB. (more info [here](../../menu/tools-menu/recommendations.md))
 * **Movie Collections** - List all collections your movies are in to allow you to add others from the same collection. (more info [here](../../menu/tasks/movie-collection-summary.md))
-* **YTS Movie Recommendations** - (Beta mode only) These 2 toosl help discovery of new movies you may be interested in. (more info [here](../../menu/beta-menu.md#yts-movies-and-recommendations))
+* **YTS Movie Recommendations** - (Beta mode only) These 2 tools help discovery of new movies you may be interested in. (more info [here](../../menu/beta-menu.md#yts-movies-and-recommendations))
 
 ### **Bulk Addition**
 
-TV Rename can search through your library of existing (organised) files to find shows that are not in the library. This is initiated from the menu bar, with config options are in the preferences under ‘Bulk/Auto Add’. It can be made to ignore folders with no video files and recycle bin from the configuration options. If specific folders should be ignored, then they can be from the within the tools. (specify ignore folders)
+TV Rename can search through your library of existing (organised) files to find shows that are not in the library. This is started from the **Tools** menu. Its options are on the [Scan Settings](../../menu/preferences.md#scan-settings) tab of **Options>Preferences**, in the **Bulk Add TV Shows from Library Folders** group, where it can be set to skip folders with no video files and the Recycle Bin. Specific folders can be skipped by adding them to the **Ignore** tab of the Bulk Add window.
 
 {% content-ref url="../../menu/tools-menu/bulk-add.md" %}
 [bulk-add.md](../../menu/tools-menu/bulk-add.md)
@@ -50,7 +50,7 @@ TV Rename can look at ‘spare’ files in the ‘download’/Search folders;
 * If auto folder creation is on, then the folders get created in the library automatically and the appropriate files copied in.
 
 {% hint style="info" %}
-This function can be turned on using the tick box in [**Options>Preferences>Bulk / Auto Add - Notify when new shows are found**](../../menu/preferences.md#the-search-folders-tab-1). There are options here to help modify filenames into show names by ignoring certain terms and by ignoring files altogether with specific terms in the filename.
+This function can be turned on using the **Notify when new media is found** tick box on the [Search Folders](../../menu/preferences.md#the-search-folders-tab) tab of **Options>Preferences**, in the **Auto Add Movies & TV Shows from Search Folders** group. The same group has **Ignore suffixes** (terms that are left out, along with anything after them, when TV Rename works out a show name from a file name) and **Movie Terms** (a file whose name contains one of these terms is taken to be a movie, not a TV show).
 {% endhint %}
 
 {% content-ref url="../../menu/preferences.md" %}

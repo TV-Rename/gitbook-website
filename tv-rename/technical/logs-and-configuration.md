@@ -10,13 +10,13 @@ By default, all the configuration information and locally cached data from [TheT
 
 It contains:
 
-| **TVRenameSettings.xml**                                                                        | Everything else not mentioned is stored in here. All your shows, media library paths, folder structures and settings. This is only overwritten when you choose **File>Save**. |
-| ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <p><strong>TheTVDB.xml</strong><br><strong>TMDB.xml</strong><br><strong>TVMaze.xml</strong></p> | The locally cached data about movies, shows seasons and episodes for everything listed in the _**TV Shows**_ tand **Movies** tabs.                                            |
-| **Layout.xml**                                                                                  | TV Rename’s window position and size as well as column widths.                                                                                                                |
-| **Statistics.xml**                                                                              | TV Rename’s historical statistics.                                                                                                                                            |
-| **Languages.xml**                                                                               | TV Rename’s cache of possible languages to cover.                                                                                                                             |
-| **State.xml**                                                                                   |                                                                                                                                                                               |
+| **TVRenameSettings.xml**                                                                        | Everything else not mentioned is stored in here. All your shows, media library paths, folder structures and settings. This is only overwritten when you choose **File>Save**.    |
+| ----------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <p><strong>TheTVDB.xml</strong><br><strong>TMDB.xml</strong><br><strong>TVMaze.xml</strong></p> | The locally cached data about movies, shows seasons and episodes for everything listed in the _**TV Shows**_ tand **Movies** tabs.                                               |
+| **Layout.xml**                                                                                  | TV Rename’s window position and size as well as column widths.                                                                                                                   |
+| **Statistics.xml**                                                                              | TV Rename’s historical statistics.                                                                                                                                               |
+| **Languages.xml**                                                                               | TV Rename’s cache of possible languages to cover.                                                                                                                                |
+| **State.xml**                                                                                   | TV Rename’s record of app state between runs, such as when it last checked for a new version (see [App Updates](../menu/preferences.md#app-updates) in **Options>Preferences**). |
 
 And stores the following backups (10 of each):
 

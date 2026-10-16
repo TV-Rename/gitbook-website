@@ -4,7 +4,7 @@ If you are having problems with TV Rename or maybe someone on the [forum](https:
 
 If you are happy navigating through the windows file structure the log file (TVRename.log) can be found in: -
 
-> \Users\\\<username>\AppData\Roaming\TV Rename\log\\
+> \Users\\\<username>\AppData\Roaming\TVRename\log\\
 
 However, if you are uncomfortable doing this there is a handy entry in the **Help** menu (**Help>Log**).
 
