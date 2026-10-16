@@ -4,136 +4,91 @@ description: Each of the tabs in “Preferences”, are discussed in detail belo
 
 # Preferences
 
+Open Preferences with **Options>Preferences**. Each tab is described below, in the order the tabs appear in the window. The pictures show each tab with its default settings.
+
 ### General <a href="#the-general-tab" id="the-general-tab"></a>
 
-<figure><img src="../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+![](../.gitbook/assets/prefs-01-general.png)
 
-The General Tab controls TV Renames’ Download and Scan behaviours.
+* **days counts as recent** – how many days count as “recent”. It sets how many days are listed in the “Aired in the last N days” section of the [Schedule](../main/when-to-watch.md) tab, and which shows a **Recent** scan checks (see [Scan Settings](preferences.md#scan-settings)).
+* **Mode** – **Production** or **Beta**. In **Beta** mode a [Beta](beta-menu.md) menu appears between **View** and **Help**, giving you a preview of features still being worked on, and TV Rename offers you Beta and RC (release candidate) updates as well as the normal releases.
+* **Share critical errors to help defeat bugs** – lets TV Rename send anonymous crash details to the [SolarWinds Papertrail](https://papertrailapp.com/) log service, to help the developers fix bugs, as mentioned in the License Agreement (see **Help>About**).
+* **Auto-Add as part of Quick Rename** – when [Tools>Quick Rename TV Files](tools-menu/quick-rename-tv.md) is given a file for a show that isn’t in TV Rename yet, TV Rename looks the show up and adds it.
+* **Auto save on Exit** – when ticked, TV Rename saves your changes when you close it. When un-ticked, it asks you whether to save them.
 
-_“X” days count as recent_ specifies how many days are listed for the “Aired in the last N days” section of the [_**Schedule**_](../main/when-to-watch.md) tab.
-
-_Default: **7 days**_
-
-_Download up to “X” shows simultaneously from_ [_The TVDB_](http://thetvdb.com/) sets the number of concurrent connections to TheTVDB API.
-
-It can be set in the range 1 to 8.
-
-_Default: **4**_
-
-_Refresh entire series if “X” % of episodes are updated_ sets the point at which TV Rename refreshes the entire series data from [The TVDB](http://thetvdb.com/) rather than just the episode data. This speeds up local data updates if major changes are made to a show on [The TVDB](http://thetvdb.com/).
-
-_Default: **20%**_
-
-_Look for air date in filenames_, if ticked, provides a second method of identifying show episodes by looking for a date (in a number of formats) in the shows filename and comparing that against the air-date.
-
-The supported date formats are:
-
-“yyyy-MM-dd”, “dd-MM-yyyy”, “MM-dd-yyyy”, “yy-MM-dd”, “dd-MM-yy” and “MM-dd-yy”
-
-And the “date separators” can be any of: - / . , and “ “ (a space)
-
-_Default: **Un-ticked**_
-
-The _Preferred language:_ drop-down sets the language for returned data when requesting information from TheTVDB API. TV Rename will request “English” If the selected language is not available.
-
-The _Mode:_ drop-down can be set to “Production” or “Beta” and allows you to preview Beta functionality that is being worked on but not yet ready for the mainstream releases.
-
-In “Production” mode the application looks and behaves as normal.
-
-In “Beta” mode a new menu called Beta appears between Tools and Help in the menu bar which gives you access to preview upcoming additions and enhancements.
-
-If you select “Beta”, TV Rename will offer you “Beta” and “RC” updates as well as the “Production” updates as and when they become available.
-
-_Default: **Production**_
-
-The _Share critical Logs to help defeat bugs_ option if ticked, gives TV Rename permission to copy some anonymous crash statistics to the [SolarWinds “papertrail”](https://papertrailapp.com/) Log Management Tool to aid in debugging, as mentioned in the License Agreement. (See TV Rename’s _**Help>About**_.)
-
-_Default: **Ticked**_
-
-<table data-header-hidden data-search="false"><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><em>Defaults:</em></td><td></td></tr><tr><td>Scan Type</td><td><em><strong>Full</strong></em></td></tr><tr><td>Scan on Startup</td><td><em><strong>Un-ticked</strong></em></td></tr><tr><td>Scheduled scan every</td><td><em><strong>Un-ticked</strong></em> - <em><strong>1 hour</strong></em></td></tr><tr><td>“Scan” checks and actions</td><td></td></tr><tr><td>Rename Check</td><td><em><strong>Ticked</strong></em></td></tr><tr><td>  Prevent move of flies</td><td><em><strong>Un-ticked</strong></em></td></tr><tr><td>Missing Check</td><td><em><strong>Ticked</strong></em></td></tr><tr><td>  Ignore Episodes Previously Seen</td><td><em><strong>Un-ticked</strong></em></td></tr><tr><td>Move Files within Library to Keep it Tidy</td><td><em><strong>Ticked</strong></em></td></tr></tbody></table>
+_Defaults: **7** days, **Production**, **Share critical errors** ticked, **Auto-Add as part of Quick Rename** ticked, **Auto save on Exit** un-ticked._
 
 ### Display <a href="#the-display-tab" id="the-display-tab"></a>
 
-<figure><img src="../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
+![](../.gitbook/assets/prefs-02-display.png)
 
-The Display tab allows you to change how TV Rename looks. Its effects are purely visual, it does not change functionality.
+The Display tab changes how TV Rename looks. It doesn’t change what scans do.
 
-_Double-click in When to Watch does:_ Controls the double-click action in the [_**Schedule**_](../main/when-to-watch.md) tab. Its options are _Search_ or _Scan_.
+* **Double-click in Schedule does** – what double-clicking an episode on the [Schedule](../main/when-to-watch.md) tab does: **Search** or **Scan**.
+* **Startup tab** – the tab TV Rename opens on: **Movies**, **TV Shows**, **Scan** or **Schedule**.
+* **Show notification area icon** and **Show in taskbar** – where TV Rename’s icon appears. One of them must be ticked: if you un-tick both, the other one ticks itself again. With the notification area icon, right-clicking the icon shows a list of upcoming shows and double-clicking it brings back the main window. You can tick both.
+* **Show episode pictures in episode guides** – shows a picture from each episode with its description on the [TV Shows](../main/my-tv-shows.md) tab. Un-ticked, only the description is shown.
+* **Hide Spoilers in ‘TV Shows’** and **Hide Spoilers in Schedule** – hide the summaries of episodes that haven’t been shown yet on those tabs.
+* **Move ‘The’ to the end of tv show/movie names** – lists “The Hollow Crown” as “Hollow Crown, The”, sorted with the other names starting with “H”. This only changes how names are listed in TV Rename, **not** the names of your files and folders.
+* **Automatically select show and season in ‘TV Shows’** – when you select an episode on the Schedule or Scan tab, the TV Shows tab moves to that show and season.
+* **Seasons name** and **Leading 0 on Season numbers** – the word, and the number style, used for seasons on the TV Shows tab.
+* **Show Accessibility Options** – adds a **Context Menu** button to the TV Shows and Movies tabs, which opens the same menu as right-clicking.
+* **Show Basic Show Details** – uses the older, simpler layout for the right-hand panel of the TV Shows tab. It can work better on small screens, slower PCs and slower internet connections.
+* **Use Colours on Schedule** – colours the episodes on the Schedule tab by when they air.
 
-_Default: **Search**_
+**Show Colouring**
 
-The _Startup Tab:_ selects which tab you wish open when TV Rename loads. _**My Shows**_, _**Search**_ or _**When to Watch**_.
+If you have a lot of shows, the list on the TV Shows tab can get cluttered. **Show Colouring** changes the colour of a show’s name in that list depending on the status of the show or season.
 
-_Default: **My Shows**_
+To add a rule:
 
-The _Show Notification Area_ and _Show in Taskbar_ interact, one of them **must** be ticked. If you try to un-tick both the option you are modifying clears, but the other one automatically sets.
+* Choose the status to match from the **Status** drop-down.
+* Type a colour name or code in **Text Color**, or click `Select Color` and pick one.
+* Click `Add`. The rule appears in the list above.
 
-If _Show in Taskbar_ is selected TV Rename’s icon appears in the Windows taskbar.\
-If _Show Notification Area_ is selected TV Rename’s icon appears in the System Tray. Right-clicking it will show an “Upcoming Shows” list, and double clicking restores the main window.\
-Both boxes can be ticked, in which case you get both functionalities.
+For example, to make finished shows less noticeable, choose “Show Status: Ended”, type “#808080” in **Text Color** and click `Add`. Ended shows are then listed in grey.
 
-| _Defaults:_            |                 |
-| ---------------------- | --------------- |
-| Show Notification Area | _**Un-ticked**_ |
-| Show in Taskbar        | _**Ticked**_    |
+To remove a rule, select it and click `Remove`.
 
-_Show episode pictures in episode guides_ Does what-it-says-on-the-tin, if ticked, screen grabs from show episodes are displayed with the episode description in the _**My Shows**_ tab. If un-ticked only the episode description is displayed.
-
-_Default: **Ticked**_
-
-_Hide Spoilers in My Shows_ hides the display of summaries of yet to be broadcast episodes (with a suitable message) in the _**My Shows**_ tab
-
-_Default: **Un-ticked**_
-
-_Hide Spoilers in When To Watch_ hides the display of summaries of yet to be broadcast episodes (with a suitable message) in the _**When to watch**_ tab
-
-_Default:_ _**Un-ticked**_
-
-Bearing in mind that we are in the _**Display**_ tab, the next option _Move “The” to the end of show names_ only affects the display of the show list in the _My Shows_ tab and **not** the contents of the library.
-
-If ticked show names starting with “The” will be displayed and sorted with “, The” at the end. For example, “The Hollow Crown” would be listed as “Hollow Crown, The” and displayed with the other shows starting with “H”
-
-_Default:_ _**Un-ticked**_
-
-_Automatically select show and season in My Shows_ If ticked this works for both the _**When to watch**_ and _**Scan**_ tabs. If an item is selected in either of these tabs the _**My Shows**_ tab is automatically updated to highlight the indicated show and season.
-
-_Default:_ _**Ticked**_
-
-The _Season Name_ and _Leading 0 on Season numbers_ options allow you control of the season text and number display in the _**My Shows**_ tab.
-
-Ticking the _Show Basic Shows Detail_ box will force TV Rename to revert to the older style display of data in the right hand panel of the _**My Shows**_ tab, which may behave better on smaller screens, slower pc’s and slower internet connections.
-
-_Default:_ _**Un-ticked**_
-
-If you have a large catalogue of TV Shows that you want to keep on the system, the _**My Shows**_ tab can become somewhat cluttered. _Show Colouring_ can help by applying some order…
-
-With _Show Colouring_ you can change the color of the text on the left hand pane of the _**My Shows**_ tab depending on the status of the show or the show season.
-
-To create a record:-
-
-* Expand the _“Status:”_ drop-down at the bottom of the window and select the status you wish to match from the list.
-* Select a color to associate with the status by either entering a web-safe color name or code in the _“Text Color:”_ box or clicking `Select Colour` and choosing from the pallet.
-* Click the `Add` button and your new entry will appear the box above.
-
-For example: to make finished shows less obtrusive in _**My Shows**_ expand the _“Status:”_ drop-down and select _“Show Status: Ended”_, in the _“Text Color:”_ box type _“#808080”_ and click `Add`. Back in the _**My Shows**_ tab; text for shows that have finished will be light grey and less obtrusive.
-
-If you wish to remove a rule from the list just select it and click `Remove`.
+_Defaults: double-click does **Scan**, Startup tab **Movies**, **Show in taskbar** ticked, **Show episode pictures in episode guides** ticked, **Automatically select show and season in ‘TV Shows’** ticked, Seasons name **Season**, everything else un-ticked, no colour rules._
 
 ### Data Sources <a href="#data-sources" id="data-sources"></a>
 
-<figure><img src="../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+![](../.gitbook/assets/prefs-03-data-sources.png)
+
+These settings control where TV Rename gets information about your TV shows and movies, and how it keeps that information up to date.
+
+* **Default TV Show Source** – where TV Rename gets information about TV shows: The TVDB, TV Maze or TMDB. A show uses this source unless a different one is chosen in **Source** on the [Basics tab](../main/my-tv-shows.md#the-basics-tab) of Add/Edit Show.
+* **Default Movie Source** – the same for movies: The TVDB or TMDB. A movie can use a different one, chosen in **Source** on the [Basics](../main/movies.md#basics) tab of Add/Edit Movie.
+* **Download up to** … **shows/images simultaneously** – how many downloads TV Rename runs at the same time, from 1 to 8.
+* **Update cache every** … **hours** – how often TV Rename refreshes its show and movie information in the background, from every hour to every 96 hours. This only happens while [Options>Automatic Background Download](options-menu/automatic-background-download.md) is ticked.
+* **Release Date Type** – which release date TV Rename uses for movies. **Regional** uses the release date in your region: the movie’s own **Custom Region** if one is set, otherwise the **Preferred region** in the TMDB group below. **Global** uses the earliest release date anywhere.
+
+**TheTVDB**
+
+* **Preferred language** – the language TV Rename asks TheTVDB for.
+* **Refresh entire series if** … **% of episodes are updated** – when at least this share of a show’s episodes have changed on TheTVDB, TV Rename downloads the whole show again rather than just the changed episodes.
+* **Version** – the version of TheTVDB’s service that TV Rename uses (v4).
+
+**TV Maze** has no settings.
+
+**TMDB**
+
+* **Preferred language** – the language TV Rename asks TMDB for.
+* **Preferred region** – TMDB gives release dates and certifications for this region.
+* **Refresh entire series if** … **% of episodes are updated** – the same as the TheTVDB setting above, for TMDB.
+
+_Defaults: **4** downloads at a time, update every **1** hour, **Regional**, **20%**._
 
 ### Library Folders <a href="#the-library-folders-tab" id="the-library-folders-tab"></a>
 
-![](<../.gitbook/assets/image (17).png>)
+![](../.gitbook/assets/prefs-04-library-folders.png)
 
-The Library Folders tab is used to tell TV Rename about the location(s) of your Media Library - viz where to look for TV Show episode files **AFTER** they have been processed.
+Library Folders tell TV Rename where your sorted collection is: where your TV show episodes and movies are kept **after** TV Rename has processed them. There is one list for TV shows and one for movies.
 
-To tell TV Rename about your library simply use the `Add` button to browse to a folder that is a “Base” folder of your Media Library. and click `OK`.
+To add a library folder, click `Add` under the list, browse to the “base” folder of your library and click `OK`. Select a folder in the list and click `Remove` to remove it, or `Open` to see what is in it.
 
-You can also highlight a path in the list and use the `Remove` button to remove it, and highlight a path in the list and use `Open` to check its contents in a File Explorer window.
-
-“Base” folder refers to a path on your system that corresponds to the location of your media files.
+The “base” folder is the folder that holds all your show (or movie) folders:
 
 ```
   D:\                                      nas-1
@@ -156,138 +111,132 @@ You can also highlight a path in the list and use the `Remove` button to remove 
                  └─ Episode 2                             └─ Episode 2
 ```
 
-For the folder structure illustrated (above left) the base folder would be “D:\media\Video\TV Shows”.
+For the folders above (left) the base folder is “D:\media\Video\TV Shows”. It can also be a network path (above right), for example “\\\nas-1\media\Video\TV Shows”.
 
-This could also be a UNC path (above right) to a device for example: “\\\nas-1\media\Video\TV Shows”.
+**Default TV Show Library Folder Format**
 
-_Additional Scan Options_ allow manipulation of the Medial Library contents.
+* **Specials folder name** – the name of the folder for a show’s specials. Specials are usually numbered as season 0, so special 3 of “Battlestar Galactica” is “Battlestar Galactica - S00E03 - The Story So Far”, kept in the “Specials” folder.
+* **Seasons folder format** – the name of each season’s folder. {Season} is replaced by the season number, and {Season:2} by a two-digit season number, so “Season {Season:2}” gives “Season 01”, “Season 02” and so on.
+* **Show folder format** – the name of the folder TV Rename creates for a new show (see **Use Default Location** on the [TV Show Defaults](preferences.md#tv-show-defaults) tab).
 
-_Update files and folders with air date_, if ticked, will modify the time stamp of files and folders in the Media Library to match the original air date of the episode being copied or moved.
+**Default Movie Library Folder Format**
 
-_Default: **Un-ticked**_
+* **Folder format** – the name of each movie’s folder.
+* **Filename format** – the name of each movie’s file.
 
-**NOTE:** If you use a NAS device as your media library and it is Linux based it has an epoch date of 01/01/1970 00:00. Files cannot have a date/time-stamp earlier than this. If you have any TV Show episodes whose original release date was earlier and you have the _Update files and folders with air date_ box ticked they will be set to 01/01/1970 00:00.
+The `Tags...` button next to each box lists the tags you can use in it.
 
-_Automatically create merge rules for merged library episodes_ simply looks at the filename. If it matches one of the multi-episode regexes (see [**Options>Filename Processors**](options-menu/filename-processors.md)) it will create the appropriate merge rule.
+These settings are useful if you want folder names in your own language.
 
-If your library contains:
+_Defaults: Specials folder name **Specials**, Seasons folder format **Season {Season:2}**, Show folder format **{ShowName}**, movie Folder format and Filename format **{ShowName} ({Year})**._
 
-```
-  ├─ My Favourite Show
-  │   ├─ Season 1
-  │   │  ├─ My Favourite Show - S01E01 - A Great Episode
-  │   │  ├─ My Favourite Show - S01E02E03 - A Great Double Episode
-  │   │  ├─ My Favourite Show - S01E05 - Another Great Episode
-  │   │  ├─...
-```
+### Movies Defaults <a href="#movies-defaults" id="movies-defaults"></a>
 
-If disabled, E03 and E04 would be shown as “missing” (and E02E03 would be renamed as E02)
+![](../.gitbook/assets/prefs-05-movies-defaults.png)
 
-If enabled a new merge rule for S01E02E03 would be created and and only episode S01E04 would be shown as missing
+These settings are the starting values for each movie you add to TV Rename. Changing them doesn’t change movies that are already in TV Rename: edit those with `Edit` on the [Movies](../main/movies.md) tab, or use [Options>Settings Check](options-menu/settings-check.md) to find movies that differ from these defaults.
 
-_Default: **Un-ticked**_
+**Default Movie Settings**
 
-_Automatically create missing folders_ simply gives TV Rename permission to create missing folders in the library without prompting.
+* **Use Automatic Folders** – new movies have **Automatic Folders** ticked on the [Folders](../main/movies.md#folders) tab of Add/Edit Movie.
+* **Use Default Location** – new movies go in the movie library folder chosen in the box under it. The box lists your **Movie Library Folders** from the [Library Folders](preferences.md#the-library-folders-tab) tab.
+* **Default movie folder type** – the **Folder Type** a new movie starts with: Single Movie per Folder, Many Movies per Folder, DVD format or Bluray format. The [Folders](../main/movies.md#folders) tab of Add/Edit Movie explains each one.
 
-_Default: **Un-ticked**_
+**Default Advanced Settings** are the starting ticks for a new movie’s **Advanced** tab:
 
-_Bulk Add_ can be run from the TV Rename menu (see [**Tools>Bulk Add Shows**](tools-menu/bulk-add.md)) or as part of each scan.
+* **Do renaming** – TV Rename renames the movie’s files to match your naming settings.
+* **Do missing check** – TV Rename reports the movie as missing when it can’t find its file.
+  * **Include check when movie has a future release date** – also check movies that haven’t been released yet.
+  * **Include check when movie has no release date** – also check movies that have no release date.
 
-The _Do Bulk Add as part of scan_ tick box enables or disables this option.
+### TV Show Defaults <a href="#tv-show-defaults" id="tv-show-defaults"></a>
 
-_Default: **Un-ticked**_
+![](../.gitbook/assets/prefs-06-tv-show-defaults.png)
 
-Looking at the _Bulk Add Shows from Library Folders_ section, three options are available.
+These settings are the starting values for each TV show you add to TV Rename. Changing them doesn’t change shows that are already in TV Rename: edit those with `Edit` on the [TV Shows](../main/my-tv-shows.md) tab, or use [Options>Settings Check](options-menu/settings-check.md) to find shows that differ from these defaults.
 
-The first two work as “junk filters”.
+**Default TV Show Settings**
 
-_Only Include Folders containing Video Files_ if ticked restricts the “Bulk Add” scan to only include folders with video files.
+* **Use Automatic Season Folders** – new shows have **Automatic Folders** ticked on the [Folders tab](../main/my-tv-shows.md#the-folders-tab) of Add/Edit Show.
+* **Use Default Location** – new shows go in the TV library folder chosen in the box under it, in a folder named with the **Show folder format** from the [Library Folders](preferences.md#the-library-folders-tab) tab. The box lists your **TV Library Folders**. This needs **Use Automatic Season Folders** ticked as well.
+* **Default season location** – **in base folder** keeps all of a new show’s seasons in the show’s own folder; **in subdirectories** gives each season a folder of its own.
+* **Airs in Timezone** – the time zone new shows air in. TV Rename uses it to show air times in your own time zone.
 
-_Default:_ _**Un-ticked**_
+**Default Advanced Settings** are the starting ticks for a new show’s [Advanced tab](../main/my-tv-shows.md#the-advanced-tab) of Add/Edit Show, where most of them are explained. **Use DVD Order** and **Use Alternate Order** can’t both be ticked. Under **When finding missing episodes (only)**:
 
-_Ignore Recycle Bin_ tells the “Bulk Add” scan to exclude the (Windows) Recycle Bin even if it contains video files.
+* **Use sequential number matching** – match a file to an episode by the episode’s overall number in the show.
+* **Look for airdate in filenames** – match a file to an episode by an air date in the file name.
+* **Look for episode title in filenames** – match a file to an episode by the episode’s title in the file name.
 
-_Default:_ _**Un-ticked**_
+### Scan Settings <a href="#scan-settings" id="scan-settings"></a>
 
-Finally, _Force to Use Season Words from Settings only_ tells the “Bulk Add” scan to just use the words entered in the associated text box when scanning to decide whether the series has a flat structure or a ‘folder by season’ structure.
+![](../.gitbook/assets/prefs-07-scan-settings.png)
 
-| _Defaults:_                                    |                                              |
-| ---------------------------------------------- | -------------------------------------------- |
-| _Force to Use Season Words from Settings only_ | _**Un-ticked**_                              |
-| _Season Search Terms_                          | _**Season;Series;Saison;Temporada;Seizoen**_ |
+**Scan Options**
 
-The Last two preferences allow you to set the text for the “Specials” and “Season” folders - useful if you speak “English as a second language”.
+**Default Auto Scan Type** is the kind of scan TV Rename runs by itself (on startup or on a schedule):
 
-The _Specials folder name:_ text box allows you to modify the name used when creating a “Specials” folder for a show.
+<table data-header-hidden><thead><tr><th width="112"></th><th></th></tr></thead><tbody><tr><td><strong>Full</strong></td><td>Checks all your TV shows and movies.</td></tr><tr><td><strong>Recent</strong></td><td>Checks the TV shows that have aired recently (as set in <em>days counts as recent</em> on the <a href="preferences.md#the-general-tab">General</a> tab).</td></tr><tr><td><strong>Quick</strong></td><td>Checks the TV shows and movies that have a matching file in your <a href="preferences.md#the-search-folders-tab">Search Folders</a>, and the shows with recently missing episodes.</td></tr></tbody></table>
 
-It is common practice for specials to be labeled as part of “Season 0” so for example: special 3 of “Battlestar Galactica” would be labeled “Battlestar Galactica - S00E03 - The Story So Far” and stored (by default) in the “Specials” folder.
+* **Include Movies in Quick/Recent** – a Recent scan checks your movies as well. (A Full scan always includes them.)
+* **Scan on Startup** – when TV Rename starts, it runs a scan and carries out the actions it finds.
+* **Scheduled scan every** … **hours** – runs a scan, and carries out the actions it finds, every so many hours.
 
-_Default:_ _**Specials**_
+**“Scan” checks and actions**
 
-Similarly, the _Season folder format:_ text box allows you to customise the name used when creating a “Season” in your media library. ({Season} is replaced by the season number.)
+* **Rename Check** – renames episode and movie files in your library to match your naming settings.
+  * **Prevent move of files (just rename)** – renames files where they are, without moving them to another folder.
+* **Missing Check** – reports episodes and movies that aren’t in your library. This must be ticked for the checks on the [Torrents / NZB](preferences.md#torrents-nzb), [RSS / JSON Search](preferences.md#rss-json-search) and [Jackett Search](preferences.md#jackett-search) tabs to run.
+  * **Ignore Episodes Previously Seen** and **Ignore Movies Previously Seen** – don’t report an episode or movie as missing if TV Rename has already put a file for it in your library before (for example, if you deleted it after watching it).
+  * **Ignore Specials for all TV Shows** – don’t report specials (season 0) as missing for any show.
+* **Move Files within Library to Keep it Tidy** – if files have been added to, or misplaced in, your library, TV Rename moves them to the right folders with the right names.
 
-_Default:_ _**Season {Season}**_
+**Additional Scan Options**
 
-An entry of “Season {Season:2}” here will result in seasons using 2 digit numbers -
+*   **Update files and folders with air date** – sets the date of files and folders in your library to the episode’s original air date.
 
-_Season 01, Season 02 etc._
+    **NOTE:** a NAS that runs Linux can’t store dates before 01/01/1970 00:00, so episodes that first aired earlier get that date instead.
+*   **Automatically create merge rules for merged library episodes** – if a file name is a multi-episode name (see [Options>Filename Processors](options-menu/filename-processors.md)), TV Rename creates the matching merge rule. For example, if your library contains:
 
-The `Tags` button will pop up a list of the tags that TV Rename will recognise in the _Season folder format:_ text box.
+    ```
+      ├─ My Favourite Show
+      │   ├─ Season 1
+      │   │  ├─ My Favourite Show - S01E01 - A Great Episode
+      │   │  ├─ My Favourite Show - S01E02E03 - A Great Double Episode
+      │   │  ├─ My Favourite Show - S01E05 - Another Great Episode
+      │   │  ├─...
+    ```
 
-An entry of “Season {Season:2}” here will result in seasons using 2 digit numbers -
+    Un-ticked, E03 and E04 are reported as missing (and S01E02E03 is renamed to S01E02). Ticked, a merge rule for S01E02E03 is created and only S01E04 is reported as missing.
+* **Automatically create missing folders** – TV Rename creates missing folders in your library without asking.
+* **Choose between episodes in library when multiple match** – when a file should be renamed but a file with that name is already there, TV Rename asks you which one to keep. (It doesn’t ask during unattended runs.)
 
-_Season 01, Season 02 etc._
+**Do Bulk-Add as part of scan** – runs [Tools>Bulk Add TV Shows](tools-menu/bulk-add.md) as part of each scan.
 
-The `Tags` button will pop up a list of the tags that TV Rename will recognise in the _Season folder format:_ text box.
+**Bulk Add TV Shows from Library Folders** – these settings are used by Bulk Add, whether you run it from the Tools menu or as part of a scan:
 
-### Movies Defaults
+* **Only Include Folders containing Video files** – only folders with video files in them are considered.
+* **Ignore Recycle Bin** – the Windows Recycle Bin is skipped, even if it holds video files.
+* **Force to Use Season Words from Settings Only** – Bulk Add uses only the **Season search terms** below to recognise season folders. Un-ticked (recommended), it also uses the season words from each show’s own settings.
+* **Season search terms** – words in a folder name that show the folder holds one season of a show, separated by semicolons.
 
-![](<../.gitbook/assets/image (11).png>)
+**Group Entire Seasons of Missing Episodes** – when every episode of a season is missing, the Scan tab lists the whole season as one item.
 
-### TV Show Defaults
-
-![](<../.gitbook/assets/image (8).png>)
-
-### Scan Settings
-
-![](<../.gitbook/assets/image (12).png>)
-
-Looking at the _Scan Options…_
-
-The “Scan Type” radio buttons tell TV Rename the type of scan to perform when searching for new shows.
-
-<table data-header-hidden><thead><tr><th width="112"></th><th></th></tr></thead><tbody><tr><td><strong>Full</strong></td><td>A full scan of all shows and seasons.</td></tr><tr><td><strong>Recent</strong></td><td>A Scan of all the shows that have aired recently (as specified in <em>“X” days count as recent</em> above).</td></tr><tr><td><strong>Quick</strong></td><td>Scan the shows that have aired recently and have a missing episode in the library.</td></tr></tbody></table>
-
-| The scans also check the locations specified in [_**Options>Preferences - Search Folders**_](preferences.md#the-search-folders-tab) for any matching media files. |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-
-Ticking _Scan on Startup_ tells TV Rename to perform the selected scan when the program starts. Ticking _Scheduled scan…_ will force a repeat scan every “X” hours.
-
-_Scan Checks and Options_ has three major functions
-
-_Rename Check_ will tell TV Rename to correct found episode names to the found content from [The TVDB](http://thetvdb.com/).
-
-_Missing Check_ will tell TV Rename to check for missing episodes. Additionally this option must be ticked to enable changes in the [_**Torrents / NZB**_](preferences.md#torrents-nzb) tab.
-
-_Move Files within Library to Keep it Tidy_ will do just that, if files have been directly added to or misplaced in the library enabling this setting will tidy stuff to the correct names and places.
+_Defaults: **Full**; **Rename Check**, **Missing Check** and **Move Files within Library to Keep it Tidy** ticked; scheduled scan every **1** hour (un-ticked); Season search terms **Season;Series;Saison;Temporada;Seizoen**; **Group Entire Seasons of Missing Episodes** ticked; everything else un-ticked._
 
 ### Files and Folders <a href="#the-files-and-folders-tab" id="the-files-and-folders-tab"></a>
 
-![](<../.gitbook/assets/image (16).png>)
+![](../.gitbook/assets/prefs-08-files-and-folders.png)
 
-The Files and Folders tab is used to manipulate how TV Rename copies or moves files from the “[Search Folders](preferences.md#the-search-folders-tab)” to the “[Library Folders](preferences.md#the-library-folders-tab)”.
+These settings control how TV Rename copies or moves files from your [Search Folders](preferences.md#the-search-folders-tab) to your [Library Folders](preferences.md#the-library-folders-tab).
 
-The _Filename Replacements_ grid controls the replacement of illegal (Windows) characters in filenames.
+**Filename Replacements** – some characters can’t be used in Windows file names. When a name contains one, TV Rename checks this list, row by row, for what to use instead. Use `Add` and `Remove` to change the list, and tick **Case Ins.** to make a row ignore upper and lower case.
 
-If a filename contains a character that isn’t supported in Windows the grid is checked (row by row) to discover what to use instead of the problem character.
-
-The grid can be edited using the `Add` and `Remove` buttons and case sensitivity can be turned off for specific rows using the _Case Ins._ check boxes.
-
-_Video Extensions:_ tells TV Rename what to match when looking for video files. The entries should be semicolon delimited, not contain spaces and include the “.” preceding the extension.
+**Video extensions** – the file extensions TV Rename treats as videos, separated by semicolons, with no spaces, each starting with a “.”.
 
 _Default:_ **.avi;.mpg;.mpeg;.mkv;.mp4;.wmv;.divx;.ogm;.qt;.rm;.m4v;.webm;.vob;.ovg;.ogg;.mov;.m4p;.3gp;.wtv;.ts**
 
-_Other Extensions:_ follows the same rules as _Video Extensions_ but the file extensions specified are for related files rather than actual videos. Files with these extensions will be renamed when scanning through the library.
+**Other extensions** – files in your library with these extensions are renamed along with their video. They follow the same rules as **Video extensions**.
 
 | _Defaults:_ |                                                                                                                                                                                                                                |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -296,272 +245,225 @@ _Other Extensions:_ follows the same rules as _Video Extensions_ but the file ex
 | _**.txt**_  | Text files can be any text but quite often, if the base name of the text file is the same as that of the video file, they contain subtitles in text format.                                                                    |
 | _**.tbn**_  | A KODI/XBMC specific jpeg.                                                                                                                                                                                                     |
 
-This second list deals with files you’d like to copy/move when TV Rename finds a missing episode in the search folders. The extensions may be different from those used in the library list because (for example) you may not want .nfo files not to be copied from the search folders because TV Rename creates them but once created then you’ll want them to be renamed with the source file(s).
+**Copy/Move files with same base name as video from Search Folders** – files that belong to a video usually share its name, for example BigBuckBunny.avi, BigBuckBunny.sub and BigBuckBunny.nfo. When ticked, TV Rename copies or moves these files with the video. The **Do** drop-down and the box next to it choose which ones:
 
-It is common practice for files related to a specific video to have the same base name.
+* **All** – all of them (the box is ignored).
+* **All but these** – all except the extensions in the box.
+* **Just** – only the extensions in the box.
 
-For example: BigBuckBunny.avi, BigBuckBunny.sub and BigBuckBunny.nfo. This helps keep them organised.
+This list can be different from **Other extensions**. For example, you may not want .nfo files copied from your Search Folders because TV Rename creates its own, but you still want them renamed in your library.
 
-TV Rename knows this, hence the _Copy/Move file with same base name as video_ tick-box which gives you the ability to turn this functionality on or off.
+* **Ignore “sample” videos, up to** … **MB in size** – video files with “sample” in their name that are no bigger than this are ignored.
+* **Make all filenames lower case** – file names TV Rename creates are all lower case.
+* **Use name of Library Folder when searching for a match between a file and a tv show** – TV Rename also looks at the name of the library folder a file is in, so the show’s name doesn’t have to be in the file name.
+* **Case Sensitive Match for Filenames** – a movie file whose name differs from the expected name only in upper and lower case is renamed to match exactly.
+* **Extract Archives found in Search Folders** – archive files (such as .rar or .7z files) in your Search Folders are extracted during a scan.
 
-_Default:_ _**Ticked**_
+_Defaults: **Copy/Move files with same base name** ticked, **Do All**, list **.srt;.nfo;.txt;.tbn**; **Ignore “sample” videos** ticked, up to **50** MB; **Extract Archives found in Search Folders** ticked; everything else un-ticked._
 
-The _Do_ drop-down and text box underneath provide a degree of granularity to this function.
+### Subtitles <a href="#subtitles" id="subtitles"></a>
 
-If _Do_ is set to **All** the extensions listed in the text box are ignored.
+![](../.gitbook/assets/prefs-09-subtitles.png)
 
-If _Do_ is set to **All but these** the extensions listed in the text box are treated as an exclude list.
+These settings control how TV Rename handles subtitle files.
 
-If _Do_ is set to **Just** the extensions listed in the text box are treated as an include list.
+* **Retain Language Specific Subtitles** – keeps the two- or three-letter language code in a subtitle file’s name, for example “Video S01E01.en.srt”. The name must be in the form _name.language.extension_.
+* **Rename .txt to .sub** – subtitle files often come with a .txt extension, for example BigBuckBunny.txt. When ticked, TV Rename renames them to .sub when it copies or moves them.
+* **Subtitle extensions** – the file extensions TV Rename treats as subtitles.
 
-| _Defaults_        |                           |
-| ----------------- | ------------------------- |
-| _Do_ drop down    | _**All**_                 |
-| Text box contents | _**.srt;.nfo;.txt;.tbn**_ |
+**Subtitle Folders**
 
-_Ignore “sample” videos_ and _Make all filenames lower case_ tick boxes need no further explanation.
+* **Copy subtitle folders** – when TV Rename copies or moves a video from a Search Folder, it also copies a subtitle folder found next to it.
+* **Subtitle Folder Names** – the folder names that count as subtitle folders.
 
-The _Use name of Library Folder…_ option extends the search for a show name to include the containing library folder name, negating the need for the show name to be present in the filename.
-
-### Subtitles
-
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
-
-The _**Subtitles**_ section is used to tell TV Rename how to handle subtitle files in your collection.
-
-The Retain Language Specific Subtitles tick box (when ticked) tells TV Rename to retain subtitle files containing two or three letter language codes. For example: -
-
-Video S01E01.en.srt
-
-Subtitles must be of the form \*.language.extension, where language is 2 or 3 characters.
-
-_Default:_ _**ticked**_
-
-Subtitle files come in a number of guises of which one of the most common is a .sub file. These are text files structured in a way that media players can establish the start time, finish time and content of a subtitle and display it. Quite often sources for these files give them a .txt extension, for example: BigBuckBunny.txt. Ticking the “Rename .txt to .sub” option will tell TV Rename to rename these files when copied or moved.
-
-_Default:_ _**Un-ticked**_
-
-The _Subtitle extensions:_ text box lists the commonly used subtitle extensions.
-
-_Default:_ _**.srt;.sub;.sbv;.idx**_
+_Defaults: **Retain Language Specific Subtitles** ticked, **Rename .txt to .sub** un-ticked, Subtitle extensions **.srt;.sub;.sbv;.idx;.ifo;.smi;.ass;.ssa;.smi;.rt;.aqt;.jss;.cvd;.dks;.ttxt;.mpl;.pjs;.psb;.ssf;.svcd;.usf**, **Copy subtitle folders** ticked, Subtitle Folder Names **subs;subtitle;vobsubs;sub;vobsub;subtitle**._
 
 ### Search Folders <a href="#the-search-folders-tab" id="the-search-folders-tab"></a>
 
-![](<../.gitbook/assets/image (5).png>)
+![](../.gitbook/assets/prefs-10-search-folders.png)
 
-_Search Folders_ tell TV Rename where to look for TV Show episode files **BEFORE** they are processed and copied or moved to the media library.
+Search Folders tell TV Rename where to look for new, unsorted files **before** they are processed and copied or moved into your library. Good choices are your downloads folder, or the folder you rip DVDs or Blu-rays to. Search Folders shouldn’t overlap your Library Folders.
 
-The functionality of the first five tick boxes requires little explanation.
+Use `Add` to browse to a folder and add it, `Remove` to remove the selected folder, and `Open` to see what is in it.
 
-_Look in “Search Folders” for missing files_ enables the search functionality when ticked.
+* **Look in “Search Folders” for missing files** – scans look in your Search Folders for missing episodes and movies.
+  * **Copy files, don’t move** – files are copied into your library, leaving the originals where they are.
+* **Automatically create merge rules based on files in Search Folders** – like the merge rule setting on the [Scan Settings](preferences.md#scan-settings) tab, but the rule is created before the file is copied or moved.
+* **Monitor Search Folders (run a scan when files change) after** … **seconds** – when the contents of a Search Folder change, TV Rename waits this many seconds, then runs a scan and carries out the actions it finds.
+* **Copy future dated episodes found in Search Folders** – episodes are copied into your library even if they haven’t officially aired yet.
+* **Use name of Search Folder when searching for a match between a file and media** – TV Rename also looks at the name of the folder a file is in, so the show or movie name doesn’t have to be in the file name.
 
-_Copy files, don’t move_, if ticked will tell TV Rename to copy and files to the media library leaving the originals intact.
+**Auto Add Movies & TV Shows from Search Folders**
 
-_Automatically create merge rules based on files in Search Folders_ is similar to the functionality found in [**Library Folders**](preferences.md#the-library-folders-tab) except the appropriate record is created before moving/copying the file rather than after.
+* **Notify when new media is found** – during a scan, TV Rename offers to add shows and movies found in your Search Folders that aren’t in TV Rename yet.
+  * **Auto Add when only one tv show found** and **Auto Add when only one movie found** – when the search for a name finds just one match, it is added without asking.
+* **Movie Terms** – if a file name contains any of these words, the file is treated as a movie, not a TV show.
+* **Ignore suffixes** – these words, and anything after them in a file name, are ignored when TV Rename searches for the show’s name.
 
-_Monitor folders for changes_, if ticked, will trigger a scan if Windows detects a change in any of the source folders.
+**Upgrade media when better quality files are found**
 
-_Copy future dated episodes found in Search Folders_ handles files that are found to exist before their release date.
+* **Update episodes when higher-quality ones found in Search Folders** and **Update movies when higher-quality ones found in Search Folders** – replace files in your library with better versions found in your Search Folders.
+* **Priority override terms** – words in a file name that mark it as an improved release, separated by semicolons.
+* **Consider a file better if it is** … **% higher resolution/longer** – how much higher the resolution, or how much longer, a new file must be to replace the one in your library.
 
-| _Defaults_ |                                                                     |                 |
-| ---------- | ------------------------------------------------------------------- | --------------- |
-|            | _Look in “Search Folders” for missing files_                        | _**Ticked**_    |
-|            |   _Copy files, don’t move_                                          | _**Un-ticked**_ |
-|            | _Automatically create merge rules based on files in Search Folders_ | _**Un-ticked**_ |
-|            | _Monitor folders for changes_                                       | _**Un-ticked**_ |
-|            | _Copy future dated episodes found in Search Folders_                | _**Un-ticked**_ |
-
-The _Search Folders_ window allows you to add, delete or check the paths to your search folders.
-
-Logical entries in here would be your downloads folder (if you download TV show episodes from the internet) or maybe your desktop (if you rip TV show episodes from DVD or Blu-ray). Or both!
-
-Three buttons are available. `Add` opens an explorer style window so you can browse to the folder location you wish to add and click `OK`, `Remove` removes a highlighted row from the panel and `Open` opens an explorer window targeting the row highlighted in the panel.
-
-The _Auto Add:_ section comes in to play when the **Preferences>Search Folders - Notify when new shows are found** option is ticked.
-
-The _Movie Terms:_ text box helps TV Rename identify “types” of video file.
-
-_Default:_ _**dvdrip;camrip;screener;dvdscr;r5;bluray**_
-
-The _Ignore Suffixes:_ text box tells TV Rename to ignore the specified suffixes.
-
-_Default:_ _**1080p;720p;2160p**_
-
-_Update episodes when higher quality ones found:_ tells TV\&nbsp:;Rename to replace files in the video library with higher quality versionbs if they are found.
-
-| _Default:_ _**Un-ticked**_ |
-| -------------------------- |
-
-The final two options act as “helpers” for TV Rename when replacing videos that already exist in the library.
-
-The _Priority override terms:_ text box defines the “hints” used to determine if a video has been improved at source.
-
-_Default:_ _**PROPER;REPACK;RERIP**_ (Note the semicolon delimiter).
-
-_Consider a file better if it is **X%** higher resolution/longer_ tells TV Rename to replace an existing library file if the newly found version is higher resolution and/or longer.
-
-_Default:_ _**10%**_
+_Defaults: **Look in “Search Folders” for missing files** ticked; Monitor after **1** second (un-ticked); **Auto Add when only one tv show found** and **Auto Add when only one movie found** ticked; Movie Terms **dvdrip;camrip;screener;dvdscr;r5;bluray**; Ignore suffixes **1080p;720p;2160p**; Priority override terms **PROPER;REPACK;RERIP**; **10%**; everything else un-ticked._
 
 ### Folder Deleting <a href="#the-folder-deleting-tab" id="the-folder-deleting-tab"></a>
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+![](../.gitbook/assets/prefs-11-folder-deleting.png)
 
-This tab is all about TV Rename tidying up after itself.
+This tab is about TV Rename tidying up after itself. Downloads often come with .nfo files, pictures, sample videos and other files. TV Rename takes care of the video and the files your media player needs; these settings take care of the rest.
 
-When downloading video from the internet its quite common to get .nfo files, screen grabs, sample video, text-art files and the like bundled with the download.
+* **Delete empty folders after moving files (from Search Folders)** – after moving files out of a Search Folder, TV Rename deletes the folder they were in if nothing is left in it. The three settings under it let it delete folders that still hold leftovers:
+  * **Ignore any files with these words in their name** – files with these words in their name don’t count. This applies to folders too.
+  * **Ignore files with these extensions** – files with these extensions don’t count.
+  * **Maximum total file size to delete** – the most that a folder’s remaining files can add up to (in MB) for the folder to be deleted.
+* **Folders with files are moved to the recycle bin, not deleted** – folders that still hold files go to the Recycle Bin, so you can get them back.
 
-TV Rename automatically takes care of the video file and any others you media play may require, renaming them and copying or moving them to your media library.
+**Clean Up Search Folders**
 
-The settings in this tab take care of the rest.
+* **Clean up already copied episode files from search folders** and **Clean up already copied movie files from search folders** – if you copy (rather than move) files into your library, these delete video files left in your Search Folders that TV Rename no longer needs.
+  * **Only include movies longer than** … – only clean up a movie file when the movie’s name is longer than this many letters, so a short name like “Up” doesn’t match the wrong files.
+* **Ask to delete from disk when deleting tv show from database** and **Ask to delete from disk when deleting movie from database** – when you delete a show or movie from TV Rename, it asks whether to delete its files too.
 
-The flow through this tab is pretty self explanatory, start by ticking the _Delete empty folders…_ tick box to enable the action.
-
-The other settings are fairly obvious, tick the boxes and modify the text as required. It should be noted that _Ignore any files with these words…_ also includes folders.
-
-If you use the copy option to update your library then ticking the _Clean up already copied…_ box will delete the source files after the copy is complete.
-
-_Default:_ _**All functionality disabled**_
+_Defaults: ignore words **sample**, ignore extensions **.nzb;.nfo;.par2;.txt;.srt**, **Maximum total file size to delete** ticked at **100**, **Folders with files are moved to the recycle bin** ticked, movie name length **8**, **Ask to delete from disk when deleting tv show** ticked, everything else un-ticked._
 
 ### Media Centres <a href="#the-media-centers-tab" id="the-media-centers-tab"></a>
 
-<figure><img src="../.gitbook/assets/image (74).png" alt=""><figcaption></figcaption></figure>
+![](../.gitbook/assets/prefs-12-media-centres.png)
 
-Here you can tell TV Rename about your media player (and hence, any additional files you may need to download).
+While it scans your library, TV Rename can create and download extra files that help media players show your library nicely. Tick the files your media player uses:
 
-Here you can tell TV Rename about your media player (and hence, any additional files you may need to download).
+* **Kodi** – Episode Thumbnails (-thumb.jpg), NFO files for shows, NFO files for episodes, NFO files for movies, and Download Images (fanart, poster, banner.jpg).
+* **pyTivo** – Meta files for episodes (.txt), optionally placed in a .meta subfolder.
+* **Mede8er** – Create series poster (Series.jpg), XML files for shows and episodes, and Shrink large series and episode images to 156 x 232 pixels.
+* **WD TV Live Hub** – WD TV Live Hub Episode Files (.xml).
+* **General** – Folder image (folder.jpg), using the show’s **Banner**, **Poster**, **Fan Art** or **Season Poster**; Fanart Image (fanart.jpg); and Episode Thumbnails (.jpg).
 
-The tick box options in each group should already be familiar to you if you use that particular media player.
+The `Presets...` button sets the ticks on this tab for **Kodi**, **pyTivo** or **Mede8er** in one go, or **None**.
 
-The `Presets` button (bottom right) allows you to quickly apply all the relevant presets for the chosen media player.
+_Defaults: **NFO files for movies** ticked, Folder image picture **Poster**, everything else un-ticked._
 
-### Torrents / NZB
+### Torrents / NZB <a href="#torrents-nzb" id="torrents-nzb"></a>
 
-<figure><img src="../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure>
+![](../.gitbook/assets/prefs-13-torrents-nzb.png)
 
-TV Rename can check SABnzbd µTorrent and qBittorent queues and uses the information on this tab to know where to look for more information.
+If an episode is missing from your library, TV Rename can check whether it is already being downloaded by SABnzbd, µTorrent or qBittorrent. These checks need **Missing Check** ticked on the [Scan Settings](preferences.md#scan-settings) tab.
 
-**NOTE:** to activate this tab the _Missing Check_ box on the [_**General**_](preferences.md#the-general-tab) tab **MUST** be ticked.
+* **Check SABnzbd queue** – needs SABnzbd’s **Host:Port** and **API Key**.
+* **Check µTorrent queue** – needs the paths of µTorrent’s **Application** and its **resume.dat** file (use the `Browse...` buttons to find them).
+* **Check qBitTorrent queue** – TV Rename talks to qBittorrent through its Web UI, so turn on the Web UI in qBittorrent and tell it to “Bypass authentication for clients on localhost”. Then set:
+  * **Host** and **Port** of the Web UI, and **Use HTTPS** if it uses HTTPS. The **UI** line shows the resulting address.
+  * **Version** – the version of qBittorrent you have: **< v3.1**, **v3.2 to v4.0** or **v4.1+**.
+  * **Download .torrent files before downloading** – TV Rename downloads the .torrent file itself and gives the file to qBittorrent.
+  * **Automatically Remove Completed** – TV Rename removes completed TV torrents from qBittorrent.
 
-Both the “Host Port” and “API Key” are required to use this functionality in SABnzbd.
+_Defaults: all three checks un-ticked; qBittorrent Host **localhost**, Port **8080**, Version **v4.1+**, **Download .torrent files before downloading** ticked._
 
-If you use µTorrent, TV Rename needs to know the “Application” and “resume.dat” paths, (they can be found with the `Browse` buttons) so it can detect if files are queued or in the process of being downloaded.
+### RSS / JSON Search <a href="#rss-json-search" id="rss-json-search"></a>
 
-TV Rename uses the qBittorrent web interface to interrogate its status so you must turn on the Web UI in qBittorrent and tell it to “Bypass authentication for clients on localhost” if you wish to use this client. In addition TV Rename needs to know the host name and port for the interface so it can communicate with the client (defaults shown).
+![](../.gitbook/assets/prefs-14-rss-json-search.png)
 
-| _Defaults_ |                         |                 |
-| ---------- | ----------------------- | --------------- |
-|            | Check SABnzdb queue     | _**Un-ticked**_ |
-|            | Check µTorrent queue    | _**Un-ticked**_ |
-|            | Check qBittorrent queue | _**Un-ticked**_ |
+RSS and JSON searches give TV Rename more ways to find missing episodes and movies. They find download links, which TV Rename hands to your torrent program. Results are filtered by the **Preferred Terms**, **Unwanted Terms** and **Min Seeders** settings on the [Jackett Search](preferences.md#jackett-search) tab.
 
-### RSS / JSON Search
+**Search RSS for missing files** turns on the RSS search:
 
-<figure><img src="../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure>
+* **Only on manual scans** – the RSS search runs when you start a scan yourself, not on automatic scans.
+* **Use Cloudflare protection** – use this for feeds on sites protected by Cloudflare.
+* **Torrent RSS URLs** – the RSS feeds to search, from indexers or public RSS sites. `Add` and `Remove` add and remove feeds, and `Open` opens the selected feed in your web browser.
 
-RSS and JSON Searches give TV Rename additional methods of looking for missing files in your media library, providing URLs for the torrent handlers to use.
+**Search JSON for missing files** turns on the JSON search. It works in a similar way: it downloads information from a web address and looks for useful links. It has the same **Only on manual scans** and **Use Cloudflare protection** settings.
 
-RSS and JSON Searches give TV Rename additional methods of looking for missing files in your media library, providing URLs for the torrent handlers to use.
+**NOTE:** the JSON search is set up for the EZTV site, which may not work in some countries because of internet provider filtering.
 
-**RSS Search**
+The JSON search:
 
-The _Search RSS for missing files_ tick box enables the RSS search mechanism when ticked.
-
-_Default: **Un-ticked**_
-
-When enabled the “RSS Search” pane is activated.
-
-The _Only on manual scans_ further restricts the RSS Search, stopping it from running on automatic scans.
-
-_Default: **Ticked**_
-
-_**The Torrent RSS URLs**:_ can be any suitable RSS-feeds provided by indexers or public RSS websites and are used to search for missing files.
-
-`Add` and `Remove` allow you to add and remove feeds, and `Open` presents the highlighted feed in a web browser.
-
-**JSON Search**
-
-The JSON Search is broadly similar.
-
-It downloads information from the web and searches for useful content.
-
-**NOTE:** Please be aware that JSON Search is currently tightly tied to the EZTV API, and may not work in some countries due to ISP filtering.
-
-Basically the JSON Search:
-
-1. Takes the URL from the settings.
-2. Appends the IMDB id.
+1. Takes the **URL** from the settings.
+2. Adds the show’s IMDB id to the end.
 3. Downloads the data.
-4. Goes to the node indicated by the “root Note”.
-5. Iterates across items in that node looking for tags with “Filename Token” and “URL token”.
-6. If the filename token looks like it is something useful it downloads the URL token.
+4. Goes to the part of the data named in **Root Node**.
+5. Looks through the items there for the **Filename Token** and **URL Token** (and the **Size Token** and **Seeders Token**).
+6. If the file name looks like the missing episode, downloads the link.
 
-| _Defaults_ |                                 |                 |
-| ---------- | ------------------------------- | --------------- |
-|            | _Search JSON for missing files_ | _**Un-ticked**_ |
-|            | _Only on manual scans_          | _**Ticked**_    |
+_Defaults: both searches un-ticked; **Only on manual scans** and **Use Cloudflare protection** ticked for both; URL **https://eztv.ag/api/get-torrents?imdb\_id=**, Root Node **torrents**, Filename Token **filename**, URL Token **torrent\_url**, Size Token **size\_bytes**, Seeders Token **seeds**._
 
-**If things go wrong…**
+### Jackett Search <a href="#jackett-search" id="jackett-search"></a>
 
-Ticking the “Detailed logging” box will greatly increase the log detail around either the RSS or JSON searches providing lots of detail - useful ifyou are having trouble setting up either of the searches.
-
-It is recommended that you only use this option if you need to. When ticked the size of the log file will grow very quickly.
-
-### Jackett Search
-
-<div align="center"><img src="../.gitbook/assets/image (4).png" alt=""></div>
+![](../.gitbook/assets/prefs-15-jackett-search.png)
 
 {% hint style="info" %}
 Jackett is an external program and is not supported by the TV Rename team. It is available from [here](https://github.com/Jackett/Jackett#installation-on-windows)
 {% endhint %}
 
-The _Preferred Terms:_ text box acts as a filter on the RSS Search and contains a semicolon delimited list. There must be a match in the RSS feed to return a search result. The default entry will only find RSS feed results that contain 720p or 1080p in the video names.
+If an episode or movie is missing from your library, TV Rename can ask a running Jackett server for files to download, and hand them to your torrent program.
 
-_Default: **720p;1080p;2160p**_
+The settings at the top of the tab apply to the RSS and JSON searches as well as to Jackett:
 
-### Episode Export
+* **Detailed logging (useful when setting up RSS/JSON Feeds)** – writes much more detail about the JSON and Jackett searches to the [log](../help-and-support/keyboard-shortcuts.md). Only use it while you need it, as the log file grows very quickly.
+* **Preferred Terms** – results with more of these words in their name are preferred, separated by semicolons.
+* **Unwanted Terms** – results with any of these words in their name are skipped.
+* **Min Seeders** – results with fewer seeders than this are skipped. Leave it empty for no minimum.
+* **Unattended Duplicate Action** and **Supervised Duplicate Action** – what to do when more than one result is found for the same episode, during unattended runs and when you are there: **Ask User**, **Choose Largest File**, **Choose Most Popular**, **Download All**, **Ignore** or **Use First**.
 
-![](<../.gitbook/assets/image (3).png>)
+**Search Jackett for missing files** turns on the Jackett search:
 
-#### Schedule
+* **Server**, **Port**, **Indexer Path** and **API Key** – where to find your Jackett server. The **Configuration** line shows the address of Jackett’s own settings page.
+* **Only on manual scans** – the Jackett search runs when you start a scan yourself, not on automatic scans.
+* **Skip Jackett On Full Scans** – the Jackett search doesn’t run during Full scans.
+* **Use text search** – searches Jackett by name only.
 
-Ticking the “RSS” box in the “When to watch” section of the panel will save a RSS-reader compatible XML file to the location you specify (by typing or browsing). This file can then be read by something like XBOX Media Center, or a Windows RSS App.
+**Show ‘Search Jackett’ button** – adds a **Jackett Search** button to the Scan and Schedule tabs.
 
-Ticking the “XML” box in the “When to watch” section of the panel will save a standard XML file to the location you specify (by typing or browsing).
+_Defaults: Preferred Terms **720p;1080p;2160p**, Unwanted Terms **hdcam;tscam;CAMRip;HDCAM;HDTS**, Min Seeders empty, Unattended **Ignore**, Supervised **Choose Most Popular**; Server **127.0.0.1**, Port **9117**, Indexer Path **/api/v2.0/indexers/all/results/torznab**; **Only on manual scans** and **Skip Jackett On Full Scans** ticked; everything else un-ticked._
 
-Ticking the “iCal” box in the “When to watch” section of the panel will save an open format Internet Calendar ICS file (not to be confused with Apple Calendar) to the location of you specify (by typing or browsing).
+### Episode Export <a href="#episode-export" id="episode-export"></a>
 
-You can limit how many days or shows are written to the file. The files are updated whenever the “When to watch” tab is manually or automatically refreshed.
+![](../.gitbook/assets/prefs-16-episode-export.png)
 
-#### Renaming & Finding and Organising
+TV Rename can save information about episodes to files, for other programs to use. Tick a box, then type a file location or use `Browse...` to choose one.
 
-Ticking the “XML” box in the “Renaming” section of the panel will create an XML file in the path specified containing the rename data.
+**Schedule** – upcoming episodes from the [Schedule](../main/when-to-watch.md) tab:
 
-Ticking the “XML” box in the “Finding and Organising” section of the panel will create an XML file in the path specified containing the found file data.
+* **RSS** – a file that RSS readers can show.
+* **XML** – a standard XML file.
+* **iCal** – an Internet Calendar (.ics) file that calendar programs can open.
+* **TXT** – a plain text file.
 
-#### Recent Playlists
+**No more than** … **shows, or** … **days worth and** … **in the past** limits how much is written to these files. They are updated whenever the Schedule tab is refreshed.
 
-The “Recent Playlist” section of the tab tells TV Rename to export a playlist of all the episodes found in the “Aired in last X days” section on the _**When to watch**_ tab in the specified format to the specified file and location.
+**Renaming** – **XML** saves the renames found by a scan.
 
-_Default:_ _**All un-ticked**_
+**Finding and Organising** – **XML** saves the files found by a scan.
 
-### **Library** Export
+**Recent Playlist** – saves a playlist of the episodes in the “Aired in the last N days” section of the Schedule tab, in **XSPF**, **M3U/8**, **ASX** or **WPL** format.
 
-<figure><img src="../.gitbook/assets/image (78).png" alt=""><figcaption></figcaption></figure>
+_Defaults: all un-ticked; no more than **10** shows, or **7** days worth and **0** in the past._
 
-Ticking the “RSS” box in the “When to watch” section of the panel will save a RSS-reader compatible XML file to the location you specify (by typing or browsing). This file can then be read by something like XBOX Media Center, or a Windows RSS App.
+### Library Export <a href="#library-export" id="library-export"></a>
 
-#### Missing Episodes
+![](../.gitbook/assets/prefs-17-library-export.png)
 
-Ticking the “XML” box in the “Missing” section of the panel will save a standard XML file containing the missing episodes detected during a scan to the location you specify (by typing or browsing).
+TV Rename can also save information about your shows, movies and missing episodes. As on the Episode Export tab, tick a box and choose a file location.
 
-Similarly, ticking the “CSV” box in the “Missing” section of the panel will save a standard CSV file containing the missing episodes detected during a scan to the location you specify (by typing or browsing).
+* **Restrict Missing Exports to Full Scans** – the Missing Episodes and Missing Movies files are only saved after a Full scan.
+* **Missing Episodes** and **Missing Movies** – save what a scan finds missing, as an **XML** or **CSV** file.
+* **All TV Shows** and **All Movies** – save a list of everything in TV Rename, as a **TXT** file, or as an **HTML** page with a summary of each show or movie, complete with pictures and other details.
 
-#### All Movies and TV Shows
+You can save all your export files at any time with **File>Export**, or only the shows and movies shown by your current filters with **File>Export Filtered**.
 
-Ticking the “TXT” box in the “All Shows” section of the panel will save a TXT file whenever a show is added, edited or deleted from TV Rename. It also gets updated when `Auto ID All` in the _Scan Results_ tab of **Tools>Folder Monitor** is clicked.
+_Defaults: **Restrict Missing Exports to Full Scans** ticked, all exports un-ticked._
 
-Similarly, ticking the “HTML” box in the “All Shows” section of the panel will save a web browser viewable HTML file containing the show summary for each show in your library (complete with images and other details) whenever a show is added, edited or deleted from TV Rename. It also gets updated when `Auto ID All` in the _Scan Results_ tab of **Tools>Folder Monitor** is clicked.
+### App Updates <a href="#app-updates" id="app-updates"></a>
 
-### _**App Updates**_
+![](../.gitbook/assets/prefs-18-app-updates.png)
 
-![](<../.gitbook/assets/image (20).png>)
+These settings control how TV Rename tells you about new versions.
+
+* **Check for Updates** – untick this to stop TV Rename checking for new versions by itself.
+* **on every start** – TV Rename checks each time it starts.
+* **at certain intervals** – TV Rename checks when it starts, but only if the time chosen in the box (from 1 Hour to 90 Days) has passed since its last check.
+* **No dialog when an update is available** – when an automatic check finds a new version, TV Rename doesn’t open a window about it. An `Update Available...` button shows in the main window instead.
+
+You can check for a new version yourself at any time with **Help>Check For New Version**.
+
+_Defaults: **Check for Updates** ticked, **on every start**, **No dialog when an update is available** un-ticked._
