@@ -24,11 +24,20 @@ Click the `Auto ID All` button and TV Rename will try and identify the newly fou
 
 ### Putting the show ID in the folder name
 
-To make sure a folder is matched to the right show, add the show’s ID from TheTVDB, TMDB or TVmaze to the folder name. For example, each of these folders is identified as Silo:
+To make sure a folder is matched to the right show, add the show’s ID from TheTVDB, TMDB or TVmaze to the folder name. Write the site’s name, then `-` or `=`, then the ID number:
+
+* the site’s name is `tvdb`, `tmdb` or `tvmaze`, with or without `id` on the end (`tvdbid`, `tmdbid`, `tvmazeid`), in upper or lower case
+* there must be a `-` or `=` between the name and the number (a space doesn’t work)
+* the tag must be inside `{ }` or `[ ]`
+
+For example, each of these folders is identified as Silo:
 
 * `Silo {tvdb-403245}`
+* `Silo (2023) {tvdb-403245}`
+* `Silo [tvdbid=403245]`
+* `Silo {tmdb=125988}`
 * `Silo [tmdbid-125988]`
-* `Silo tvmaze=38052`
+* `Silo [tvmaze=38052]`
 
 Clicking `Remove` will remove the highlighted row from the New Shows list, however it will be re-detected in the next run of “Auto ID All”.
 
@@ -79,9 +88,11 @@ Each video file found is listed under **New Movies**, with its **Folder**, and t
 
 ### Putting the movie ID in the file or folder name
 
-To make sure a movie is matched to the right title, add its TMDB ID to the movie's file name or to its folder name. For example, either of these is identified as The Matrix (1999):
+To make sure a movie is matched to the right title, add its TMDB ID to the movie's file name or to its folder name. Write `tmdb` or `tmdbid`, then `-` or `=`, then the ID number, inside `{ }` or `[ ]`. For example, each of these is identified as The Matrix (1999):
 
 * a file named `The Matrix {tmdb-603}.mkv`
+* a file named `The Matrix {tmdb=603}.mkv`
+* a file named `The Matrix [tmdbid-603].mkv`
 * a folder named `The Matrix {tmdb-603}`
 
 Without an ID, `Auto ID All` searches for the movie by its name.
