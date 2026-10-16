@@ -55,9 +55,40 @@ There are a number of ways one can add movies to their library:
 
 <figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
 
+The Basics tab links the movie to its entry at the data source and sets what the movie is called.
+
+To find the movie, type its name (or its code at the source, if you know it) in the code box and click `Search`, then click the right movie in the list of matches.
+
+* **Source** – where TV Rename gets this movie’s information. **Library Default** uses the **Default Movie Source** on the [Data Sources](../menu/preferences.md#data-sources) tab of **Options>Preferences**. **The TVDB** or **TMDB** uses that source for this movie only.
+* **Custom show name** – tick it and type a name to use instead of the title from the source. TV Rename uses this name for the movie everywhere, including its folder and file names.
+* **Custom Language** – tick it and choose the language to ask the source for, for this movie only.
+* **Custom Region** – tick it and choose the region to use for this movie’s release date, instead of the **Preferred region** on the Data Sources tab.
+
 ### Folders
 
 <figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+
+The Folders tab tells TV Rename where this movie’s files are kept in your library.
+
+**Folder Type** sets how the movie is stored:
+
+| Folder Type             | What it means                                                                                                             |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| Single Movie per Folder | The movie has a folder of its own.                                                                                        |
+| Many Movies per Folder  | The movie’s file sits directly in the base folder, together with other movies.                                            |
+| DVD format              | The folder holds a DVD copy of the movie. TV Rename looks for `VIDEO_TS\VIDEO_TS.IFO` in it and doesn’t rename the files. |
+| Bluray format           | The folder holds a Blu-ray copy of the movie. TV Rename looks for `BDMV\index.bdmv` in it and doesn’t rename the files.   |
+
+Tick **Automatic Folders** to let TV Rename work out the movie’s folder:
+
+* **Base Folder** – the movie library folder the movie goes in. The list holds your **Movie Library Folders** from the [Library Folders](../menu/preferences.md#the-library-folders-tab) tab of **Options>Preferences**.
+* **Movie Folder Name** – **Subdirectories (default)** names the movie’s folder with the **Folder format** on that same Library Folders tab, which is shown in grey beside it. **Custom Subdirectories** lets you type a different folder name for this movie; click `Tags...` to see the tags you can use.
+
+Tick **Manual/Additional Folders** to list the movie’s folders yourself. Type a folder in **Folder:** (or click `Browse...` to pick one) and click `Add`. Select a folder in the list and click `Open` to open it in File Explorer, or `Remove` to take it off the list.
+
+At least one of **Automatic Folders** and **Manual/Additional Folders** must be ticked.
+
+If some files in these folders are on TV Rename’s ignore list, the tab says so and shows a `See Ignore List` button.
 
 ### Custom File Naming
 

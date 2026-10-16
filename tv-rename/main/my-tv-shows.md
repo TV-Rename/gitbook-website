@@ -141,6 +141,16 @@ This option is disabled by default but it can be enabled for the specific show b
 
 <div align="center"><img src="https://3508557057-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fx0gPeIfHpbgTioNust1M%2Fuploads%2FGAwZ64TOKXNcRWMZb58q%2Fimage.png?alt=media&#x26;token=613c896e-47e2-4070-bbaa-cbd508d6179b" alt=""></div>
 
+This tab lets one show name its episode files differently from the rest of your library.
+
+Normally every episode file is named with the template set in [Options>Filename Template Editor](../menu/options-menu/filename-template-editor.md). To use a different name for this show’s episodes, tick **Use Custom Naming Format** and type the whole file name you want into **Custom Format**, using the tags listed under **Available Tags**. Leave out the file extension: TV Rename keeps each file’s own extension.
+
+Once there is a custom format, **Default** shows an episode of this show named with your library template and **Example** shows the same episode named with your custom format, so you can compare them. **Available Tags** lists each tag with its value for that episode.
+
+For example, the custom format `{ShowName} - S{Season:2}E{Episode} - {EpisodeName}` names episode 6 of season 1 of The Outpost `The Outpost - S01E06 - The Book of Names`.
+
+The custom format is used when **Do renaming** is ticked on the [Advanced tab](my-tv-shows.md#the-advanced-tab). Untick **Use Custom Naming Format** to go back to your library template.
+
 #### The Advanced Tab <a href="#the-advanced-tab" id="the-advanced-tab"></a>
 
 ![](https://3508557057-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fx0gPeIfHpbgTioNust1M%2Fuploads%2FEYe2rD2q2iyRO6ygPxLL%2Fimage.png?alt=media\&token=942d9a9c-9c5d-4d70-9d80-12e77f21f0c9)
