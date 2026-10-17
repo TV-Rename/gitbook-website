@@ -80,30 +80,6 @@ These settings control where TV Rename gets information about your TV shows and 
 
 _Defaults: **4** downloads at a time, update every **1** hour, **Regional**, **20%**._
 
-These settings control where TV Rename gets information about your TV shows and movies, and how it keeps that information up to date.
-
-* **Default TV Show Source** – where TV Rename gets information about TV shows: The TVDB, TV Maze or TMDB. A show uses this source unless a different one is chosen in **Source** on the [Basics tab](../main/my-tv-shows.md#the-basics-tab) of Add/Edit Show.
-* **Default Movie Source** – the same for movies: The TVDB or TMDB. A movie can use a different one, chosen in **Source** on the [Basics](../main/movies.md#basics) tab of Add/Edit Movie.
-* **Download up to** … **shows/images simultaneously** – how many downloads TV Rename runs at the same time, from 1 to 8.
-* **Update cache every** … **hours** – how often TV Rename refreshes its show and movie information in the background, from every hour to every 96 hours. This only happens while [Options>Automatic Background Download](options-menu/automatic-background-download.md) is ticked.
-* **Release Date Type** – which release date TV Rename uses for movies. **Regional** uses the release date in your region: the movie’s own **Custom Region** if one is set, otherwise the **Preferred region** in the TMDB group below. **Global** uses the earliest release date anywhere.
-
-**TheTVDB**
-
-* **Preferred language** – the language TV Rename asks TheTVDB for.
-* **Refresh entire series if** … **% of episodes are updated** – when at least this share of a show’s episodes have changed on TheTVDB, TV Rename downloads the whole show again rather than just the changed episodes.
-* **Version** – the version of TheTVDB’s service that TV Rename uses (v4).
-
-**TV Maze** has no settings.
-
-**TMDB**
-
-* **Preferred language** – the language TV Rename asks TMDB for.
-* **Preferred region** – TMDB gives release dates and certifications for this region.
-* **Refresh entire series if** … **% of episodes are updated** – the same as the TheTVDB setting above, for TMDB.
-
-_Defaults: **4** downloads at a time, update every **1** hour, **Regional**, **20%**._
-
 ### Library Folders <a href="#the-library-folders-tab" id="the-library-folders-tab"></a>
 
 ![](../.gitbook/assets/prefs-04-library-folders.png)
@@ -173,39 +149,9 @@ These settings are the starting values for each movie you add to TV Rename. Chan
   * **Include check when movie has a future release date** – also check movies that haven’t been released yet.
   * **Include check when movie has no release date** – also check movies that have no release date.
 
-These settings are the starting values for each movie you add to TV Rename. Changing them doesn’t change movies that are already in TV Rename: edit those with `Edit` on the [Movies](../main/movies.md) tab, or use [Options>Settings Check](options-menu/settings-check.md) to find movies that differ from these defaults.
-
-**Default Movie Settings**
-
-* **Use Automatic Folders** – new movies have **Automatic Folders** ticked on the [Folders](../main/movies.md#folders) tab of Add/Edit Movie.
-* **Use Default Location** – new movies go in the movie library folder chosen in the box under it. The box lists your **Movie Library Folders** from the [Library Folders](preferences.md#the-library-folders-tab) tab.
-* **Default movie folder type** – the **Folder Type** a new movie starts with: Single Movie per Folder, Many Movies per Folder, DVD format or Bluray format. The [Folders](../main/movies.md#folders) tab of Add/Edit Movie explains each one.
-
-**Default Advanced Settings** are the starting ticks for a new movie’s **Advanced** tab:
-
-* **Do renaming** – TV Rename renames the movie’s files to match your naming settings.
-* **Do missing check** – TV Rename reports the movie as missing when it can’t find its file.
-  * **Include check when movie has a future release date** – also check movies that haven’t been released yet.
-  * **Include check when movie has no release date** – also check movies that have no release date.
-
 ### TV Show Defaults <a href="#tv-show-defaults" id="tv-show-defaults"></a>
 
 ![](../.gitbook/assets/prefs-06-tv-show-defaults.png)
-
-These settings are the starting values for each TV show you add to TV Rename. Changing them doesn’t change shows that are already in TV Rename: edit those with `Edit` on the [TV Shows](../main/my-tv-shows.md) tab, or use [Options>Settings Check](options-menu/settings-check.md) to find shows that differ from these defaults.
-
-**Default TV Show Settings**
-
-* **Use Automatic Season Folders** – new shows have **Automatic Folders** ticked on the [Folders tab](../main/my-tv-shows.md#the-folders-tab) of Add/Edit Show.
-* **Use Default Location** – new shows go in the TV library folder chosen in the box under it, in a folder named with the **Show folder format** from the [Library Folders](preferences.md#the-library-folders-tab) tab. The box lists your **TV Library Folders**. This needs **Use Automatic Season Folders** ticked as well.
-* **Default season location** – **in base folder** keeps all of a new show’s seasons in the show’s own folder; **in subdirectories** gives each season a folder of its own.
-* **Airs in Timezone** – the time zone new shows air in. TV Rename uses it to show air times in your own time zone.
-
-**Default Advanced Settings** are the starting ticks for a new show’s [Advanced tab](../main/my-tv-shows.md#the-advanced-tab) of Add/Edit Show, where most of them are explained. **Use DVD Order** and **Use Alternate Order** can’t both be ticked. Under **When finding missing episodes (only)**:
-
-* **Use sequential number matching** – match a file to an episode by the episode’s overall number in the show.
-* **Look for airdate in filenames** – match a file to an episode by an air date in the file name.
-* **Look for episode title in filenames** – match a file to an episode by the episode’s title in the file name.
 
 These settings are the starting values for each TV show you add to TV Rename. Changing them doesn’t change shows that are already in TV Rename: edit those with `Edit` on the [TV Shows](../main/my-tv-shows.md) tab, or use [Options>Settings Check](options-menu/settings-check.md) to find shows that differ from these defaults.
 
@@ -510,17 +456,6 @@ _Defaults: **Restrict Missing Exports to Full Scans** ticked, all exports un-tic
 ### App Updates <a href="#app-updates" id="app-updates"></a>
 
 ![](../.gitbook/assets/prefs-18-app-updates.png)
-
-These settings control how TV Rename tells you about new versions.
-
-* **Check for Updates** – untick this to stop TV Rename checking for new versions by itself.
-* **on every start** – TV Rename checks each time it starts.
-* **at certain intervals** – TV Rename checks when it starts, but only if the time chosen in the box (from 1 Hour to 90 Days) has passed since its last check.
-* **No dialog when an update is available** – when an automatic check finds a new version, TV Rename doesn’t open a window about it. An `Update Available...` button shows in the main window instead.
-
-You can check for a new version yourself at any time with **Help>Check For New Version**.
-
-_Defaults: **Check for Updates** ticked, **on every start**, **No dialog when an update is available** un-ticked._
 
 These settings control how TV Rename tells you about new versions.
 
