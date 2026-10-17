@@ -24,11 +24,12 @@ Click the `Auto ID All` button and TV Rename will try and identify the newly fou
 
 ### Putting the show ID in the folder name
 
-To make sure a folder is matched to the right show, add the show’s ID from TheTVDB, TMDB or TVmaze to the folder name. Write the site’s name, then `-` or `=`, then the ID number:
+To make sure a folder is matched to the right show, add the show’s ID from TheTVDB, TMDB, TVmaze or IMDb to the folder name. Write the site’s name, then `-` or `=`, then the ID:
 
-* the site’s name is `tvdb`, `tmdb` or `tvmaze`, with or without `id` on the end (`tvdbid`, `tmdbid`, `tvmazeid`), in upper or lower case
-* there must be a `-` or `=` between the name and the number (a space doesn’t work)
+* the site’s name is `tvdb`, `tmdb`, `tvmaze` or `imdb`, with or without `id` on the end (`tvdbid`, `tmdbid`, `tvmazeid`, `imdbid`), in upper or lower case
+* there must be a `-` or `=` between the name and the ID (a space doesn’t work)
 * the tag must be inside `{ }` or `[ ]`
+* for IMDb, write the whole ID as IMDb shows it, starting with `tt` and keeping any leading zeros (for example `tt0903747`)
 
 For example, each of these folders is identified as Silo:
 
@@ -38,6 +39,10 @@ For example, each of these folders is identified as Silo:
 * `Silo {tmdb=125988}`
 * `Silo [tmdbid-125988]`
 * `Silo [tvmaze=38052]`
+* `Silo {imdb-tt14688458}`
+* `Silo [imdbid=tt14688458]`
+
+And `Breaking Bad (2008) {imdb-tt0903747}` is identified as Breaking Bad.
 
 Clicking `Remove` will remove the highlighted row from the New Shows list, however it will be re-detected in the next run of “Auto ID All”.
 
@@ -88,12 +93,15 @@ Each video file found is listed under **New Movies**, with its **Folder**, and t
 
 ### Putting the movie ID in the file or folder name
 
-To make sure a movie is matched to the right title, add its TMDB ID to the movie's file name or to its folder name. Write `tmdb` or `tmdbid`, then `-` or `=`, then the ID number, inside `{ }` or `[ ]`. For example, each of these is identified as The Matrix (1999):
+To make sure a movie is matched to the right title, add its TMDB or IMDb ID to the movie's file name or to its folder name. Write `tmdb` or `tmdbid` followed by the TMDB number, or `imdb` or `imdbid` followed by the whole IMDb ID as IMDb shows it (starting with `tt` and keeping any leading zeros), with `-` or `=` between the name and the ID, inside `{ }` or `[ ]`. For example, each of these is identified as The Matrix (1999):
 
 * a file named `The Matrix {tmdb-603}.mkv`
 * a file named `The Matrix {tmdb=603}.mkv`
 * a file named `The Matrix [tmdbid-603].mkv`
 * a folder named `The Matrix {tmdb-603}`
+* a file named `The Matrix {imdb-tt0133093}.mkv`
+* a file named `The Matrix [imdbid=tt0133093].mkv`
+* a folder named `The Matrix {imdb-tt0133093}`
 
 A movie’s TheTVDB ID works the same way. Write `tvdb` or `tvdbid`, in upper or lower case, then `-` or `=`, then TheTVDB’s number for the movie, inside `{ }` or `[ ]`. For example, each of these is also identified as The Matrix (1999):
 
