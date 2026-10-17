@@ -95,6 +95,12 @@ To make sure a movie is matched to the right title, add its TMDB ID to the movie
 * a file named `The Matrix [tmdbid-603].mkv`
 * a folder named `The Matrix {tmdb-603}`
 
+A movie’s TheTVDB ID works the same way. Write `tvdb` or `tvdbid`, in upper or lower case, then `-` or `=`, then TheTVDB’s number for the movie, inside `{ }` or `[ ]`. For example, each of these is also identified as The Matrix (1999):
+
+* a file named `The Matrix {tvdb-169}.mkv`
+* a file named `The Matrix [tvdbid=169].mkv`
+* a folder named `The Matrix {tvdb-169}`
+
 Without an ID, `Auto ID All` searches for the movie by its name.
 
 When you are ready, click `Add & Close`. TV Rename asks you to confirm, then adds every identified movie to the **Movies** tab. Movies that haven't been identified are not added.
