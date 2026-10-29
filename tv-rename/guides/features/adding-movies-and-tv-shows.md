@@ -7,14 +7,14 @@ TV Rename will track many TV Shows and Movies in your library. These can be adde
 * _**Bulk Add**_ – TV Rename can scan through some specified folders (Monitor Folders) via the ‘[Bulk Add](../../menu/tools-menu/bulk-add.md)’ tool. It will display a list of shows that are not already in the library and allow them to be added en-masse.
 * _**Automated**_ – TV Rename can be setup to look at files in the download folder (Search Folders) and (if it can’t find an appropriate show in the library) offer the user some suggestions about which series/show to add to the library.
 
-Movies can also be added using the [**Scan Movie Folder**](../../menu/tools-menu/scan-movie-folder.md) option.
+Movies can also be added using the [**Move Movies From...**](../../menu/tools-menu/scan-movie-folder.md) option on the **Tools** menu.
 
 ### **Manual Addition**
 
-Manual addition is the simplest way of adding shows into the library. You can enter (and search for) the show by name or for more precise addition enter a TVDB Id. All the options about the show can be edited, but they key ones to add are:
+Manual addition is the simplest way of adding shows into the library. You can enter (and search for) the show by name or for more precise addition enter its code at the data source (TMDB, TheTVDB or TVmaze). All the options about the show can be edited, but they key ones to add are:
 
 * Directory location to store the location of the files for the series
-* Time zone for the series (this is not available from TVDB, so must be entered manually)
+* Time zone for the series (a new show starts with the **Airs in Timezone** set on the [TV Show Defaults](../../menu/preferences.md#tv-show-defaults) tab of **Options>Preferences**, so check it for shows that air in another time zone)
 
 {% content-ref url="../../main/my-tv-shows.md" %}
 [my-tv-shows.md](../../main/my-tv-shows.md)
@@ -45,7 +45,7 @@ TV Rename can search through your library of existing (organised) files to find 
 TV Rename can look at ‘spare’ files in the ‘download’/Search folders;
 
 * If it cannot find a home for them then
-* It tries to find the series on TVDB and asks the user for clarification via a streamlined add dialog.
+* It tries to find the series at the data source and asks the user for clarification via a streamlined add dialog.
 * Once accepted, TVR automatically adds the show.
 * If auto folder creation is on, then the folders get created in the library automatically and the appropriate files copied in.
 

@@ -20,7 +20,7 @@ for example: -
 >
 > **m:\TV Series\The Outpost\Season 1\The Outpost - S01E06 - The Book of Names.mkv**
 >
-> To do this TV Rename uses data acquired from [The TVDB](http://thetvdb.com/) and [other sources](../help-and-support/data-sources.md).
+> To do this TV Rename uses data acquired from [TMDB](https://www.themoviedb.org/), [The TVDB](http://thetvdb.com/) and [TVmaze](https://www.tvmaze.com/) (see [Data Sources](../help-and-support/data-sources.md)).
 
 The initial setup can be somewhat daunting as there are many options and settings that control the way TV Rename behaves. Luckily these have sensible defaults and its actually relatively easy to get up and running providing you don’t get distracted by the settings.
 
@@ -32,24 +32,24 @@ _The guide assumes you already have the beginnings of a **Media Library** - a fo
 
 ### Bulk Add (best if you have a folder of sorted media files)
 
-Under normal circumstances you would add a Media Library path when adding a new show to TV Rename, however TV Rename has a trick up its sleeve when adding shows already in the library’s folder infrastructure - **Bulk Add Shows**.
+Under normal circumstances you would add a Media Library path when adding a new show to TV Rename, however TV Rename has a trick up its sleeve when adding shows already in the library’s folder infrastructure - **Bulk Add TV Shows**.
 
 <figure><img src="../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
 
-1.  Follow the menu to **Tools>Bulk Add Shows** and whilst on the _**Folders**_ tab of the newly opened window click `Add`. Browse to the root folder of your “Media Library” and click `OK`. The path will be added to the “Monitor Folders” list.
+1.  Follow the menu to **Tools>Bulk Add TV Shows...** and whilst on the _**Folders**_ tab of the newly opened window click `Add`. Browse to the root folder of your “Media Library” and click `OK`. The path will be added to the “Monitor Folders” list.
 
     If you use multiple disks or paths for your library, repeat the above step for each root path.
-2. Click the `Check >>` button, the selected path(s) will be scanned and any content with a recognised structure automatically displayed in the _**Scan**_ tab.
-3.  In the _**Scan**_ tab, click `Auto ID All` and TV Rename will attempt to match the found content against [TheTVDB](http://thetvdb.com/), and ascertain if the show is part of a “flat” structure with all the episodes in one folder, or a “tree” structure with sub folders for each season and specials.
+2. Click the `Check >>` button, the selected path(s) will be scanned and any content with a recognised structure automatically displayed in the _**Scan Results**_ tab.
+3.  In the _**Scan Results**_ tab, click `Auto ID All` and TV Rename will attempt to match the found content against your default data source (TMDB, unless you have changed **Default TV Show Source** on the [Data Sources](../menu/preferences.md#data-sources) tab of **Options>Preferences**). The **Folder Structure** column shows whether each show is “Flat”, with all the episodes in one folder, or “Folder per season”, with sub folders for each season and specials.
 
-    Any shows not identified will not have an entry in the **Show** column or the **thetvdb code** column; these can be fixed manually by highlighting the relevant row in the table and clicking `Edit` and using `Search` to interrogate [TheTVDB](http://thetvdb.com/).
+    Any shows not identified will not have an entry in the **Show** column or the **Source Code** column; these can be fixed manually by highlighting the relevant row in the table and clicking `Edit` and using `Search` to look the show up.
 4. Once the match process has finished, click `Add & Close` and accept the confirmation, all the identified shows will be added to the _**TV Shows**_ tab.
-5. _**TV Shows**_ will now be populated with the TV shows that have been identified, however there is currently no “Season” information. click `Refresh` and all the season information will be downloaded (depending on the size of your media library this may take a little while).
-6. Once the download is complete you can browse the series information. Here, by right clicking on a show or season, you can edit the TV Rename settings to override information fetched from [The TVDB](http://thetvdb.com/) .
+5. TV Rename then downloads the information for the new shows, including their seasons and episodes (depending on the size of your media library this may take a little while), and the _**TV Shows**_ tab fills in.
+6. Once the download is complete you can browse the series information. Here, by right clicking on a show or season, you can edit the TV Rename settings to override information fetched from the data source.
 
 ### Manually
 
-1. You can manually add shows by clicking the `Add` button in the _**TV Shows**_ tab. in the [_Add/Edit Show_](../main/my-tv-shows.md#addedit-show) window that appears enter the show name or code in the” [The TVDB](http://thetvdb.com/) code:” box and click `Search` to find it. Hop across to the _**Folders**_ tab and enter the base folder for the show in your media library, and click `OK`.
+1. You can manually add shows by clicking the `Add` button in the _**TV Shows**_ tab. In the [_Add/Edit Show_](../main/my-tv-shows.md#addedit-show) window that appears enter the show name, or its code at the data source, in the code box (labelled for the data source, for example “TMDB code:”) and click `Search` to find it. Hop across to the _**Folders**_ tab and enter the base folder for the show in your media library, and click `OK`.
 
 ## 2 - Set your Search Folders <a href="#set-your-search-folders" id="set-your-search-folders"></a>
 
@@ -65,7 +65,7 @@ For example: I have two entries here, one points to my _Downloads_ folder for st
 
 Right, so now TV Rename knows where you media library is and where to look for new files, the only thing it doesn’t know is how you want your files renamed.
 
-Go to the _**Scan**_ tab and select a show that has some season and episode data (for this example I selected the DC show “Arrow”).
+Go to the _**TV Shows**_ tab and select a show that has some season and episode data (for this example I selected the DC show “Arrow”).
 
 Now go to **Options>Filename Template Editor** and you can see how the show will be named.
 
@@ -89,11 +89,11 @@ The basic setup is now complete. Now would be a good time to take a look at the 
 
 Now you’re ready to run your first scan.
 
-Go to the _**Scan**_ tab, and click `Full`. TV Rename will download any needed show information from [The TVDB](http://thetvdb.com/), and compare it with the contents of the media library.
+Go to the _**Scan**_ tab, and click `Full Scan` (if the window is narrow, click the arrow next to `Scan` and choose `Full`). TV Rename will download any needed show information from its data sources, and compare it with the contents of the media library.
 
 <figure><img src="../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
 
-When the scan is complete, TV Rename will display its suggested changes in the main pane. Any ticked item will be actioned, so un-tick things you’re not sure about, or use the check boxes in the bottom-right of the window.
+When the scan is complete, TV Rename will display its suggested changes in the main pane. Any ticked item will be actioned, so un-tick things you’re not sure about, or use the `Check` drop-down on the toolbar to tick or un-tick a whole type of action at once.
 
 For a more “granular” approach you can right-click on selected items to see actions for that specific item.
 
@@ -107,7 +107,7 @@ Click `Do Checked` and TV Rename will process the ticked actions, moving and ren
 
 Go to the _**Schedule**_ tab and you will see all known future information (including air dates) for shows you are following.
 
-In the _**Search Folders**_ tab of **Options>Preferences** you can schedule scans, either time based _(“Schedule a scan…)”_ or by gleaning search folder updates from Windows _(“Monitor folders for changes”)_.
+TV Rename can also scan for you. On the [_**Scan Settings**_](../menu/preferences.md#scan-settings) tab of **Options>Preferences** you can schedule a time based scan _(“Scheduled scan every … hours”)_, and on the [_**Search Folders**_](../menu/preferences.md#the-search-folders-tab) tab you can have TV Rename scan whenever the contents of your search folders change _(“Monitor Search Folders (run a scan when files change)”)_.
 
 **Sit back, relax, and let TV Rename do all the hard work for you!**
 

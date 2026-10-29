@@ -16,12 +16,13 @@ The system can also be requested to update the ‘last updated’ dates to match
 
 ### DVD vs Aired Order <a href="#dvd-vs-aired-order" id="dvd-vs-aired-order"></a>
 
-TV Rename can order a series in 2 ways at present:
+TV Rename can order a series in 3 ways at present:
 
 * Aired Season Order
 * DVD Season Order
+* Alternate Order
 
-To show how these are different take a look at Futurama on [The TVDB](http://thetvdb.com/series/futurama) and you can see that the episode order on DVD does not match the Aired order.
+To show how these are different take a look at Futurama on [The TVDB](http://thetvdb.com/series/futurama) and you can see that the episode order on DVD does not match the Aired order. The order is chosen for each show with **Use DVD Order** or **Use Alternate Order** on the [Advanced tab](../../main/my-tv-shows.md#the-advanced-tab) of Add/Edit Show.
 
 **Future Ideas**
 
