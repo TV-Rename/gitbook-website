@@ -1,12 +1,14 @@
 # Data Sources
 
+TV Rename gets its show and movie information from three online data sources: [TMDB](https://www.themoviedb.org/), [The TVDB](http://thetvdb.com/) and [TV Maze](https://www.tvmaze.com/). New installs use TMDB for both TV shows and movies. You can change the defaults on the [Data Sources](../menu/preferences.md#data-sources) tab of **Options>Preferences**, and choose a different source for any show or movie on the Basics tab of its Add/Edit window.
+
 <figure><img src="../.gitbook/assets/image (81).png" alt="" width="200"><figcaption></figcaption></figure>
 
 ### The TVDB <a href="#the-tvdb" id="the-tvdb"></a>
 
-Whilst not actually a part of TV Rename; [The TVDB](http://thetvdb.com/) or more specifically The TVDB’s database provides the data (using its API) supplying TV Rename with the relevant details about the shows it’s monitoring.
+Whilst not actually a part of TV Rename; [The TVDB](http://thetvdb.com/) or more specifically The TVDB’s database provides the data (using its API) supplying TV Rename with the relevant details about the shows that use it.
 
-If the API is down TV Rename will not be able to add shows to your library or perform updates to it.
+If the API is down TV Rename will not be able to add shows that use The TVDB to your library or perform updates to them.
 
 The quickest way to check is to follow the link below which will give you the current status of the API along with other useful information.
 
@@ -16,7 +18,7 @@ If you are having trouble with a particular show it may well be the show name th
 
 “Doctor Who” for example, can variously be called “Dr. Who” or “Dr Who” in the filenames which aren’t recognised by TV Rename.
 
-In a case like this it is a good idea to visit [The TVDB](http://thetvdb.com/) to check how they name the show.
+In a case like this it is a good idea to visit the show’s data source to check how they name the show, and add the other names as aliases on the [Show Aliases tab](../main/my-tv-shows.md#the-show-aliases-tab) of Add/Edit Show.
 
 ***
 

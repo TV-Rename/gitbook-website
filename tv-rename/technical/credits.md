@@ -12,7 +12,7 @@ description: >-
 **Please visit these sites, register, and help out by contributing information and artwork for Movies, TV Series and Episodes.** They only exist with the help of users - if you see something that is wrong please help the community by contributing.
 {% endhint %}
 
-TV Rename pulls data from [TheTVDB.com](https://github.com/thetvdb/v4-api), [TMDB ](https://www.themoviedb.org/documentation/api)and [TV Maze](https://www.tvmaze.com/api) using their API.&#x20;
+TV Rename pulls data from [TheTVDB.com](https://github.com/thetvdb/v4-api), [TMDB ](https://www.themoviedb.org/documentation/api)and [TV Maze](https://www.tvmaze.com/api) using their API.
 
 ### Development Services
 
@@ -27,11 +27,13 @@ It also uses: -
 * [Json.NET](https://www.newtonsoft.com/json) to code and decode the messages from data sources,
 * [AlphaFS](http://alphafs.alphaleonis.com/) for advanced .NET file operations,
 * [NLog](http://nlog-project.org/) open-source logging for .NET,
-* [SourceGrid](https://sourcegrid.codeplex.com/),
+* SourceGrid,
 * CefSharp
 * CloudFlareUtilities
+* GuerrillaNtp
 * Humanizer
 * Ical.Net
+* IMDbApiLib
 * MediaInfo
 * Microsoft.WindowsAPICodePack
 * MSCVersion
@@ -39,8 +41,8 @@ It also uses: -
 * ObjectListView
 * Polly
 * SharpCompress
-* Timber&#x20;
-* TimeZoneConverter&#x20;
+* TagLibSharp
+* TimeZoneConverter
 * TMDbLib
 
 Generally these are obtained via NuGet packages.

@@ -19,12 +19,10 @@ You can find TV Rename’s source code (along with executables and this website)
 
 #### Winforms C# application
 
-
-
 #### .NET 10
 
-TV Rename uses the Microsoft .NET 10 language. When the app loads it will check for its presence and let you know if any action is needed. It’s a free download from [Microsoft](https://www.microsoft.com/net/download/windows).
+TV Rename runs on the Microsoft .NET 10 Desktop Runtime. The installer doesn’t include it; if it isn’t on your PC, Windows tells you when you start TV Rename. It’s a free download from [Microsoft](https://dotnet.microsoft.com/en-us/download/dotnet/10.0).
 
 #### C++
 
-The app will check on this and ask the user to upgrade if it's missing. It's needed as a dependency for CEF Framework
+TV Rename needs the Microsoft Visual C++ Redistributable (v14, 2017 or newer) for the built-in browser it uses to show information (the CEF Framework). The app checks for it and, if it's missing, downloads the installer for you.

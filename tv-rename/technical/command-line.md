@@ -39,7 +39,7 @@ The examples below shorten the path to `TVRename.exe`.
 
 **Order.** Whatever order you type the switches in, TV Rename always works through them in this order:
 
-1. `/hide`
+1. `/hide`, then `/focus`
 2. `/quickupdate`, `/forceupdate`, `/forcerefresh`
 3. `/scan`, `/quickscan`, `/recentscan`
 4. `/doall`
@@ -94,6 +94,7 @@ This also means `/doall` sent to an open window carries out whatever is already 
 
 | Switch                 | What it does                                                                                                                                                                                        |
 | ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **/focus**             | Bring the TV Rename window to the front.                                                                                                                                                            |
 | **/recover**           | Open a window to restore an earlier copy of your settings or downloaded show information. Normally this only appears by itself when the current files are damaged.                                  |
 | **/userfilepath:PATH** | Keep the settings files in a different folder, for example `/userfilepath:D:\TVRenameSettings`. See [Logs & Configuration](logs-and-configuration.md#configuration-files) for what those files are. |
 | **/?**                 | Write the list of switches to the log, then exit without starting TV Rename.                                                                                                                        |
