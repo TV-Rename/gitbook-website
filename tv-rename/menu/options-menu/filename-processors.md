@@ -14,14 +14,20 @@ or on the whole path: -
 
 > C:/files/ShowName/S01E07.avi
 
-The expressions are evaluated in order (top down).
+The expressions are evaluated in order (top down). Use `Move Up` and `Move Down` to change the order, `Add` and `Delete` to add or remove an expression, and `Defaults` to put back the original list (TV Rename asks you to confirm first).
 
-Each expression can be toggled on and off, as can the ability to process a full path.
+Each expression can be toggled on and off (**Enabled**), as can the ability to process a full path (**Full Path**).
 
 Each expression has a Notes field which can be used to remind the user why the expression was added.
 
-Additionally, a folder can be specified to test the results of the Regular Expression.
+The bottom of the window lets you test the expressions. Choose what to test against:
 
-If a match is found during the test the matching expression is indicated.
+* **Test Folder:** – the files in a folder you pick with `Browse...`.
+* **Torrent Queue** – the files your torrent program is currently downloading.
+* **Text:** – a file name you type in.
+
+**Show:** sets the show to test against. Tick **Test All** to test every expression; otherwise only the expressions selected in the list above are tested.
+
+For each file the results show the **Filename**, the **Show(s)**, the **Season** and **Episode** found, and the **Rule** (expression) that matched.
 
 In all likelihood you will find it unnecessary to make changes here, only if a new, totally unrecognisable file name structure appeared would it be necessary, and then there would probably be discussion about it in the forum.

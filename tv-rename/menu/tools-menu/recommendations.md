@@ -4,12 +4,12 @@ description: Get some new ideas about shows and movies to watch
 
 # Recommendations
 
-TMDB has features that allow you to get:
+**Tools>TV Show Recommendations...** and **Tools>Movie Recommendations...** use TMDB features that allow you to get:
 
 * Top Rated
 * Trending
 * Similar shows/movies to ones in your library
-* Related shows/movies to ones in your ibrary
+* Related shows/movies to ones in your library
 
 ![](<../../.gitbook/assets/image (10).png>)
 
@@ -23,7 +23,7 @@ The recommendation feature asks TMDB for information about which other shows/mov
 The Quality Rating in the interface is a measure of 'star rating' on TMDB and 'Recommendation %' is a measure of how much the show/movie is 'linked' to your library.
 {% endhint %}
 
-If you are interested you can right-click on the recommendation to quickly add it to your library&#x20;
+If you are interested you can right-click on the recommendation to quickly add it to your library
 
 {% hint style="warning" %}
 Note: As TMDB is used as the only source, only movies / TV shows with a TMDB id will be used to calculate the recommendations
