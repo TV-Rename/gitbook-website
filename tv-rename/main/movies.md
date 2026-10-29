@@ -1,5 +1,5 @@
 ---
-description: TV Rename also managed movies...
+description: TV Rename also manages movies...
 ---
 
 # Movies
@@ -10,12 +10,13 @@ description: TV Rename also managed movies...
 
 Below these panels are a series of buttons which allow you to manage the content. They are: -
 
-* `Add` - Adds a new movie to the list. Remember you may need to add folders to for the movie separately if you need to monitor it in the media library.
+* `Add` - Adds a new movie to the list. Remember you may need to add folders for the movie separately if you need to monitor it in the media library.
 * `Edit` - Edit the currently selected movie
 * `Delete` - Remove the currently selected movie(s) from TV Rename’s database, and optionally delete the selected movie(s) from the media library - _**careful!**_
 * `Refresh` - Refresh the current view
 * `Scan Movies` - Do a scan just for Movies (ie no TV Shows)
-* `Filter` - Filter the listed shows based on the entered criteria.
+* `Filter` - Filter the listed movies based on the entered criteria.
+* `Context Menu` - Opens the same menu as right-clicking. This button is only shown when **Show Accessibility Options** is ticked on the [Display](../menu/preferences.md#the-display-tab) tab of **Options>Preferences**.
 
 The right hand side of the screen has 3 tabs:
 
@@ -25,11 +26,11 @@ The right hand side of the screen has 3 tabs:
 
 **REMEMBER:**
 
-* Clicking on the `Add` button will open the _Add/Edit Movie_ window ready to add another show.
-* Clicking the `Edit` button with a **show** highlighted will open the same window pre-populated with that shows details.
+* Clicking on the `Add` button will open the _Add/Edit Movie_ window ready to add another movie.
+* Clicking the `Edit` button with a **movie** highlighted will open the same window pre-populated with that movie's details.
 * Right-clicking on a movie will give you some custom options too, including
   * `Force Refresh` - Force TV Rename to delete the cached data it has about that movie and refresh from the source
-  * `Scan Movie`- Do a scan just for this movie.
+  * `Scan` followed by the movie's name - Do a scan just for this movie.
 
 ### Filters
 
@@ -42,12 +43,12 @@ Allows you to filter the movie list to just the ones you are interested in at th
 There are a number of ways one can add movies to their library:
 
 1. Manually
-2. Use 'Scan Movie Folder'. This is useful if you have a selection of movies in a folder and you wish to orgnise them into your library. This will iterate through the movie files in the specified folder and:
+2. Use [**Tools>Move Movies From...**](../menu/tools-menu/scan-movie-folder.md). This is useful if you have a selection of movies in a folder and you wish to organise them into your library. This will iterate through the movie files in the specified folder and:
    1. If the file matches movie in your library ask whether it is a new movie, or it should replace the existing movie file
    2. If the file does not match a movie in your library, but does match one on TMDB, offer to add the movie and copy the file into the correct place
    3. if it's not sure ask you what to do with the file
-3. If you already have an orgnised movie library, use bulk add to keep the current directory structure and add all movies to the library.
-4. Copy movie files into the search folder. Enable 'Auto-add' and then run a scan. Auto add will identify that the file is new and ask to add the new movie to the library.
+3. If you already have an organised movie library, use [**Tools>Bulk Add Movies...**](../menu/tools-menu/bulk-add.md) to keep the current directory structure and add all movies to the library.
+4. Copy movie files into the search folder. Tick **Notify when new media is found** on the [Search Folders](../menu/preferences.md#the-search-folders-tab) tab of **Options>Preferences** and then run a scan. Auto add will identify that the file is new and ask to add the new movie to the library.
 
 ## Add/Edit Movie
 
