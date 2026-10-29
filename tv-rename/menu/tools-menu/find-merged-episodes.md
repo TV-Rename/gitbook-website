@@ -25,6 +25,10 @@ With all of them ticked you see the strongest candidates. Untick some to see mor
 
 Seasons where every episode has the same air date, such as a whole season released at once, are not checked.
 
+{% hint style="info" %}
+Any **Merge Rules** that are created can be viewed and edited at [#edit-season-rules](../../main/my-tv-shows.md#edit-season-rules "mention")
+{% endhint %}
+
 ## Right-click options
 
 Right-click a row to see:
