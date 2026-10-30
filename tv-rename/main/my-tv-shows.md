@@ -6,7 +6,7 @@ The **TV Shows** tab displays a list of TV shows found and Identified in your me
 
 In essence this tab (along with some of the [preferences](../menu/preferences.md)) allows you to configure the interaction between the [data sources](../help-and-support/data-sources.md) (TMDB, TheTVDB and TVmaze) and your media library. Incidentally there can be multiple storage locations including local paths or drives on your computer, mapped network shares and UNC paths. The only restrictions being that a TV show cannot be spread across multiple locations, and removable USB drives should be set up so they are always assigned the same path or drive letter each time they are connected.
 
-<figure><img src="https://3508557057-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fx0gPeIfHpbgTioNust1M%2Fuploads%2FRGq7ChEXlrd0km6E8hZP%2Fimage.png?alt=media&#x26;token=097767dc-b547-4a32-8b7e-6f9507281b36" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/tv-shows-tab1.png" alt=""><figcaption></figcaption></figure>
 
 Here, you can see a number of shows listed in the left hand panel of the window. These are the shows that TV Rename is monitoring, if a show is in your media library it will have further information associated with it (its “home” folder in the media library for example, but there is much more). In the right hand panel you can read details about the highlighted show gleaned from its data source.
 
