@@ -2,7 +2,7 @@
 
 **Options>TV Show Search Engines** and **Options>Movie Search Engines** each open a _Modify Search Engines_ window, one for TV shows and one for movies. These control TV Rename’s outgoing interface with the world (other than its data sources). Here, you can configure how and where TV Rename points a web browser searching for files.
 
-<figure><img src="../../.gitbook/assets/image (70).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
 
 Using the `Add` and `Delete` buttons you can create or remove records at will, and the `Tags...` pop up a list of supported tags to remind you whats available. (The tags supported are the same as those listed in the [Filename Template Editor](filename-template-editor.md).)
 

@@ -55,7 +55,7 @@ Under normal circumstances you would add a Media Library path when adding a new 
 
 Whilst not strictly necessary at this point TV Rename needs to know where to look for new files to move to the library when adding new episodes, so lets do it now.
 
-<figure><img src="../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (59).png" alt=""><figcaption></figcaption></figure>
 
 In [**Options>Preferences**](../menu/preferences.md#the-search-folders-tab), go to the _**Search Folders**_ tab and `Add` the locations you normally use for new episodes.
 
@@ -69,7 +69,7 @@ Go to the _**TV Shows**_ tab and select a show that has some season and episode 
 
 Now go to **Options>Filename Template Editor** and you can see how the show will be named.
 
-<figure><img src="../.gitbook/assets/image (59).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
 
 The “Sample and Test” pane shows you how the shows episodes will be named using the current naming template.
 
@@ -91,7 +91,7 @@ Now you’re ready to run your first scan.
 
 Go to the _**Scan**_ tab, and click `Full Scan` (if the window is narrow, click the arrow next to `Scan` and choose `Full`). TV Rename will download any needed show information from its data sources, and compare it with the contents of the media library.
 
-<figure><img src="../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
 
 When the scan is complete, TV Rename will display its suggested changes in the main pane. Any ticked item will be actioned, so un-tick things you’re not sure about, or use the `Check` drop-down on the toolbar to tick or un-tick a whole type of action at once.
 
