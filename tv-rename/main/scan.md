@@ -2,9 +2,9 @@
 
 TV Rename can scan your media library looking for missing or outdated files and will try to repair any issues it finds automatically.
 
-There are three types of scan available : -
+There are three types of scan available: -
 
-<table><thead><tr><th width="125"></th><th></th></tr></thead><tbody><tr><td><strong>Full</strong></td><td>A full scan of all shows, seasons and movies.</td></tr><tr><td><strong>Recent</strong></td><td>A Scan of all the shows that have aired recently.</td></tr><tr><td><strong>Quick</strong></td><td>Scan the shows that have aired recently and have a missing episode in the library. Also check the locations specified in <em>Options>Preferences>Search Folders</em> for any matching media files.</td></tr></tbody></table>
+<table><thead><tr><th width="125"></th><th></th></tr></thead><tbody><tr><td><strong>Full</strong></td><td>A full scan of all shows, seasons and movies.</td></tr><tr><td><strong>Recent</strong></td><td>A scan of all the shows that have aired recently.</td></tr><tr><td><strong>Quick</strong></td><td>Scan the shows that have aired recently and have a missing episode in the library. Also check the locations specified in <em>Options>Preferences>Search Folders</em> for any matching media files.</td></tr></tbody></table>
 
 As with other tabs, “recent” is taken as being the number of days counted as recent indicated in the **Options>Preferences** [_**General**_](../menu/preferences.md#the-general-tab) tab.
 
@@ -104,7 +104,7 @@ _**Scan**_ indicates where there are gaps in your library. The result of a typic
 
 The scan indicates that there are a number of missing episodes, two files in the media library that need to be renamed, and two files that have been downloaded and are waiting to be moved to the media library and renamed in the process.
 
-Looking at the missing episodes first; even here TV Rename is “trying to help”. Note that each entry has a magnifying glass icon to the left of the row. Single clicking one of these rows and then clicking the search button on the toolbar (it shows the name of the search engine in use, for example “Google”) will launch a search for the indicated file (configured in [**Options>TV Show Search Engines**](../menu/options-menu/search-engines.md), or **Options>Movie Search Engines** for movies). Double clicking one of these rows will launch the same web search. You an also select multiple rows and then click the search button to launch a browser with multiple tabs, one for each highlighted row.
+Looking at the missing episodes first; even here TV Rename is “trying to help”. Note that each entry has a magnifying glass icon to the left of the row. Single clicking one of these rows and then clicking the search button on the toolbar (it shows the name of the search engine in use, for example “Google”) will launch a search for the indicated file (configured in [**Options>TV Show Search Engines**](../menu/options-menu/search-engines.md), or **Options>Movie Search Engines** for movies). Double clicking one of these rows will launch the same web search. You can also select multiple rows and then click the search button to launch a browser with multiple tabs, one for each highlighted row.
 
 If you’re having trouble finding what you’re searching for you can change the search engine to another in the list by clicking the `▼` button next to the search button and selecting a different entry.
 
@@ -116,7 +116,7 @@ There are also a number of useful options available in the right-click menu here
 
 Selecting files in the main scan panel and clicking `Ignore Selected` will remove them from the system (permanently unless they are removed from the ignore list - see [**Options>Ignore List**](../menu/options-menu/ignore-list.md)). The `Ignore Sel` button on the toolbar does the same.
 
-Selecting files in the main scan panel and clicking `Revert to Missing` will mark (and list) them as missing. (If they are within the date range of “Aired in the last…” in the _**Schedule**_ tab they will also be shown as missing there.
+Selecting files in the main scan panel and clicking `Revert to Missing` will mark (and list) them as missing. (If they are within the date range of “Aired in the last…” in the _**Schedule**_ tab they will also be shown as missing there.)
 
 Selecting files in the main scan panel and clicking `Remove Selected` will temporarily remove them from the scan tab. They will re-appear when the scan is re-run. The `Remove Sel` button on the toolbar does the same.
 

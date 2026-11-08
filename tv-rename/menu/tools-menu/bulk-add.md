@@ -8,7 +8,7 @@ This is where you tell TV Rename about the location(s) of your media library. Ad
 
 Before using this tool, check that your preferred renaming style is set in [_Options>Filename Template Editor_](../options-menu/filename-template-editor.md).
 
-`Add` (or drag and drop) folders to the **Monitor Folders** list on the **Folders** tab. Click the `Check >>` button, and TV Rename will recursively search through the new folders looking for new TV shows. Once this is complete, if anything new is found, the _**Scan Results**_ tab will appear populated with the paths to any newly found shows, it will also identify the folder structure of the show (“Flat” - everything in one folder or “Folder per season”).
+`Add` (or drag and drop) folders to the **Monitor Folders** list on the **Folders** tab. Click the `Check >>` button, and TV Rename will recursively search through the new folders looking for new TV shows. Once this is complete, if anything new is found, the _**Scan Results**_ tab will appear populated with the paths to any newly found shows. It will also identify the folder structure of the show (“Flat” - everything in one folder or “Folder per season”).
 
 <figure><img src="https://3508557057-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fx0gPeIfHpbgTioNust1M%2Fuploads%2FgEGZlKS8pZnmDE0Rjm8U%2Fimage.png?alt=media&#x26;token=9df9c295-6f28-4faf-ba08-812b08b2e9cf" alt=""><figcaption></figcaption></figure>
 
@@ -44,7 +44,7 @@ For example, each of these folders is identified as Silo:
 
 And `Breaking Bad (2008) {imdb-tt0903747}` is identified as Breaking Bad.
 
-Clicking `Remove` will remove the highlighted row from the New Shows list, however it will be re-detected in the next run of “Auto ID All”.
+Clicking `Remove` will remove the highlighted row from the New Shows list; however, it will be re-detected in the next run of “Auto ID All”.
 
 Clicking `Ignore` will add the folder to the list in the _**Ignore**_ tab and it will be ignored in subsequent scans.
 

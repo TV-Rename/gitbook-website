@@ -1,12 +1,8 @@
 ---
-description: 'Each of the main features are outlined below:'
+description: 'Each of the main features is outlined below:'
 ---
 
 # Key Features
-
-{% hint style="info" %}
-
-{% endhint %}
 
 {% content-ref url="adding-movies-and-tv-shows.md" %}
 [adding-movies-and-tv-shows.md](adding-movies-and-tv-shows.md)

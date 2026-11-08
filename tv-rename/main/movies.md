@@ -22,7 +22,7 @@ The right hand side of the screen has 3 tabs:
 
 * **Information** - key information about the movie. NB you can expand the Cast and Crew section to get more information
 * **Images** - Any downloaded images and posters from the movie
-* **Trailer** - Embedded youtube viewer of the movie's trailer
+* **Trailer** - Embedded YouTube viewer of the movie's trailer
 
 **REMEMBER:**
 
@@ -44,9 +44,9 @@ There are a number of ways one can add movies to their library:
 
 1. Manually
 2. Use [**Tools>Move Movies From...**](../menu/tools-menu/scan-movie-folder.md). This is useful if you have a selection of movies in a folder and you wish to organise them into your library. This will iterate through the movie files in the specified folder and:
-   1. If the file matches movie in your library ask whether it is a new movie, or it should replace the existing movie file
+   1. If the file matches a movie in your library ask whether it is a new movie, or it should replace the existing movie file
    2. If the file does not match a movie in your library, but does match one on TMDB, offer to add the movie and copy the file into the correct place
-   3. if it's not sure ask you what to do with the file
+   3. If it's not sure, ask you what to do with the file
 3. If you already have an organised movie library, use [**Tools>Bulk Add Movies...**](../menu/tools-menu/bulk-add.md) to keep the current directory structure and add all movies to the library.
 4. Copy movie files into the search folder. Tick **Notify when new media is found** on the [Search Folders](../menu/preferences.md#the-search-folders-tab) tab of **Options>Preferences** and then run a scan. Auto add will identify that the file is new and ask to add the new movie to the library.
 

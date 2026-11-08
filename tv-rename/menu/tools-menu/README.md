@@ -1,6 +1,6 @@
 # Tools Menu
 
-Here you can find tools to update, manipulate and annihilate the data relating to your media library and locally cached version of each source websites.
+Here you can find tools to update, manipulate and annihilate the data relating to your media library and locally cached version of each source website.
 
 The **Tools** menu has these items:
 

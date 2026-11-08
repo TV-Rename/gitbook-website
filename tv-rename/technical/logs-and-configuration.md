@@ -2,7 +2,7 @@
 
 ### Configuration Files <a href="#configuration-files" id="configuration-files"></a>
 
-By default, all the configuration information and locally cached data from the [data sources](../help-and-support/data-sources.md) is stored in a series of XML files under the users Application folder (unless overridden using the command line option /userfilepath). They are stored at: -
+By default, all the configuration information and locally cached data from the [data sources](../help-and-support/data-sources.md) is stored in a series of XML files under the user's Application folder (unless overridden using the command line option /userfilepath). They are stored at: -
 
 > \Users\\\<user-name>\AppData\Roaming\TVRename\TVRename\2.1
 
@@ -12,7 +12,7 @@ It contains:
 
 | **TVRenameSettings.xml**                                                                        | Everything else not mentioned is stored in here. All your shows, media library paths, folder structures and settings. It is written when you choose **File>Save**, and automatically when **Auto save on Exit** is ticked on the [General](../menu/preferences.md#the-general-tab) tab of **Options>Preferences**. |
 | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| <p><strong>TheTVDB.xml</strong><br><strong>TMDB.xml</strong><br><strong>TVmaze.xml</strong></p> | The locally cached data about movies, shows seasons and episodes for everything listed in the _**TV Shows**_ and **Movies** tabs.                                                                                                                                                                                  |
+| <p><strong>TheTVDB.xml</strong><br><strong>TMDB.xml</strong><br><strong>TVmaze.xml</strong></p> | The locally cached data about movies, shows, seasons and episodes for everything listed in the _**TV Shows**_ and **Movies** tabs.                                                                                                                                                                                 |
 | **Layout.xml**                                                                                  | TV Rename’s window position and size as well as column widths.                                                                                                                                                                                                                                                     |
 | **Statistics.xml**                                                                              | TV Rename’s historical statistics.                                                                                                                                                                                                                                                                                 |
 | **State.xml**                                                                                   | TV Rename’s record of app state between runs, such as when it last checked for a new version (see [App Updates](../menu/preferences.md#app-updates) in **Options>Preferences**).                                                                                                                                   |
@@ -39,7 +39,7 @@ Logging uses NLog. The configuration file ([NLog.config](https://github.com/TV-R
 
 You can read the [NLog Wiki](https://github.com/nlog/NLog/wiki/Configuration-file) for guidance on how to adjust the configuration file to collect more information.
 
-When raising a bug please include a log file that illustrates the issue if you can, it will help us find a solution quickly.
+When raising a bug please include a log file that illustrates the issue if you can. It will help us find a solution quickly.
 
 ### Cache and Supporting Logs <a href="#cache-and-supporting-logs" id="cache-and-supporting-logs"></a>
 

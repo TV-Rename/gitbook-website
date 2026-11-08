@@ -4,14 +4,14 @@ TV Rename will track many TV Shows and Movies in your library. These can be adde
 
 * _**Manually**_ – Added manually by entering the name into the ‘Add Show’ screen from the main ‘**TV Shows**’ tab (or equivalent on the **Movies** tab)
 * _**Suggestions -**_ TV Rename can make suggestions of other media you want to add to your collection.
-* _**Bulk Add**_ – TV Rename can scan through some specified folders (Monitor Folders) via the ‘[Bulk Add](../../menu/tools-menu/bulk-add.md)’ tool. It will display a list of shows that are not already in the library and allow them to be added en-masse.
-* _**Automated**_ – TV Rename can be setup to look at files in the download folder (Search Folders) and (if it can’t find an appropriate show in the library) offer the user some suggestions about which series/show to add to the library.
+* _**Bulk Add**_ – TV Rename can scan through some specified folders (Monitor Folders) via the ‘[Bulk Add](../../menu/tools-menu/bulk-add.md)’ tool. It will display a list of shows that are not already in the library and allow them to be added en masse.
+* _**Automated**_ – TV Rename can be set up to look at files in the download folder (Search Folders) and (if it can’t find an appropriate show in the library) offer the user some suggestions about which series/show to add to the library.
 
 Movies can also be added using the [**Move Movies From...**](../../menu/tools-menu/scan-movie-folder.md) option on the **Tools** menu.
 
 ### **Manual Addition**
 
-Manual addition is the simplest way of adding shows into the library. You can enter (and search for) the show by name or for more precise addition enter its code at the data source (TMDB, TheTVDB or TVmaze). All the options about the show can be edited, but they key ones to add are:
+Manual addition is the simplest way of adding shows into the library. You can enter (and search for) the show by name or for more precise addition enter its code at the data source (TMDB, TheTVDB or TVmaze). All the options about the show can be edited, but the key ones to add are:
 
 * Directory location to store the location of the files for the series
 * Time zone for the series (a new show starts with the **Airs in Timezone** set on the [TV Show Defaults](../../menu/preferences.md#tv-show-defaults) tab of **Options>Preferences**, so check it for shows that air in another time zone)

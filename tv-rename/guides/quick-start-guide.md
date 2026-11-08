@@ -1,5 +1,5 @@
 ---
-description: The Quick-Start Guide will help you with the initial setup TV Rename.
+description: The Quick-Start Guide will help you with the initial setup of TV Rename.
 ---
 
 # Quick Start Guide
@@ -10,7 +10,7 @@ In a nutshell, TV Rename will identify, move and rename media files from one fol
 
 Once TV Rename knows about these folders (more on this later) it will process media files and move them to the specified location.
 
-for example: -
+For example: -
 
 > The file:
 >
@@ -22,7 +22,7 @@ for example: -
 >
 > To do this TV Rename uses data acquired from [TMDB](https://www.themoviedb.org/), [The TVDB](http://thetvdb.com/) and [TVmaze](https://www.tvmaze.com/) (see [Data Sources](../help-and-support/data-sources.md)).
 
-The initial setup can be somewhat daunting as there are many options and settings that control the way TV Rename behaves. Luckily these have sensible defaults and its actually relatively easy to get up and running providing you don’t get distracted by the settings.
+The initial setup can be somewhat daunting as there are many options and settings that control the way TV Rename behaves. Luckily these have sensible defaults and it's actually relatively easy to get up and running providing you don’t get distracted by the settings.
 
 {% hint style="info" %}
 _The guide assumes you already have the beginnings of a **Media Library** - a folder (or folders) somewhere on your PC or NAS or whatever, with a bunch of movie or tv show files in it (them). TV Rename doesn’t care how these folders are organised, however to us mere humans probably “one folder per show” or “one folder per show with one sub-folder per season” would make sense in terms of being able to (manually) find stuff later if you really need to._
@@ -53,7 +53,7 @@ Under normal circumstances you would add a Media Library path when adding a new 
 
 ## 2 - Set your Search Folders <a href="#set-your-search-folders" id="set-your-search-folders"></a>
 
-Whilst not strictly necessary at this point TV Rename needs to know where to look for new files to move to the library when adding new episodes, so lets do it now.
+Whilst not strictly necessary at this point TV Rename needs to know where to look for new files to move to the library when adding new episodes, so let's do it now.
 
 <figure><img src="../.gitbook/assets/image (59).png" alt=""><figcaption></figcaption></figure>
 
@@ -63,7 +63,7 @@ For example: I have two entries here, one points to my _Downloads_ folder for st
 
 ## 3 - Check the TV Filename Template
 
-Right, so now TV Rename knows where you media library is and where to look for new files, the only thing it doesn’t know is how you want your files renamed.
+Right, so now TV Rename knows where your media library is and where to look for new files, the only thing it doesn’t know is how you want your files renamed.
 
 Go to the _**TV Shows**_ tab and select a show that has some season and episode data (for this example I selected the DC show “Arrow”).
 
@@ -71,14 +71,14 @@ Now go to **Options>Filename Template Editor** and you can see how the show will
 
 <figure><img src="../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
 
-The “Sample and Test” pane shows you how the shows episodes will be named using the current naming template.
+The “Sample and Test” pane shows you how the show's episodes will be named using the current naming template.
 
 You can also experiment with other preset templates using the “Presets” drop-down.
 
 If none of these is exactly what you are looking for you can “Roll-your-Own” using the “Tags” drop-down to modify the current template.
 
 {% hint style="info" %}
-The basic setup is now complete. Now would be a good time to take a look at the other tabs in **Options>Preferences** (if you haven’t already!) to get an idea of how TV Renames behaviour can be customised.
+The basic setup is now complete. Now would be a good time to take a look at the other tabs in **Options>Preferences** (if you haven’t already!) to get an idea of how TV Rename's behaviour can be customised.
 {% endhint %}
 
 {% content-ref url="../menu/options-menu/filename-template-editor.md" %}

@@ -30,7 +30,7 @@ Firstly, get acquainted with what a regular expression is - these sites will hel
 
 Once you understand Regular Expressions and [**‘Named Groups’**](https://www.regular-expressions.info/named.html) in particular then all you need to know is that TV Rename looks for 3 named groups:
 
-* _s_ – The number series the file relates to.
+* _s_ – The series number the file relates to.
 * e – The Episode number the file relates to.
 * f – (optional) If specified and if it matches then this is the max episode number that the file matches. It is used for instances when a file matches multiple episodes.
 

@@ -2,7 +2,7 @@
 
 If you are having problems with TV Rename or maybe someone on the [forum](https://groups.google.com/forum/#!forum/tvrename) has asked you about the content of your log file you have a couple of options…
 
-If you are happy navigating through the windows file structure the log file (TVRename.log) can be found in: -
+If you are happy navigating through the Windows file structure the log file (TVRename.log) can be found in: -
 
 > \Users\\\<username>\AppData\Roaming\TVRename\log\\
 

@@ -1,6 +1,6 @@
 ---
 description: >-
-  TV Rename is not possible without the help and assistance of a range of
+  TV Rename would not be possible without the help and assistance of a range of
   products and organisations.
 ---
 
@@ -16,7 +16,7 @@ TV Rename pulls data from [TheTVDB.com](https://github.com/thetvdb/v4-api), [TMD
 
 ### Development Services
 
-* Github
+* GitHub
 * GitBook
 * Papertrail
 

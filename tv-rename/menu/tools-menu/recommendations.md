@@ -23,8 +23,8 @@ The recommendation feature asks TMDB for information about which other shows/mov
 The Quality Rating in the interface is a measure of 'star rating' on TMDB and 'Recommendation %' is a measure of how much the show/movie is 'linked' to your library.
 {% endhint %}
 
-If you are interested you can right-click on the recommendation to quickly add it to your library
+If you are interested you can right-click on the recommendation to quickly add it to your library.
 
 {% hint style="warning" %}
-Note: As TMDB is used as the only source, only movies / TV shows with a TMDB id will be used to calculate the recommendations
+Note: As TMDB is used as the only source, only movies / TV shows with a TMDB ID will be used to calculate the recommendations.
 {% endhint %}

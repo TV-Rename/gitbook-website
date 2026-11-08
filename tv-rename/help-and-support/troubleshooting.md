@@ -21,7 +21,7 @@ Occasionally information for shows gets corrupted and needs refreshing. The quic
 
 #### Refresh Show
 
-Firstly, if the problem is small, only effecting a small number of shows, right clicking a problematic show on the _**TV Shows**_ tab will pop up a menu on which one of the options is “Force Refresh”. Clicking this option will tell TV Rename to go to the show's data source and re-collect all the data available for that show and re-populate the local cache. This will often fix the issue.
+Firstly, if the problem is small, only affecting a small number of shows, right clicking a problematic show on the _**TV Shows**_ tab will pop up a menu on which one of the options is “Force Refresh”. Clicking this option will tell TV Rename to go to the show's data source and re-collect all the data available for that show and re-populate the local cache. This will often fix the issue.
 
 The second solution is far more drastic in its effect.
 

@@ -6,7 +6,7 @@ TV Rename gets its show and movie information from three online data sources: [T
 
 ### The TVDB <a href="#the-tvdb" id="the-tvdb"></a>
 
-Whilst not actually a part of TV Rename; [The TVDB](http://thetvdb.com/) or more specifically The TVDB’s database provides the data (using its API) supplying TV Rename with the relevant details about the shows that use it.
+Whilst not actually a part of TV Rename, [The TVDB](http://thetvdb.com/) or more specifically The TVDB’s database provides the data (using its API) supplying TV Rename with the relevant details about the shows that use it.
 
 If the API is down TV Rename will not be able to add shows that use The TVDB to your library or perform updates to them.
 

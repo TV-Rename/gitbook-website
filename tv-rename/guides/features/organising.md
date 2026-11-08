@@ -12,7 +12,7 @@ Further information can be found [**here**](../../menu/preferences.md#the-files-
 
 ### File Update Timestamp <a href="#file-update-timestamp" id="file-update-timestamp"></a>
 
-The system can also be requested to update the ‘last updated’ dates to match the air-dates. This aims to help DNLA systems, but be wary if you are using a Linux based system such as a NAS for your media library. Linux has an inception date of 01/01/1970 and does not support earlier dates.
+The system can also be requested to update the ‘last updated’ dates to match the air-dates. This aims to help DLNA systems, but be wary if you are using a Linux based system such as a NAS for your media library. Linux has an inception date of 01/01/1970 and does not support earlier dates.
 
 ### DVD vs Aired Order <a href="#dvd-vs-aired-order" id="dvd-vs-aired-order"></a>
 
@@ -26,7 +26,7 @@ To show how these are different take a look at Futurama on [The TVDB](http://the
 
 **Future Ideas**
 
-There are a few ideas on the ideas wall to allow the ordering to be adjusted further to account for shows such as Mythbusters and American Dad. In both these cases the order that users want to organise the files does not match either the Aired or the DVD order
+There are a few ideas on the ideas wall to allow the ordering to be adjusted further to account for shows such as Mythbusters and American Dad. In both these cases the order that users want to organise the files does not match either the Aired or the DVD order.
 
 * [**Allow reorganising season numbers**](https://github.com/TV-Rename/tvrename/issues/67)
 * [**Allow offset for episode numbers**](http://ideas.theideawall.com/TVRename/Forum/TopicDetails/ccf342c0-94b0-42f2-a0ba-a7cda261b2fa)
@@ -41,14 +41,14 @@ In addition to renaming and moving files the system can also download/create fil
 * WD TV Live Media Player
 * others
 
-In each case then the following types of files can be downloaded
+In each case the following types of files can be downloaded
 
 * Fanarts, banners and posters
 * Episode screenshots
 * XML/Text files to explain details about the show/series/episodes
 
 {% hint style="info" %}
-Further information on the settings needed are [here](../../menu/preferences.md#the-media-centers-tab)
+Further information on the settings needed is [here](../../menu/preferences.md#the-media-centers-tab)
 {% endhint %}
 
 **Future Ideas**

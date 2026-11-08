@@ -1,6 +1,6 @@
 # TV Shows
 
-The **TV Shows** tab displays a list of TV shows found and Identified in your media library, and is where you can manually tell TV Rename about a new TV show in the library, where it can be found and how it is structured.
+The **TV Shows** tab displays a list of TV shows found and identified in your media library, and is where you can manually tell TV Rename about a new TV show in the library, where it can be found and how it is structured.
 
 ## _TV Show Library_
 
@@ -8,9 +8,9 @@ In essence this tab (along with some of the [preferences](../menu/preferences.md
 
 <figure><img src="../.gitbook/assets/tv-shows-tab1.png" alt=""><figcaption></figcaption></figure>
 
-Here, you can see a number of shows listed in the left hand panel of the window. These are the shows that TV Rename is monitoring, if a show is in your media library it will have further information associated with it (its “home” folder in the media library for example, but there is much more). In the right hand panel you can read details about the highlighted show gleaned from its data source.
+Here, you can see a number of shows listed in the left hand panel of the window. These are the shows that TV Rename is monitoring. If a show is in your media library it will have further information associated with it (its “home” folder in the media library for example, but there is much more). In the right hand panel you can read details about the highlighted show gleaned from its data source.
 
-There is a small “search filter” at the top of the Show List panel, typing in this box here will allow you to hide the display of shows that don’t match the text.
+There is a small “search filter” at the top of the Show List panel. Typing in this box here will allow you to hide the display of shows that don’t match the text.
 
 The right hand panel has four tabs:
 
@@ -21,7 +21,7 @@ The right hand panel has four tabs:
 
 Below these panels are a series of buttons which allow you to manage the content. They are: -
 
-* `Add` - Adds a new show to the list. Remember you may need to add folders for the show separately if you need to monitor it in the media library. You don’t need to add a folder if you only want to see the shows air-dates in the [**Schedule**](when-to-watch.md) tab.
+* `Add` - Adds a new show to the list. Remember you may need to add folders for the show separately if you need to monitor it in the media library. You don’t need to add a folder if you only want to see the show's air-dates in the [**Schedule**](when-to-watch.md) tab.
 * `Edit` - Edit the currently selected show or season.
 * `Delete` - Remove the currently selected show(s) from TV Rename’s database, and optionally delete the selected show(s) from the media library - _**careful!**_
 * `Hide Details` - Toggle between showing and hiding the (right hand) Information Panel. If the panel is hidden the Show List panel expands to fill the tab.
@@ -34,7 +34,7 @@ Below these panels are a series of buttons which allow you to manage the content
 **REMEMBER:**
 
 * Clicking on the `Add` button will open the _Add/Edit Show_ window ready to add another show.
-* Clicking the `Edit` button with a **show** highlighted will open the same window pre-populated with that shows details.
+* Clicking the `Edit` button with a **show** highlighted will open the same window pre-populated with that show's details.
 * Clicking `Edit` with the **season** of a show highlighted will open the _Edit Season Rules_ window - [details](my-tv-shows.md#edit-season-rules)
 * Right-clicking on a show (or season) will give you some custom options too, including
   * `Force Refresh` - Force TV Rename to delete the cached data it has about that show and refresh from the source
@@ -45,19 +45,19 @@ Below these panels are a series of buttons which allow you to manage the content
 
 ### Add/Edit Show <a href="#addedit-show" id="addedit-show"></a>
 
-The _Add/Edit Show_ window has a number of tabs of its own, they are discussed below: -
+The _Add/Edit Show_ window has a number of tabs of its own; they are discussed below: -
 
 #### The Basics Tab <a href="#the-basics-tab" id="the-basics-tab"></a>
 
 <div align="center"><img src="../.gitbook/assets/add-edit-show-basics.png" alt=""></div>
 
-The “Basics” Tab is the starting point for telling TV Rename about a show you which to monitor.
+The “Basics” Tab is the starting point for telling TV Rename about a show you wish to monitor.
 
-The best way to illustrate this is with an example so lets add a show called “The Good Doctor” to TV Rename.
+The best way to illustrate this is with an example so let's add a show called “The Good Doctor” to TV Rename.
 
 “Source:” chooses where TV Rename gets the show’s information. **Library Default** uses the **Default TV Show Source** on the [Data Sources](../menu/preferences.md#data-sources) tab of **Options>Preferences** (TMDB unless you have changed it). **The TVDB**, **TMDB** or **TVmaze** uses that source for this show only.
 
-The first step is to tell TV Rename about the show. If you know it you can enter the show’s code at the data source (the box is labelled for the source, for example “TMDB code:”), otherwise type the shows name (e.g. “the good doctor”) and click on `Search`.
+The first step is to tell TV Rename about the show. If you know it you can enter the show’s code at the data source (the box is labelled for the source, for example “TMDB code:”), otherwise type the show's name (e.g. “the good doctor”) and click on `Search`.
 
 TV Rename will search for matches to your entry in the data source’s database, cache the results locally and display the matches. The search also works with partial show names. For example you could search for just “doctor”, but “doctor” being fairly common in TV show titles, returns many results (including ours!), and you will have to delve into the list to find the one you want. Once you have found the correct show, click on it to highlight it.
 
@@ -69,9 +69,9 @@ Once the update is complete _**TV Shows**_ includes “The Good Doctor” and lo
 
 All the Show and Season information is downloaded and the _**Schedule**_ tab will now list any future episode dates, but there are no links to the media library.
 
-Lets go back and tweak “The Good Doctor”. Assuming the show is listed in _**TV Shows**_, make sure it is highlighted and click `Edit` to recall the partially populated _Add/Edit Show_. If it isn’t listed in _**TV Shows**_ follow the steps above to get the show name populated and then carry on as described below.
+Let's go back and tweak “The Good Doctor”. Assuming the show is listed in _**TV Shows**_, make sure it is highlighted and click `Edit` to recall the partially populated _Add/Edit Show_. If it isn’t listed in _**TV Shows**_ follow the steps above to get the show name populated and then carry on as described below.
 
-The “Custom show name:” field allows you to change the show name in both TV Rename and the media library (except the base folder). You may like to remove “The” from names, or change extra information like the year the show was originally produced that appears with some shows. If you tick the box and enter a new name in the field provided the shows title will be replaced with this entry.
+The “Custom show name:” field allows you to change the show name in both TV Rename and the media library (except the base folder). You may like to remove “The” from names, or change extra information like the year the show was originally produced that appears with some shows. If you tick the box and enter a new name in the field provided the show's title will be replaced with this entry.
 
 The “Airs in Timezone:” drop-down tells TV Rename that the air time from the data source is in that specific timezone. Time zones are listed by region and city, for example “America/New\_York” for Eastern USA time, which most shows use, and “Europe/London” for British shows (e.g. Maigret). This only has an effect in the _**Schedule**_ tab which translates these times into your local timezone, or in the status bar when calculating time till the “Next Airing:”.
 
@@ -109,7 +109,7 @@ _-Michael_
 
 Completing the “Folders” Tab tells TV Rename about the library folder for the show. Returning to our example of “The Good Doctor”: -
 
-If the “Automatic Season Folders” box is ticked the path to the “Base Folder” can be typed in the text box or filled in by browsing, or click `Create...` to pick one of your library folders and a folder name for the show. Either way, now TV Rename knows the location of the shows base folder in the media library all the “really useful” stuff can begin!
+If the “Automatic Season Folders” box is ticked the path to the “Base Folder” can be typed in the text box or filled in by browsing, or click `Create...` to pick one of your library folders and a folder name for the show. Either way, now TV Rename knows the location of the show's base folder in the media library all the “really useful” stuff can begin!
 
 The three radio buttons determine how the seasons of the show are handled: -
 
@@ -130,11 +130,11 @@ The “Manual/Additional Folders” section allows you to manually add and remov
 
 <figure><img src="https://3508557057-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fx0gPeIfHpbgTioNust1M%2Fuploads%2FdWno2rlOPFlctGdS7ECr%2Fimage.png?alt=media&#x26;token=4f6a67bd-fa2e-47ca-a3f6-fd069bd1c1bc" alt=""><figcaption></figcaption></figure>
 
-The Show Aliases tab only affects source files, it does **not** affect show episodes in your media library (TV Rename can work out the correct name for a file in the library from the containing folder structure and the show/season number).
+The Show Aliases tab only affects source files; it does **not** affect show episodes in your media library (TV Rename can work out the correct name for a file in the library from the containing folder structure and the show/season number).
 
-Sources often rename files because of the excessive length of the shows name, for example “Law and Order- Special Victims Unit” could be represented as “L\&O-SVU”. Adding “L\&O-SVU” as an alias would cause any source file with that abbreviated name be renamed correctly when moved or copied into the library.
+Sources often rename files because of the excessive length of the show's name, for example “Law and Order- Special Victims Unit” could be represented as “L\&O-SVU”. Adding “L\&O-SVU” as an alias would cause any source file with that abbreviated name to be renamed correctly when moved or copied into the library.
 
-Another good example (though for different reasons) would be the BBC1 show “Doctor Who”, the data sources correctly call it “Doctor Who” which TV Rename will recognise, however some sources variously call the show “Dr. Who” or “Dr Who” causing some confusion. Adding “Dr. Who” and “Dr Who” as aliases for “Doctor Who” will fix this problem and everything will be correctly named “Doctor Who” when moved or copied into the library.
+Another good example (though for different reasons) would be the BBC1 show “Doctor Who”. The data sources correctly call it “Doctor Who”, which TV Rename will recognise; however, some sources variously call the show “Dr. Who” or “Dr Who” causing some confusion. Adding “Dr. Who” and “Dr Who” as aliases for “Doctor Who” will fix this problem and everything will be correctly named “Doctor Who” when moved or copied into the library.
 
 **Source Aliases** lists the other names the data source has for the show; TV Rename uses these as well. Your own aliases go in **Custom Aliases**.
 
@@ -170,15 +170,15 @@ The custom format is used when **Do renaming** is ticked on the [Advanced tab](m
 
 Here, you can further manipulate the way data from the data source is handled as it is merged into the local data. New shows start with the ticks set in **Default Advanced Settings** on the [TV Show Defaults](../menu/preferences.md#tv-show-defaults) tab of **Options>Preferences**.
 
-The “Use DVD Order” tick box comes into play when the episodes aired on TV in a different order to those presented on the DVD. [The TVDB](http://thetvdb.com/) usually has details of these orders and this tick box allows you to choose your preference for the current show. A Really good example of this is the 1967 ITV show [“The Prisoner”](https://www.thetvdb.com/?tab=season\&seriesid=74805\&seasonid=8058\&lid=7), which, whilst it was written as one season of seventeen episodes still causes as much controversy (and argument) over it’s running order today as it did when it was originally released. TVDB also has an 'alternate order' specified as some shows have had episodes regrouped into seasons on different platforms; tick “Use Alternate Order” to use it. “Use DVD Order” and “Use Alternate Order” can’t both be ticked.
+The “Use DVD Order” tick box comes into play when the episodes aired on TV in a different order to those presented on the DVD. [The TVDB](http://thetvdb.com/) usually has details of these orders and this tick box allows you to choose your preference for the current show. A really good example of this is the 1967 ITV show [“The Prisoner”](https://www.thetvdb.com/?tab=season\&seriesid=74805\&seasonid=8058\&lid=7), which, whilst it was written as one season of seventeen episodes still causes as much controversy (and argument) over its running order today as it did when it was originally released. TVDB also has an 'alternate order' specified as some shows have had episodes regrouped into seasons on different platforms; tick “Use Alternate Order” to use it. “Use DVD Order” and “Use Alternate Order” can’t both be ticked.
 
-The “Show next airdate in 'Schedule'” tick box toggles the display of the shows “Returning Series” and “Other Planned Episodes” in the _**Schedule**_ tab.
+The “Show next airdate in 'Schedule'” tick box toggles the display of the show's “Returning Series” and “Other Planned Episodes” in the _**Schedule**_ tab.
 
 The “Specials count as episodes” tick box is useful with shows such as “Mythbusters” where specials are often counted as normal episodes.
 
 The “Do Renaming” tick box tells TV Rename to use the names built using the [_**Options>Filename Template Editor**_](../menu/options-menu/filename-template-editor.md) when copying or moving files if it is ticked, otherwise they will be left unchanged.
 
-The “Do missing check” tick-box enables or disables the ability to check for missing episodes, if the option is ticked some degree of granularity is provided by the “Include future episodes” and “Include no airdate” tick-boxes.
+The “Do missing check” tick-box enables or disables the ability to check for missing episodes. If the option is ticked, some degree of granularity is provided by the “Include future episodes” and “Include no airdate” tick-boxes.
 
 Under “When finding missing episodes (only)” are three more ways of matching a file to an episode:
 
@@ -196,11 +196,11 @@ The “Edit Season Rules” pane allows you to manipulate the local data from th
 
 <figure><img src="https://3508557057-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fx0gPeIfHpbgTioNust1M%2Fuploads%2FWZgqumxF7EZ7jzJoH4V7%2Fimage.png?alt=media&#x26;token=78033087-84ab-4ef9-b3a9-8f1d86e2f6de" alt=""><figcaption></figcaption></figure>
 
-Episodes 1 and 2 of Season 5 of “Marvel’s Agents of S.H.I.E.L.D.” aired as a double episode so only one file exists, however the data source correctly has both episodes listed individually, so there is a conflict.
+Episodes 1 and 2 of Season 5 of “Marvel’s Agents of S.H.I.E.L.D.” aired as a double episode so only one file exists; however, the data source correctly has both episodes listed individually, so there is a conflict.
 
 The image illustrates a rule that merges the two episodes into one. This will affect the name displayed in the _**TV Shows**_ tab, and the naming of the file in the media library.
 
-The rules are applied in top to bottom order, you can use the the `Up` and `Down` buttons to move a rule.
+The rules are applied in top to bottom order; you can use the `Up` and `Down` buttons to move a rule.
 
 `Add`, `Edit`, and `Delete` will manipulate the list as expected.
 
@@ -208,25 +208,25 @@ The rules are applied in top to bottom order, you can use the the `Up` and `Down
 
 Clicking either `Add` or `Edit` will open the _Add/Modify Rule_ pane. The only difference being `Add` allows you to create a new rule and `Edit` pulls in the data from a highlighted rule for you to change.
 
-In this example we are editing the rule shown above. This is a two part process, firstly select an “Action:”, and secondly tell TV Rename what to apply the action to.
+In this example we are editing the rule shown above. This is a two part process: firstly select an “Action:”, and secondly tell TV Rename what to apply the action to.
 
-In this case the “Action” is “Merge”, we are merging “1” and “2” i.e. Episodes 1 and 2 of the selected season, And we will let TV Rename name the new file automatically.
+In this case the “Action” is “Merge”; we are merging “1” and “2” i.e. Episodes 1 and 2 of the selected season, and we will let TV Rename name the new file automatically.
 
 The “Actions:” available are: -
 
 | **Ignore**   | Keep the specified episode in the guide, but don’t check for it (or rename it) on disk locally.   |
 | ------------ | ------------------------------------------------------------------------------------------------- |
 | **Rename**   | Manually set the name of an episode.                                                              |
-| **Remove**   | Make a an episode disappear. All episodes above will be renumbered down to fill the gap.          |
+| **Remove**   | Make an episode disappear. All episodes above will be renumbered down to fill the gap.            |
 | **Swap**     | Swap the position of two episodes.                                                                |
-| **Merge**    | The episodes numbers supplied all in a single multi-episode file.                                 |
+| **Merge**    | The episode numbers supplied are all in a single multi-episode file.                              |
 | **Insert**   | Manually add an episode into the season. Later episodes are renumbered to accommodate the change. |
 | **Split**    | Turn one episode into many. Following episodes are renumbered to accommodate the change.          |
 | **Collapse** | Merge the episodes into one episode with a single episode number.                                 |
 
 Tick “Renumber Season After Action” to have the season’s episodes numbered again in order once the rule has been applied.
 
-After applying a rule, go to _**TV Shows**_ , select the show, and click `Refresh`. You will then see (and can check) the effects of the rules you’ve created.
+After applying a rule, go to _**TV Shows**_, select the show, and click `Refresh`. You will then see (and can check) the effects of the rules you’ve created.
 
 ## Auto Add Shows <a href="#auto-add-shows" id="auto-add-shows"></a>
 
@@ -254,7 +254,7 @@ Selecting `Leave for later` ignores this file for this scan.
 
 However, if you select the matching series name in the central window (in this case “Westworld”) the “Location:” will be modified to include the show name. Click `Quick Add` and the file will be added to the library, prompting you to create the required sub-directories as necessary.
 
-Auto Add uses the default settings for almost all options (so the timezone etc. may be need adjusting).
+Auto Add uses the default settings for almost all options (so the timezone etc. may need adjusting).
 
 The “Location:” list holds your library folders from the [Library Folders](../menu/preferences.md#the-library-folders-tab) tab of **Options>Preferences**.
 

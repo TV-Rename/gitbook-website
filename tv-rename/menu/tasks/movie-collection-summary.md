@@ -6,7 +6,7 @@ description: Review the collections that movies are in
 
 ![Sample Movie Collection View](../../.gitbook/assets/image.png)
 
-This looks at all movies that are indicated to be part of a series or collection of movies. For each collection it gets the other movies in the collection and identified whether they are in the library.
+This looks at all movies that are indicated to be part of a series or collection of movies. For each collection it gets the other movies in the collection and identifies whether they are in the library.
 
 You can:
 

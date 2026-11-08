@@ -9,7 +9,7 @@
 * You can remove items from the finding, renaming and organising lists by selecting them, and pressing “Delete” on your keyboard.
 * Double-clicking the name of the **TV Shows** or **Schedule** tab does the same as its `Refresh` button, and double-clicking the **Scan** tab starts a scan.
 * Changes you make are not saved unless you specifically do so. TV Rename will prompt you to save when you exit (if it needs to), unless **Auto save on Exit** is ticked in **Options>Preferences**, in which case it saves for you. If you screw something up, just exit without saving and TV Rename will forget everything you have done since the last save when it is reloaded.
-* TV Rename stores all its data in XML files. For more information on what there is, and where it is read the [Technical Guide - Configuration Files](../technical/logs-and-configuration.md).
+* TV Rename stores all its data in XML files. For more information on what there is, and where it is, read the [Technical Guide - Configuration Files](../technical/logs-and-configuration.md).
 * A number of TV Rename’s functions can be accessed using the command line. You can find more details [here…](../technical/command-line.md).
 * Whatever manipulation TV Rename applies to your files, it will never change the season or episode number of a show. Even if the show and episode names get corrupted the season and episode numbers will remain unchanged. This means that the problem should be fixable after changing some settings, or adding new rules. At least, that’s the theory.
 
@@ -18,13 +18,13 @@
 {% hint style="success" %}
 **Drive keeps changing letter?**
 
-If your media library uses removable media to store files the assigned drive letter changing each time a usb device is plugged in can be a real pain.
+If your media library uses removable media to store files the assigned drive letter changing each time a USB device is plugged in can be a real pain.
 
 A small tweak in Windows settings will “fix” the drive letter for the device in question.
 
 There are numerous internet guides for doing this, the following link will get you started:
 
-[**Google - fix usb drive letter assignment**](https://www.google.co.uk/search?q=fix+usb+drive+letter+assignment)
+[**Google - fix USB drive letter assignment**](https://www.google.co.uk/search?q=fix+usb+drive+letter+assignment)
 
 _**Andy B**_
 {% endhint %}
