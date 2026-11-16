@@ -284,7 +284,7 @@ _Defaults: **Retain Language Specific Subtitles** ticked, **Rename .txt to .sub*
 
 ### Search Folders <a href="#the-search-folders-tab" id="the-search-folders-tab"></a>
 
-![](../.gitbook/assets/prefs-10-search-folders.png)
+![](../.gitbook/assets/prefs-10-search-folders-527b.png)
 
 Search Folders tell TV Rename where to look for new, unsorted files **before** they are processed and copied or moved into your library. Good choices are your downloads folder, or the folder you rip DVDs or Blu-rays to. Search Folders shouldn’t overlap your Library Folders.
 
@@ -292,6 +292,7 @@ Use `Add` to browse to a folder and add it, `Remove` to remove the selected fold
 
 * **Look in “Search Folders” for missing files** – scans look in your Search Folders for missing episodes and movies.
   * **Copy files, don’t move** – files are copied into your library, leaving the originals where they are.
+  * **Defer file moves to system** – when TV Rename moves a file to a different drive, it hands the move to Windows instead of doing it itself. This can be faster, but TV Rename is less responsive while the file is moving. Moves on the same drive, and copies, are not affected.
 * **Automatically create merge rules based on files in Search Folders** – like the merge rule setting on the [Scan Settings](preferences.md#scan-settings) tab, but the rule is created before the file is copied or moved.
 * **Monitor Search Folders (run a scan when files change) after** … **seconds** – when the contents of a Search Folder change, TV Rename waits this many seconds, then runs a scan and carries out the actions it finds.
 * **Copy future dated episodes found in Search Folders** – episodes are copied into your library even if they haven’t officially aired yet.
