@@ -2,6 +2,12 @@
 
 ## Themes
 
+Theme settings under (Preferences > Display) with Light (default), Dark, Cream, any custom theme file and Same as Windows.<br>
+
+Themes are editable .theme.xml files in the settings folder&#x20;(Themes), with pristine built-in copies in Themes\Defaults and the last good copy of each theme in Themes\Backups.&#x20;
+
+
+
 * See Preferences>Display to choose how the UI looks
   * Folder
   * Choosing theme
