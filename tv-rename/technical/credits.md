@@ -16,8 +16,8 @@ TV Rename pulls data from [TheTVDB.com](https://github.com/thetvdb/v4-api), [TMD
 
 ### Development Services
 
-* GitHub
-* GitBook
+* [GitHub](https://github.com/TV-Rename/tvrename)
+* [GitBook](https://app.gitbook.com/o/J1b0O2dYbS4DhQISCpaF)
 * Papertrail
 
 ### **Development Libraries**
