@@ -1,6 +1,6 @@
 # Data Sources
 
-TV Rename gets its show and movie information from three online data sources: [TMDB](https://www.themoviedb.org/), [The TVDB](http://thetvdb.com/) and [TV Maze](https://www.tvmaze.com/). New installs use TMDB for both TV shows and movies. You can change the defaults on the [Data Sources](../menu/preferences.md#data-sources) tab of **Options>Preferences**, and choose a different source for any show or movie on the Basics tab of its Add/Edit window.
+TV Rename gets its show and movie information from three online data sources: [TMDB](https://www.themoviedb.org/), [The TVDB](http://thetvdb.com/) and [TV Maze](https://www.tvmaze.com/). New installs use TMDB for both TV shows and movies. You can change the defaults on the [Data Sources](../menu/preferences/#data-sources) tab of **Options>Preferences**, and choose a different source for any show or movie on the Basics tab of its Add/Edit window.
 
 <figure><img src="../.gitbook/assets/image (70).png" alt="" width="200"><figcaption></figcaption></figure>
 

@@ -40,7 +40,7 @@ Under normal circumstances you would add a Media Library path when adding a new 
 
     If you use multiple disks or paths for your library, repeat the above step for each root path.
 2. Click the `Check >>` button, the selected path(s) will be scanned and any content with a recognised structure automatically displayed in the _**Scan Results**_ tab.
-3.  In the _**Scan Results**_ tab, click `Auto ID All` and TV Rename will attempt to match the found content against your default data source (TMDB, unless you have changed **Default TV Show Source** on the [Data Sources](../menu/preferences.md#data-sources) tab of **Options>Preferences**). The **Folder Structure** column shows whether each show is “Flat”, with all the episodes in one folder, or “Folder per season”, with sub folders for each season and specials.
+3.  In the _**Scan Results**_ tab, click `Auto ID All` and TV Rename will attempt to match the found content against your default data source (TMDB, unless you have changed **Default TV Show Source** on the [Data Sources](../menu/preferences/#data-sources) tab of **Options>Preferences**). The **Folder Structure** column shows whether each show is “Flat”, with all the episodes in one folder, or “Folder per season”, with sub folders for each season and specials.
 
     Any shows not identified will not have an entry in the **Show** column or the **Source Code** column; these can be fixed manually by highlighting the relevant row in the table and clicking `Edit` and using `Search` to look the show up.
 4. Once the match process has finished, click `Add & Close` and accept the confirmation, all the identified shows will be added to the _**TV Shows**_ tab.
@@ -57,7 +57,7 @@ Whilst not strictly necessary at this point TV Rename needs to know where to loo
 
 <figure><img src="../.gitbook/assets/image (59).png" alt=""><figcaption></figcaption></figure>
 
-In [**Options>Preferences**](../menu/preferences.md#the-search-folders-tab), go to the _**Search Folders**_ tab and `Add` the locations you normally use for new episodes.
+In [**Options>Preferences**](../menu/preferences/#the-search-folders-tab), go to the _**Search Folders**_ tab and `Add` the locations you normally use for new episodes.
 
 For example: I have two entries here, one points to my _Downloads_ folder for stuff I get from the internet. The other points to my _Desktop_ which I use as a target when ripping from my DVD collection.
 
@@ -107,7 +107,7 @@ Click `Do Checked` and TV Rename will process the ticked actions, moving and ren
 
 Go to the _**Schedule**_ tab and you will see all known future information (including air dates) for shows you are following.
 
-TV Rename can also scan for you. On the [_**Scan Settings**_](../menu/preferences.md#scan-settings) tab of **Options>Preferences** you can schedule a time based scan _(“Scheduled scan every … hours”)_, and on the [_**Search Folders**_](../menu/preferences.md#the-search-folders-tab) tab you can have TV Rename scan whenever the contents of your search folders change _(“Monitor Search Folders (run a scan when files change)”)_.
+TV Rename can also scan for you. On the [_**Scan Settings**_](../menu/preferences/#scan-settings) tab of **Options>Preferences** you can schedule a time based scan _(“Scheduled scan every … hours”)_, and on the [_**Search Folders**_](../menu/preferences/#the-search-folders-tab) tab you can have TV Rename scan whenever the contents of your search folders change _(“Monitor Search Folders (run a scan when files change)”)_.
 
 **Sit back, relax, and let TV Rename do all the hard work for you!**
 

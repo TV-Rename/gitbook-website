@@ -4,7 +4,7 @@ The **TV Shows** tab displays a list of TV shows found and identified in your me
 
 ## _TV Show Library_
 
-In essence this tab (along with some of the [preferences](../menu/preferences.md)) allows you to configure the interaction between the [data sources](../help-and-support/data-sources.md) (TMDB, TheTVDB and TVmaze) and your media library. Incidentally there can be multiple storage locations including local paths or drives on your computer, mapped network shares and UNC paths. The only restrictions being that a TV show cannot be spread across multiple locations, and removable USB drives should be set up so they are always assigned the same path or drive letter each time they are connected.
+In essence this tab (along with some of the [preferences](../menu/preferences/)) allows you to configure the interaction between the [data sources](../help-and-support/data-sources.md) (TMDB, TheTVDB and TVmaze) and your media library. Incidentally there can be multiple storage locations including local paths or drives on your computer, mapped network shares and UNC paths. The only restrictions being that a TV show cannot be spread across multiple locations, and removable USB drives should be set up so they are always assigned the same path or drive letter each time they are connected.
 
 <figure><img src="../.gitbook/assets/tv-shows-tab1.png" alt=""><figcaption></figcaption></figure>
 
@@ -15,7 +15,7 @@ There is a small “search filter” at the top of the Show List panel. Typing i
 The right hand panel has four tabs:
 
 * **Information** – details of the highlighted show or season. This is the usual setting.
-* **Images** – all the cached images for a show or season of a show collected from its data source. Control of just what images are acquired is managed using the [_**Media Centres**_](../menu/preferences.md#the-media-centers-tab) tab of **Options>Preferences**.
+* **Images** – all the cached images for a show or season of a show collected from its data source. Control of just what images are acquired is managed using the [_**Media Centres**_](../menu/preferences/#the-media-centers-tab) tab of **Options>Preferences**.
 * **Summary** – an overview of the show (or the highlighted season) with a table of its episodes.
 * **Trailer** – an embedded YouTube viewer of the show’s trailer.
 
@@ -29,7 +29,7 @@ Below these panels are a series of buttons which allow you to manage the content
 * `Refresh` - Refresh the current view
 * `Scan TV` - Do a scan just for TV shows (ie no Movies)
 * `Filter` - Filter the listed shows based on the entered criteria.
-* `Context Menu` - Opens the same menu as right-clicking. This button is only shown when **Show Accessibility Options** is ticked on the [Display](../menu/preferences.md#the-display-tab) tab of **Options>Preferences**.
+* `Context Menu` - Opens the same menu as right-clicking. This button is only shown when **Show Accessibility Options** is ticked on the [Display](../menu/preferences/#the-display-tab) tab of **Options>Preferences**.
 
 **REMEMBER:**
 
@@ -55,7 +55,7 @@ The “Basics” Tab is the starting point for telling TV Rename about a show yo
 
 The best way to illustrate this is with an example so let's add a show called “The Good Doctor” to TV Rename.
 
-“Source:” chooses where TV Rename gets the show’s information. **Library Default** uses the **Default TV Show Source** on the [Data Sources](../menu/preferences.md#data-sources) tab of **Options>Preferences** (TMDB unless you have changed it). **The TVDB**, **TMDB** or **TVmaze** uses that source for this show only.
+“Source:” chooses where TV Rename gets the show’s information. **Library Default** uses the **Default TV Show Source** on the [Data Sources](../menu/preferences/#data-sources) tab of **Options>Preferences** (TMDB unless you have changed it). **The TVDB**, **TMDB** or **TVmaze** uses that source for this show only.
 
 The first step is to tell TV Rename about the show. If you know it you can enter the show’s code at the data source (the box is labelled for the source, for example “TMDB code:”), otherwise type the show's name (e.g. “the good doctor”) and click on `Search`.
 
@@ -75,11 +75,11 @@ The “Custom show name:” field allows you to change the show name in both TV 
 
 The “Airs in Timezone:” drop-down tells TV Rename that the air time from the data source is in that specific timezone. Time zones are listed by region and city, for example “America/New\_York” for Eastern USA time, which most shows use, and “Europe/London” for British shows (e.g. Maigret). This only has an effect in the _**Schedule**_ tab which translates these times into your local timezone, or in the status bar when calculating time till the “Next Airing:”.
 
-_Default:_ _**the Airs in Timezone set on the**_ [_**TV Show Defaults**_](../menu/preferences.md#tv-show-defaults) _**tab of Options>Preferences (America/New\_York if none is set)**_
+_Default:_ _**the Airs in Timezone set on the**_ [_**TV Show Defaults**_](../menu/preferences/#tv-show-defaults) _**tab of Options>Preferences (America/New\_York if none is set)**_
 
 If you wish to ignore specific seasons of a show enter the season numbers (space separated) in the “Ignore Seasons:” field (Entering a “0” will ignore “Specials”).
 
-_Default:_ _**Empty Field**_ (or “0” if **Ignore Specials** is ticked on the [TV Show Defaults](../menu/preferences.md#tv-show-defaults) tab)
+_Default:_ _**Empty Field**_ (or “0” if **Ignore Specials** is ticked on the [TV Show Defaults](../menu/preferences/#tv-show-defaults) tab)
 
 The “Custom Language:” tick box and drop-down allows you to set a “non-default” language for the show in question. To activate it simply tick the box and select the preferred language for the show from the drop-down.
 
@@ -113,7 +113,7 @@ If the “Automatic Season Folders” box is ticked the path to the “Base Fold
 
 The three radio buttons determine how the seasons of the show are handled: -
 
-Selecting “Subdirectories (default)” will tell TV Rename to create a sub folder for each season, named with the **Seasons folder format** on the [Library Folders](../menu/preferences.md#the-library-folders-tab) tab of **Options>Preferences** (“Season 01”, “Season 02”, “Season 03” etc. by default).
+Selecting “Subdirectories (default)” will tell TV Rename to create a sub folder for each season, named with the **Seasons folder format** on the [Library Folders](../menu/preferences/#the-library-folders-tab) tab of **Options>Preferences** (“Season 01”, “Season 02”, “Season 03” etc. by default).
 
 Selecting “Store all seasons in Base Folder” will tell TV Rename to store all the related files in the base folder specified previously.
 
@@ -168,7 +168,7 @@ The custom format is used when **Do renaming** is ticked on the [Advanced tab](m
 
 ![](https://3508557057-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fx0gPeIfHpbgTioNust1M%2Fuploads%2FEYe2rD2q2iyRO6ygPxLL%2Fimage.png?alt=media\&token=942d9a9c-9c5d-4d70-9d80-12e77f21f0c9)
 
-Here, you can further manipulate the way data from the data source is handled as it is merged into the local data. New shows start with the ticks set in **Default Advanced Settings** on the [TV Show Defaults](../menu/preferences.md#tv-show-defaults) tab of **Options>Preferences**.
+Here, you can further manipulate the way data from the data source is handled as it is merged into the local data. New shows start with the ticks set in **Default Advanced Settings** on the [TV Show Defaults](../menu/preferences/#tv-show-defaults) tab of **Options>Preferences**.
 
 The “Use DVD Order” tick box comes into play when the episodes aired on TV in a different order to those presented on the DVD. [The TVDB](http://thetvdb.com/) usually has details of these orders and this tick box allows you to choose your preference for the current show. A really good example of this is the 1967 ITV show [“The Prisoner”](https://www.thetvdb.com/?tab=season\&seriesid=74805\&seasonid=8058\&lid=7), which, whilst it was written as one season of seventeen episodes still causes as much controversy (and argument) over its running order today as it did when it was originally released. TVDB also has an 'alternate order' specified as some shows have had episodes regrouped into seasons on different platforms; tick “Use Alternate Order” to use it. “Use DVD Order” and “Use Alternate Order” can’t both be ticked.
 
@@ -234,7 +234,7 @@ Whilst discussing “Add/Edit Shows” it would be remiss not to mention “Auto
 
 This not-so-obvious trick in TV Rename’s functionality attempts to add video files that have been downloaded but are unknown to TV Rename to its database for inclusion in the library.
 
-It is activated by ticking the **Notify when new media is found** box on the [Search Folders](../menu/preferences.md#the-search-folders-tab) tab of **Options>Preferences**.
+It is activated by ticking the **Notify when new media is found** box on the [Search Folders](../menu/preferences/#the-search-folders-tab) tab of **Options>Preferences**.
 
 For example: -
 
@@ -256,13 +256,13 @@ However, if you select the matching series name in the central window (in this c
 
 Auto Add uses the default settings for almost all options (so the timezone etc. may need adjusting).
 
-The “Location:” list holds your library folders from the [Library Folders](../menu/preferences.md#the-library-folders-tab) tab of **Options>Preferences**.
+The “Location:” list holds your library folders from the [Library Folders](../menu/preferences/#the-library-folders-tab) tab of **Options>Preferences**.
 
 ## Seen Episodes
 
 TV Rename keeps a list of the episodes it has seen in your library. An episode is added to the list when a scan finds its video file correctly named in the right place, or when TV Rename copies, moves or renames a video file into place for it.
 
-If **Ignore Episodes Previously Seen** is ticked on the [Scan Settings](../menu/preferences.md#scan-settings) tab of **Options>Preferences**, episodes on this list are no longer reported as missing, even after their file has gone from your library. This is useful if you delete episodes once you have watched them.
+If **Ignore Episodes Previously Seen** is ticked on the [Scan Settings](../menu/preferences/#scan-settings) tab of **Options>Preferences**, episodes on this list are no longer reported as missing, even after their file has gone from your library. This is useful if you delete episodes once you have watched them.
 
 To see or change the list for a season:
 

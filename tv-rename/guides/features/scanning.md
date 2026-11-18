@@ -15,16 +15,16 @@ These can be triggered in several ways:
 
 * On Startup
 * Via [Command Line](../../technical/command-line.md)
-* [Periodic ](../../menu/preferences.md#scan-settings)(Automated)
+* [Periodic ](../../menu/preferences/#scan-settings)(Automated)
 * When download/search folder/file changes
 * Manually
 
 #### Further Information <a href="#further-information-1" id="further-information-1"></a>
 
-* Configuration options are detailed in [**Options>Preferences>Scan Settings**](../../menu/preferences.md#scan-settings)
+* Configuration options are detailed in [**Options>Preferences>Scan Settings**](../../menu/preferences/#scan-settings)
 
-{% content-ref url="../../menu/preferences.md" %}
-[preferences.md](../../menu/preferences.md)
+{% content-ref url="../../menu/preferences/" %}
+[preferences](../../menu/preferences/)
 {% endcontent-ref %}
 
 * Further explanation can be found [**here**](../../main/scan.md).

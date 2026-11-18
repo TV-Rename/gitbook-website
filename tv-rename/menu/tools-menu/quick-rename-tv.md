@@ -12,7 +12,7 @@ The Quick Rename window can stay open while you work, and anything else you drop
 Things to know:
 
 * Opening Quick Rename clears any results already on the **Scan** tab.
-* Only video files are considered (the file types set in [Preferences > Files and Folders](../preferences.md#the-files-and-folders-tab)). A file that can't be matched to a show, season and episode is skipped, and the reason is written to the log. A file that already has the right name is left alone.
+* Only video files are considered (the file types set in [Preferences > Files and Folders](../preferences/#the-files-and-folders-tab)). A file that can't be matched to a show, season and episode is skipped, and the reason is written to the log. A file that already has the right name is left alone.
 * If the show isn't in your library yet and **Auto-Add as part of Quick Rename** is ticked (Preferences > General, on by default), TV Rename tries to identify the show and add it, asking you to confirm.
-* If **Copy files, don't move** is ticked in [Preferences > Search Folders](../preferences.md#the-search-folders-tab), a renamed copy is made next to the original instead, and it is listed under **Copy**.
+* If **Copy files, don't move** is ticked in [Preferences > Search Folders](../preferences/#the-search-folders-tab), a renamed copy is made next to the original instead, and it is listed under **Copy**.
 * Your other settings still apply, so TV Rename may also offer to create NFO files or thumbnails for the renamed episodes, and to bring along files with the same name (such as subtitles), if those options are on.

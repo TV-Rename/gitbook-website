@@ -3,7 +3,7 @@
 When **Options > Automatic Background Download** is ticked, TV Rename keeps its show and movie information up to date by itself. It checks TheTVDB, TMDB and TVmaze for changes to the shows and movies in your library and downloads anything that has changed:
 
 * about 10 seconds after TV Rename starts, and then
-* every few hours, as set by **Update cache every ... hours** on the [Data Sources](../preferences.md#data-sources) tab of Preferences. The default is every hour.
+* every few hours, as set by **Update cache every ... hours** on the [Data Sources](../preferences/#data-sources) tab of Preferences. The default is every hour.
 
 While it runs, the right-hand side of the [status bar](../../main/other.md#the-status-bar) shows what is being downloaded. When it finishes, TV Rename saves the information it downloaded and updates the **Schedule** tab.
 

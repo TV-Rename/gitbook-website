@@ -4,7 +4,7 @@
 
 It covers:
 
-* `tvshow.nfo` in each TV show's folder, if **NFO files for shows** is ticked in [Preferences > Media Centres](../preferences.md#the-media-centers-tab) (Kodi section). This is **off by default**.
+* `tvshow.nfo` in each TV show's folder, if **NFO files for shows** is ticked in [Preferences > Media Centres](../preferences/#the-media-centers-tab) (Kodi section). This is **off by default**.
 * The `.nfo` for each movie file, if **NFO files for movies** is ticked (on by default).
 
 Episode `.nfo` files are not part of this tool.

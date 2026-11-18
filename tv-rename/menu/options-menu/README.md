@@ -12,8 +12,8 @@ Luckily the “out-of-the-box” defaults work well, and, should you wish to cha
 [automatic-background-download.md](automatic-background-download.md)
 {% endcontent-ref %}
 
-{% content-ref url="../preferences.md" %}
-[preferences.md](../preferences.md)
+{% content-ref url="../preferences/" %}
+[preferences](../preferences/)
 {% endcontent-ref %}
 
 {% content-ref url="ignore-list.md" %}

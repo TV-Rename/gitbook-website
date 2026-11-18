@@ -11,7 +11,7 @@
 **File > Save** (Ctrl+S) saves your settings, the show and movie information TV Rename has downloaded, and the layout of the main window. See [Logs & Configuration](../technical/logs-and-configuration.md#configuration-files) for where these are kept.
 
 {% hint style="success" %}
-It is **strongly** advised to turn on **Auto save on Exit** in the [preferences](preferences.md#the-general-tab)
+It is **strongly** advised to turn on **Auto save on Exit** in the [preferences](preferences/#the-general-tab)
 {% endhint %}
 
 ## Exit

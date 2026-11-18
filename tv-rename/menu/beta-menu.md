@@ -1,6 +1,6 @@
 # Beta Menu
 
-The **Beta** menu appears between **View** and **Help** when **Mode** is set to **Beta** in [Preferences > General](preferences.md#the-general-tab). Its tools are previews of features still being worked on.
+The **Beta** menu appears between **View** and **Help** when **Mode** is set to **Beta** in [Preferences > General](preferences/#the-general-tab). Its tools are previews of features still being worked on.
 
 ## Functions that report into the logs
 

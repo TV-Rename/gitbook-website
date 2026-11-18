@@ -2,7 +2,7 @@
 
 **Force Refresh All Images** downloads fresh artwork for every TV show and movie in your library and replaces the image files already on disk. Use it if your artwork is out of date or broken, or after you change which images TV Rename should save.
 
-Which images it fetches depends on what is switched on in [Preferences > Media Centres](../preferences.md#the-media-centers-tab), for example `folder.jpg`, `fanart.jpg`, `series.jpg`, episode thumbnails and the Kodi images. If none are ticked there is nothing for it to do.
+Which images it fetches depends on what is switched on in [Preferences > Media Centres](../preferences/#the-media-centers-tab), for example `folder.jpg`, `fanart.jpg`, `series.jpg`, episode thumbnails and the Kodi images. If none are ticked there is nothing for it to do.
 
 1. Choose **Tools > Force Refresh All Images**. Any results already on the **Scan** tab are cleared, and a progress window works through your shows and then your movies.
 2. When it finishes, the **Scan** tab opens with every image to download listed under **Download**.

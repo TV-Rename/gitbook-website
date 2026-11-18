@@ -16,7 +16,7 @@ Below these panels are a series of buttons which allow you to manage the content
 * `Refresh` - Refresh the current view
 * `Scan Movies` - Do a scan just for Movies (ie no TV Shows)
 * `Filter` - Filter the listed movies based on the entered criteria.
-* `Context Menu` - Opens the same menu as right-clicking. This button is only shown when **Show Accessibility Options** is ticked on the [Display](../menu/preferences.md#the-display-tab) tab of **Options>Preferences**.
+* `Context Menu` - Opens the same menu as right-clicking. This button is only shown when **Show Accessibility Options** is ticked on the [Display](../menu/preferences/#the-display-tab) tab of **Options>Preferences**.
 
 The right hand side of the screen has 3 tabs:
 
@@ -48,7 +48,7 @@ There are a number of ways one can add movies to their library:
    2. If the file does not match a movie in your library, but does match one on TMDB, offer to add the movie and copy the file into the correct place
    3. If it's not sure, ask you what to do with the file
 3. If you already have an organised movie library, use [**Tools>Bulk Add Movies...**](../menu/tools-menu/bulk-add.md) to keep the current directory structure and add all movies to the library.
-4. Copy movie files into the search folder. Tick **Notify when new media is found** on the [Search Folders](../menu/preferences.md#the-search-folders-tab) tab of **Options>Preferences** and then run a scan. Auto add will identify that the file is new and ask to add the new movie to the library.
+4. Copy movie files into the search folder. Tick **Notify when new media is found** on the [Search Folders](../menu/preferences/#the-search-folders-tab) tab of **Options>Preferences** and then run a scan. Auto add will identify that the file is new and ask to add the new movie to the library.
 
 ## Add/Edit Movie
 
@@ -60,7 +60,7 @@ The Basics tab links the movie to its entry at the data source and sets what the
 
 To find the movie, type its name (or its code at the source, if you know it) in the code box and click `Search`, then click the right movie in the list of matches.
 
-* **Source** – where TV Rename gets this movie’s information. **Library Default** uses the **Default Movie Source** on the [Data Sources](../menu/preferences.md#data-sources) tab of **Options>Preferences**. **The TVDB** or **TMDB** uses that source for this movie only.
+* **Source** – where TV Rename gets this movie’s information. **Library Default** uses the **Default Movie Source** on the [Data Sources](../menu/preferences/#data-sources) tab of **Options>Preferences**. **The TVDB** or **TMDB** uses that source for this movie only.
 * **Custom show name** – tick it and type a name to use instead of the title from the source. TV Rename uses this name for the movie everywhere, including its folder and file names.
 * **Custom Language** – tick it and choose the language to ask the source for, for this movie only.
 * **Custom Region** – tick it and choose the region to use for this movie’s release date, instead of the **Preferred region** on the Data Sources tab.
@@ -82,7 +82,7 @@ The Folders tab tells TV Rename where this movie’s files are kept in your libr
 
 Tick **Automatic Folders** to let TV Rename work out the movie’s folder:
 
-* **Base Folder** – the movie library folder the movie goes in. The list holds your **Movie Library Folders** from the [Library Folders](../menu/preferences.md#the-library-folders-tab) tab of **Options>Preferences**.
+* **Base Folder** – the movie library folder the movie goes in. The list holds your **Movie Library Folders** from the [Library Folders](../menu/preferences/#the-library-folders-tab) tab of **Options>Preferences**.
 * **Movie Folder Name** – **Subdirectories (default)** names the movie’s folder with the **Folder format** on that same Library Folders tab, which is shown in grey beside it. **Custom Subdirectories** lets you type a different folder name for this movie; click `Tags...` to see the tags you can use.
 
 Tick **Manual/Additional Folders** to list the movie’s folders yourself. Type a folder in **Folder:** (or click `Browse...` to pick one) and click `Add`. Select a folder in the list and click `Open` to open it in File Explorer, or `Remove` to take it off the list.
@@ -93,7 +93,7 @@ If some files in these folders are on TV Rename’s ignore list, the tab says so
 
 ### Custom File Naming
 
-By default TV Rename will name movie files using the [Filename Format](../menu/preferences.md#the-library-folders-tab) in **Preferences>Library Folders**. If this movie should use its own format then it can be overridden and specified here:
+By default TV Rename will name movie files using the [Filename Format](../menu/preferences/#the-library-folders-tab) in **Preferences>Library Folders**. If this movie should use its own format then it can be overridden and specified here:
 
 <figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
 
