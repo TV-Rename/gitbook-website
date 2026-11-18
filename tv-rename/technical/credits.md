@@ -25,7 +25,7 @@ TV Rename pulls data from [TheTVDB.com](https://github.com/thetvdb/v4-api), [TMD
 It also uses: -
 
 * [Json.NET](https://www.newtonsoft.com/json) to code and decode the messages from data sources,
-* [AlphaFS](http://alphafs.alphaleonis.com/) for advanced .NET file operations,
+* [AlphaFS](https://github.com/alphaleonis/alphafs) for advanced .NET file operations,
 * [NLog](http://nlog-project.org/) open-source logging for .NET,
 * SourceGrid,
 * CefSharp
