@@ -41,9 +41,9 @@ You can read the [NLog Wiki](https://github.com/nlog/NLog/wiki/Configuration-fil
 
 When raising a bug please include a log file that illustrates the issue if you can. It will help us find a solution quickly.
 
-### Theme Files <a href="#cache-and-supporting-logs" id="cache-and-supporting-logs"></a>
+### Theme Files <a href="#theme-files" id="theme-files"></a>
 
-...
+The **Themes** folder, inside the settings folder above, holds your colour theme files (**\*.theme.xml**) and two folders of its own: **Defaults** (the original Dark and Creme themes) and **Backups** (the last copy of each theme that loaded without mistakes). See [Themes](../main/display-view.md#themes).
 
 ### Cache and Supporting Logs <a href="#cache-and-supporting-logs" id="cache-and-supporting-logs"></a>
 

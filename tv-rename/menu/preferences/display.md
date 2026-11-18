@@ -1,11 +1,12 @@
 # Display
 
-![](<../../.gitbook/assets/prefs-02-display (1).png>)
+![](../../.gitbook/assets/prefs-02-display-528.png)
 
 The Display tab changes how TV Rename looks. It doesn’t change what scans do.
 
 * **Double-click in Schedule does** – choose **Search** or **Scan**.
 * **Startup tab** – choose **Movies**, **TV Shows**, **Scan** or **Schedule**.
+* **Theme** – the colours TV Rename uses: **Same as Windows (default)**, **Light**, **Dark**, **Creme** or a theme you have made. The new theme is used the next time TV Rename starts. **Folder** opens the folder that holds the theme files. See [Themes](../../main/display-view.md#themes).
 * **Show notification area icon** and **Show in taskbar** – choose where TV Rename’s icon appears. At least one must be ticked.
 * **Show episode pictures in episode guides** – shows each episode’s picture and description on [TV Shows](../../main/my-tv-shows.md).
 * **Hide Spoilers in ‘TV Shows’** and **Hide Spoilers in Schedule** – hide unaired episode summaries.
@@ -26,4 +27,4 @@ The Display tab changes how TV Rename looks. It doesn’t change what scans do.
 
 For example, use `#808080` for “Show Status: Ended”. Select a rule and click `Remove` to delete it.
 
-_Defaults: double-click does **Scan**, Startup tab **Movies**, **Show in taskbar** ticked, **Show episode pictures in episode guides** ticked, **Automatically select show and season in ‘TV Shows’** ticked, words to move **The**, Seasons name **Season**, everything else un-ticked, no colour rules._
+_Defaults: double-click does **Scan**, Startup tab **Movies**, Theme **Same as Windows (default)**, **Show in taskbar** ticked, **Show episode pictures in episode guides** ticked, **Automatically select show and season in ‘TV Shows’** ticked, words to move **The**, Seasons name **Season**, everything else un-ticked, no colour rules._
