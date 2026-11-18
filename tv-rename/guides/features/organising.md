@@ -29,7 +29,7 @@ To show how these are different take a look at Futurama on [The TVDB](http://the
 There are a few ideas on the ideas wall to allow the ordering to be adjusted further to account for shows such as Mythbusters and American Dad. In both these cases the order that users want to organise the files does not match either the Aired or the DVD order.
 
 * [**Allow reorganising season numbers**](https://github.com/TV-Rename/tvrename/issues/67)
-* [**Allow offset for episode numbers**](http://ideas.theideawall.com/TVRename/Forum/TopicDetails/ccf342c0-94b0-42f2-a0ba-a7cda261b2fa)
+* [**Allow offset for episode numbers**](https://github.com/TV-Rename/tvrename/issues/108)
 
 ### Media Centres <a href="#media-centres" id="media-centres"></a>
 
