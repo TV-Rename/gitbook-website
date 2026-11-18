@@ -1,4 +1,4 @@
-# Logs & Configuration
+# Logs & Configuration Files
 
 ### Configuration Files <a href="#configuration-files" id="configuration-files"></a>
 
@@ -40,6 +40,10 @@ Logging uses NLog. The configuration file ([NLog.config](https://github.com/TV-R
 You can read the [NLog Wiki](https://github.com/nlog/NLog/wiki/Configuration-file) for guidance on how to adjust the configuration file to collect more information.
 
 When raising a bug please include a log file that illustrates the issue if you can. It will help us find a solution quickly.
+
+### Theme Files <a href="#cache-and-supporting-logs" id="cache-and-supporting-logs"></a>
+
+...
 
 ### Cache and Supporting Logs <a href="#cache-and-supporting-logs" id="cache-and-supporting-logs"></a>
 
