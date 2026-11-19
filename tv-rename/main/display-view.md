@@ -90,10 +90,14 @@ To undo changes to a theme, copy its file from **Backups** (the last copy that w
 
 ## Move 'The' and others to the end of the names
 
-1. Use Settings under Prefences>Display to choose which prefixes to move to the end
-2. Use {} options to define how folders are stored
-   1. see {ShowNamePost} if you want to change filenames [https://www.tvrename.com/menu/options-menu/filename-template-editor](https://www.tvrename.com/menu/options-menu/filename-template-editor)
-   2. See {ShowNamePost} if you want to name folders: [https://www.tvrename.com/menu/preferences#the-library-folders-tab](https://www.tvrename.com/menu/preferences#the-library-folders-tab)
-3. Check that it works: [https://www.tvrename.com/menu/options-menu/filename-processors](https://www.tvrename.com/menu/options-menu/filename-processors)
+1. Use Settings under [Prefences>Display](../menu/preferences/display.md) to choose which prefixes to move to the end and to enable it in the application.
+   1. eg The in English
+   2. Le, La, Les in French
+2. If you want to name foldes and files in the library to put prefixes after the rest of the name, use `{ShowNamePost}` options to achieve it.
+   1. see `{ShowNamePost}` if you want to change filenames see [filename-template-editor.md](../menu/options-menu/filename-template-editor.md "mention")&#x20;
+   2. See `{ShowNamePost}` if you want to name folders: See [library-folders.md](../menu/preferences/library-folders.md "mention")&#x20;
+3. Check that it works: [filename-processors.md](../menu/options-menu/filename-processors.md "mention")
 
 ## Custom Colouring
+
+Under [display.md](../menu/preferences/display.md "mention")you are able to provide rules to set the colour of shows in the UI depending on how complete they are. They overwrite the theme colours
