@@ -8,6 +8,8 @@ TV Rename can use a colour theme instead of its standard light look. Choose one 
 
 <figure><img src="../.gitbook/assets/themes-creme-tv-shows.png" alt=""><figcaption><p>Creme</p></figcaption></figure>
 
+<figure><img src="../.gitbook/assets/themes-midnight-tv-shows.png" alt=""><figcaption><p>Midnight</p></figcaption></figure>
+
 ### The themes in the list
 
 | **Same as Windows (default)** | **Dark** when Windows is set to dark mode, **Light** when it isn't. TV Rename checks when it starts. |
@@ -15,16 +17,17 @@ TV Rename can use a colour theme instead of its standard light look. Choose one 
 | **Light**                     | TV Rename's standard look.                                                                           |
 | **Dark**                      | Windows' dark look, with the parts that Windows leaves light or hard to read coloured to match.      |
 | **Creme**                     | Warm creme colours on the standard light look.                                                       |
+| **Midnight**                  | Deep midnight blue colours on Windows' dark look.                                                    |
 
-Themes you make yourself (see below) are listed too, after **Dark**, in alphabetical order with **Creme**.
+Themes you make yourself (see below) are listed too, after **Dark**, in alphabetical order with **Creme** and **Midnight**.
 
 ### Theme files
 
 Each theme is a file ending in **.theme.xml** in the **Themes** folder, which is inside the folder that holds your settings (see [Logs & Configuration Files](../technical/logs-and-configuration.md#configuration-files)). **Folder** next to **Theme** opens it.
 
-When TV Rename starts, it creates the Themes folder if needed, with **Dark.theme.xml** and **Creme.theme.xml** in it. If you delete either of them, the original comes back the next time TV Rename starts. The Themes folder also has two folders of its own:
+When TV Rename starts, it creates the Themes folder if needed, with **Dark.theme.xml**, **Creme.theme.xml** and **Midnight.theme.xml** in it. If you delete one of them, the original comes back the next time TV Rename starts. If you already have a theme file with one of these names, TV Rename leaves it as it is and lists it by the name inside it. The Themes folder also has two folders of its own:
 
-* **Defaults** – the original Dark and Creme theme files. TV Rename puts these back every time it starts, so any change made to them is lost.
+* **Defaults** – the original Dark, Creme and Midnight theme files. TV Rename puts these back every time it starts, so any change made to them is lost.
 * **Backups** – for each theme you have used, the last copy that loaded without mistakes.
 
 **Same as Windows** uses your **Dark.theme.xml**, so changes you make to it show there too.
@@ -32,7 +35,7 @@ When TV Rename starts, it creates the Themes folder if needed, with **Dark.theme
 ### Making your own theme
 
 1. Click **Folder** next to **Theme** to open the Themes folder.
-2. Copy **Dark.theme.xml** for a dark theme, or **Creme.theme.xml** for a light one, and give the copy a new name ending in **.theme.xml**, for example **MyTheme.theme.xml**.
+2. Copy **Dark.theme.xml** or **Midnight.theme.xml** for a dark theme, or **Creme.theme.xml** for a light one, and give the copy a new name ending in **.theme.xml**, for example **MyTheme.theme.xml**.
 3. Open the copy in a text editor such as Notepad. On the `<Theme ...>` line, change **name** to the name you want to see in the list, then change the colours you want.
 4. Open **Options>Preferences** again, choose your theme from **Theme** on the Display tab, click `OK` and restart TV Rename.
 
@@ -80,13 +83,13 @@ The colours a theme can set:
 If the theme you chose has a mistake, TV Rename shows a message saying what is wrong once its main window has opened, and writes it to the log:
 
 * A colour TV Rename can't read, or a line that isn't one of the colours above, is ignored, and that colour uses its default. The rest of the theme is used.
-* If the file can't be used at all (for example it is not valid XML, base is something other than Dark or Light, or the file is missing), TV Rename uses the last copy from the **Backups** folder. If there isn't one, it uses the original Dark or Creme theme, or else its standard light look.
+* If the file can't be used at all (for example it is not valid XML, base is something other than Dark or Light, or the file is missing), TV Rename uses the last copy from the **Backups** folder. If there isn't one, it uses the original Dark, Creme or Midnight theme, or else its standard light look.
 
 When TV Rename is started with /hide or /unattended (see [Command Line](../technical/command-line.md)), the message isn't shown, but the problem is still written to the log.
 
 In Preferences, a theme file TV Rename can't read is listed by its file name with "(has a mistake)" after it.
 
-To undo changes to a theme, copy its file from **Backups** (the last copy that worked) or **Defaults** (the original Dark or Creme) back over the theme file in the Themes folder.
+To undo changes to a theme, copy its file from **Backups** (the last copy that worked) or **Defaults** (the original Dark, Creme or Midnight) back over the theme file in the Themes folder.
 
 ## Move 'The' and others to the end of the names
 
@@ -94,8 +97,8 @@ To undo changes to a theme, copy its file from **Backups** (the last copy that w
    1. eg The in English
    2. Le, La, Les in French
 2. If you want to name foldes and files in the library to put prefixes after the rest of the name, use `{ShowNamePost}` options to achieve it.
-   1. see `{ShowNamePost}` if you want to change filenames see [filename-template-editor.md](../menu/options-menu/filename-template-editor.md "mention")&#x20;
-   2. See `{ShowNamePost}` if you want to name folders: See [library-folders.md](../menu/preferences/library-folders.md "mention")&#x20;
+   1. see `{ShowNamePost}` if you want to change filenames see [filename-template-editor.md](../menu/options-menu/filename-template-editor.md "mention")
+   2. See `{ShowNamePost}` if you want to name folders: See [library-folders.md](../menu/preferences/library-folders.md "mention")
 3. Check that it works: [filename-processors.md](../menu/options-menu/filename-processors.md "mention")
 
 ## Custom Colouring
