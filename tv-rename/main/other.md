@@ -18,7 +18,7 @@ On the right it shows what TV Rename is doing with the data sources (TheTVDB, TM
 
 ## Upcoming
 
-If **Show notification area icon** is ticked in [Preferences > Display](../menu/preferences/#the-display-tab), TV Rename puts its icon in the Windows notification area, at the right-hand end of the taskbar. If you can't see the icon, look under the hidden icons arrow (`^`).
+If **Show notification area icon** is ticked in [Preferences > Display](../menu/preferences/display.md), TV Rename puts its icon in the Windows notification area, at the right-hand end of the taskbar. If you can't see the icon, look under the hidden icons arrow (`^`).
 
 * **Click the icon once** to see the **Upcoming Shows** window. It lists the next five episodes due to air, each with how long until it airs, the day, the time and the episode. It appears in the bottom-right corner of your main screen and closes itself after about 10 seconds.
 * **Double-click the icon** to bring the main TV Rename window to the front.
@@ -41,5 +41,5 @@ Clicking **Update Available...** checks again and opens the **Available Update**
 You can also check at any time with **Help > Check For New Version**. If you already have the latest version you will see "There is no update available please try again later."
 
 {% hint style="info" %}
-When **Mode** is set to **Beta** in [Preferences > General](../menu/preferences/#the-general-tab), TV Rename offers beta versions as well as normal releases.
+When **Mode** is set to **Beta** in [Preferences > General](../menu/preferences/general.md), TV Rename offers beta versions as well as normal releases.
 {% endhint %}

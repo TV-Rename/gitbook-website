@@ -7,7 +7,7 @@ While the main objective of TV Rename is to rename and move/copy files into the 
 The system will keep files that share the same name together, renaming them all as one. This keeps related files (images, information, metadata) joined together. The system can also be configured to keep language specific files together for when you have subtitles in multiple languages.
 
 {% hint style="info" %}
-Further information can be found [**here**](../../menu/preferences/#the-files-and-folders-tab).
+Further information can be found [**here**](../../menu/preferences/files-and-folders.md).
 {% endhint %}
 
 ### File Update Timestamp <a href="#file-update-timestamp" id="file-update-timestamp"></a>
@@ -48,7 +48,7 @@ In each case the following types of files can be downloaded
 * XML/Text files to explain details about the show/series/episodes
 
 {% hint style="info" %}
-Further information on the settings needed is [here](../../menu/preferences/#the-media-centers-tab)
+Further information on the settings needed is [here](../../menu/preferences/media-centres.md)
 {% endhint %}
 
 **Future Ideas**

@@ -11,7 +11,7 @@
 
 What it proposes for each file:
 
-* **The movie's library folder doesn't have it yet:** the file is moved into the movie's folder and renamed. If **Copy files, don't move** is ticked in [Preferences > Search Folders](../preferences/#the-search-folders-tab), it is copied instead and the original stays where it is.
+* **The movie's library folder doesn't have it yet:** the file is moved into the movie's folder and renamed. If **Copy files, don't move** is ticked in [Preferences > Search Folders](../preferences/search-folders.md), it is copied instead and the original stays where it is.
 * **The library already has a copy:** the two files are compared the same way as [Find Duplicate Movies](find-duplicate-movies.md) does (running time, resolution and the priority override terms). If the new file is better it replaces the library copy. If TV Rename can't tell, it asks you.
 * **The library copy is as good or better:** the new file is listed under **Remove**, so it can be cleared out of the source folder (deleted or recycled according to your Folder Deleting settings). Untick it if you want to keep it.
 

@@ -14,7 +14,7 @@ Movies can also be added using the [**Move Movies From...**](../../menu/tools-me
 Manual addition is the simplest way of adding shows into the library. You can enter (and search for) the show by name or for more precise addition enter its code at the data source (TMDB, TheTVDB or TVmaze). All the options about the show can be edited, but the key ones to add are:
 
 * Directory location to store the location of the files for the series
-* Time zone for the series (a new show starts with the **Airs in Timezone** set on the [TV Show Defaults](../../menu/preferences/#tv-show-defaults) tab of **Options>Preferences**, so check it for shows that air in another time zone)
+* Time zone for the series (a new show starts with the **Airs in Timezone** set on the [TV Show Defaults](../../menu/preferences/tv-show-defaults.md) tab of **Options>Preferences**, so check it for shows that air in another time zone)
 
 {% content-ref url="../../main/my-tv-shows.md" %}
 [my-tv-shows.md](../../main/my-tv-shows.md)
@@ -34,7 +34,7 @@ TV Rename can make suggestions of other media you want to add to your collection
 
 ### **Bulk Addition**
 
-TV Rename can search through your library of existing (organised) files to find shows that are not in the library. This is started from the **Tools** menu. Its options are on the [Scan Settings](../../menu/preferences/#scan-settings) tab of **Options>Preferences**, in the **Bulk Add TV Shows from Library Folders** group, where it can be set to skip folders with no video files and the Recycle Bin. Specific folders can be skipped by adding them to the **Ignore** tab of the Bulk Add window.
+TV Rename can search through your library of existing (organised) files to find shows that are not in the library. This is started from the **Tools** menu. Its options are on the [Scan Settings](../../menu/preferences/scan-settings.md) tab of **Options>Preferences**, in the **Bulk Add TV Shows from Library Folders** group, where it can be set to skip folders with no video files and the Recycle Bin. Specific folders can be skipped by adding them to the **Ignore** tab of the Bulk Add window.
 
 {% content-ref url="../../menu/tools-menu/bulk-add.md" %}
 [bulk-add.md](../../menu/tools-menu/bulk-add.md)
@@ -50,7 +50,7 @@ TV Rename can look at ‘spare’ files in the ‘download’/Search folders;
 * If auto folder creation is on, then the folders get created in the library automatically and the appropriate files copied in.
 
 {% hint style="info" %}
-This function can be turned on using the **Notify when new media is found** tick box on the [Search Folders](../../menu/preferences/#the-search-folders-tab) tab of **Options>Preferences**, in the **Auto Add Movies & TV Shows from Search Folders** group. The same group has **Ignore suffixes** (terms that are left out, along with anything after them, when TV Rename works out a show name from a file name) and **Movie Terms** (a file whose name contains one of these terms is taken to be a movie, not a TV show).
+This function can be turned on using the **Notify when new media is found** tick box on the [Search Folders](../../menu/preferences/search-folders.md) tab of **Options>Preferences**, in the **Auto Add Movies & TV Shows from Search Folders** group. The same group has **Ignore suffixes** (terms that are left out, along with anything after them, when TV Rename works out a show name from a file name) and **Movie Terms** (a file whose name contains one of these terms is taken to be a movie, not a TV show).
 {% endhint %}
 
 {% content-ref url="../../menu/preferences/" %}

@@ -31,7 +31,7 @@ The show name colouring is as follows:
 | **Black** | Indicates a show that is checked for missing episodes. |
 | **Grey**  | Indicates a show that is not checked.                  |
 
-If you have set up colours for show statuses under **Show Colouring** in [Preferences > Display](../preferences/#the-display-tab), shows that are checked use those colours instead of black.
+If you have set up colours for show statuses under **Show Colouring** in [Preferences > Display](../preferences/display.md), shows that are checked use those colours instead of black.
 
 ## Filtering the grid
 

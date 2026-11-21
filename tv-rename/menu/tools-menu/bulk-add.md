@@ -12,7 +12,7 @@ Before using this tool, check that your preferred renaming style is set in [_Opt
 
 <figure><img src="https://3508557057-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fx0gPeIfHpbgTioNust1M%2Fuploads%2FgEGZlKS8pZnmDE0Rjm8U%2Fimage.png?alt=media&#x26;token=9df9c295-6f28-4faf-ba08-812b08b2e9cf" alt=""><figcaption></figcaption></figure>
 
-TV Rename looks inside each folder it finds. If any of its subfolders has a name that ends in a season word followed by a number, the show is listed as “Folder per season”; if none do, it is listed as “Flat”. For example, with the season word `Season`, subfolders named `Season 1`, `Season 01` and `Season01` all count: the space is optional, the number can be any length, and upper or lower case doesn't matter. The season words are the **Season search terms** on the [Scan Settings](../preferences/#scan-settings) tab of **Options>Preferences** (by default `Season;Series;Saison;Temporada;Seizoen`). Unless **Force to Use Season Words from Settings Only** is ticked there, TV Rename also uses the **Seasons name** from the [Display](../preferences/#the-display-tab) tab and the season folder names set up for the shows already in your library.
+TV Rename looks inside each folder it finds. If any of its subfolders has a name that ends in a season word followed by a number, the show is listed as “Folder per season”; if none do, it is listed as “Flat”. For example, with the season word `Season`, subfolders named `Season 1`, `Season 01` and `Season01` all count: the space is optional, the number can be any length, and upper or lower case doesn't matter. The season words are the **Season search terms** on the [Scan Settings](../preferences/scan-settings.md) tab of **Options>Preferences** (by default `Season;Series;Saison;Temporada;Seizoen`). Unless **Force to Use Season Words from Settings Only** is ticked there, TV Rename also uses the **Seasons name** from the [Display](../preferences/display.md) tab and the season folder names set up for the shows already in your library.
 
 Click the `Auto ID All` button and TV Rename will try and identify the newly found shows. If the show is found the **Show** and **Source Code** columns will be populated. If a show isn’t being matched or is incorrectly identified highlight the row in question and use the `Edit` button to perform a manual search, and for a more in-depth interrogation you can use the `Visit TVDB` button which will launch a web browser targeting the shows page or `Open Folder` which will open the selected folder in Windows Explorer.
 
@@ -72,7 +72,7 @@ These are skipped:
 * the Recycle Bin, if **Ignore Recycle Bin** is ticked
 * folders with no video files in them, if **Only Include Folders containing Video files** is ticked
 
-The last two options are on the [Scan Settings](../preferences/#scan-settings) tab of **Options>Preferences**, in the **Bulk Add TV Shows from Library Folders** group, and apply to Bulk Add Movies as well.
+The last two options are on the [Scan Settings](../preferences/scan-settings.md) tab of **Options>Preferences**, in the **Bulk Add TV Shows from Library Folders** group, and apply to Bulk Add Movies as well.
 
 {% hint style="warning" %}
 If **Only Include Folders containing Video files** is not ticked, `Check >>` deletes any completely empty folder (one with no files and no subfolders) that it finds in your movie library folders.

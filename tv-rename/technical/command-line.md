@@ -63,7 +63,7 @@ This also means `/doall` sent to an open window carries out whatever is already 
 | **/recentscan** | Run a recent scan: shows with an episode aired in the last few days.                                                                                                               |
 | **/quickscan**  | Run a quick scan.                                                                                                                                                                  |
 | **/doall**      | Carry out all the actions in the list. Use it with a scan switch, otherwise a freshly started TV Rename has nothing to do.                                                         |
-| **/export**     | Run the exports you have set up in [Preferences](../menu/preferences/#episode-export).                                                                                             |
+| **/export**     | Run the exports you have set up in [Preferences](../menu/preferences/episode-export.md).                                                                                           |
 | **/quit**       | Close TV Rename once everything else has finished. Works on a hidden copy and on an open window.                                                                                   |
 
 ### Updating show and movie information

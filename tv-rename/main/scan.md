@@ -6,20 +6,20 @@ There are three types of scan available: -
 
 <table><thead><tr><th width="125"></th><th></th></tr></thead><tbody><tr><td><strong>Full</strong></td><td>A full scan of all shows, seasons and movies.</td></tr><tr><td><strong>Recent</strong></td><td>A scan of all the shows that have aired recently.</td></tr><tr><td><strong>Quick</strong></td><td>Scan the shows that have aired recently and have a missing episode in the library. Also check the locations specified in <em>Options>Preferences>Search Folders</em> for any matching media files.</td></tr></tbody></table>
 
-As with other tabs, “recent” is taken as being the number of days counted as recent indicated in the **Options>Preferences** [_**General**_](../menu/preferences/#the-general-tab) tab.
+As with other tabs, “recent” is taken as being the number of days counted as recent indicated in the **Options>Preferences** [_**General**_](../menu/preferences/general.md) tab.
 
 ### Scan Progress
 
 While a scan runs, the **Scan Progress** window shows how far it has got. The scan works through the stages below in order, each with its own progress bar. Stages that your settings don't use are greyed out and skipped.
 
-| Stage                    | What it does                                                                                                      | When it runs                                                                                                                                                                                                                                                                                                           |
-| ------------------------ | ----------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Scan Library for New** | Looks in your library folders for shows and movies that aren't in TV Rename yet.                                  | When **Do Bulk-Add as part of scan** is ticked on the [Scan Settings](../menu/preferences/#scan-settings) tab.                                                                                                                                                                                                         |
-| **Media Library Check**  | Checks the files already in your library, for files to rename and episodes or movies that are missing.            | When **Rename Check** or **Missing Check** is ticked on the Scan Settings tab.                                                                                                                                                                                                                                         |
-| **Download Area Check**  | Checks your search folders for files that can be tidied up or that are better versions of files you already have. | When one of the **Clean up already copied...** options is ticked on the [Folder Deleting](../menu/preferences/#the-folder-deleting-tab) tab, or one of the **Update ... when higher-quality ones found in Search Folders** options is ticked on the [Search Folders](../menu/preferences/#the-search-folders-tab) tab. |
-| **Search Locally**       | Looks for missing episodes and movies on your computer.                                                           | When **Missing Check** is ticked and **Look in "Search Folders" for missing files** is ticked on the Search Folders tab. It also looks for misplaced files inside your library when **Move Files within Library to Keep it Tidy**, **Rename Check** and **Missing Check** are all ticked on the Scan Settings tab.     |
-| **Search Downloading**   | Checks whether missing episodes and movies are already downloading.                                               | When **Missing Check** is ticked and **Check qBitTorrent queue**, **Check µTorrent queue** or **Check SABnzbd queue** is ticked on the [Torrents / NZB](../menu/preferences/#torrents-nzb) tab.                                                                                                                        |
-| **Search Web**           | Searches the web for downloads of missing episodes and movies.                                                    | When **Missing Check** is ticked and **Search RSS for missing files** or **Search JSON for missing files** is ticked on the [RSS / JSON Search](../menu/preferences/#rss-json-search) tab, or **Search Jackett for missing files** is ticked on the [Jackett Search](../menu/preferences/#jackett-search) tab.         |
+| Stage                    | What it does                                                                                                      | When it runs                                                                                                                                                                                                                                                                                                       |
+| ------------------------ | ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Scan Library for New** | Looks in your library folders for shows and movies that aren't in TV Rename yet.                                  | When **Do Bulk-Add as part of scan** is ticked on the [Scan Settings](../menu/preferences/scan-settings.md) tab.                                                                                                                                                                                                   |
+| **Media Library Check**  | Checks the files already in your library, for files to rename and episodes or movies that are missing.            | When **Rename Check** or **Missing Check** is ticked on the Scan Settings tab.                                                                                                                                                                                                                                     |
+| **Download Area Check**  | Checks your search folders for files that can be tidied up or that are better versions of files you already have. | When one of the **Clean up already copied...** options is ticked on the [Folder Deleting](../menu/preferences/folder-deleting.md) tab, or one of the **Update ... when higher-quality ones found in Search Folders** options is ticked on the [Search Folders](../menu/preferences/search-folders.md) tab.         |
+| **Search Locally**       | Looks for missing episodes and movies on your computer.                                                           | When **Missing Check** is ticked and **Look in "Search Folders" for missing files** is ticked on the Search Folders tab. It also looks for misplaced files inside your library when **Move Files within Library to Keep it Tidy**, **Rename Check** and **Missing Check** are all ticked on the Scan Settings tab. |
+| **Search Downloading**   | Checks whether missing episodes and movies are already downloading.                                               | When **Missing Check** is ticked and **Check qBitTorrent queue**, **Check µTorrent queue** or **Check SABnzbd queue** is ticked on the [Torrents / NZB](../menu/preferences/torrents-nzb.md) tab.                                                                                                                  |
+| **Search Web**           | Searches the web for downloads of missing episodes and movies.                                                    | When **Missing Check** is ticked and **Search RSS for missing files** or **Search JSON for missing files** is ticked on the [RSS / JSON Search](../menu/preferences/rss-json-search.md) tab, or **Search Jackett for missing files** is ticked on the [Jackett Search](../menu/preferences/jackett-search.md) tab. |
 
 The lines under the progress bars show what is being checked at that moment. The window closes by itself when the scan finishes. Click `Cancel` to stop the scan.
 
@@ -49,19 +49,19 @@ You won't be asked about seasons you have told TV Rename to ignore, or about a s
 When TV Rename is started hidden from the [command line](../technical/command-line.md), it skips missing folders without asking.
 
 {% hint style="info" %}
-To have TV Rename create missing folders without asking, tick **Automatically create missing folders** on the [Scan Settings](../menu/preferences/#scan-settings) tab. You will still be asked if a folder can't be created.
+To have TV Rename create missing folders without asking, tick **Automatically create missing folders** on the [Scan Settings](../menu/preferences/scan-settings.md) tab. You will still be asked if a folder can't be created.
 {% endhint %}
 
 ### Auto-Add (New Show Detected)
 
-If **Notify when new media is found** is ticked on the [Search Folders](../menu/preferences/#the-search-folders-tab) tab, the scan looks at the video files in your search folders for shows and movies that aren't in TV Rename yet. For each one it finds, it opens the **New Show Detected...** window so you can add it. See [Auto Add Shows](my-tv-shows.md#auto-add-shows) for how to use that window.
+If **Notify when new media is found** is ticked on the [Search Folders](../menu/preferences/search-folders.md) tab, the scan looks at the video files in your search folders for shows and movies that aren't in TV Rename yet. For each one it finds, it opens the **New Show Detected...** window so you can add it. See [Auto Add Shows](my-tv-shows.md#auto-add-shows) for how to use that window.
 
 Auto-Add only runs on scans you start yourself, not on scans TV Rename runs on its own.
 
 Two more options on the Search Folders tab let TV Rename add a match without asking:
 
-* **Auto Add when only one tv show found** adds the show straight away when only one matching show is found. This also needs **Use Automatic Season Folders** and **Use Default Location** ticked on the [TV Show Defaults](../menu/preferences/#tv-show-defaults) tab.
-* **Auto Add when only one movie found** does the same for movies. This also needs **Use Default Location** ticked, with a location chosen, on the [Movies Defaults](../menu/preferences/#movies-defaults) tab.
+* **Auto Add when only one tv show found** adds the show straight away when only one matching show is found. This also needs **Use Automatic Season Folders** and **Use Default Location** ticked on the [TV Show Defaults](../menu/preferences/tv-show-defaults.md) tab.
+* **Auto Add when only one movie found** does the same for movies. This also needs **Use Default Location** ticked, with a location chosen, on the [Movies Defaults](../menu/preferences/movies-defaults.md) tab.
 
 If you haven't set up any library folders, TV Rename shows a **Can't Auto Add Media** message instead. Add a library folder, or turn the option off.
 
@@ -69,11 +69,11 @@ If you haven't set up any library folders, TV Rename shows a **Can't Auto Add Me
 
 <figure><img src="https://3508557057-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fx0gPeIfHpbgTioNust1M%2Fuploads%2Foi5rYWaJuviNnzOlua63%2Fimage.png?alt=media&#x26;token=4be37fbf-6324-4dab-ba81-a66b342c6a58" alt=""><figcaption></figcaption></figure>
 
-If the **Update episodes when higher-quality ones found in Search Folders** box (or **Update movies when higher-quality ones found in Search Folders** for movies) is ticked in **Options>Preferences** [_**Search Folders**_](../menu/preferences/#the-search-folders-tab) and there are two versions of an episode file in the library and/or download location you will be prompted to choose which file to keep when the scan completes as illustrated…
+If the **Update episodes when higher-quality ones found in Search Folders** box (or **Update movies when higher-quality ones found in Search Folders** for movies) is ticked in **Options>Preferences** [_**Search Folders**_](../menu/preferences/search-folders.md) and there are two versions of an episode file in the library and/or download location you will be prompted to choose which file to keep when the scan completes as illustrated…
 
 ### Choose Download
 
-A web search can find more than one download for the same missing episode or movie. What TV Rename does then is set on the [Jackett Search](../menu/preferences/#jackett-search) tab of **Options>Preferences**:
+A web search can find more than one download for the same missing episode or movie. What TV Rename does then is set on the [Jackett Search](../menu/preferences/jackett-search.md) tab of **Options>Preferences**:
 
 * **Supervised Duplicate Action:** is used for scans you start yourself.
 * **Unattended Duplicate Action:** is used for scans TV Rename runs on its own, such as a scan on startup, a scheduled scan, a scan started by a change in a monitored folder, or a scan run from the command line.
@@ -108,7 +108,7 @@ Looking at the missing episodes first; even here TV Rename is “trying to help�
 
 If you’re having trouble finding what you’re searching for you can change the search engine to another in the list by clicking the `▼` button next to the search button and selecting a different entry.
 
-In addition to the files to be searched for, the _**Scan**_ tab is also showing that there are two files to be renamed and two files to be copied or moved (see the **Options>Preferences** [_**Scan Settings**_](../menu/preferences/#scan-settings) tab). Note these items have a tick in the box icon to the left of each row.
+In addition to the files to be searched for, the _**Scan**_ tab is also showing that there are two files to be renamed and two files to be copied or moved (see the **Options>Preferences** [_**Scan Settings**_](../menu/preferences/scan-settings.md) tab). Note these items have a tick in the box icon to the left of each row.
 
 ### Scan Results Options
 

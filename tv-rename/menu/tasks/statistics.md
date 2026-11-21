@@ -6,17 +6,17 @@
 
 These are running totals, kept from one session to the next:
 
-| Item                         | What it counts                                                                                                                |
-| ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| **Files moved**              | Files TV Rename has moved.                                                                                                    |
-| **Files renamed**            | Files TV Rename has renamed.                                                                                                  |
-| **Files copied**             | Files TV Rename has copied.                                                                                                   |
-| **Rename checks done**       | Scans that included a rename check (**Rename Check** ticked in [Preferences > Scan Settings](../preferences/#scan-settings)). |
-| **Missing checks done**      | Scans that included a missing check (**Missing Check** ticked in Preferences > Scan Settings).                                |
-| **Finds and organises done** | Scans that ran to the end without being cancelled.                                                                            |
-| **Auto added shows**         | TV shows added for you by Auto Add or Bulk Add TV Shows.                                                                      |
-| **Torrents matched**         | Not currently counted, so it stays at 0.                                                                                      |
-| **Auto added movies**        | Movies added for you by Auto Add or Bulk Add Movies.                                                                          |
+| Item                         | What it counts                                                                                                                  |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| **Files moved**              | Files TV Rename has moved.                                                                                                      |
+| **Files renamed**            | Files TV Rename has renamed.                                                                                                    |
+| **Files copied**             | Files TV Rename has copied.                                                                                                     |
+| **Rename checks done**       | Scans that included a rename check (**Rename Check** ticked in [Preferences > Scan Settings](../preferences/scan-settings.md)). |
+| **Missing checks done**      | Scans that included a missing check (**Missing Check** ticked in Preferences > Scan Settings).                                  |
+| **Finds and organises done** | Scans that ran to the end without being cancelled.                                                                              |
+| **Auto added shows**         | TV shows added for you by Auto Add or Bulk Add TV Shows.                                                                        |
+| **Torrents matched**         | Not currently counted, so it stays at 0.                                                                                        |
+| **Auto added movies**        | Movies added for you by Auto Add or Bulk Add Movies.                                                                            |
 
 These describe your library as it is now:
 

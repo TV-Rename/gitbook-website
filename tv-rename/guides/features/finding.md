@@ -8,12 +8,12 @@ There are 7 places it could search:
 
 * _File System_ – If found, it will remove the episode from the missing list and move the file into the correct place.
   * It may look in the library or in the specified search folders
-* _SABnzbd_, _uTorrent_, _qBittorrent_ – If found it will mark it as downloading so you know not to try and find the item again. See [**Torrents / NZB**](../../menu/preferences/#torrents-nzb) for more information.
-* _RSS Feed for torrent links_, _JSON Web page for torrent links_ – If found then it will download the torrent file. (via uTorrent or qBittorrent) See [**RSS/JSON Search**](../../menu/preferences/#rss-json-search) for more information about configuration.
-* _Jackett_ - If you have a Jackett Server running TVR can ask it for download locations for missing files. See the [**Jackett Search**](../../menu/preferences/#jackett-search) section of the settings for further information.
+* _SABnzbd_, _uTorrent_, _qBittorrent_ – If found it will mark it as downloading so you know not to try and find the item again. See [**Torrents / NZB**](../../menu/preferences/torrents-nzb.md) for more information.
+* _RSS Feed for torrent links_, _JSON Web page for torrent links_ – If found then it will download the torrent file. (via uTorrent or qBittorrent) See [**RSS/JSON Search**](../../menu/preferences/rss-json-search.md) for more information about configuration.
+* _Jackett_ - If you have a Jackett Server running TVR can ask it for download locations for missing files. See the [**Jackett Search**](../../menu/preferences/jackett-search.md) section of the settings for further information.
 
 {% hint style="success" %}
-See [Preferences ](../../menu/preferences/)([here](../../menu/preferences/#jackett-search), [here ](../../menu/preferences/#rss-json-search)and [here](../../menu/preferences/#torrents-nzb)) for more information on configuring the different ways TV Rename tries to find missing files.
+See [Preferences ](../../menu/preferences/)([here](../../menu/preferences/jackett-search.md), [here ](../../menu/preferences/rss-json-search.md)and [here](../../menu/preferences/torrents-nzb.md)) for more information on configuring the different ways TV Rename tries to find missing files.
 {% endhint %}
 
 ### Identification of files <a href="#how-to-write-a-regex-for-tv-rename" id="how-to-write-a-regex-for-tv-rename"></a>
