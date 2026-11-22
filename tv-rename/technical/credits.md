@@ -12,12 +12,12 @@ description: >-
 **Please visit these sites, register, and help out by contributing information and artwork for Movies, TV Series and Episodes.** They only exist with the help of users - if you see something that is wrong please help the community by contributing.
 {% endhint %}
 
-TV Rename pulls data from [TheTVDB.com](https://github.com/thetvdb/v4-api), [TMDB ](https://www.themoviedb.org/documentation/api)and [TV Maze](https://www.tvmaze.com/api) using their API.
+TV Rename pulls data from [TheTVDB.com](https://github.com/thetvdb/v4-api), [TMDB](https://www.themoviedb.org/documentation/api) and [TV Maze](https://www.tvmaze.com/api) using their API.
 
 ### Development Services
 
 * [GitHub](https://github.com/TV-Rename/tvrename)
-* [GitBook](https://app.gitbook.com/o/J1b0O2dYbS4DhQISCpaF)
+* [GitBook](https://www.gitbook.com/)
 * Papertrail
 
 ### **Development Libraries**

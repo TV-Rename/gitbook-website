@@ -31,5 +31,4 @@ Note: As TMDB is used as the only source, only movies / TV shows with a TMDB ID 
 
 ### Preferences
 
-The preferences screen can be accessed by clicking the button in the top right.  The weightings for the recommendations between the 4 categoties can be set here. This allows tuning of the recommendations based on what is most effective.
-
+The preferences screen can be accessed by clicking the button in the top right. The weightings for the recommendations between the 4 categories can be set here. This allows tuning of the recommendations based on what is most effective.

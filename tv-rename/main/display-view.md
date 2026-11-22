@@ -93,14 +93,14 @@ To undo changes to a theme, copy its file from **Backups** (the last copy that w
 
 ## Move 'The' and others to the end of the names
 
-1. Use Settings under [Prefences>Display](../menu/preferences/display.md) to choose which prefixes to move to the end and to enable it in the application.
-   1. eg The in English
-   2. Le, La, Les in French
-2. If you want to name foldes and files in the library to put prefixes after the rest of the name, use `{ShowNamePost}` options to achieve it.
-   1. see `{ShowNamePost}` if you want to change filenames see [filename-template-editor.md](../menu/options-menu/filename-template-editor.md "mention")
-   2. See `{ShowNamePost}` if you want to name folders: See [library-folders.md](../menu/preferences/library-folders.md "mention")
-3. Check that it works: [filename-processors.md](../menu/options-menu/filename-processors.md "mention")
+1. Use **Move ‘The’ to the end of tv show/movie names** on the [Display](../menu/preferences/display.md) tab of **Options>Preferences** to switch this on and choose which words to move to the end, for example:
+   1. **The** in English
+   2. **Le**, **La** and **Les** in French
+2. To put these words after the rest of the name in your library's folder and file names too, use the `{ShowNamePost}` tag:
+   1. For file names, see [filename-template-editor.md](../menu/options-menu/filename-template-editor.md "mention")
+   2. For folder names, see [library-folders.md](../menu/preferences/library-folders.md "mention")
+3. Check that it works with [filename-processors.md](../menu/options-menu/filename-processors.md "mention").
 
 ## Custom Colouring
 
-Under [display.md](../menu/preferences/display.md "mention")you are able to provide rules to set the colour of shows in the UI depending on how complete they are. They overwrite the theme colours
+On the [display.md](../menu/preferences/display.md "mention") tab you can set rules that change the colour of a show's name depending on its show or season status. These colours override the theme colours.

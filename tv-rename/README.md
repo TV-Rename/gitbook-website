@@ -43,7 +43,7 @@ layout:
 {% column %}
 ### So what is TV Rename?
 
-TV Rename is a media management tool that runs on Windows 10 and later and looks after all your TV show and Movie files, making them presentable for [Kodi (XBMC)](https://kodi.tv/), [Mede8er](http://www.mede8er.eu/), [PyTivo](https://pytivo.sourceforge.io/wiki/index.php/PyTivo) and other media hubs.\
+TV Rename is a media management tool that runs on Windows 10 and later and looks after all your TV show and Movie files, making them presentable for [Kodi (XBMC)](https://kodi.tv/), Mede8er, [PyTivo](https://pytivo.sourceforge.io/wiki/index.php/PyTivo) and other media hubs.\
 \
 On the surface TV Rename will “fix” the names of TV shows…\
 You have a few show episodes saved as video files, they have names like:\
