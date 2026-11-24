@@ -1,5 +1,23 @@
 # Display / View
 
+## Column Sorting, Filtering and Grouping
+
+For the main tables of data:
+
+* Schedule List
+* Scan Results List
+* Recommendations View
+* (and many others)
+
+The lists have the ability to be filtered, grouped and sorted in any custom way. If you right click on any menu header you can cusomise the way it is displayed:
+
+* Filtering - Remove rows that match certain values from the list
+* Sorting - order the list by any field
+* Grouping - arrange the list items into groups based on a one column
+* Column Chooser - remove/add columns from the view
+
+<figure><img src="../.gitbook/assets/image (73).png" alt=""><figcaption></figcaption></figure>
+
 ## Themes
 
 TV Rename can use a colour theme instead of its standard light look. Choose one from **Theme** on the [Display](../menu/preferences/display.md) tab of **Options>Preferences** and click `OK`. TV Rename tells you the theme will be used the next time it starts.
