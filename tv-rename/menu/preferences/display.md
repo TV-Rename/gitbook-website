@@ -6,7 +6,7 @@ The Display tab changes how TV Rename looks. It doesn’t change what scans do.
 
 * **Double-click in Schedule does** – choose **Search** or **Scan**.
 * **Startup tab** – choose **Movies**, **TV Shows**, **Scan** or **Schedule**.
-* **Theme** – the colours TV Rename uses: **Same as Windows (default)**, **Light**, **Dark**, **Creme**, **Midnight** or a theme you have made. The new theme is used the next time TV Rename starts. **Folder** opens the folder that holds the theme files. See [Themes](../../main/display-view.md#themes).
+* **Theme** – the colours TV Rename uses: **Same as Windows (default)**, **Light**, **Dark**, **Creme**, **Midnight** or a theme you have made. When you choose a new theme and click `OK`, TV Rename asks whether to restart now to use it, or later. **Folder** opens the folder that holds the theme files. See [Themes](../../main/display-view.md#themes).
 * **Show notification area icon** and **Show in taskbar** – choose where TV Rename’s icon appears. At least one must be ticked.
 * **Show episode pictures in episode guides** – shows each episode’s picture and description on [TV Shows](../../main/my-tv-shows.md).
 * **Hide Spoilers in ‘TV Shows’** and **Hide Spoilers in Schedule** – hide unaired episode summaries.

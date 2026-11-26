@@ -20,7 +20,16 @@ The lists have the ability to be filtered, grouped and sorted in any custom way.
 
 ## Themes
 
-TV Rename can use a colour theme instead of its standard light look. Choose one from **Theme** on the [Display](../menu/preferences/display.md) tab of **Options>Preferences** and click `OK`. TV Rename tells you the theme will be used the next time it starts.
+TV Rename can use a colour theme instead of its standard light look. Choose one from **Theme** on the [Display](../menu/preferences/display.md) tab of **Options>Preferences** and click `OK`. TV Rename then asks whether to restart now to use the new theme:
+
+<figure><img src="../.gitbook/assets/theme-restart-question.png" alt="TV Rename asking whether to restart now to use the new theme"><figcaption></figcaption></figure>
+
+* `Restart now` saves your settings, closes TV Rename and starts it again with the new theme. If there are scan results, the question says they will be cleared.
+* `Later` keeps TV Rename open with the theme it has now. The new theme is used the next time TV Rename starts, once your settings are saved (TV Rename asks when you close it).
+
+If TV Rename is busy, for example with a scan, the question says that restarting now will stop it, and `Later` is selected. While files are still being copied or moved, TV Rename doesn't offer to restart: restart it yourself once they have finished.
+
+If the theme you choose is the one already showing, for example **Same as Windows** while Windows is in light mode and **Light** is showing, TV Rename doesn't ask.
 
 <figure><img src="../.gitbook/assets/themes-dark-tv-shows.png" alt=""><figcaption><p>Dark</p></figcaption></figure>
 
@@ -55,7 +64,7 @@ When TV Rename starts, it creates the Themes folder if needed, with **Dark.theme
 1. Click **Folder** next to **Theme** to open the Themes folder.
 2. Copy **Dark.theme.xml** or **Midnight.theme.xml** for a dark theme, or **Creme.theme.xml** for a light one, and give the copy a new name ending in **.theme.xml**, for example **MyTheme.theme.xml**.
 3. Open the copy in a text editor such as Notepad. On the `<Theme ...>` line, change **name** to the name you want to see in the list, then change the colours you want.
-4. Open **Options>Preferences** again, choose your theme from **Theme** on the Display tab, click `OK` and restart TV Rename.
+4. Open **Options>Preferences** again, choose your theme from **Theme** on the Display tab, click `OK`, then click `Restart now`.
 
 Changes to the theme you are using also show the next time TV Rename starts.
 
